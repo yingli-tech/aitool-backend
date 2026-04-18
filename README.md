@@ -44,7 +44,6 @@ This project addresses these issues using a **tag-driven recommendation pipeline
   <br/>
   <em>System Pipeline Overview</em>
 </p>
-![flowchart](./flowchart.png)
 
 ## Backend Modules
 

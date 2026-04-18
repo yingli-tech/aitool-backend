@@ -12,7 +12,6 @@ Instead of relying on LLMs to directly recommend tools, this system separates:
 
 This improves controllability, stability, and explainability.
 
----
 
 ## Problem
 
@@ -28,7 +27,6 @@ Pure LLM-based recommendations are:
 
 This project addresses these issues using a **tag-driven recommendation pipeline**.
 
----
 
 ## Architecture
 
@@ -41,40 +39,7 @@ Backend:
 - MySQL (RDS)
 
 Pipeline:
-flowchart TD
-    classDef node fill:#232427,stroke:#8C7A5B,color:#F3EFE6,stroke-width:1.2px
-    classDef decision fill:#2A2A2D,stroke:#B89A63,color:#F3EFE6,stroke-width:1.4px
-
-    A["User Query"] --> B["LLM Parsing<br/>(query -> structured tags)"]
-    B --> C["Validation + Normalization"]
-    C --> D["Strict Retrieval<br/>(must-have filtering)"]
-
-    D --> E{"Strict result empty?"}
-    class E decision
-
-    E -->|Yes| F["Fallback Retrieval<br/>(constraint relaxation)"]
-    E -->|No| G["Skip fallback<br/>→ Continue"]
-
-    F --> H["Scoring + Ranking"]
-    G --> H
-
-    H --> I["Fetch Tool Details"]
-    I --> J["JSON Response"]
-
-    class A,B,C,D,F,G,H,I,J node
-
-    %% Edge line color (gold gray)
-    linkStyle 0 stroke:#6F624D,stroke-width:1.4px
-    linkStyle 1 stroke:#6F624D,stroke-width:1.4px
-    linkStyle 2 stroke:#6F624D,stroke-width:1.4px
-    linkStyle 3 stroke:#A88D5C,stroke-width:1.5px
-    linkStyle 4 stroke:#A88D5C,stroke-width:1.5px
-    linkStyle 5 stroke:#6F624D,stroke-width:1.4px
-    linkStyle 6 stroke:#6F624D,stroke-width:1.4px
-    linkStyle 7 stroke:#6F624D,stroke-width:1.4px
-
-
----
+![flowchart](./flowchart.png)
 
 ## Backend Modules
 
@@ -93,7 +58,6 @@ flowchart TD
 - `response.py`  
   Response formatting and logging
 
----
 
 ## Database Design
 
@@ -116,7 +80,6 @@ Mapping tables:
 - `tool_price_map`
 - `tool_source_map`
 
----
 
 ## Recommendation Logic
 
@@ -142,7 +105,6 @@ If no result:
 - keep primary use case
 - relax language or price_type
 
----
 
 ## API
 

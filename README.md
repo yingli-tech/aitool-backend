@@ -30,15 +30,20 @@ This project addresses these issues using a **tag-driven recommendation pipeline
 
 ## Architecture
 
-Frontend:
+### Frontend:
 - React + Vercel
 
-Backend:
+### Backend:
 - AWS API Gateway
 - AWS Lambda (Python)
 - MySQL (RDS)
 
-Pipeline:
+### Pipeline:
+<p align="center">
+  <img src="./flowchart.png" width="450"/> 
+  <br/>
+  <em>System Pipeline Overview</em>
+</p>
 ![flowchart](./flowchart.png)
 
 ## Backend Modules

@@ -150,24 +150,31 @@ json
 }
 ```
 
-## Run Locally
+## Deployment (AWS Lambda)
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+### Runtime
+- Python 3.14
+- Architecture: x86_64
 
-### 2. Set environment variables
-```bash
-endpoint=...
-dbname=...
-username=...
-pwd=...
-OPENAI_API_KEY=...
-openai_model=...
-```
+### Lambda Layers
+This service depends on the following AWS Lambda layers:
 
-### 3. Run Lambda handler locally or test via API Gateway
+- `pymysql-layer`  – MySQL access
+- `openai-layer`  – LLM integration
+
+### Environment Variables
+The following environment variables must be configured in Lambda:
+
+- `endpoint`
+- `dbname`
+- `username`
+- `pwd`
+- `OPENAI_API_KEY`
+- `openai_model`
+
+### Notes
+- The backend is deployed via AWS Lambda + API Gateway
+- No local setup is required for usage
 
 ## Design Decision
 

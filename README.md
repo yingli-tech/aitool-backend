@@ -93,6 +93,19 @@ Mapping tables:
 - `tool_price_map`
 - `tool_source_map`
 
+## Data Pipeline
+
+The system uses a lightweight ETL pipeline to build a structured AI tool database.
+
+- **Extract**: raw tool data collected from curated sources (CSV / Excel)
+- **Transform**:
+  - text normalization (trim, lowercase, whitespace cleanup)
+  - mapping raw labels to standardized taxonomy (function / use case)
+- **Load**:
+  - insert tools into normalized tables
+  - generate mapping tables (tool_function_map, tool_usecase_map, etc.)
+
+This ensures the data is clean, consistent, and suitable for structured retrieval and ranking.
 
 ## Recommendation Logic
 

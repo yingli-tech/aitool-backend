@@ -1,5 +1,6 @@
 # AI Tool Recommendation Backend
 
+
 ## Live Demo
 
 Frontend: https://aitool-blush.vercel.app  
@@ -16,7 +17,9 @@ Instead of relying on LLMs to directly recommend tools, this system separates:
 - **structured taxonomy + database for retrieval**
 - **rule-based ranking for controllable recommendations**
 
+
 This improves controllability, stability, and explainability.
+
 
 
 ## Why this project
@@ -42,7 +45,7 @@ This project addresses these issues using a **tag-driven recommendation pipeline
 ### Backend:
 - AWS API Gateway
 - AWS Lambda (Python backend)
-- MySQL (RDS, tool database)
+- MySQL (RDS)
 
 ### Pipeline:
 <p align="center">
@@ -101,7 +104,6 @@ Mapping tables:
 
 ### Scoring
 score = 3 × matched_use_case_count + 2 × matched_function_count + 1 × matched_nice_to_have_count
-
 
 ### Tie-break
 1. matched_use_case_count
@@ -186,9 +188,11 @@ openai_model=...
 - introduce embeddings for semantic matching
 - collect user feedback for evaluation
 - build evaluation pipeline for recommendation quality
-- use LLM to explain the rank result. (this is new!!!)
+- use LLM to interpret the rank result
 
 ## Notes
 
 This project represents a cold-start recommendation system, where no user interaction data is available.
+
 The system relies on structured data + rule-based ranking for the first version.
+

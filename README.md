@@ -1,6 +1,5 @@
 # AI Tool Recommendation Backend
 
-
 ## Live Demo
 
 Frontend: https://aitool-blush.vercel.app  
@@ -17,10 +16,7 @@ Instead of relying on LLMs to directly recommend tools, this system separates:
 - **structured taxonomy + database for retrieval**
 - **rule-based ranking for controllable recommendations**
 
-
 This improves controllability, stability, and explainability.
-
-
 
 ## Why this project
 
@@ -36,7 +32,6 @@ Pure LLM-based recommendations are:
 
 This project addresses these issues using a **tag-driven recommendation pipeline**.
 
-
 ## Architecture
 
 ### Frontend:
@@ -49,14 +44,14 @@ This project addresses these issues using a **tag-driven recommendation pipeline
 
 ### Pipeline:
 <p align="center">
-  <img src="./flowchart.png" width="450"/> 
+  <img src="./flowchart.png" width="450"/>
   <br/>
   <em>System Pipeline Overview</em>
 </p>
 
 ## Backend Modules
 
-- `handler.py`  
+- `lambda_function.py`  
   API entry point and orchestration
 
 - `datatier.py`  
@@ -70,7 +65,6 @@ This project addresses these issues using a **tag-driven recommendation pipeline
 
 - `response.py`  
   Response formatting and logging
-
 
 ## Database Design
 
@@ -93,6 +87,10 @@ Mapping tables:
 - `tool_price_map`
 - `tool_source_map`
 
+Both `functions` and `use_cases` use a two-level taxonomy:
+- `core`: broad requirement used as a hard filter
+- `sub`: more specific label used as a stronger scoring signal
+
 ## Data Pipeline
 
 The system uses a lightweight ETL pipeline to build a structured AI tool database.
@@ -100,10 +98,10 @@ The system uses a lightweight ETL pipeline to build a structured AI tool databas
 - **Extract**: raw tool data collected from curated sources (CSV / Excel)
 - **Transform**:
   - text normalization (trim, lowercase, whitespace cleanup)
-  - mapping raw labels to standardized taxonomy (function / use case)
+  - mapping raw labels to standardized taxonomy (`core` / `sub`)
 - **Load**:
   - insert tools into normalized tables
-  - generate mapping tables (tool_function_map, tool_usecase_map, etc.)
+  - generate mapping tables (`tool_function_map`, `tool_usecase_map`, etc.)
 
 This ensures the data is clean, consistent, and suitable for structured retrieval and ranking.
 
@@ -113,23 +111,53 @@ This ensures the data is clean, consistent, and suitable for structured retrieva
 - category
 - price_type
 - language
-- use_cases
+- use_case core tags
+- function core tags
+
+Strict filtering is applied first. A tool must satisfy all active hard constraints in the current retrieval round.
 
 ### Scoring
-score = 3 × matched_use_case_count + 2 × matched_function_count + 1 × matched_nice_to_have_count
+The current code uses two-level taxonomy scoring:
+- use_case core match: `+2`
+- use_case sub match: `+4`
+- function core match: `+2`
+- function sub match: `+4`
+- nice_to_have use_case core match: `+1`
+- nice_to_have use_case sub match: `+2`
+
+`sub` has higher weight than `core`, because `sub` is the more specific signal in the project scoring mechanism.
 
 ### Tie-break
-1. matched_use_case_count
-2. matched_function_count
-3. tool name / id
+1. matched_use_case_sub_count
+2. matched_function_sub_count
+3. matched_use_case_core_count
+4. matched_function_core_count
+5. tool name / id
 
 ### Fallback Strategy
 
-If no result:
-- keep category
-- keep primary use case
-- relax language or price_type
+If strict filtering returns no result, the system gradually relaxes lower-priority hard constraints and retries retrieval after each single relaxation.
 
+Relax order:
+1. `functions`
+2. `price_type`
+3. `language`
+
+Rules:
+- `category` remains required
+- `use_cases` remain the final hard requirement and are not relaxed in fallback
+- only one constraint is relaxed per retry round
+- retrieval stops as soon as a retry produces results
+- if no retry succeeds, the API returns an empty result set together with the fallback trace
+
+The API response includes fallback metadata so the frontend can tell the user which constraints were relaxed:
+- `fallback_used`
+- `relaxed_field`
+- `relaxed_fields`
+- `original_constraints`
+- `relaxed_constraints`
+- `retry_count`
+- `retry_history`
 
 ## API
 
@@ -137,27 +165,68 @@ If no result:
 
 Request:
 
-```bash
-json
+```json
 {
   "query": "free chinese podcast editing tool"
 }
 ```
+
 Response:
 
-```bash
-json
+```json
 {
   "query": "...",
-  "parsed_query": {...},
+  "parsed_query": {
+    "category": "audio",
+    "must_have": {
+      "price_type": ["free"],
+      "language": ["chinese"],
+      "use_cases": [
+        {
+          "core": "content creation",
+          "sub": "podcast editing"
+        }
+      ]
+    },
+    "nice_to_have": {
+      "use_cases": []
+    },
+    "functions": [
+      {
+        "core": "audio processing",
+        "sub": "noise reduction"
+      }
+    ]
+  },
   "fallback_used": false,
+  "relaxed_field": null,
+  "relaxed_fields": [],
+  "original_constraints": {
+    "functions": [
+      {
+        "core": "audio processing",
+        "sub": "noise reduction"
+      }
+    ],
+    "price_type": ["free"],
+    "language": ["chinese"],
+    "use_cases": [
+      {
+        "core": "content creation",
+        "sub": "podcast editing"
+      }
+    ]
+  },
+  "relaxed_constraints": null,
+  "retry_count": 0,
+  "retry_history": [],
   "result_count": 3,
   "results": [
     {
       "rank": 1,
       "tool_id": 3,
       "name": "Tool A",
-      "score": 8
+      "score": 12
     }
   ]
 }
@@ -166,14 +235,14 @@ json
 ## Deployment (AWS Lambda)
 
 ### Runtime
-- Python 3.14
+- Python runtime on AWS Lambda
 - Architecture: x86_64
 
 ### Lambda Layers
 This service depends on the following AWS Lambda layers:
 
-- `pymysql-layer`  – MySQL access
-- `openai-layer`  – LLM integration
+- `pymysql-layer` for MySQL access
+- `openai-layer` for LLM integration
 
 ### Environment Variables
 The following environment variables must be configured in Lambda:
@@ -182,6 +251,7 @@ The following environment variables must be configured in Lambda:
 - `dbname`
 - `username`
 - `pwd`
+- `portnum`
 - `OPENAI_API_KEY`
 - `openai_model`
 
@@ -192,8 +262,8 @@ The following environment variables must be configured in Lambda:
 ## Design Decision
 
 ### Instead of using LLMs for direct recommendation, this project separates:
-- LLM → semantic understanding
-- system → decision making
+- LLM -> semantic understanding
+- system -> decision making
 
 ### Reasons:
 
@@ -215,4 +285,3 @@ The following environment variables must be configured in Lambda:
 This project represents a cold-start recommendation system, where no user interaction data is available.
 
 The system relies on structured data + rule-based ranking for the first version.
-

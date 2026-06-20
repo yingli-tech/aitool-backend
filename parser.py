@@ -6,7 +6,7 @@ import re
 # build_parsing_prompt
 #
 # Builds the prompt for the LLM to parse the user's query into
-# a structured JSON object.
+# a structured JSON object with core/sub taxonomy tags.
 #
 def build_parsing_prompt(query, taxonomy_context):
   """
@@ -20,7 +20,8 @@ def build_parsing_prompt(query, taxonomy_context):
         "categories": [...],
         "price_types": [...],
         "languages": [...],
-        "use_cases": [...]
+        "use_cases": [{"core": "...", "sub": "..."}, ...],
+        "functions": [{"core": "...", "sub": "..."}, ...]
       }
 
   Returns
@@ -48,11 +49,16 @@ You must follow these rules carefully:
    - language
    - use_cases
 3. Extract nice-to-have use_cases if present.
-4. Extract functions from the provided function list whenever possible. Only generate a new function label if the existing function labels truly cannot express the user's meaning.
-5. Prefer selecting labels from the provided taxonomy lists.
-6. Only generate a new label if the existing labels truly cannot express the user's meaning.
-7. If generating a new label, keep it short and consistent with the existing taxonomy style.
-8. Return JSON only. Do not include explanation, markdown, or extra text.
+4. Extract function tags from the provided function taxonomy whenever possible.
+5. Use the provided database taxonomy as the first-choice source of truth.
+6. For use_cases and functions, return objects with:
+   - core: required string
+   - sub: string or null
+7. Prefer existing core/sub combinations from the taxonomy.
+8. Only generate a new core or sub label when the existing taxonomy truly cannot express the meaning.
+9. Multiple use_cases and multiple functions are allowed when the query contains multiple intents.
+10. If you are only confident about the core but not the sub, set sub to null.
+11. Return JSON only. Do not include explanation, markdown, or extra text.
 
 Important rule for price_type:
 - If the user does NOT mention price preference, then include all available price types in must_have.price_type.
@@ -64,12 +70,18 @@ JSON schema:
   "must_have": {{
     "price_type": ["string", "..."],
     "language": ["string", "..."],
-    "use_cases": ["string", "..."]
+    "use_cases": [
+      {{"core": "string", "sub": "string or null"}}
+    ]
   }},
   "nice_to_have": {{
-    "use_cases": ["string", "..."]
+    "use_cases": [
+      {{"core": "string", "sub": "string or null"}}
+    ]
   }},
-  "functions": ["string", "..."]
+  "functions": [
+    {{"core": "string", "sub": "string or null"}}
+  ]
 }}
 
 Available categories:
@@ -81,10 +93,10 @@ Available price_types:
 Available languages:
 {json.dumps(languages, ensure_ascii=False)}
 
-Available use_cases:
+Available use_case taxonomy:
 {json.dumps(use_cases, ensure_ascii=False)}
 
-Available functions:
+Available function taxonomy:
 {json.dumps(functions, ensure_ascii=False)}
 
 User query:
@@ -103,25 +115,9 @@ User query:
 #
 # Calls the LLM API and parses the returned JSON.
 #
-#
-#
 def parse_query_with_llm(prompt, client=None, model=None):
   """
   Calls the LLM and parses the response into a Python dict.
-
-  Parameters
-  ----------
-  prompt : prompt string
-  client : optional LLM client object
-  model : optional model name string
-
-  Returns
-  -------
-  parsed dict
-
-  Notes
-  -----
-  This function uses OpenAI API.
   """
 
   try:
@@ -131,9 +127,6 @@ def parse_query_with_llm(prompt, client=None, model=None):
     if model is None:
       raise ValueError("Model name is required")
 
-    #
-    # Example OpenAI-style call:
-    #
     response = client.chat.completions.create(
       model=model,
       messages=[
@@ -144,10 +137,6 @@ def parse_query_with_llm(prompt, client=None, model=None):
     )
 
     content = response.choices[0].message.content.strip()
-
-    #
-    # In case the model wraps JSON in ```json ... ```
-    #
     content = _strip_code_fences(content)
 
     parsed = json.loads(content)
@@ -167,82 +156,55 @@ def parse_query_with_llm(prompt, client=None, model=None):
 def validate_llm_output(parsed):
   """
   Validates LLM output schema.
-
-  Parameters
-  ----------
-  parsed : dict
-
-  Returns
-  -------
-  validated parsed dict
-
-  Raises
-  ------
-  ValueError if schema is invalid
   """
 
   try:
     if not isinstance(parsed, dict):
       raise ValueError("LLM output must be a dictionary")
 
-    #
-    # category
-    #
     if "category" not in parsed:
       raise ValueError("Missing 'category' in LLM output")
     if not isinstance(parsed["category"], str):
       raise ValueError("'category' must be a string")
 
-    #
-    # must_have
-    #
     if "must_have" not in parsed:
       raise ValueError("Missing 'must_have' in LLM output")
     if not isinstance(parsed["must_have"], dict):
       raise ValueError("'must_have' must be a dictionary")
 
     must_have = parsed["must_have"]
-
     for field in ["price_type", "language", "use_cases"]:
       if field not in must_have:
         raise ValueError(f"Missing 'must_have.{field}' in LLM output")
       if not isinstance(must_have[field], list):
         raise ValueError(f"'must_have.{field}' must be a list")
 
+    for field in ["price_type", "language"]:
       for item in must_have[field]:
         if not isinstance(item, str):
           raise ValueError(f"All items in 'must_have.{field}' must be strings")
 
-    #
-    # nice_to_have
-    #
+    _validate_tag_list(must_have["use_cases"], "must_have.use_cases")
+
     if "nice_to_have" not in parsed:
       raise ValueError("Missing 'nice_to_have' in LLM output")
     if not isinstance(parsed["nice_to_have"], dict):
       raise ValueError("'nice_to_have' must be a dictionary")
 
     nice_to_have = parsed["nice_to_have"]
-
     if "use_cases" not in nice_to_have:
       raise ValueError("Missing 'nice_to_have.use_cases' in LLM output")
     if not isinstance(nice_to_have["use_cases"], list):
       raise ValueError("'nice_to_have.use_cases' must be a list")
 
-    for item in nice_to_have["use_cases"]:
-      if not isinstance(item, str):
-        raise ValueError("All items in 'nice_to_have.use_cases' must be strings")
+    _validate_tag_list(nice_to_have["use_cases"], "nice_to_have.use_cases")
 
-    #
-    # functions
-    #
     if "functions" not in parsed:
       raise ValueError("Missing 'functions' in LLM output")
     if not isinstance(parsed["functions"], list):
       raise ValueError("'functions' must be a list")
 
-    for item in parsed["functions"]:
-      if not isinstance(item, str):
-        raise ValueError("All items in 'functions' must be strings")
+    _validate_tag_list(parsed["functions"], "functions")
 
     return parsed
 
@@ -255,75 +217,39 @@ def validate_llm_output(parsed):
 ###############################################################
 # normalize_parsed_query
 #
-# Normalizes LLM output before retrieval:
-#   - trim whitespace
-#   - lowercase labels
-#   - normalize formatting
-#   - deduplicate
-#   - optionally drop labels not found in taxonomy_context
+# Normalizes LLM output before retrieval.
 #
 def normalize_parsed_query(parsed, taxonomy_context=None):
   """
   Normalizes parsed query output.
-
-  Parameters
-  ----------
-  parsed : dict
-  taxonomy_context : optional dict of allowed labels:
-      {
-        "categories": [...],
-        "price_types": [...],
-        "languages": [...],
-        "use_cases": [...],
-        "functions": [...]
-      }
-
-  Returns
-  -------
-  normalized parsed dict
   """
 
   try:
     allowed_categories = set()
     allowed_price_types = set()
     allowed_languages = set()
-    allowed_use_cases = set()
-    allowed_functions = set()
+    use_case_index = _build_taxonomy_index([])
+    function_index = _build_taxonomy_index([])
 
     if taxonomy_context is not None:
       allowed_categories = set(_normalize_string(x) for x in taxonomy_context.get("categories", []))
       allowed_price_types = set(_normalize_price_type(x) for x in taxonomy_context.get("price_types", []))
       allowed_languages = set(_normalize_string(x) for x in taxonomy_context.get("languages", []))
-      allowed_use_cases = set(_normalize_string(x) for x in taxonomy_context.get("use_cases", []))
-      allowed_functions = set(_normalize_string(x) for x in taxonomy_context.get("functions", []))
+      use_case_index = _build_taxonomy_index(taxonomy_context.get("use_cases", []))
+      function_index = _build_taxonomy_index(taxonomy_context.get("functions", []))
 
-    #
-    # category
-    #
     category = _normalize_string(parsed.get("category", ""))
 
-    #
-    # must_have
-    #
     must_have = parsed.get("must_have", {})
     must_price = must_have.get("price_type", [])
     must_language = must_have.get("language", [])
     must_use_cases = must_have.get("use_cases", [])
 
-    #
-    # nice_to_have
-    #
     nice_to_have = parsed.get("nice_to_have", {})
     nice_use_cases = nice_to_have.get("use_cases", [])
 
-    #
-    # functions
-    #
     functions = parsed.get("functions", [])
 
-    #
-    # normalize fields
-    #
     normalized_price = _dedupe_preserve_order(
       [_normalize_price_type(x) for x in must_price if _normalize_price_type(x)]
     )
@@ -332,39 +258,20 @@ def normalize_parsed_query(parsed, taxonomy_context=None):
       [_normalize_string(x) for x in must_language if _normalize_string(x)]
     )
 
-    normalized_use_cases = _dedupe_preserve_order(
-      [_normalize_string(x) for x in must_use_cases if _normalize_string(x)]
-    )
+    normalized_use_cases = _normalize_tag_list(must_use_cases, use_case_index)
+    normalized_nice_use_cases = _normalize_tag_list(nice_use_cases, use_case_index)
+    normalized_functions = _normalize_tag_list(functions, function_index)
 
-    normalized_nice_use_cases = _dedupe_preserve_order(
-      [_normalize_string(x) for x in nice_use_cases if _normalize_string(x)]
-    )
+    normalized_category = category
 
-    normalized_functions = _dedupe_preserve_order(
-      [_normalize_string(x) for x in functions if _normalize_string(x)]
-    )
-
-    #
-    # if taxonomy_context is provided, prefer keeping only known labels
-    # except generated new labels are allowed to remain if no match exists.
-    #
-    if allowed_categories and category in allowed_categories:
-        normalized_category = category
-    else:
-        normalized_category = category
+    if allowed_categories and normalized_category not in allowed_categories:
+      normalized_category = category
 
     if allowed_price_types:
-        normalized_price = _keep_known_or_original(normalized_price, allowed_price_types)
+      normalized_price = _keep_known_or_original(normalized_price, allowed_price_types)
 
     if allowed_languages:
-        normalized_language = _keep_known_or_original(normalized_language, allowed_languages)
-
-    if allowed_use_cases:
-        normalized_use_cases = _keep_known_or_original(normalized_use_cases, allowed_use_cases)
-        normalized_nice_use_cases = _keep_known_or_original(normalized_nice_use_cases, allowed_use_cases)
-
-    if allowed_functions:
-        normalized_functions = _keep_known_or_original(normalized_functions, allowed_functions)
+      normalized_language = _keep_known_or_original(normalized_language, allowed_languages)
 
     normalized = {
       "category": normalized_category,
@@ -388,10 +295,27 @@ def normalize_parsed_query(parsed, taxonomy_context=None):
 
 
 ###############################################################
-# _strip_code_fences
+# Helpers
 #
-# Removes markdown code fences if present.
-#
+def _validate_tag_list(tags, field_name):
+  for item in tags:
+    if isinstance(item, str):
+      continue
+
+    if not isinstance(item, dict):
+      raise ValueError(f"All items in '{field_name}' must be strings or objects")
+
+    if "core" not in item:
+      raise ValueError(f"Each item in '{field_name}' must contain 'core'")
+
+    if not isinstance(item["core"], str):
+      raise ValueError(f"'core' in '{field_name}' must be a string")
+
+    sub = item.get("sub")
+    if sub is not None and not isinstance(sub, str):
+      raise ValueError(f"'sub' in '{field_name}' must be a string or null")
+
+
 def _strip_code_fences(text):
   if not isinstance(text, str):
     return text
@@ -405,9 +329,6 @@ def _strip_code_fences(text):
   return text.strip()
 
 
-###############################################################
-# _normalize_string
-#
 def _normalize_string(value):
   if value is None:
     return ""
@@ -417,11 +338,6 @@ def _normalize_string(value):
   return value
 
 
-###############################################################
-# _normalize_price_type
-#
-# Normalizes price type synonyms to schema-friendly values.
-#
 def _normalize_price_type(value):
   value = _normalize_string(value)
 
@@ -437,9 +353,103 @@ def _normalize_price_type(value):
   return value
 
 
-###############################################################
-# _dedupe_preserve_order
-#
+def _normalize_tag_list(tags, taxonomy_index):
+  normalized = []
+  seen = set()
+
+  for item in tags:
+    normalized_tag = _normalize_tag(item, taxonomy_index)
+    key = (normalized_tag["core"], normalized_tag["sub"])
+
+    if key in seen:
+      continue
+
+    seen.add(key)
+    normalized.append(normalized_tag)
+
+  return normalized
+
+
+def _normalize_tag(item, taxonomy_index):
+  if isinstance(item, str):
+    core, sub = _resolve_from_string(item, taxonomy_index)
+    return {"core": core, "sub": sub}
+
+  core = _normalize_string(item.get("core"))
+  sub = item.get("sub")
+  sub = _normalize_string(sub) if sub is not None else None
+
+  if sub == "":
+    sub = None
+
+  matched = _match_known_tag(core, sub, taxonomy_index)
+  if matched is not None:
+    return matched
+
+  return {"core": core, "sub": sub}
+
+
+def _resolve_from_string(value, taxonomy_index):
+  normalized_value = _normalize_string(value)
+  candidates = taxonomy_index["sub_to_pairs"].get(normalized_value, [])
+
+  if len(candidates) == 1:
+    return candidates[0]
+
+  if normalized_value in taxonomy_index["cores"]:
+    return normalized_value, None
+
+  return "", normalized_value
+
+
+def _match_known_tag(core, sub, taxonomy_index):
+  if core and (core, sub) in taxonomy_index["pairs"]:
+    return {"core": core, "sub": sub}
+
+  if sub:
+    candidates = taxonomy_index["sub_to_pairs"].get(sub, [])
+
+    if core:
+      for candidate_core, candidate_sub in candidates:
+        if candidate_core == core:
+          return {"core": candidate_core, "sub": candidate_sub}
+
+    if len(candidates) == 1:
+      candidate_core, candidate_sub = candidates[0]
+      return {"core": candidate_core, "sub": candidate_sub}
+
+  if core and core in taxonomy_index["cores"]:
+    return {"core": core, "sub": sub}
+
+  return None
+
+
+def _build_taxonomy_index(tags):
+  pairs = set()
+  cores = set()
+  sub_to_pairs = {}
+
+  for tag in tags:
+    core = _normalize_string(tag.get("core"))
+    sub = tag.get("sub")
+    sub = _normalize_string(sub) if sub is not None else None
+
+    if not core:
+      continue
+
+    pairs.add((core, sub))
+    cores.add(core)
+
+    if sub:
+      sub_to_pairs.setdefault(sub, []).append((core, sub))
+
+  return {
+    "pairs": pairs,
+    "cores": cores,
+    "sub_to_pairs": sub_to_pairs
+  }
+
+
 def _dedupe_preserve_order(items):
   seen = set()
   result = []
@@ -452,18 +462,6 @@ def _dedupe_preserve_order(items):
   return result
 
 
-###############################################################
-# _keep_known_or_original
-#
-# Keeps labels as-is for now; if a label matches known taxonomy,
-# it stays. If not, it is also kept, because current project rule
-# allows new labels when needed.
-#
-# This helper mainly exists so later you can switch strategy easily:
-#   - keep all
-#   - drop unknown
-#   - log unknown
-#
 def _keep_known_or_original(labels, allowed_set):
   result = []
 
@@ -471,10 +469,6 @@ def _keep_known_or_original(labels, allowed_set):
     if label in allowed_set:
       result.append(label)
     else:
-      #
-      # Current policy:
-      # keep generated labels if needed
-      #
       result.append(label)
 
   return result

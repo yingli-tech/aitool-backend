@@ -41,6 +41,7 @@ def format_response(query, parsed_query, results, fallback_info=None):
       fallback_info = {
         "fallback_used": False,
         "relaxed_field": None,
+        "relaxed_fields": [],
         "original_constraints": parsed_query.get("must_have", {}),
         "relaxed_constraints": None
       }
@@ -50,8 +51,11 @@ def format_response(query, parsed_query, results, fallback_info=None):
       "parsed_query": parsed_query,
       "fallback_used": fallback_info.get("fallback_used", False),
       "relaxed_field": fallback_info.get("relaxed_field", None),
+      "relaxed_fields": fallback_info.get("relaxed_fields", []),
       "original_constraints": fallback_info.get("original_constraints", {}),
       "relaxed_constraints": fallback_info.get("relaxed_constraints", None),
+      "retry_count": fallback_info.get("retry_count", 0),
+      "retry_history": fallback_info.get("retry_history", []),
       "result_count": len(results),
       "results": results
     }
@@ -63,9 +67,11 @@ def format_response(query, parsed_query, results, fallback_info=None):
         else "No tools were found even after relaxing constraints."
       )
     elif fallback_info.get("fallback_used", False):
+      relaxed_fields = fallback_info.get("relaxed_fields", [])
+      relaxed_text = ", ".join(relaxed_fields) if relaxed_fields else "some lower-priority constraints"
       response_body["message"] = (
         "No tools fully matched all constraints. "
-        "Returning the closest matches after relaxing one requirement."
+        f"Returning results after relaxing: {relaxed_text}."
       )
     else:
       response_body["message"] = "Success"
@@ -204,6 +210,12 @@ def merge_ranked_results_with_details(ranked_results, tool_details):
         "category": detail.get("category"),
         "language": detail.get("language"),
         "score": ranked.get("score", 0),
+        "matched_use_case_core_count": ranked.get("matched_use_case_core_count", 0),
+        "matched_use_case_sub_count": ranked.get("matched_use_case_sub_count", 0),
+        "matched_function_core_count": ranked.get("matched_function_core_count", 0),
+        "matched_function_sub_count": ranked.get("matched_function_sub_count", 0),
+        "matched_nice_to_have_core_count": ranked.get("matched_nice_to_have_core_count", 0),
+        "matched_nice_to_have_sub_count": ranked.get("matched_nice_to_have_sub_count", 0),
         "matched_use_case_count": ranked.get("matched_use_case_count", 0),
         "matched_function_count": ranked.get("matched_function_count", 0),
         "matched_nice_to_have_count": ranked.get("matched_nice_to_have_count", 0)

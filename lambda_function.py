@@ -239,12 +239,7 @@ def lambda_handler(event, context):
     ###########################################################
     candidates = retriever.retrieve_candidates(dbConn, parsed_query)
 
-    fallback_info = {
-      "fallback_used": False,
-      "relaxed_field": None,
-      "original_constraints": parsed_query.get("must_have", {}),
-      "relaxed_constraints": None
-    }
+    fallback_info = retriever.build_default_fallback_info(parsed_query)
 
     active_query = parsed_query
 

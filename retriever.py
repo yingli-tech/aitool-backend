@@ -1,4 +1,16 @@
+import copy
+
 import datatier as db
+
+
+USE_CASE_CORE_WEIGHT = 2
+USE_CASE_SUB_WEIGHT = 4
+FUNCTION_CORE_WEIGHT = 2
+FUNCTION_SUB_WEIGHT = 4
+NICE_TO_HAVE_CORE_WEIGHT = 1
+NICE_TO_HAVE_SUB_WEIGHT = 2
+
+FALLBACK_RELAX_ORDER = ["functions", "price_type", "language"]
 
 
 ###############################################################
@@ -8,27 +20,12 @@ import datatier as db
 #   - category match
 #   - must-have price_type match
 #   - must-have language match
-#   - must-have use case match
-#
-# Returns:
-#   list of candidate dicts:
-#   [
-#     {"tool_id": 1, "name": "Tool A"},
-#     ...
-#   ]
+#   - must-have use case core match
+#   - function core match
 #
 def retrieve_candidates(dbConn, parsed_query):
   """
-  Retrieves candidate tools that satisfy all must-have filters.
-
-  Parameters
-  ----------
-  dbConn : database connection
-  parsed_query : dict
-
-  Returns
-  -------
-  list of candidate dicts
+  Retrieves candidate tools that satisfy all hard filters.
   """
   try:
     category = parsed_query.get("category", "").strip().lower()
@@ -37,10 +34,8 @@ def retrieve_candidates(dbConn, parsed_query):
     must_have_price_types = must_have.get("price_type", [])
     must_have_languages = must_have.get("language", [])
     must_have_use_cases = must_have.get("use_cases", [])
+    functions = parsed_query.get("functions", [])
 
-    #
-    # Step 1: category filter
-    #
     category_tools = db.get_tools_by_category(dbConn, category)
     if not category_tools:
       return []
@@ -48,35 +43,25 @@ def retrieve_candidates(dbConn, parsed_query):
     category_tool_map = {tool["tool_id"]: tool for tool in category_tools}
     candidate_ids = set(category_tool_map.keys())
 
-    #
-    # Step 2: must-have use case filter
-    #
-    if must_have_use_cases:
-      use_case_ids = db.get_tool_ids_by_use_cases(dbConn, must_have_use_cases)
+    use_case_cores = _extract_cores(must_have_use_cases)
+    if use_case_cores:
+      use_case_ids = db.get_tool_ids_by_use_case_cores(dbConn, use_case_cores)
       candidate_ids = candidate_ids & use_case_ids
 
-    #
-    # Step 3: must-have price_type filter
-    #
+    function_cores = _extract_cores(functions)
+    if function_cores:
+      function_ids = db.get_tool_ids_by_function_cores(dbConn, function_cores)
+      candidate_ids = candidate_ids & function_ids
+
     if must_have_price_types:
       price_type_ids = db.get_tool_ids_by_price_types(dbConn, must_have_price_types)
       candidate_ids = candidate_ids & price_type_ids
 
-    #
-    # Step 4: must-have language filter
-    #
     if must_have_languages:
       language_ids = db.get_tool_ids_by_language(dbConn, must_have_languages)
       candidate_ids = candidate_ids & language_ids
 
-    #
-    # Build candidate list
-    #
-    candidates = []
-    for tool_id in candidate_ids:
-      candidates.append(category_tool_map[tool_id])
-
-    return candidates
+    return [category_tool_map[tool_id] for tool_id in candidate_ids]
 
   except Exception as err:
     print("retriever.retrieve_candidates() failed:")
@@ -87,20 +72,9 @@ def retrieve_candidates(dbConn, parsed_query):
 ###############################################################
 # get_primary_use_case
 #
-# For MVP:
-#   use the first must-have use case as the primary use case
-#
 def get_primary_use_case(parsed_query):
   """
   Returns the most important use case for fallback logic.
-
-  Parameters
-  ----------
-  parsed_query : dict
-
-  Returns
-  -------
-  primary use case string or None
   """
   try:
     must_have = parsed_query.get("must_have", {})
@@ -118,121 +92,62 @@ def get_primary_use_case(parsed_query):
 
 
 ###############################################################
-# relax_constraints
+# build_default_fallback_info
 #
-# Fallback rule:
-#   1. keep category
-#   2. keep the primary use case
-#   3. relax language first if present
-#   4. otherwise relax price_type if present
-#
-# Returns:
-#   relaxed_query, fallback_info
-#
-def relax_constraints(parsed_query):
-  """
-  Relaxes part of the must-have constraints for fallback retrieval.
-
-  Parameters
-  ----------
-  parsed_query : dict
-
-  Returns
-  -------
-  (relaxed_query, fallback_info)
-  """
-  try:
-    must_have = parsed_query.get("must_have", {})
-    nice_to_have = parsed_query.get("nice_to_have", {})
-    functions = parsed_query.get("functions", [])
-    category = parsed_query.get("category", "")
-
-    original_price_types = list(must_have.get("price_type", []))
-    original_languages = list(must_have.get("language", []))
-    original_use_cases = list(must_have.get("use_cases", []))
-
-    primary_use_case = get_primary_use_case(parsed_query)
-
-    relaxed_price_types = list(original_price_types)
-    relaxed_languages = list(original_languages)
-    relaxed_use_cases = [primary_use_case] if primary_use_case else []
-
-    relaxed_field = None
-
-    #
-    # Relax language first
-    #
-    if relaxed_languages:
-      relaxed_languages = []
-      relaxed_field = "language"
-
-    #
-    # If no language to relax, relax price_type
-    #
-    elif relaxed_price_types:
-      relaxed_price_types = []
-      relaxed_field = "price_type"
-
-    #
-    # If neither language nor price_type exists,
-    # then fallback cannot further relax under current rule.
-    #
-    relaxed_query = {
-      "category": category,
-      "must_have": {
-        "price_type": relaxed_price_types,
-        "language": relaxed_languages,
-        "use_cases": relaxed_use_cases
-      },
-      "nice_to_have": nice_to_have,
-      "functions": functions
-    }
-
-    fallback_info = {
-      "fallback_used": True,
-      "relaxed_field": relaxed_field,
-      "original_constraints": {
-        "price_type": original_price_types,
-        "language": original_languages,
-        "use_cases": original_use_cases
-      },
-      "relaxed_constraints": relaxed_query["must_have"]
-    }
-
-    return relaxed_query, fallback_info
-
-  except Exception as err:
-    print("retriever.relax_constraints() failed:")
-    print(str(err))
-    raise
+def build_default_fallback_info(parsed_query):
+  return {
+    "fallback_used": False,
+    "relaxed_field": None,
+    "relaxed_fields": [],
+    "original_constraints": _extract_constraints_snapshot(parsed_query),
+    "relaxed_constraints": None,
+    "retry_count": 0,
+    "retry_history": []
+  }
 
 
 ###############################################################
 # fallback_retrieve
 #
-# Runs fallback retrieval if strict retrieval returns no result.
-#
-# Returns:
-#   candidates, fallback_info, active_query
-#
 def fallback_retrieve(dbConn, parsed_query):
   """
-  Performs fallback retrieval using relaxed constraints.
+  Performs iterative fallback retrieval.
 
-  Parameters
-  ----------
-  dbConn : database connection
-  parsed_query : dict
+  Relax order:
+    1. functions
+    2. price_type
+    3. language
 
-  Returns
-  -------
-  (candidates, fallback_info, active_query)
+  Retrieval is retried after each single relaxation until results
+  are found or only use case remains as the hard requirement.
   """
   try:
-    relaxed_query, fallback_info = relax_constraints(parsed_query)
-    candidates = retrieve_candidates(dbConn, relaxed_query)
+    active_query = copy.deepcopy(parsed_query)
+    fallback_info = build_default_fallback_info(parsed_query)
 
-    return candidates, fallback_info, relaxed_query
+    for field_name in FALLBACK_RELAX_ORDER:
+      if not _has_relaxable_constraint(active_query, field_name):
+        continue
+
+      active_query = relax_single_constraint(active_query, field_name)
+      candidates = retrieve_candidates(dbConn, active_query)
+
+      fallback_info["fallback_used"] = True
+      fallback_info["relaxed_field"] = field_name
+      fallback_info["relaxed_fields"].append(field_name)
+      fallback_info["relaxed_constraints"] = _extract_constraints_snapshot(active_query)
+      fallback_info["retry_count"] = len(fallback_info["relaxed_fields"])
+      fallback_info["retry_history"].append({
+        "step": len(fallback_info["relaxed_fields"]),
+        "relaxed_field": field_name,
+        "active_constraints": _extract_constraints_snapshot(active_query),
+        "result_count": len(candidates)
+      })
+
+      if candidates:
+        return candidates, fallback_info, active_query
+
+    return [], fallback_info, active_query
 
   except Exception as err:
     print("retriever.fallback_retrieve() failed:")
@@ -241,26 +156,38 @@ def fallback_retrieve(dbConn, parsed_query):
 
 
 ###############################################################
-# score_candidates
+# relax_single_constraint
 #
-# score =
-#   3 * matched_use_case_count
-# + 2 * matched_function_count
-# + 1 * matched_nice_to_have_count
+def relax_single_constraint(parsed_query, field_name):
+  """
+  Relaxes one hard constraint while keeping use case hard filters.
+  """
+  try:
+    relaxed_query = copy.deepcopy(parsed_query)
+
+    if field_name == "functions":
+      relaxed_query["functions"] = []
+    elif field_name == "price_type":
+      relaxed_query.setdefault("must_have", {})["price_type"] = []
+    elif field_name == "language":
+      relaxed_query.setdefault("must_have", {})["language"] = []
+    else:
+      raise ValueError(f"Unsupported fallback field: {field_name}")
+
+    return relaxed_query
+
+  except Exception as err:
+    print("retriever.relax_single_constraint() failed:")
+    print(str(err))
+    raise
+
+
+###############################################################
+# score_candidates
 #
 def score_candidates(dbConn, candidates, parsed_query):
   """
-  Scores candidate tools using rule-based ranking.
-
-  Parameters
-  ----------
-  dbConn : database connection
-  candidates : list of {"tool_id": int, "name": str}
-  parsed_query : dict
-
-  Returns
-  -------
-  list of scored candidate dicts
+  Scores candidate tools using core/sub-aware ranking.
   """
   try:
     if not candidates:
@@ -273,20 +200,29 @@ def score_candidates(dbConn, candidates, parsed_query):
     nice_to_have_use_cases = nice_to_have.get("use_cases", [])
     functions = parsed_query.get("functions", [])
 
-    #
-    # Pre-fetch tool id sets by label group
-    #
-    must_usecase_tool_ids = {}
+    must_usecase_core_tool_ids = {}
+    must_usecase_sub_tool_ids = {}
     for use_case in must_have_use_cases:
-      must_usecase_tool_ids[use_case] = db.get_tool_ids_by_use_cases(dbConn, [use_case])
+      core = use_case.get("core")
+      if core:
+        must_usecase_core_tool_ids[core] = db.get_tool_ids_by_use_case_cores(dbConn, [core])
+      must_usecase_sub_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
 
-    nice_usecase_tool_ids = {}
+    nice_usecase_core_tool_ids = {}
+    nice_usecase_sub_tool_ids = {}
     for use_case in nice_to_have_use_cases:
-      nice_usecase_tool_ids[use_case] = db.get_tool_ids_by_use_cases(dbConn, [use_case])
+      core = use_case.get("core")
+      if core:
+        nice_usecase_core_tool_ids[core] = db.get_tool_ids_by_use_case_cores(dbConn, [core])
+      nice_usecase_sub_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
 
-    function_tool_ids = {}
+    function_core_tool_ids = {}
+    function_sub_tool_ids = {}
     for func in functions:
-      function_tool_ids[func] = db.get_tool_ids_by_functions(dbConn, [func])
+      core = func.get("core")
+      if core:
+        function_core_tool_ids[core] = db.get_tool_ids_by_function_cores(dbConn, [core])
+      function_sub_tool_ids[_tag_key(func)] = db.get_tool_ids_by_function_tag(dbConn, func)
 
     scored_candidates = []
 
@@ -294,43 +230,64 @@ def score_candidates(dbConn, candidates, parsed_query):
       tool_id = candidate["tool_id"]
       name = candidate["name"]
 
-      matched_use_case_count = 0
-      matched_nice_to_have_count = 0
-      matched_function_count = 0
+      matched_use_case_core_count = 0
+      matched_use_case_sub_count = 0
+      matched_nice_to_have_core_count = 0
+      matched_nice_to_have_sub_count = 0
+      matched_function_core_count = 0
+      matched_function_sub_count = 0
 
-      #
-      # Count matched must-have use cases
-      #
       for use_case in must_have_use_cases:
-        if tool_id in must_usecase_tool_ids.get(use_case, set()):
-          matched_use_case_count += 1
+        core = use_case.get("core")
+        sub = use_case.get("sub")
 
-      #
-      # Count matched nice-to-have use cases
-      #
+        if core and tool_id in must_usecase_core_tool_ids.get(core, set()):
+          matched_use_case_core_count += 1
+
+        if sub and tool_id in must_usecase_sub_tool_ids.get(_tag_key(use_case), set()):
+          matched_use_case_sub_count += 1
+
       for use_case in nice_to_have_use_cases:
-        if tool_id in nice_usecase_tool_ids.get(use_case, set()):
-          matched_nice_to_have_count += 1
+        core = use_case.get("core")
+        sub = use_case.get("sub")
 
-      #
-      # Count matched functions
-      #
+        if core and tool_id in nice_usecase_core_tool_ids.get(core, set()):
+          matched_nice_to_have_core_count += 1
+
+        if sub and tool_id in nice_usecase_sub_tool_ids.get(_tag_key(use_case), set()):
+          matched_nice_to_have_sub_count += 1
+
       for func in functions:
-        if tool_id in function_tool_ids.get(func, set()):
-          matched_function_count += 1
+        core = func.get("core")
+        sub = func.get("sub")
+
+        if core and tool_id in function_core_tool_ids.get(core, set()):
+          matched_function_core_count += 1
+
+        if sub and tool_id in function_sub_tool_ids.get(_tag_key(func), set()):
+          matched_function_sub_count += 1
 
       score = (
-        3 * matched_use_case_count
-        + 2 * matched_function_count
-        + 1 * matched_nice_to_have_count
+        USE_CASE_CORE_WEIGHT * matched_use_case_core_count
+        + USE_CASE_SUB_WEIGHT * matched_use_case_sub_count
+        + FUNCTION_CORE_WEIGHT * matched_function_core_count
+        + FUNCTION_SUB_WEIGHT * matched_function_sub_count
+        + NICE_TO_HAVE_CORE_WEIGHT * matched_nice_to_have_core_count
+        + NICE_TO_HAVE_SUB_WEIGHT * matched_nice_to_have_sub_count
       )
 
       scored_candidates.append({
         "tool_id": tool_id,
         "name": name,
-        "matched_use_case_count": matched_use_case_count,
-        "matched_function_count": matched_function_count,
-        "matched_nice_to_have_count": matched_nice_to_have_count,
+        "matched_use_case_core_count": matched_use_case_core_count,
+        "matched_use_case_sub_count": matched_use_case_sub_count,
+        "matched_function_core_count": matched_function_core_count,
+        "matched_function_sub_count": matched_function_sub_count,
+        "matched_nice_to_have_core_count": matched_nice_to_have_core_count,
+        "matched_nice_to_have_sub_count": matched_nice_to_have_sub_count,
+        "matched_use_case_count": matched_use_case_core_count + matched_use_case_sub_count,
+        "matched_function_count": matched_function_core_count + matched_function_sub_count,
+        "matched_nice_to_have_count": matched_nice_to_have_core_count + matched_nice_to_have_sub_count,
         "score": score
       })
 
@@ -345,40 +302,24 @@ def score_candidates(dbConn, candidates, parsed_query):
 ###############################################################
 # sort_candidates
 #
-# Tie-break:
-#   1. score desc
-#   2. matched_use_case_count desc
-#   3. matched_function_count desc
-#   4. name asc
-#   5. tool_id asc
-#
 def sort_candidates(scored_candidates):
   """
   Sorts candidates according to score and tie-break rules.
-
-  Parameters
-  ----------
-  scored_candidates : list of dicts
-
-  Returns
-  -------
-  sorted list of dicts
   """
   try:
     sorted_candidates = sorted(
       scored_candidates,
       key=lambda x: (
         -x["score"],
-        -x["matched_use_case_count"],
-        -x["matched_function_count"],
+        -x["matched_use_case_sub_count"],
+        -x["matched_function_sub_count"],
+        -x["matched_use_case_core_count"],
+        -x["matched_function_core_count"],
         x["name"].lower(),
         x["tool_id"]
       )
     )
 
-    #
-    # add rank
-    #
     for i, candidate in enumerate(sorted_candidates, start=1):
       candidate["rank"] = i
 
@@ -393,20 +334,9 @@ def sort_candidates(scored_candidates):
 ###############################################################
 # limit_top_results
 #
-# Returns top N results only
-#
 def limit_top_results(sorted_candidates, limit=3):
   """
   Returns top N ranked results.
-
-  Parameters
-  ----------
-  sorted_candidates : list of dicts
-  limit : int
-
-  Returns
-  -------
-  truncated list of dicts
   """
   try:
     if limit <= 0:
@@ -418,3 +348,49 @@ def limit_top_results(sorted_candidates, limit=3):
     print("retriever.limit_top_results() failed:")
     print(str(err))
     raise
+
+
+def _has_relaxable_constraint(parsed_query, field_name):
+  if field_name == "functions":
+    return len(parsed_query.get("functions", [])) > 0
+
+  must_have = parsed_query.get("must_have", {})
+
+  if field_name == "price_type":
+    return len(must_have.get("price_type", [])) > 0
+
+  if field_name == "language":
+    return len(must_have.get("language", [])) > 0
+
+  return False
+
+
+def _extract_constraints_snapshot(parsed_query):
+  must_have = parsed_query.get("must_have", {})
+
+  return {
+    "functions": copy.deepcopy(parsed_query.get("functions", [])),
+    "price_type": list(must_have.get("price_type", [])),
+    "language": list(must_have.get("language", [])),
+    "use_cases": copy.deepcopy(must_have.get("use_cases", []))
+  }
+
+
+def _extract_cores(tags):
+  cores = []
+  seen = set()
+
+  for tag in tags:
+    core = (tag.get("core") or "").strip().lower()
+    if core and core not in seen:
+      seen.add(core)
+      cores.append(core)
+
+  return cores
+
+
+def _tag_key(tag):
+  return (
+    (tag.get("core") or "").strip().lower(),
+    (tag.get("sub") or "").strip().lower() if tag.get("sub") else ""
+  )

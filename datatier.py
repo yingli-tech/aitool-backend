@@ -10,16 +10,8 @@ def get_db_connection(endpoint, portnum, username, pwd, dbname):
   """
   Opens and returns a connection object for interacting
   with a MySQL database.
-
-  Environment Variables From lambda function
-
-  Returns
-  -------
-  a connection object
   """
   try:
-
-
     dbConn = pymysql.connect(
       host=endpoint,
       port=portnum,
@@ -50,33 +42,40 @@ def close_db_connection(dbConn):
 ###############################################################
 # get_taxonomy_context
 #
-# Returns categories, price_types, languages, use_cases
-#
-#
 def get_taxonomy_context(dbConn):
   try:
     cursor = dbConn.cursor()
 
-    # categories
     cursor.execute("SELECT DISTINCT category FROM tools")
-    categories = [row[0] for row in cursor.fetchall()]
+    categories = [row[0] for row in cursor.fetchall() if row[0] is not None]
 
-    # price_types
     cursor.execute("SELECT price_type FROM price_types")
-    price_types = [row[0] for row in cursor.fetchall()]
+    price_types = [row[0] for row in cursor.fetchall() if row[0] is not None]
 
-    # languages
     cursor.execute("SELECT DISTINCT language FROM tools")
-    languages = [row[0] for row in cursor.fetchall()]
+    languages = [row[0] for row in cursor.fetchall() if row[0] is not None]
 
-    # use_cases (sub)
-    cursor.execute("SELECT sub FROM use_cases")
-    use_cases = [row[0] for row in cursor.fetchall()]
-    
-    # functions (sub)
-    cursor.execute("SELECT sub FROM functions")
-    functions = [row[0] for row in cursor.fetchall()]
-    
+    cursor.execute("""
+      SELECT core, sub
+      FROM use_cases
+      ORDER BY core, sub
+    """)
+    use_cases = [
+      {"core": row[0], "sub": row[1]}
+      for row in cursor.fetchall()
+      if row[0] is not None
+    ]
+
+    cursor.execute("""
+      SELECT core, sub
+      FROM functions
+      ORDER BY core, sub
+    """)
+    functions = [
+      {"core": row[0], "sub": row[1]}
+      for row in cursor.fetchall()
+      if row[0] is not None
+    ]
 
     return {
       "categories": categories,
@@ -98,18 +97,13 @@ def get_taxonomy_context(dbConn):
 ###############################################################
 # fetch_tool_details
 #
-# Given tool_ids, returns tool info
-#
-# TABLE tools (tool_id, name, url, description, category, language) 
-#
 def fetch_tool_details(dbConn, tool_ids):
   try:
     if not tool_ids:
       return []
 
     cursor = dbConn.cursor()
-
-    format_strings = ','.join(['%s'] * len(tool_ids))
+    format_strings = ",".join(["%s"] * len(tool_ids))
 
     sql = f"""
       SELECT tool_id, name, url, description, category, language
@@ -120,7 +114,6 @@ def fetch_tool_details(dbConn, tool_ids):
     cursor.execute(sql, tool_ids)
     rows = cursor.fetchall()
 
-    # convert to dict
     results = []
     for row in rows:
       results.append({
@@ -145,8 +138,6 @@ def fetch_tool_details(dbConn, tool_ids):
 
 ###############################################################
 # get_tools_by_category
-#
-# Returns tool_ids filtered by category
 #
 def get_tools_by_category(dbConn, category):
   try:
@@ -173,39 +164,6 @@ def get_tools_by_category(dbConn, category):
 
 
 ###############################################################
-# get_tool_ids_by_use_cases
-#
-def get_tool_ids_by_use_cases(dbConn, use_cases):
-  try:
-    if not use_cases:
-      return set()
-
-    cursor = dbConn.cursor()
-
-    format_strings = ','.join(['%s'] * len(use_cases))
-
-    sql = f"""
-      SELECT DISTINCT tum.tool_id
-      FROM tool_usecase_map tum
-      JOIN use_cases uc ON tum.usecase_id = uc.usecase_id
-      WHERE uc.sub IN ({format_strings})
-    """
-
-    cursor.execute(sql, use_cases)
-    rows = cursor.fetchall()
-
-    return set([r[0] for r in rows])
-
-  except Exception as err:
-    print("db.get_tool_ids_by_use_cases() failed:")
-    print(str(err))
-    raise
-
-  finally:
-    cursor.close()
-
-
-###############################################################
 # get_tool_ids_by_price_types
 #
 def get_tool_ids_by_price_types(dbConn, price_types):
@@ -214,20 +172,19 @@ def get_tool_ids_by_price_types(dbConn, price_types):
       return set()
 
     cursor = dbConn.cursor()
-
-    format_strings = ','.join(['%s'] * len(price_types))
+    format_strings = ",".join(["%s"] * len(price_types))
 
     sql = f"""
       SELECT DISTINCT tpm.tool_id
       FROM tool_price_map tpm
       JOIN price_types pt ON tpm.price_type_id = pt.price_type_id
-      WHERE pt.price_type IN ({format_strings})
+      WHERE LOWER(pt.price_type) IN ({format_strings})
     """
 
     cursor.execute(sql, price_types)
     rows = cursor.fetchall()
 
-    return set([r[0] for r in rows])
+    return {r[0] for r in rows}
 
   except Exception as err:
     print("db.get_tool_ids_by_price_types() failed:")
@@ -247,19 +204,18 @@ def get_tool_ids_by_language(dbConn, languages):
       return set()
 
     cursor = dbConn.cursor()
-
-    format_strings = ','.join(['%s'] * len(languages))
+    format_strings = ",".join(["%s"] * len(languages))
 
     sql = f"""
       SELECT tool_id
       FROM tools
-      WHERE language IN ({format_strings})
+      WHERE LOWER(language) IN ({format_strings})
     """
 
     cursor.execute(sql, languages)
     rows = cursor.fetchall()
 
-    return set([r[0] for r in rows])
+    return {r[0] for r in rows}
 
   except Exception as err:
     print("db.get_tool_ids_by_language() failed:")
@@ -271,31 +227,133 @@ def get_tool_ids_by_language(dbConn, languages):
 
 
 ###############################################################
-# get_tool_ids_by_functions
+# Taxonomy lookup helpers
 #
-def get_tool_ids_by_functions(dbConn, functions):
+def get_tool_ids_by_use_case_cores(dbConn, cores):
+  return _get_tool_ids_by_taxonomy_cores(
+    dbConn=dbConn,
+    mapping_table="tool_usecase_map",
+    mapping_id_column="usecase_id",
+    taxonomy_table="use_cases",
+    taxonomy_id_column="usecase_id",
+    cores=cores
+  )
+
+
+def get_tool_ids_by_function_cores(dbConn, cores):
+  return _get_tool_ids_by_taxonomy_cores(
+    dbConn=dbConn,
+    mapping_table="tool_function_map",
+    mapping_id_column="function_id",
+    taxonomy_table="functions",
+    taxonomy_id_column="function_id",
+    cores=cores
+  )
+
+
+def get_tool_ids_by_use_case_tag(dbConn, tag):
+  return _get_tool_ids_by_taxonomy_tag(
+    dbConn=dbConn,
+    mapping_table="tool_usecase_map",
+    mapping_id_column="usecase_id",
+    taxonomy_table="use_cases",
+    taxonomy_id_column="usecase_id",
+    tag=tag
+  )
+
+
+def get_tool_ids_by_function_tag(dbConn, tag):
+  return _get_tool_ids_by_taxonomy_tag(
+    dbConn=dbConn,
+    mapping_table="tool_function_map",
+    mapping_id_column="function_id",
+    taxonomy_table="functions",
+    taxonomy_id_column="function_id",
+    tag=tag
+  )
+
+
+def _get_tool_ids_by_taxonomy_cores(
+  dbConn,
+  mapping_table,
+  mapping_id_column,
+  taxonomy_table,
+  taxonomy_id_column,
+  cores
+):
   try:
-    if not functions:
+    normalized_cores = [core for core in cores if core]
+    if not normalized_cores:
+      return set()
+
+    cursor = dbConn.cursor()
+    format_strings = ",".join(["%s"] * len(normalized_cores))
+
+    sql = f"""
+      SELECT DISTINCT tm.tool_id
+      FROM {mapping_table} tm
+      JOIN {taxonomy_table} tax
+        ON tm.{mapping_id_column} = tax.{taxonomy_id_column}
+      WHERE LOWER(tax.core) IN ({format_strings})
+    """
+
+    cursor.execute(sql, normalized_cores)
+    rows = cursor.fetchall()
+
+    return {r[0] for r in rows}
+
+  except Exception as err:
+    print("db._get_tool_ids_by_taxonomy_cores() failed:")
+    print(str(err))
+    raise
+
+  finally:
+    cursor.close()
+
+
+def _get_tool_ids_by_taxonomy_tag(
+  dbConn,
+  mapping_table,
+  mapping_id_column,
+  taxonomy_table,
+  taxonomy_id_column,
+  tag
+):
+  try:
+    core = (tag.get("core") or "").strip().lower()
+    sub = tag.get("sub")
+    sub = sub.strip().lower() if isinstance(sub, str) else None
+
+    if not core and not sub:
       return set()
 
     cursor = dbConn.cursor()
 
-    format_strings = ','.join(['%s'] * len(functions))
-
     sql = f"""
-      SELECT DISTINCT tfm.tool_id
-      FROM tool_function_map tfm
-      JOIN functions f ON tfm.function_id = f.function_id
-      WHERE f.sub IN ({format_strings})
+      SELECT DISTINCT tm.tool_id
+      FROM {mapping_table} tm
+      JOIN {taxonomy_table} tax
+        ON tm.{mapping_id_column} = tax.{taxonomy_id_column}
+      WHERE 1 = 1
     """
 
-    cursor.execute(sql, functions)
+    params = []
+
+    if core:
+      sql += " AND LOWER(tax.core) = %s"
+      params.append(core)
+
+    if sub:
+      sql += " AND LOWER(tax.sub) = %s"
+      params.append(sub)
+
+    cursor.execute(sql, params)
     rows = cursor.fetchall()
 
-    return set([r[0] for r in rows])
+    return {r[0] for r in rows}
 
   except Exception as err:
-    print("db.get_tool_ids_by_functions() failed:")
+    print("db._get_tool_ids_by_taxonomy_tag() failed:")
     print(str(err))
     raise
 

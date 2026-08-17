@@ -578,3 +578,704 @@ It may be reconsidered later if the evaluation process requires:
 - conditional investigation based on failures;
 - automatic root-cause analysis;
 - or other evaluation paths that cannot be predetermined.
+
+
+## Step 5 — Detailed Evaluation Design
+
+### 1. Evaluation Dataset Design
+
+#### Core Principle
+
+Each evaluation benchmark is bound to a specific database snapshot/version.
+
+A benchmark therefore represents:
+
+fixed test cases
++ fixed database state
++ defined expected behavior
+
+System versions should only be compared against the same benchmark when the
+database snapshot remains unchanged.
+
+If the database changes materially, a new benchmark version should be created
+and its expected outputs reviewed.
+
+#### Test Case Inputs
+
+Each test case stores:
+
+- raw natural-language `query`;
+- expected normalized parsed representation;
+- test-case category metadata.
+
+The same test case supports two execution modes:
+
+1. End-to-end mode:
+   query → parser → filter → fallback → ranking
+
+2. Parser-replay mode:
+   saved expected/observed parsed representation
+   → filter → fallback → ranking
+
+This allows parser-induced variability to be separated from downstream behavior.
+
+#### Expected Parser Behavior
+
+The expected parser output should represent all user intents that are clearly
+expressed in the query.
+
+Correctness should be checked field by field after normalization.
+
+For fields such as `use_cases` and `functions`, multiple values are expected
+when multiple intents are expressed in the query.
+
+A parser output is not considered correct if it omits an intent that should be
+represented and that omission could affect downstream filtering or ranking.
+
+#### Expected Filter Behavior
+
+Each test case should preserve the expected candidate tool IDs for the bound
+database snapshot.
+
+The expected candidate list should not be generated at evaluation runtime by
+the production filtering implementation.
+
+Instead, it should be generated independently from the database snapshot and
+the expected parsed constraints, then reviewed and frozen as benchmark ground
+truth.
+
+#### Expected Fallback Behavior
+
+Each relevant test case should record:
+
+- whether fallback should trigger;
+- expected retry count;
+- expected relaxed fields;
+- expected relaxation order;
+- expected candidate set after successful fallback where applicable.
+
+#### Expected Ranking Behavior
+
+Ranking validation should preserve expected matching facts rather than only
+expected final scores.
+
+The evaluation implementation should independently calculate expected scores
+from those matching facts and compare them with production ranking outputs.
+
+Dedicated cases should cover ranking tie-break rules.
+
+#### Recommendation Relevance Ground Truth
+
+V1 should distinguish two forms of relevance:
+
+1. Taxonomy/rule-based relevance
+   - Deterministic.
+   - Based on category, use case, function, and other structured matches.
+   - Useful as a measurable relevance proxy.
+
+2. Semantic relevance
+   - Evaluated using an LLM judge.
+   - Used because structured taxonomy matching alone cannot fully determine
+     whether a recommendation genuinely satisfies the user's natural-language
+     need.
+   - Treated as a proxy evaluator rather than absolute ground truth.
+
+Future user-behavior data may later provide stronger relevance ground truth.
+
+#### Test Case Categories
+
+The benchmark should include:
+
+- normal queries;
+- multi-constraint queries;
+- fallback-triggering queries:
+  - one relaxation;
+  - two relaxations;
+  - three relaxations;
+- ambiguous queries;
+- over-constrained queries;
+- edge cases;
+- paraphrase/synonym queries;
+- spelling-error queries;
+- semantically similar queries with small wording differences;
+- parser-stability-sensitive queries;
+- ranking tie-break cases.
+
+
+### 2. Pipeline Correctness Evaluation
+
+The V1 correctness evaluation will record results at three levels:
+
+1. Case-level correctness
+2. Field/component-level correctness
+3. Failure-type distribution
+
+Case-level strict pass/fail will be the primary correctness metric.
+
+Field-level and component-level metrics will be retained to provide diagnostic
+detail and to show which lower-level failures contribute to case-level
+failures.
+
+Failure types will also be recorded so recurring failure patterns can be
+identified.
+
+#### Parser Evaluation
+
+##### Case-Level Pass Condition
+
+A parser case passes only when all required fields correctly represent the
+intent expressed in the query after normalization.
+
+A failure in any required field causes the parser case to fail.
+
+##### Field-Level Evaluation
+
+Evaluate independently:
+
+- JSON/schema validity
+- category
+- must_have.price_type
+- must_have.language
+- must_have.use_cases
+- nice_to_have.use_cases
+- functions
+
+For intent-bearing fields such as `use_cases` and `functions`, evaluation
+should detect both missing and incorrectly added intents.
+
+##### Parser Failure Types
+
+Examples include:
+
+- schema_error
+- missing_field
+- incorrect_type
+- incorrect_value
+- intent_omission
+- hallucinated_intent
+
+##### Metrics
+
+Primary:
+- Parser Case Accuracy
+- Parser Failure Rate
+
+Detailed:
+- Field Accuracy by parser field
+- Field Failure Rate by parser field
+- Failure Type Distribution
+
+
+#### Filter Evaluation
+
+##### Case-Level Pass Condition
+
+A filter case passes when the actual candidate set exactly matches the expected
+candidate set for the benchmark database snapshot.
+
+##### Component-Level Evaluation
+
+Record:
+
+- expected candidate count
+- actual candidate count
+- correctly retained candidates
+- false inclusions
+- false exclusions
+
+##### Filter Failure Types
+
+- false_inclusion
+- false_exclusion
+- incorrect_empty_result
+- incorrect_non_empty_result
+
+##### Metrics
+
+Primary:
+- Filter Case Accuracy
+- Filter Failure Rate
+
+Detailed:
+- Candidate Precision
+- Candidate Recall
+- False Inclusion Rate
+- False Exclusion Rate
+- Failure Type Distribution
+
+
+#### Fallback Evaluation
+
+##### Case-Level Pass Condition
+
+A fallback case passes only when all expected fallback behavior is correct:
+
+- trigger decision
+- retry count
+- relaxed fields
+- relaxation order
+- resulting candidate set
+
+##### Component-Level Evaluation
+
+Record correctness separately for:
+
+- trigger
+- retry count
+- each relaxation step
+- relaxed field
+- relaxation order
+- final recovered candidate set
+
+##### Fallback Failure Types
+
+- missing_trigger
+- false_trigger
+- incorrect_retry_count
+- incorrect_relaxed_field
+- incorrect_relaxation_order
+- incorrect_recovered_candidates
+
+##### Metrics
+
+Primary:
+- Fallback Case Accuracy
+- Fallback Failure Rate
+
+Detailed:
+- Trigger Accuracy
+- Retry Count Accuracy
+- Relaxation-Step Accuracy
+- Relaxation-Order Accuracy
+- Recovered-Candidate Accuracy
+- Failure Type Distribution
+
+
+#### Ranking Evaluation
+
+##### Case-Level Pass Condition
+
+A ranking case passes only when:
+
+- all expected candidates are included;
+- expected matching facts are correctly reflected;
+- scores are correctly calculated;
+- candidate ordering is correct;
+- tie-break behavior is correct when applicable;
+- top-k output is correct.
+
+##### Component-Level Evaluation
+
+Record separately:
+
+- candidate coverage
+- matching-fact correctness
+- score correctness
+- ordering correctness
+- tie-break correctness
+- top-k correctness
+
+##### Ranking Failure Types
+
+- missing_candidate
+- incorrect_matching_fact
+- incorrect_score
+- incorrect_order
+- incorrect_tie_break
+- incorrect_top_k
+
+##### Metrics
+
+Primary:
+- Ranking Case Accuracy
+- Ranking Failure Rate
+
+Detailed:
+- Candidate Coverage Accuracy
+- Matching-Fact Accuracy
+- Score Accuracy
+- Ordering Accuracy
+- Tie-Break Accuracy
+- Top-K Accuracy
+- Failure Type Distribution
+
+
+#### Relationship Between Case-Level and Detailed Metrics
+
+V1 will preserve both case-level and detailed evaluation records.
+
+This allows analysis of questions such as:
+
+- Which parser fields most frequently contribute to case-level failure?
+- Are filter failures primarily caused by false exclusions or false inclusions?
+- Which fallback steps are most failure-prone?
+- Do ranking failures mainly originate from scoring or ordering?
+
+V1 does not need to calculate formal statistical correlations between these
+metrics. The detailed records should first provide enough data to observe
+relationships between component-level failures and overall case-level
+correctness.
+
+### 3. Stability Evaluation
+
+The V1 evaluation will measure stability at both the end-to-end level and the
+downstream replay level.
+
+#### A. End-to-End Stability
+
+For each selected stability test case, the same raw query will be executed
+multiple times through:
+
+query
+→ parser
+→ filter
+→ fallback
+→ ranking
+→ final results
+
+This measures the stability of the system as actually experienced from the
+user-facing input boundary.
+
+#### B. Downstream Replay Stability
+
+A saved normalized parser output will be replayed multiple times through:
+
+saved parsed output
+→ filter
+→ fallback
+→ ranking
+→ final results
+
+This isolates downstream behavior from LLM parser variability.
+
+If end-to-end stability is lower than downstream replay stability, the parser
+is a likely source of variability.
+
+#### Parser Stability
+
+For repeated runs of the same query, compare normalized parser outputs.
+
+Record:
+
+- exact normalized-output stability;
+- field-level stability for:
+  - category;
+  - price_type;
+  - language;
+  - use_cases;
+  - functions.
+
+V1 will use normalized structured equality rather than semantic similarity as
+the primary parser-stability criterion.
+
+#### Filter Stability
+
+For repeated runs using the same parsed input, compare:
+
+- exact candidate set;
+- candidate count.
+
+Because the filter stage is deterministic, expected stability should be 100%
+for a fixed database snapshot.
+
+#### Fallback Stability
+
+Compare across repeated runs:
+
+- trigger decision;
+- retry count;
+- relaxed fields;
+- relaxation order;
+- recovered candidate set.
+
+For a fixed parsed input and database snapshot, expected stability should be
+100%.
+
+#### Ranking Stability
+
+Compare:
+
+- candidate scores;
+- sorted order;
+- tie-break behavior;
+- top-k output.
+
+For fixed candidates, parsed input, and database snapshot, expected stability
+should be 100%.
+
+#### Final Recommendation Stability
+
+Record at least two metrics:
+
+1. Exact Top-K Stability
+   - Same recommended tools in the same order.
+
+2. Top-K Set Stability
+   - Same recommended tools regardless of order.
+
+More advanced ranking-consistency metrics may be added later if needed.
+
+#### Repeated Runs
+
+Each selected stability test case will be executed 10 times.
+
+#### Canonical Reference
+
+The canonical reference for stability comparison will be the benchmark expected
+output rather than the first runtime output.
+
+Each repeated run will be compared against the benchmark expectation.
+
+This avoids treating an arbitrary or potentially incorrect first run as the
+reference.
+
+#### Stability Metrics
+
+For each stage:
+
+Stability Rate
+= number of repeated runs matching the benchmark expectation
+  / total repeated runs
+
+The report should include:
+
+- parser exact stability;
+- parser field-level stability;
+- filter stability;
+- fallback stability;
+- ranking stability;
+- final exact top-k stability;
+- final top-k set stability.
+
+### 4. Recommendation Relevance Evaluation
+
+The V1 relevance evaluation will use an LLM judge to evaluate each recommended
+tool individually against the user's original natural-language query.
+
+#### Judge Input
+
+The judge should receive:
+
+- raw user query;
+- recommended tool name;
+- tool description;
+- category;
+- functions;
+- use cases;
+- language;
+- price type.
+
+The normalized `parsed_query` may also be preserved as supporting context for
+diagnosis, but the primary relevance judgment should be based on the raw user
+query and the recommended tool metadata.
+
+This reduces the risk that an incorrect parser output biases the relevance
+evaluation itself.
+
+#### Evaluation Unit
+
+The judge evaluates each recommended tool independently.
+
+The primary evaluation unit is therefore:
+
+user query
++ one recommended tool
+→ relevance score
+
+#### Graded Relevance
+
+V1 will use graded relevance rather than a binary relevant / irrelevant label.
+
+Example scale:
+
+- 0 — Not relevant
+- 1 — Weakly relevant
+- 2 — Partially relevant
+- 3 — Relevant
+- 4 — Highly relevant
+
+The exact rubric for each score should be defined explicitly in the judge
+prompt so that scoring criteria remain as consistent as possible.
+
+The judge should consider how well the tool satisfies the need expressed in
+the raw query based on:
+
+- description;
+- category;
+- functions;
+- use cases;
+- language;
+- price type.
+
+#### Judge Stability Evaluation
+
+The LLM judge is itself nondeterministic and should therefore be evaluated
+separately before or periodically outside normal evaluation runs.
+
+Judge stability testing should use a fixed judge-validation set containing:
+
+- fixed user queries;
+- fixed tool metadata;
+- expected or manually reviewed relevance judgments.
+
+The same judge cases should be evaluated repeatedly to measure score
+consistency.
+
+Judge-stability testing is not required during every normal evaluation run.
+
+Its purpose is to validate the judge configuration itself, including:
+
+- judge prompt;
+- model;
+- scoring rubric;
+- relevant generation settings.
+
+If the judge configuration changes materially, its stability should be
+reevaluated before using the new configuration for baseline comparison.
+
+#### Judge Execution Strategy
+
+For each evaluation query, the LLM judge will evaluate up to the top 10 ranked
+candidate tools in a single request.
+
+The judge receives:
+
+- raw user query;
+- metadata for up to 10 candidate tools:
+  - tool ID and name;
+  - description;
+  - category;
+  - functions;
+  - use cases;
+  - language;
+  - price type.
+
+Each candidate should be evaluated independently against the raw user query
+using the same relevance rubric.
+
+The presence or quality of other candidates should not influence the relevance
+score assigned to a particular tool.
+
+The LLM judge should return structured tool-level relevance scores only.
+
+Example conceptual output:
+
+{
+  "tool_scores": [
+    {"tool_id": 12, "relevance": 4},
+    {"tool_id": 31, "relevance": 3},
+    {"tool_id": 8, "relevance": 2}
+  ]
+}
+
+Aggregate relevance metrics should be calculated deterministically by the
+evaluation code rather than by the LLM.
+
+#### Relevance Metrics
+
+1. Top-1 Relevance
+   - Relevance score of the highest-ranked candidate.
+
+2. Average Top-3 Relevance
+   - Mean relevance score of the first three user-visible recommendations.
+
+3. Average Top-10 Candidate Relevance
+   - Mean relevance score across up to the first 10 ranked candidates.
+   - Used as a diagnostic metric for the broader quality of retrieval and
+     ranking.
+
+4. Relevant Recommendation Rate
+   - Percentage of judged candidates whose relevance score meets or exceeds
+     the defined relevance threshold.
+
+The relevance threshold is intentionally left undefined in the initial design.
+
+It should be determined later through judge calibration and manual inspection
+of scored examples rather than selected arbitrarily before sufficient
+evaluation data exists.
+
+The user-visible top three results should receive greater attention because
+their relevance directly determines the quality experienced by the user.
+
+
+### 5. Evaluation Output / Report Schema
+
+The evaluation system should produce two levels of output:
+
+1. Case-level evaluation records
+2. Run-level aggregated summaries
+
+#### Case-Level Record
+
+Each test case should preserve results from all evaluation dimensions so that
+pipeline behavior, stability, and recommendation quality can be analyzed
+together.
+
+The record should include:
+
+- case ID;
+- raw query;
+- benchmark/database version;
+- parser correctness and field-level results;
+- parser failure types;
+- filter correctness and candidate differences;
+- fallback behavior;
+- ranking correctness;
+- stability metrics;
+- tool-level LLM relevance scores;
+- aggregated relevance metrics for the case.
+
+#### Run-Level Summary
+
+Each evaluation run should aggregate:
+
+Correctness:
+- parser case accuracy/failure rate;
+- parser field-level accuracy;
+- filter case accuracy;
+- fallback case accuracy;
+- ranking case accuracy;
+- failure-type distributions.
+
+Stability:
+- parser stability;
+- parser field-level stability;
+- filter stability;
+- fallback stability;
+- ranking stability;
+- final top-k stability.
+
+Relevance:
+- average Top-1 relevance;
+- average Top-3 relevance;
+- average Top-10 relevance;
+- relevant recommendation rate once a relevance threshold is defined.
+
+#### Version Metadata
+
+Every evaluation run should record:
+
+- evaluation run ID;
+- system/code version;
+- benchmark version;
+- database snapshot/version;
+- parser model;
+- parser prompt version;
+- LLM judge model;
+- judge prompt version;
+- evaluation timestamp.
+
+This metadata is required so metric changes can be attributed to controlled
+system changes rather than unrelated changes in data, prompts, or models.
+
+#### Failed-Case Preservation
+
+Failed cases should be preserved individually rather than only aggregated into
+summary metrics.
+
+This allows later inspection of:
+
+- what failed;
+- where the failure occurred;
+- which fields or components were affected;
+- whether the failure also affected recommendation relevance or final output.

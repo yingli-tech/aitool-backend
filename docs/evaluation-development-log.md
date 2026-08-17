@@ -229,3 +229,158 @@ System change
 → Inspect recommendation quality and pipeline correctness
 → Compare results with the existing baseline
 → Decide whether the change is acceptable for release
+
+
+## Step 3 — Existing System Analysis
+
+### Current Pipeline
+
+Query
+→ Parser
+→ Filter
+→ Fallback (if needed)
+→ Ranking
+→ Top Results
+→ Response
+
+### Parser
+
+Input:
+- Validated natural-language query
+- Current taxonomy context from the database
+
+Output:
+- Normalized structured `parsed_query`
+
+Currently observable:
+- Final normalized `parsed_query` is exposed in the API response and request log.
+
+Missing / limitations for evaluation:
+- Raw LLM output and prompt are not preserved.
+- Pre-normalization vs. post-normalization output is not observable.
+- Parser behavior depends on the current database taxonomy.
+- Parser requires a live LLM call, so repeated runs may not be deterministic.
+
+### Filter
+
+Input:
+- Normalized `parsed_query`
+- Current database contents
+
+Output:
+- Candidate tools matching the active constraints
+
+Currently observable:
+- Final candidate results eventually flow into later stages.
+
+Missing / limitations for evaluation:
+- Candidate sets after each filtering constraint are not exposed.
+- The system does not record which constraint eliminated which tools.
+- The strict-filter candidate count before fallback is not preserved.
+- When filtering returns no result, the cause of the empty set is not directly observable.
+
+### Fallback
+
+Input:
+- Original normalized `parsed_query`
+- Database contents
+
+Output:
+- Candidate tools after relaxation
+- `fallback_info`
+- Relaxed `active_query`
+
+Currently observable:
+- Fallback usage
+- Relaxed fields
+- Retry count
+- Retry history
+- Constraint snapshots
+
+Missing / limitations for evaluation:
+- Candidate identities from individual retry attempts are not preserved.
+- Strict-filter candidate count before fallback is not explicitly stored.
+- The final `active_query` used after successful fallback is not exposed in the final response.
+
+### Ranking
+
+Input:
+- Candidate tools
+- Active query, which may contain relaxed constraints
+
+Output:
+- Scored and ranked candidates
+- Top 3 results
+
+Currently observable:
+- Final scores
+- Rank
+- Match-count breakdowns for returned tools
+
+Missing / limitations for evaluation:
+- Full ranked candidate list is discarded after top-3 truncation.
+- Detailed per-candidate scoring decisions are not persisted.
+- Ranking may use a relaxed `active_query`, while the response still exposes the original `parsed_query`.
+
+### Final Recommendation Output
+
+Currently observable:
+- Original query
+- Original normalized `parsed_query`
+- Fallback metadata
+- Result count
+- Top ranked results
+- Ranking score and match-count breakdown
+
+Missing / limitations for evaluation:
+- Full candidate universe is unavailable.
+- Final `active_query` after fallback is unavailable.
+- Stage-level intermediate states are not persisted.
+
+### Existing Logging
+
+Current request-level logging includes:
+- timestamp
+- query
+- parsed_query
+- fallback_info
+- result_count
+- error
+
+Logging is currently request-level and print-based rather than a persisted
+stage-by-stage evaluation artifact.
+
+### Key Evaluation Gaps
+
+Based on the evaluation requirements, the main gaps are:
+
+1. Insufficient visibility into intermediate filter states.
+2. No preservation of the full ranked candidate set.
+3. No explicit final `active_query` after fallback.
+4. Limited ability to replay or diagnose parser behavior.
+5. No stable evaluation dataset or baseline currently exists.
+6. No mechanism currently compares recommendation quality across system versions.
+
+
+### My Analysis of the Codebase Review
+
+The existing system already exposes enough information to inspect final
+recommendations and most fallback behavior, so evaluation does not require
+rebuilding the recommendation pipeline.
+
+However, the current observability is insufficient for systematic
+stage-level evaluation.
+
+The most important missing information appears to be:
+- intermediate filter candidate sets;
+- the final active query after fallback;
+- the full ranked candidate list before top-k truncation.
+
+Parser stability should be evaluated from the first version. Because the LLM parser is the first potentially non-deterministic stage in the pipeline, instability introduced there can propagate through all downstream stages. 
+
+The evaluation should therefore preserve the raw LLM output and parsed output for repeated runs of the same fixed queries, providing an initial observation point for tracing where instability is introduced.
+
+Raw LLM outputs should also be replayable through the deterministic downstream stages, so that parser-induced variability can be separated from instability introduced by filtering, ranking, or other later deterministic processing.
+
+Therefore, the evaluation design should reuse the existing pipeline where
+possible and add only the observability needed to evaluate it.

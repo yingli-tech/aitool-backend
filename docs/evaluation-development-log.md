@@ -384,3 +384,197 @@ Raw LLM outputs should also be replayable through the deterministic downstream s
 
 Therefore, the evaluation design should reuse the existing pipeline where
 possible and add only the observability needed to evaluate it.
+
+
+## Step 4 — Solution Exploration
+
+### Candidate Architecture Options
+
+#### Option A — Deterministic Offline Evaluation Runner
+
+Description:
+- Uses a fixed evaluation dataset and a predefined evaluation workflow.
+- Runs the recommendation pipeline offline.
+- Captures stage-level outputs and applies deterministic correctness checks.
+- Supports repeated execution, baseline comparison, and regression detection.
+
+Strengths:
+- Reproducible and easy to debug.
+- Suitable for stage-level correctness evaluation.
+- Can measure failure rates for parser, filter, fallback, and ranking.
+- Can support replay of saved parser outputs through downstream deterministic stages.
+- Appropriate for regression testing across system versions.
+
+Limitations:
+- Cannot fully judge semantic recommendation relevance.
+- Requires explicit pass/fail criteria for each pipeline stage.
+- Some additional observability must be added to the current pipeline.
+
+Best suited for:
+- Pipeline correctness.
+- Regression testing.
+- Stability measurement.
+- Baseline comparison.
+
+
+#### Option B — LLM-as-a-Judge Evaluation
+
+Description:
+- Uses an LLM to evaluate how well the final recommended tools satisfy the user's natural-language query.
+- Operates as a semantic quality evaluation component rather than as the main evaluation workflow.
+
+Strengths:
+- Can evaluate recommendation relevance that deterministic checks cannot fully capture.
+- Can assess whether a technically correct recommendation is actually useful for the user's expressed need.
+- Can provide graded relevance scores rather than only binary pass/fail judgments.
+
+Limitations:
+- The judge itself may be nondeterministic.
+- Results can depend on judge prompt design, model choice, and model version.
+- Repeated judge runs may produce different scores.
+- Adds additional latency and API cost.
+- Judge stability must itself be measured.
+
+Best suited for:
+- Semantic recommendation relevance.
+- Quality assessment of final recommendations.
+
+
+#### Option C — Agent-Orchestrated Evaluation
+
+Description:
+- Uses an agent to dynamically decide which evaluation tools or checks to run based on intermediate evaluation results.
+- The agent could potentially choose additional tests, rerun unstable cases, inspect failed stages, or perform root-cause investigation.
+
+Strengths:
+- Flexible when evaluation paths cannot be predetermined.
+- Could automate deeper failure investigation.
+- Could dynamically select evaluation tools based on observed failures.
+
+Limitations:
+- Adds orchestration complexity and additional nondeterminism.
+- Harder to reproduce and debug.
+- Not necessary when the evaluation workflow is already known in advance.
+- Introduces complexity before reliable evaluation primitives have been established.
+
+Best suited for:
+- Future dynamic investigation.
+- Automatic root-cause analysis.
+- Evaluation workflows that require conditional tool selection.
+
+
+### My Initial Preference
+
+For the first version, I prefer a fixed offline evaluation pipeline rather
+than an agent-orchestrated workflow.
+
+The evaluation workflow is mostly predetermined, so dynamic orchestration is
+not currently necessary.
+
+The first version should focus on:
+- measuring failure rates for each pipeline stage;
+- identifying failed cases and their outputs;
+- supporting reproducible and repeatable evaluation;
+- measuring output stability across repeated runs;
+- evaluating recommendation relevance separately from pipeline correctness.
+
+I view the first-version evaluation as three complementary dimensions:
+
+1. **Deterministic Pipeline Correctness Evaluation**
+   - Checks whether parser, filter, fallback, and ranking behave according to
+     their designed logic.
+   - Measures stage-level failure rates.
+   - Records failed cases for inspection.
+
+2. **LLM-Based Recommendation Relevance Evaluation**
+   - Evaluates how well the final recommended tools satisfy the user's query.
+   - This semantic relevance cannot be fully determined by deterministic
+     pipeline checks alone.
+
+3. **Stability Evaluation**
+   - Repeatedly runs the same fixed queries against the same system version.
+   - Compares intermediate stage outputs and final recommendation outputs
+     across repeated runs.
+   - Quantifies how stable each stage is rather than only detecting that
+     variation occurred.
+   - Preserves raw LLM parser outputs so parser-induced variability can be
+     distinguished from downstream behavior.
+   - Replays fixed parser outputs through downstream deterministic stages to
+     isolate where instability is introduced.
+
+
+### Questions / Uncertainties
+
+The following details still need to be defined in the detailed evaluation
+design:
+
+- What exactly constitutes a parser failure?
+- What constitutes a filter, fallback, or ranking failure?
+- How should stage-level failure rates be calculated?
+- How should stability be measured?
+- For parser output, should stability require exact normalized JSON equality,
+  or can semantically equivalent outputs be considered stable?
+- For final recommendations, should stability measure:
+  - exact top-k equality;
+  - overlap between recommended tools;
+  - ranking-order consistency;
+  - or a combination of these?
+- How many repeated runs are needed to estimate stability?
+- How should LLM-judge relevance scores be defined?
+- How should the stability of the LLM judge itself be measured?
+- What should be included in the fixed evaluation dataset?
+
+
+### Final Architecture Decision
+
+For V1, the evaluation system will use a fixed offline evaluation pipeline
+rather than an agent.
+
+The reason is that the evaluation workflow is predetermined and the primary
+goal is reliable, reproducible measurement rather than dynamic investigation
+or autonomous decision-making.
+
+The V1 architecture will contain three complementary evaluation paths:
+
+1. **Deterministic Pipeline Correctness Evaluation**
+   - Evaluate parser, filter, fallback, and ranking correctness.
+   - Capture required intermediate outputs.
+   - Calculate stage-level failure rates.
+   - Preserve failed cases for diagnosis.
+   - Support regression testing and baseline comparison.
+
+2. **LLM-Based Recommendation Relevance Evaluation**
+   - Evaluate semantic relevance between user queries and final recommended
+     tools.
+   - Operate as a separate quality-evaluation component because recommendation
+     relevance cannot be fully determined by deterministic pipeline checks.
+   - Measure the consistency of the judge itself where repeated evaluation is
+     required.
+
+3. **Stability Evaluation**
+   - Repeatedly execute the same fixed queries against the same system version.
+   - Compare outputs at each pipeline stage across repeated runs.
+   - Calculate stage-level stability metrics.
+   - Measure final recommendation stability.
+   - Preserve raw LLM parser outputs and normalized parsed outputs.
+   - Replay fixed parser outputs through downstream deterministic stages so
+     parser-induced variability can be separated from downstream behavior.
+
+All three evaluation paths will operate on a stable offline evaluation dataset.
+
+Their outputs will be combined into a common evaluation report containing:
+- pipeline correctness results;
+- stage-level failure rates;
+- failed cases;
+- recommendation relevance results;
+- stage-level stability measurements;
+- final-result stability measurements;
+- comparison against the existing baseline.
+
+Agent orchestration is intentionally excluded from V1.
+
+It may be reconsidered later if the evaluation process requires:
+- dynamic selection of evaluation tools;
+- conditional investigation based on failures;
+- automatic root-cause analysis;
+- or other evaluation paths that cannot be predetermined.

@@ -1047,12 +1047,13 @@ The report should include:
 - final exact top-k stability;
 - final top-k set stability.
 
-### 4. Recommendation Relevance Evaluation
+## 4. Recommendation Relevance Evaluation
 
-The V1 relevance evaluation will use an LLM judge to evaluate each recommended
-tool individually against the user's original natural-language query.
+The V1 relevance evaluation will use an LLM judge to evaluate the final
+user-visible recommendations against the user's original natural-language
+query.
 
-#### Judge Input
+### Judge Input
 
 The judge should receive:
 
@@ -1072,21 +1073,22 @@ query and the recommended tool metadata.
 This reduces the risk that an incorrect parser output biases the relevance
 evaluation itself.
 
-#### Evaluation Unit
+### Evaluation Unit
 
 The judge evaluates each recommended tool independently.
 
 The primary evaluation unit is therefore:
 
 user query
-+ one recommended tool
-→ relevance score
 
-#### Graded Relevance
+- one recommended tool
+  → relevance score
+
+### Graded Relevance
 
 V1 will use graded relevance rather than a binary relevant / irrelevant label.
 
-Example scale:
+Initial scoring scale:
 
 - 0 — Not relevant
 - 1 — Weakly relevant
@@ -1094,11 +1096,10 @@ Example scale:
 - 3 — Relevant
 - 4 — Highly relevant
 
-The exact rubric for each score should be defined explicitly in the judge
-prompt so that scoring criteria remain as consistent as possible.
+The rubric for each score should be defined explicitly in the judge prompt.
 
-The judge should consider how well the tool satisfies the need expressed in
-the raw query based on:
+The judge should consider how well each tool satisfies the need expressed in
+the raw user query based on:
 
 - description;
 - category;
@@ -1107,41 +1108,19 @@ the raw query based on:
 - language;
 - price type.
 
-#### Judge Stability Evaluation
+### Judge Execution Strategy
 
-The LLM judge is itself nondeterministic and should therefore be evaluated
-separately before or periodically outside normal evaluation runs.
+For each evaluation query, the LLM judge will evaluate the user-visible
+recommended tools in a single request.
 
-Judge stability testing should use a fixed judge-validation set containing:
-
-- fixed user queries;
-- fixed tool metadata;
-- expected or manually reviewed relevance judgments.
-
-The same judge cases should be evaluated repeatedly to measure score
-consistency.
-
-Judge-stability testing is not required during every normal evaluation run.
-
-Its purpose is to validate the judge configuration itself, including:
-
-- judge prompt;
-- model;
-- scoring rubric;
-- relevant generation settings.
-
-If the judge configuration changes materially, its stability should be
-reevaluated before using the new configuration for baseline comparison.
-
-#### Judge Execution Strategy
-
-For each evaluation query, the LLM judge will evaluate up to the top 10 ranked
-candidate tools in a single request.
+Since the current system returns the top three recommendations to the user,
+V1 only needs to judge those final top-three tools.
 
 The judge receives:
 
 - raw user query;
-- metadata for up to 10 candidate tools:
+- metadata for each of the top-three recommended tools:
+
   - tool ID and name;
   - description;
   - category;
@@ -1150,16 +1129,17 @@ The judge receives:
   - language;
   - price type.
 
-Each candidate should be evaluated independently against the raw user query
-using the same relevance rubric.
+Each tool should be evaluated independently against the raw user query using
+the same relevance rubric.
 
-The presence or quality of other candidates should not influence the relevance
-score assigned to a particular tool.
+The presence or quality of another recommended tool should not increase or
+decrease the relevance score assigned to a particular tool.
 
 The LLM judge should return structured tool-level relevance scores only.
 
 Example conceptual output:
 
+```json
 {
   "tool_scores": [
     {"tool_id": 12, "relevance": 4},
@@ -1167,47 +1147,49 @@ Example conceptual output:
     {"tool_id": 8, "relevance": 2}
   ]
 }
+```
 
 Aggregate relevance metrics should be calculated deterministically by the
 evaluation code rather than by the LLM.
 
-#### Relevance Metrics
+### Relevance Metrics
 
-1. Top-1 Relevance
-   - Relevance score of the highest-ranked candidate.
+V1 will use two primary relevance metrics:
 
-2. Average Top-3 Relevance
-   - Mean relevance score of the first three user-visible recommendations.
+1. **Top-1 Relevance**
 
-3. Average Top-10 Candidate Relevance
-   - Mean relevance score across up to the first 10 ranked candidates.
-   - Used as a diagnostic metric for the broader quality of retrieval and
-     ranking.
+   - Relevance score of the highest-ranked recommendation.
+   - Measures the quality of the recommendation receiving the highest user
+     exposure.
 
-4. Relevant Recommendation Rate
-   - Percentage of judged candidates whose relevance score meets or exceeds
-     the defined relevance threshold.
+2. **Average Top-3 Relevance**
 
-The relevance threshold is intentionally left undefined in the initial design.
+   - Mean relevance score of the three user-visible recommendations.
+   - Measures the semantic quality of the recommendation set actually shown
+     to the user.
 
-It should be determined later through judge calibration and manual inspection
-of scored examples rather than selected arbitrarily before sufficient
-evaluation data exists.
+The current V1 does not include:
 
-The user-visible top three results should receive greater attention because
-their relevance directly determines the quality experienced by the user.
+- Average Top-10 Candidate Relevance;
+- threshold-based Relevant Recommendation Rate;
+- LLM-judge stability evaluation.
 
+These may be reconsidered later if the system scale or evaluation needs make
+them useful.
 
-### 5. Evaluation Output / Report Schema
+The current priority is to establish a simple and usable semantic relevance
+signal for the recommendations that directly affect the user experience.
+
+## 5. Evaluation Output / Report Schema
 
 The evaluation system should produce two levels of output:
 
 1. Case-level evaluation records
 2. Run-level aggregated summaries
 
-#### Case-Level Record
+### Case-Level Record
 
-Each test case should preserve results from all evaluation dimensions so that
+Each test case should preserve results from the evaluation dimensions so that
 pipeline behavior, stability, and recommendation quality can be analyzed
 together.
 
@@ -1223,21 +1205,24 @@ The record should include:
 - ranking correctness;
 - stability metrics;
 - tool-level LLM relevance scores;
-- aggregated relevance metrics for the case.
+- Top-1 relevance;
+- Average Top-3 relevance.
 
-#### Run-Level Summary
+### Run-Level Summary
 
 Each evaluation run should aggregate:
 
-Correctness:
-- parser case accuracy/failure rate;
+#### Correctness
+
+- parser case accuracy / failure rate;
 - parser field-level accuracy;
-- filter case accuracy;
-- fallback case accuracy;
-- ranking case accuracy;
+- filter case accuracy / failure rate;
+- fallback case accuracy / failure rate;
+- ranking case accuracy / failure rate;
 - failure-type distributions.
 
-Stability:
+#### Stability
+
 - parser stability;
 - parser field-level stability;
 - filter stability;
@@ -1245,13 +1230,12 @@ Stability:
 - ranking stability;
 - final top-k stability.
 
-Relevance:
-- average Top-1 relevance;
-- average Top-3 relevance;
-- average Top-10 relevance;
-- relevant recommendation rate once a relevance threshold is defined.
+#### Relevance
 
-#### Version Metadata
+- Average Top-1 Relevance across evaluation cases;
+- Average Top-3 Relevance across evaluation cases.
+
+### Version Metadata
 
 Every evaluation run should record:
 
@@ -1268,7 +1252,11 @@ Every evaluation run should record:
 This metadata is required so metric changes can be attributed to controlled
 system changes rather than unrelated changes in data, prompts, or models.
 
-#### Failed-Case Preservation
+Recording the judge model and prompt version does not imply that V1 will
+evaluate judge stability. They are retained only for reproducibility and
+traceability.
+
+### Failed-Case Preservation
 
 Failed cases should be preserved individually rather than only aggregated into
 summary metrics.

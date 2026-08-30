@@ -1,0 +1,25 @@
+seed_sources:
+  - source: aitoolsdirectory
+    source_url: https://aitoolsdirectory.com/
+    active: true
+    listing_pages:
+      - https://aitoolsdirectory.com/
+
+source_specific_discovery_rules:
+  - source: aitoolsdirectory
+    base_url: https://aitoolsdirectory.com/
+    listing_container_selector: article.sv-tile
+    tool_name_selector: h3.sv-tile__title
+    tool_link_selector: a[href]
+    detail_try_it_selector: a[href].sv-button
+    detail_description_container_selector: .sv-product-page__string.sv-product-string.sv-text-reset
+    detail_description_include_tags:
+      - p
+      - h2
+      - h3
+      - h4
+      - h5
+      - h6
+      - li
+    detail_description_terminal_headings:
+      - Bullet Point Features

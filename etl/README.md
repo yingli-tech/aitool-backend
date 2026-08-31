@@ -14,7 +14,7 @@
 
 **Responsibility:** Find potential AI tool candidates and their official URLs.
 
-**Input:** Seed sources + source-specific discovery rules
+**Input:** Seed sources
 
 **Output:** Candidate tool records
 
@@ -25,6 +25,13 @@
 - https://aitoolsdirectory.com/
 
 #### To Be Evaluated
+
+At the moment, this is not a near-term priority.
+
+The current `aitoolsdirectory` source already yields 600+ candidate tools, which is sufficient for the current increment and near-term ETL needs.
+
+Additional discovery sources may be evaluated later, but they are not needed right now.
+
 - https://tooldirectory.ai/
 - https://tooldirectory.ai/research
 - https://tooldirectory.ai/top-100-ai-tools
@@ -41,7 +48,7 @@
 - https://aichief.com/ai-tools/
 
 
-### 2.0.2 Source-Specific Discovery Rules
+### 2.0.2 Source-Specific Discovery Logic
 
 #### 2.0.2.1 Source: AI Tools Directory
 
@@ -49,82 +56,67 @@
 
 https://aitoolsdirectory.com/
 
-**Pagination**
+**Corresponding API**
 
-Listing pages follow:
+https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo/filters/?query=e30%3D&options=eyJyb3dzTGltaXQiOjUwMDAsImRlYWxUeXBlIjoiYXBwc3VtbyIsImR5bmFtaWNEYXRhIjp7InNoZWV0SGFzaCI6IjE4MDM3NTYzODciLCJTQ1BUYWJsZUxhdGVzdFVwZGF0ZVRpbWVzdGFtcCI6MTc4Nzk5ODI5MDUwOH0sInNlYXJjaCI6eyJlbmFibGVkIjp0cnVlLCJjb2x1bW5zIjpbIk5hbWUtIiwiUHJpY2UtIiwiQ2F0ZWdvcnktIiwiSGFzaHRhZy0iLCJMb25nZGVzY3JpcHRpb24tIl19LCJzb3J0aW5nIjp7ImVuYWJsZWQiOmZhbHNlLCJzaHVmZmxlIjpmYWxzZX0sInBhZ2luYXRpb24iOnsiZW5hYmxlZCI6dHJ1ZSwiaXRlbXNQZXJQYWdlIjoiMTAwIn0sImZpbHRlcnMiOnsiZW5hYmxlZCI6dHJ1ZSwidmFsdWVzIjpbeyJpZCI6Ik5hbWUtIiwidHlwZSI6Im11bHRpcGxlIn0seyJpZCI6IkNhdGVnb3J5LSIsInR5cGUiOiJtdWx0aXBsZSJ9LHsiaWQiOiJQcmljZS0iLCJ0eXBlIjoibXVsdGlwbGUifV19LCJtYXBWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJpZCI6bnVsbCwibWFya2VyVHlwZSI6InBpbiIsImltYWdlQ29sSWQiOiIifSwiY2FsZW5kYXJWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJzdGFydERhdGVDb2xJZCI6bnVsbCwidGl0bGVDb2xJZCI6Ik5hbWUtIn19
 
-https://aitoolsdirectory.com/?page={page_number}
+This is a dynamic website.
 
+#### 2.0.2.2 Discover tools
 
-#### 2.0.2.2 Discover tool detail pages
+AI Tools Directory loads its tool data dynamically rather than embedding the tool records directly in the initial HTML response.
 
-For each listing page, identify tool entries.
+Therefore, Source Discovery does not extract tool entries from the rendered listing-page DOM.
 
-Observed tool-name element:
+Instead:
 
-<h3 class="sv-tile__title sv-text-reset sv-is-link">
-    Getsolved
-</h3>
-
-Extract and trim the tool name.
-
-Tool detail pages follow the observed pattern:
-
-https://aitoolsdirectory.com/tool/{tool_slug}
-
-Examples:
-
-AIWriter
-→ https://aitoolsdirectory.com/tool/aiwriter
-
-Mistral AI
-→ https://aitoolsdirectory.com/tool/mistral-ai
-
-Getsolved
-→ https://aitoolsdirectory.com/tool/getsolved
-
-If the listing page exposes the actual tool-detail href, prefer extracting that href directly instead of reconstructing it from the tool name.
-
-Otherwise, the initial fallback slug rule is:
-
-1. lowercase the tool name
-2. replace spaces with "-"
-
-Do not assume this fallback works for every tool name.
+1. Call the discovered listing data API.
+2. Parse the returned JSON response.
+3. Extract the available tool names.
+4. Normalize each extracted name by trimming leading and trailing whitespace.
 
 
-#### 2.0.2.3 Discover official URL
+#### 2.0.2.3 Resolve tool detail data
 
-Visit each tool detail page.
+For each discovered tool, retrieve its corresponding detail record through the
+site's underlying detail data API.
 
-Find the external URL associated with the "Try it" action.
+The detail API request contains a Base64-encoded `query` parameter representing
+a JSON structure of the form:
 
-Observed examples:
+{
+  "getRowBy": {
+    "slug": "<tool_slug>"
+  }
+}
 
-https://aitoolsdirectory.com/tool/lynote
-→ https://lynote.ai/?utm_source=aitoolsdirectory
+Construct the query dynamically for each tool:
 
-https://aitoolsdirectory.com/tool/getsolved
-→ https://getsolved.ai/?utm_source=aitoolsdirectory
+1. determine the tool slug;
+2. construct the `getRowBy` JSON object;
+3. serialize the object to JSON;
+4. Base64-encode the serialized JSON;
+5. send the encoded value as the API's `query` parameter;
+6. parse the returned JSON detail record.
 
-Normalize the destination URL before storing it as `official_url`.
+Observed example:
 
-Normalization rule:
-- Remove the entire query string from the destination URL, including all tracking parameters appended after `?`.
-- Preserve the URL scheme, domain, and path.
-- Do not retain any query parameters.
+{
+  "getRowBy": {
+    "slug": "getsolved"
+  }
+}
 
-Examples:
+The request configuration contained in the API's `options` parameter should
+remain unchanged unless further investigation shows that dynamic construction
+is required.
 
-https://getsolved.ai/?utm_source=aitoolsdirectory
-→ https://getsolved.ai/
-
-The normalized destination becomes `official_url`.
+If the detail record cannot be reliably retrieved, do not invent missing data.
 
 
 #### 2.0.2.4 Collect source fields
 
-For each discovered tool, collect the source data needed for:
+For each tool detail record, collect the source data needed for:
 
 - name
 - official_url
@@ -135,32 +127,42 @@ For each discovered tool, collect the source data needed for:
 For this source:
 
 source = "aitoolsdirectory"
+
 source_url = "https://aitoolsdirectory.com/"
 
-source_description: Extract all descriptive text from the tool detail page’s main content section, starting from the first descriptive paragraph and continuing through the end of the Key Features section. Exclude navigation, metadata/badges, footer content, related tools, alternatives, and any content that requires following additional links.
+`official_url`:
 
-HTML extraction rule:
-- Primary container:
-  `.sv-product-page__string.sv-product-string.sv-text-reset`
-- Extract text from the container in DOM order.
-- Include:
-  - `<p>` descriptive paragraphs
-  - section headings (`<h2>`, `<h3>`, etc.)
-  - list items (`<li>`)
-- Preserve the original content order.
-- For this source, the final included section may be labeled
-  `Bullet Point Features`; include its entire following `<ul>`.
-- Do not extract content outside the primary container.
-- Do not follow links.
+- Extract the external destination URL from the `URL-` field in the detail API response.
+- Treat this URL as a third-party destination that may redirect rather than assuming it is already the final official URL.
+- Request the extracted URL and follow HTTP redirects.
+- Use the final resolved URL as the candidate official URL.
+- Normalize the resolved URL by removing the entire query string while preserving the scheme, domain, and path.
+- If the destination cannot be successfully resolved, leave `official_url` null.
 
-Exclude:
-- navigation
-- metadata / badges
-- footer
-- related tools
-- alternatives
+Example:
 
-If a field cannot be reliably obtained from the source page, leave it null.
+Detail API `URL-` value:
+
+https://example-redirect.com/...
+
+→ follow redirects
+
+→ final resolved URL:
+
+https://getsolved.ai/?utm_source=aitoolsdirectory
+
+→ normalize
+
+→ official_url:
+
+https://getsolved.ai/
+
+`source_description`:
+- Extract the descriptive content directly from the detail API response.
+- Preserve the relevant descriptive text returned by the source.
+
+If a required field cannot be reliably obtained from the API response, leave it null.
+
 Do not invent missing values during scraping.
 
 
@@ -176,27 +178,20 @@ Each discovered tool should produce a structured candidate record containing:
   "source_description": "..."
 }
 
+
 #### 2.0.2.6 Deduplicate candidate records
-- Within a single source discovery run, candidate records with the same normalized name should be treated as duplicates.
+
+- Within a single source discovery run, candidate records with the same
+  normalized name should be treated as duplicates.
 - Emit only one candidate record per unique normalized tool name.
-- Name normalization for deduplication should trim leading/trailing whitespace and collapse internal repeated whitespace.
+- Name normalization for deduplication should trim leading/trailing whitespace
+  and collapse internal repeated whitespace.
 - Do not perform cross-source deduplication in this stage.
+
 
 ### 2.0.3 Observed Examples
 
-#### 2.0.3.1 Ai Tools Directory
-These examples were used to derive the current discovery rules:
-
-- https://aitoolsdirectory.com/tool/lynote
-  → https://lynote.ai/?utm_source=aitoolsdirectory
-
-- https://aitoolsdirectory.com/tool/getsolved
-  → https://getsolved.ai/?utm_source=aitoolsdirectory
-
-- https://aitoolsdirectory.com/tool/dropmagic
-
-These are observations, not hard-coded crawler inputs.
-
+Null
 
 
 ## 2.1 Collect
@@ -317,13 +312,13 @@ Implement Source Discovery as a standalone stage that discovers candidate AI too
 
 The module:
 
-- accepts YAML-configured `seed_sources` and `source_specific_discovery_rules`
+- accepts YAML-configured `seed_sources` 
 - validates configuration using Pydantic models
-- retrieves the required source listing and detail pages
+- retrieves the required source listing API, detail API, and third-party redirect targets
 - extracts source-level candidate data
 - returns `candidate_tool_records`
 
-Source Discovery only retrieves the source pages required to discover candidate tools, official URLs, and source descriptions.
+Source Discovery only retrieves the source/API data required to discover candidate tools, official URLs, and source descriptions.
 
 It does not fetch or analyze content from the tools' official websites.
 
@@ -335,12 +330,9 @@ This increment supports only the `aitoolsdirectory` source.
 For this increment:
 
 - each active source processes exactly one configured listing page
-- the listing-page count remains configurable rather than embedding page-1 logic directly in parsing code
-- pagination beyond the configured first page is not implemented
 - official website content is not fetched
-- no fallback extraction strategies are implemented except the documented name-to-slug rule for detail-page URL construction
-
-The implementation should remain extensible so additional sources and pagination behavior can be added later without restructuring the Source Discovery module.
+- source-specific discovery logic is embedded in code rather than stored as external source-specific rule objects
+- no additional discovery sources are needed at this time because `aitoolsdirectory` already provides 600+ tools for this stage
 
 
 ### 4.1.3 Execution flow
@@ -351,19 +343,23 @@ YAML configuration
 
 → Pydantic validation
 
-→ Load the configured listing page for each active source
+→ Load the configured listing API for each active source
 
-→ Extract tool name + detail page URL
+→ Extract tool name  
 
-→ Visit each tool detail page
+→ Build tool detail API request
 
-→ Extract `official_url` + `source_description`
+→ Call tool detail API
+
+→ Extract redirect URL and `source_description` from the detail API response
+
+→ Follow the redirect URL to resolve the final `official_url`
 
 → Build `candidate_tool_records`
 
 → Deduplicate records by normalized `name`
 
-→ Persist results to JSON
+→ Persist results, summary, and logs
 
 
 ### 4.1.4 Configuration and schema
@@ -375,27 +371,27 @@ Discovery inputs are stored in `source_discovery.yaml`.
 The configuration contains:
 
 - `seed_sources`
-- `source_specific_discovery_rules`
 
 The YAML configuration must be parsed and validated with Pydantic before discovery begins.
 
 For this increment, the configuration contains one active source definition for `aitoolsdirectory`.
 
-Source-specific discovery rules should remain outside crawler logic so additional sources can be added later without rewriting the module.
 
 #### 4.1.4.2 Schemas
 
-`schemas.py` defines the data structures used by Source Discovery:
+`schemas.py` defines the data structures and serialization contract used by Source Discovery:
 
-- `SeedSource`
-- `SourceDiscoveryRule`
-- `CandidateToolRecord`
+- `SeedSource` — defines a configured discovery source and its listing pages.
+- `CandidateToolRecord` — defines the output schema for each discovered tool.
+- `SourceDiscoveryConfig` — defines the top-level Source Discovery configuration containing the seed sources.
+- `UrlResolutionSummary` — records summary statistics for official URL resolution, including successful resolutions, `403` responses, and other failures.
+- `dump_candidate_records()` — converts validated `CandidateToolRecord` objects into JSON-serializable dictionaries for persistence.
 
-These schemas define the explicit input and output contracts of the stage.
+All Pydantic models use `extra="forbid"` to reject fields that are not explicitly defined in their schemas.
 
-If a candidate tool is successfully discovered but a field cannot be reliably extracted, the field must be `null`.
+If a candidate tool is discovered but a field cannot be reliably extracted, the field must be `null`.
 
-No field value may be invented during scraping.
+No field value may be invented during discovery.
 
 
 ### 4.1.5 Files
@@ -408,17 +404,17 @@ Responsibility: implement and orchestrate Source Discovery.
 
 Public entrypoint:
 
-`discover_sources(seed_sources, source_specific_discovery_rules) -> list[CandidateToolRecord]`
+`discover_sources(seed_sources) -> list[CandidateToolRecord]`
 
 Internal responsibilities:
 
 - iterate configured seed sources
-- apply the matching source-specific discovery rules
 - retrieve configured listing pages
-- discover tool detail pages
+- build and call tool detail APIs
 - extract official URLs and source descriptions
 - build candidate records
 - deduplicate the final records
+- persist candidate records, resolution summary, and run logs
 
 Expected functions:
 
@@ -426,26 +422,60 @@ Expected functions:
   - top-level orchestration
   - returns all candidate records
 
-- `discover_from_source(seed_source, rule)`
+- `discover_from_source(seed_source)`
   - runs discovery for one source
 
 - `get_listing_page_urls(...)`
   - determines which configured listing pages should be processed
 
-- `extract_tool_links(...)`
-  - extracts tool names and corresponding detail-page URLs
-  - prefers actual `href` values when available
+- `extract_tool_names(...)`
+  - extracts tool names from the listing API response
 
-- `extract_official_url(detail_page)`
-  - locates the "Try it" destination URL
-  - applies the documented URL normalization rules
+- `build_detail_request(...)`
+  - builds the detail API request for a tool using its derived slug and the listing API `options` value
 
-- `extract_source_description(detail_page)`
-  - extracts the configured main description content according to the source-specific extraction rule
+- `extract_official_url(detail_response)`
+  - extracts the redirect target from the detail API response
+  - follows redirects and applies the documented URL normalization rules
+
+- `extract_source_description(detail_response)`
+  - extracts the description directly from the detail API response
+
+- `resolve_final_url(...)`
+  - follows the third-party redirect URL
+  - returns the resolved final URL when successful
+  - catches third-party URL resolution failures so one bad tool URL does not stop the full discovery run
+
+- `configure_logging(...)`
+  - configures console and file logging for the discovery run
+
+- `persist_summary(...)`
+  - writes the URL-resolution summary JSON document
 
 - `build_candidate_record(...)`
   - assembles a `CandidateToolRecord`
   - uses `null` for missing or unreliable fields
+
+- `load_config(...)`
+  - loads the Source Discovery configuration from YAML
+  - validates the configuration against `SourceDiscoveryConfig`
+
+- `fetch_json(...)`
+  - sends an HTTP GET request to the specified API endpoint
+  - validates the HTTP response status
+  - returns the response body as JSON
+
+- `deduplicate_records(...)`
+  - removes duplicate candidate records based on normalized tool names
+  - preserves the first occurrence of each tool
+
+- `persist_results(...)`
+  - serializes candidate records into JSON-compatible dictionaries
+  - writes the final candidate records to the configured output JSON file
+
+- `main()`
+  - configures logging and loads the Source Discovery configuration
+  - runs the Source Discovery pipeline
 
 
 #### 4.1.5.2 `schemas.py`
@@ -455,13 +485,15 @@ Responsibility: define the Source Discovery configuration and output data struct
 Contains:
 
 - `SeedSource`
-- `SourceDiscoveryRule`
 - `CandidateToolRecord`
+- `SourceDiscoveryConfig`
+- `UrlResolutionSummary`
+- `dump_candidate_records`
 
 
 #### 4.1.5.3 `source_discovery.yaml`
 
-Responsibility: define seed sources and source-specific discovery rules.
+Responsibility: define seed sources.
 
 For this increment, it contains the configuration for `aitoolsdirectory` only.
 
@@ -491,5 +523,103 @@ Requirements:
 - scraped values must come from the configured source; values must not be invented
 - records must be deduplicated by normalized tool name before final output
 - the final result must also be persisted as a human-readable JSON file for inspection and use by the next pipeline stage
+
+### 4.1.8 Detail API field contract
+
+For the current `aitoolsdirectory` implementation, Source Discovery depends on the following response fields:
+
+- listing API tool names:
+  - `table.filtersValues[0].values[].name`
+- detail API redirect URL:
+  - `table.rows[0].cells["URL-"].value`
+- detail API source description:
+  - `table.rows[0].cells["Longdescription-"].value`
+
+If these fields are missing or malformed, the implementation must not invent replacement values.
+
+### 4.1.9 Third-party URL resolution error handling
+
+The redirect URL extracted from the detail API is treated as a third-party URL resolution step.
+
+Rules:
+
+- a single tool's redirect failure must not stop the full Source Discovery run
+- if redirect resolution fails, continue processing the next tool
+- if redirect resolution fails, set `official_url` to `null`
+- classify redirect outcomes into:
+  - success
+  - `403`
+  - other failure
+- for non-`403` failures, preserve the current handling behavior while logging the returned status code and error details when available
+
+### 4.1.11 Failure Modes and Handling
+
+Source Discovery handles failures at the individual tool level where possible so that one failed official URL does not terminate the full discovery run.
+
+- **Missing redirect URL**
+  - The detail API response does not contain a usable `URL-` value.
+  - `official_url` is set to `null`.
+  - The failure is counted as `other_failure`.
+
+- **HTTP 403 during URL resolution**
+  - The redirect URL exists, but the target website returns HTTP 403 when requested.
+  - `official_url` is set to `null`.
+  - The failure is classified and counted as `403`.
+  - Discovery continues with the remaining tools.
+
+- **Other HTTP errors during URL resolution**
+  - The target website returns another unsuccessful HTTP status.
+  - `official_url` is set to `null`.
+  - The failure is classified and counted as `other_failure`.
+  - Discovery continues with the remaining tools.
+
+- **Network, connection, or SSL failure**
+  - The redirect URL cannot be resolved because of a request-level failure.
+  - `official_url` is set to `null`.
+  - The failure is classified and counted as `other_failure`.
+  - Discovery continues with the remaining tools.
+
+- **Missing source description**
+  - The detail API response does not contain a usable `Longdescription-` value.
+  - `source_description` is set to `null`.
+  - No value is invented or inferred.
+
+- **Missing tool name**
+  - A listing record does not contain a usable tool name.
+  - Detail retrieval is skipped because the detail request cannot be constructed reliably.
+  - The candidate record is retained with unavailable fields set to `null`.
+  - The failure is counted as `other_failure`.
+
+Incomplete candidate records may remain in the Source Discovery output. Records with required fields set to `null` can be excluded before downstream enrichment and normalization.
+
+### 4.1.10 Logging and summary outputs
+
+Source Discovery should produce observable run outputs in addition to `candidate_tool_records`.
+
+Logging:
+
+- print progress messages during execution so the operator can see what the stage is currently doing
+- write the same progress information to:
+  - `outputs/source_discovery_log.txt`
+
+Typical log events include:
+
+- fetching the tool list
+- fetching a specific tool
+- resolving a tool's `official_url`
+- extracting a tool's `source_description`
+- logging redirect-resolution failures with status code and error details when available
+
+Summary:
+
+- persist URL-resolution summary statistics to:
+  - `outputs/source_discovery_summary.json`
+
+The summary should include:
+
+- `total_tools`
+- `redirect_success`
+- `redirect_403`
+- `redirect_other_failure`
 
 

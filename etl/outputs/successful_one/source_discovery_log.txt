@@ -1,0 +1,127 @@
+2026-08-30 15:47:35,714 INFO Source Discovery 开始执行
+2026-08-30 15:47:35,719 INFO 开始处理 source: aitoolsdirectory
+2026-08-30 15:47:35,719 INFO 正在获取工具列表
+2026-08-30 15:47:35,720 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo/filters/?query=e30%3D&options=eyJyb3dzTGltaXQiOjUwMDAsImRlYWxUeXBlIjoiYXBwc3VtbyIsImR5bmFtaWNEYXRhIjp7InNoZWV0SGFzaCI6IjE4MDM3NTYzODciLCJTQ1BUYWJsZUxhdGVzdFVwZGF0ZVRpbWVzdGFtcCI6MTc4Nzk5ODI5MDUwOH0sInNlYXJjaCI6eyJlbmFibGVkIjp0cnVlLCJjb2x1bW5zIjpbIk5hbWUtIiwiUHJpY2UtIiwiQ2F0ZWdvcnktIiwiSGFzaHRhZy0iLCJMb25nZGVzY3JpcHRpb24tIl19LCJzb3J0aW5nIjp7ImVuYWJsZWQiOmZhbHNlLCJzaHVmZmxlIjpmYWxzZX0sInBhZ2luYXRpb24iOnsiZW5hYmxlZCI6dHJ1ZSwiaXRlbXNQZXJQYWdlIjoiMTAwIn0sImZpbHRlcnMiOnsiZW5hYmxlZCI6dHJ1ZSwidmFsdWVzIjpbeyJpZCI6Ik5hbWUtIiwidHlwZSI6Im11bHRpcGxlIn0seyJpZCI6IkNhdGVnb3J5LSIsInR5cGUiOiJtdWx0aXBsZSJ9LHsiaWQiOiJQcmljZS0iLCJ0eXBlIjoibXVsdGlwbGUifV19LCJtYXBWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJpZCI6bnVsbCwibWFya2VyVHlwZSI6InBpbiIsImltYWdlQ29sSWQiOiIifSwiY2FsZW5kYXJWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJzdGFydERhdGVDb2xJZCI6bnVsbCwidGl0bGVDb2xJZCI6Ik5hbWUtIn19
+2026-08-30 15:47:35,843 INFO 工具列表获取完成，共发现 680 个工具；本次测试先处理前 20 个
+2026-08-30 15:47:35,844 INFO 正在获取第 1 个工具: 10Web
+2026-08-30 15:47:35,846 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:35,904 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/10web
+2026-08-30 15:47:37,099 INFO 已成功获取 official url: https://10web.io/ai-website-builder/?_from=ffmedia&fp_sid=aitools
+2026-08-30 15:47:37,101 INFO 已获取 10Web 的 official url: https://10web.io/ai-website-builder/
+2026-08-30 15:47:37,101 INFO 已获取 10Web 的 description
+2026-08-30 15:47:37,101 INFO 正在获取第 2 个工具: 1of10
+2026-08-30 15:47:37,102 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:37,132 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/1of10
+2026-08-30 15:47:38,355 INFO 已成功获取 official url: https://1of10.com/?via=aitoolsdirectory
+2026-08-30 15:47:38,356 INFO 已获取 1of10 的 official url: https://1of10.com/
+2026-08-30 15:47:38,356 INFO 已获取 1of10 的 description
+2026-08-30 15:47:38,356 INFO 正在获取第 3 个工具: A2E AI Videos
+2026-08-30 15:47:38,357 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:38,389 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/a2e
+2026-08-30 15:47:39,449 INFO 已成功获取 official url: https://video.a2e.ai/?coupon=aitoolsdirectory
+2026-08-30 15:47:39,450 INFO 已获取 A2E AI Videos 的 official url: https://video.a2e.ai/
+2026-08-30 15:47:39,450 INFO 已获取 A2E AI Videos 的 description
+2026-08-30 15:47:39,450 INFO 正在获取第 4 个工具: AI Aware
+2026-08-30 15:47:39,450 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:39,487 INFO 正在 follow redirect 获取 official url: https://aiaware.io/?utm_source=aitoolsdirectory
+2026-08-30 15:47:40,644 INFO 已成功获取 official url: https://aiaware.io/?utm_source=aitoolsdirectory
+2026-08-30 15:47:40,645 INFO 已获取 AI Aware 的 official url: https://aiaware.io/
+2026-08-30 15:47:40,645 INFO 已获取 AI Aware 的 description
+2026-08-30 15:47:40,646 INFO 正在获取第 5 个工具: AI Baby Generator
+2026-08-30 15:47:40,646 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:40,705 INFO 正在 follow redirect 获取 official url: https://aibabygenerator.ai/?utm_source=atd
+2026-08-30 15:47:40,798 INFO 已成功获取 official url: https://aibabygenerator.ai/?utm_source=atd
+2026-08-30 15:47:40,799 INFO 已获取 AI Baby Generator 的 official url: https://aibabygenerator.ai/
+2026-08-30 15:47:40,799 INFO 已获取 AI Baby Generator 的 description
+2026-08-30 15:47:40,799 INFO 正在获取第 6 个工具: AI Detector
+2026-08-30 15:47:40,799 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:40,842 INFO 正在 follow redirect 获取 official url: https://edubrain.ai/ai-detector/
+2026-08-30 15:47:42,590 INFO 已成功获取 official url: https://edubrain.ai/ai-detector/
+2026-08-30 15:47:42,590 INFO 已获取 AI Detector 的 official url: https://edubrain.ai/ai-detector/
+2026-08-30 15:47:42,591 INFO 已获取 AI Detector 的 description
+2026-08-30 15:47:42,591 INFO 正在获取第 7 个工具: AI Detector Pro
+2026-08-30 15:47:42,591 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:42,619 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/brandwell-aidetector
+2026-08-30 15:47:44,232 INFO 已成功获取 official url: https://moxby.com/marketplace/ai-content-detector?fpr=keith20&fp_sid=aitools
+2026-08-30 15:47:44,234 INFO 已获取 AI Detector Pro 的 official url: https://moxby.com/marketplace/ai-content-detector
+2026-08-30 15:47:44,235 INFO 已获取 AI Detector Pro 的 description
+2026-08-30 15:47:44,235 INFO 正在获取第 8 个工具: AI Fiesta
+2026-08-30 15:47:44,236 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:44,280 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/aifiesta
+2026-08-30 15:47:45,551 INFO 已成功获取 official url: https://aifiesta.ai/?via=keith-lang&dub_id=JkqTP9ggFi4YAY1n
+2026-08-30 15:47:45,555 INFO 已获取 AI Fiesta 的 official url: https://aifiesta.ai/
+2026-08-30 15:47:45,555 INFO 已获取 AI Fiesta 的 description
+2026-08-30 15:47:45,556 INFO 正在获取第 9 个工具: AI Flashcard Maker
+2026-08-30 15:47:45,556 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:45,593 INFO 正在 follow redirect 获取 official url: https://www.coursebox.ai/ai-flashcard-maker
+2026-08-30 15:47:46,296 INFO 已成功获取 official url: https://www.coursebox.ai/ai-flashcard-maker
+2026-08-30 15:47:46,297 INFO 已获取 AI Flashcard Maker 的 official url: https://www.coursebox.ai/ai-flashcard-maker
+2026-08-30 15:47:46,297 INFO 已获取 AI Flashcard Maker 的 description
+2026-08-30 15:47:46,297 INFO 正在获取第 10 个工具: AI Lawyer
+2026-08-30 15:47:46,297 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:46,343 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/ailawyer
+2026-08-30 15:47:47,482 INFO 已成功获取 official url: https://ailawyer.pro//?ref=aitools
+2026-08-30 15:47:47,483 INFO 已获取 AI Lawyer 的 official url: https://ailawyer.pro//
+2026-08-30 15:47:47,483 INFO 已获取 AI Lawyer 的 description
+2026-08-30 15:47:47,483 INFO 正在获取第 11 个工具: AI Logo Maker
+2026-08-30 15:47:47,484 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:47,516 INFO 正在 follow redirect 获取 official url: https://logomaker.design/
+2026-08-30 15:47:47,957 INFO 已成功获取 official url: https://logomaker.design/
+2026-08-30 15:47:47,958 INFO 已获取 AI Logo Maker 的 official url: https://logomaker.design/
+2026-08-30 15:47:47,958 INFO 已获取 AI Logo Maker 的 description
+2026-08-30 15:47:47,958 INFO 正在获取第 12 个工具: AI Overview Optimizer
+2026-08-30 15:47:47,958 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:47,990 INFO 正在 follow redirect 获取 official url: https://overviewoptimizer.com/?utm_source=aitoolsdirectory
+2026-08-30 15:47:48,176 INFO 已成功获取 official url: https://overviewoptimizer.com/?utm_source=aitoolsdirectory
+2026-08-30 15:47:48,176 INFO 已获取 AI Overview Optimizer 的 official url: https://overviewoptimizer.com/
+2026-08-30 15:47:48,176 INFO 已获取 AI Overview Optimizer 的 description
+2026-08-30 15:47:48,177 INFO 正在获取第 13 个工具: AI Quiz Generator
+2026-08-30 15:47:48,177 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:48,232 INFO 正在 follow redirect 获取 official url: https://www.coursebox.ai/ai-quiz-generator
+2026-08-30 15:47:48,565 INFO 已成功获取 official url: https://www.coursebox.ai/ai-quiz-generator
+2026-08-30 15:47:48,567 INFO 已获取 AI Quiz Generator 的 official url: https://www.coursebox.ai/ai-quiz-generator
+2026-08-30 15:47:48,567 INFO 已获取 AI Quiz Generator 的 description
+2026-08-30 15:47:48,568 INFO 正在获取第 14 个工具: AI Room Planner
+2026-08-30 15:47:48,568 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:48,622 INFO 正在 follow redirect 获取 official url: https://airoomplanner.com/?via=aitoolsdirectory-com
+2026-08-30 15:47:48,752 INFO follow redirect 失败，网络或 SSL 异常: https://airoomplanner.com/?via=aitoolsdirectory-com，HTTPSConnectionPool(host='airoomplanner.com', port=443): Max retries exceeded with url: /?via=aitoolsdirectory-com (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+2026-08-30 15:47:48,753 INFO 未能获取 AI Room Planner 的 official url，状态: other_failure
+2026-08-30 15:47:48,753 INFO 未能获取 AI Room Planner 的 description
+2026-08-30 15:47:48,754 INFO 正在获取第 15 个工具: AI Search Watcher
+2026-08-30 15:47:48,755 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:48,876 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/aisearchwatcher
+2026-08-30 15:47:50,159 INFO 已成功获取 official url: https://mangools.com/ai-search-watcher/#a5730fda4285f731e052eb458
+2026-08-30 15:47:50,161 INFO 已获取 AI Search Watcher 的 official url: https://mangools.com/ai-search-watcher/
+2026-08-30 15:47:50,162 INFO 已获取 AI Search Watcher 的 description
+2026-08-30 15:47:50,163 INFO 正在获取第 16 个工具: AI Song Creator
+2026-08-30 15:47:50,163 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:50,214 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/aisongcreator
+2026-08-30 15:47:51,397 INFO 已成功获取 official url: https://aisongcreator.app/?atp=aitoolsdirectory
+2026-08-30 15:47:51,400 INFO 已获取 AI Song Creator 的 official url: https://aisongcreator.app/
+2026-08-30 15:47:51,400 INFO 已获取 AI Song Creator 的 description
+2026-08-30 15:47:51,400 INFO 正在获取第 17 个工具: AI Song Maker
+2026-08-30 15:47:51,401 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:51,461 INFO 正在 follow redirect 获取 official url: https://www.aisongmaker.io/
+2026-08-30 15:47:51,719 INFO 已成功获取 official url: https://www.aisongmaker.io/
+2026-08-30 15:47:51,721 INFO 已获取 AI Song Maker 的 official url: https://www.aisongmaker.io/
+2026-08-30 15:47:51,722 INFO 已获取 AI Song Maker 的 description
+2026-08-30 15:47:51,723 INFO 正在获取第 18 个工具: AI Video Summarizer
+2026-08-30 15:47:51,724 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:51,776 INFO 正在 follow redirect 获取 official url: https://aivideosummarizer.io/?utm_source=aitoolsdirectory
+2026-08-30 15:47:51,990 INFO 已成功获取 official url: https://aivideosummarizer.io/?utm_source=aitoolsdirectory
+2026-08-30 15:47:51,991 INFO 已获取 AI Video Summarizer 的 official url: https://aivideosummarizer.io/
+2026-08-30 15:47:51,991 INFO 已获取 AI Video Summarizer 的 description
+2026-08-30 15:47:51,991 INFO 正在获取第 19 个工具: AI Voice Detector
+2026-08-30 15:47:51,992 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:52,037 INFO 正在 follow redirect 获取 official url: https://aivoicedetector.com/?via=aitoolsdirectory-com
+2026-08-30 15:47:52,194 INFO 已成功获取 official url: https://aivoicedetector.com/?via=aitoolsdirectory-com
+2026-08-30 15:47:52,194 INFO 已获取 AI Voice Detector 的 official url: https://aivoicedetector.com/
+2026-08-30 15:47:52,194 INFO 已获取 AI Voice Detector 的 description
+2026-08-30 15:47:52,195 INFO 正在获取第 20 个工具: AI website builder
+2026-08-30 15:47:52,195 INFO 正在请求 JSON 数据: https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo
+2026-08-30 15:47:52,242 INFO 正在 follow redirect 获取 official url: https://link.aitoolsdirectory.com/hostinger
+2026-08-30 15:47:53,736 INFO 已成功获取 official url: https://www.hostinger.com/website-builder?utm_medium=affiliate&utm_source=aff213577&utm_campaign=48&session=102eea66be148e8c1fe4ed858b2f41
+2026-08-30 15:47:53,737 INFO 已获取 AI website builder 的 official url: https://www.hostinger.com/website-builder
+2026-08-30 15:47:53,737 INFO 已获取 AI website builder 的 description
+2026-08-30 15:47:53,738 INFO redirect 结果统计: success=19, 403=0, other_failure=1
+2026-08-30 15:47:53,781 INFO Source Discovery 执行完成，日志已写入: D:\Project\aggregationai\codes\backend\aitool\etl\outputs\source_discovery_log.txt

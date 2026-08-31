@@ -14,19 +14,6 @@ class SeedSource(BaseModel):
     listing_pages: list[HttpUrl] = Field(min_length=1)
 
 
-class SourceDiscoveryRule(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-
-    source: str
-    base_url: HttpUrl
-    listing_container_selector: str
-    tool_name_selector: str
-    tool_link_selector: str
-    detail_try_it_selector: str
-    detail_description_container_selector: str
-    detail_description_include_tags: list[str] = Field(min_length=1)
-    detail_description_terminal_headings: list[str] = Field(default_factory=list)
-
 
 class CandidateToolRecord(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -42,7 +29,16 @@ class SourceDiscoveryConfig(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     seed_sources: list[SeedSource] = Field(min_length=1)
-    source_specific_discovery_rules: list[SourceDiscoveryRule] = Field(min_length=1)
+    
+
+
+class UrlResolutionSummary(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    total_tools: int
+    redirect_success: int
+    redirect_403: int
+    redirect_other_failure: int
 
 
 def dump_candidate_records(records: list[CandidateToolRecord]) -> list[dict[str, Any]]:

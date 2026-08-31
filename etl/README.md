@@ -188,10 +188,19 @@ Each discovered tool should produce a structured candidate record containing:
   and collapse internal repeated whitespace.
 - Do not perform cross-source deduplication in this stage.
 
+#### 2.0.7 Candidate Record Handoff
 
-### 2.0.3 Observed Examples
+Source Discovery allows incomplete candidate records to be persisted.
 
-Null
+Before downstream processing:
+- candidate records containing `null` in required fields are excluded
+- only complete candidate records proceed to Enrich & Normalize
+
+Source Discovery
+→ candidate_tool_records.json
+→ filter incomplete records
+→ Enrich & Normalize
+
 
 
 ## 2.1 Collect
@@ -396,7 +405,7 @@ No field value may be invented during discovery.
 
 ### 4.1.5 Files
 
-This increment contains three files:
+This increment contains four files:
 
 #### 4.1.5.1 `source_discovery.py`
 
@@ -496,6 +505,25 @@ Contains:
 Responsibility: define seed sources.
 
 For this increment, it contains the configuration for `aitoolsdirectory` only.
+
+### 4.1.5.4 `filter_candidate_records.py`
+
+Filters incomplete candidate records before downstream processing.
+
+Key functions:
+
+- `is_complete(record)`
+  - checks whether all required fields are non-null and non-empty
+
+- `filter_complete_records(records)`
+  - removes incomplete records
+  - keeps only complete candidate records
+
+- `main()`
+  - loads the existing candidate records
+  - applies the filter
+  - persists the filtered records
+  - reports retained and excluded record counts
 
 
 ### 4.1.6 Deduplication
@@ -614,6 +642,8 @@ Summary:
 
 - persist URL-resolution summary statistics to:
   - `outputs/source_discovery_summary.json`
+- URL resolution 
+  - count of URLs that can be successfully accessed and resolved to their final resolved address.
 
 The summary should include:
 
@@ -621,5 +651,8 @@ The summary should include:
 - `redirect_success`
 - `redirect_403`
 - `redirect_other_failure`
+
+
+
 
 

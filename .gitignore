@@ -1,2 +1,6 @@
 # Ignore the configuration for database 
 etl/configuration/aitools-config.ini
+
+# Ignore all files in the __pycache__ directory and compiled Python files
+__pycache__/
+*.py[cod]

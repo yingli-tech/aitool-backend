@@ -1267,3 +1267,197 @@ This allows later inspection of:
 - where the failure occurred;
 - which fields or components were affected;
 - whether the failure also affected recommendation relevance or final output.
+
+
+## Step 6 — Implementation Planning
+
+### Increment 1 — Benchmark Schema and Loader
+
+Goal:
+Create the fixed evaluation benchmark structure and load test cases for a
+specific benchmark/database version.
+
+Files to add:
+- aitool/evaluation/
+  - __init__.py
+  - benchmark_loader.py
+- aitool/evaluation/data/
+  - benchmark_v1.json
+
+Responsibilities:
+- define the benchmark structure;
+- bind benchmark version to database snapshot/version;
+- load test cases;
+- validate required fields;
+- expose expected parser/filter/fallback/ranking behavior.
+
+Each test case should support:
+1. end-to-end execution from raw query;
+2. downstream replay from saved/expected parsed representation.
+
+Validation:
+- valid benchmark loads successfully;
+- malformed cases are rejected;
+- benchmark/database metadata is available to evaluation code.
+
+Commit:
+feat: add evaluation benchmark loader
+
+### Increment 2 — Evaluation Observability
+
+Goal:
+Expose the intermediate pipeline state needed for evaluation without
+duplicating production logic.
+
+Required observability:
+- raw LLM parser output;
+- normalized parsed output;
+- strict filter candidate set;
+- intermediate filter states where needed;
+- final active_query after fallback;
+- fallback retry information;
+- full ranked candidate list before top-k truncation.
+
+Implementation principle:
+Reuse the existing recommendation pipeline and add the minimum instrumentation
+needed for offline evaluation.
+
+Validation:
+Run an existing query and confirm:
+- user-facing recommendation results do not change;
+- required evaluation state is available.
+
+Commit:
+feat: expose pipeline state for evaluation
+
+### Increment 3 — Pipeline Correctness Evaluator
+
+Goal:
+Evaluate parser, filter, fallback, and ranking against benchmark expectations.
+
+Files to add:
+- evaluation/correctness.py
+
+Responsibilities:
+- parser case-level comparison;
+- parser field-level comparison;
+- filter candidate-set comparison;
+- fallback behavior comparison;
+- independent ranking validation;
+- classify failure types;
+- calculate case-level and component-level metrics.
+
+Validation:
+Use small controlled fixtures containing both correct and intentionally
+incorrect outputs.
+
+Examples:
+- missing parser intent;
+- filter false inclusion;
+- filter false exclusion;
+- incorrect fallback order;
+- incorrect ranking score;
+- incorrect tie-break.
+
+Commit:
+feat: add pipeline correctness evaluator
+
+### Increment 4 — Stability Evaluator
+
+Goal:
+Measure repeated-run stability.
+
+Files to add:
+- evaluation/stability.py
+
+Responsibilities:
+- execute selected benchmark cases 10 times;
+- compare each run against benchmark expected output;
+- calculate parser exact stability;
+- calculate parser field-level stability;
+- calculate downstream replay stability;
+- evaluate filter/fallback/ranking stability;
+- calculate final top-k exact and set stability.
+
+Execution modes:
+1. End-to-end repeated execution
+2. Fixed-parser-output downstream replay
+
+Validation:
+- deterministic fixture should produce 100% stability;
+- controlled output variation should produce the expected stability rate.
+
+Commit:
+feat: add evaluation stability metrics
+
+### Increment 5 — Top-3 LLM Relevance Judge
+
+Goal:
+Evaluate semantic relevance of the final user-visible recommendations.
+
+Files to add:
+- evaluation/relevance.py
+- evaluation/prompts/
+  - relevance_judge_v1.txt
+
+Responsibilities:
+- send raw query and metadata for the top three recommendations to the judge;
+- evaluate all three tools in one LLM request;
+- return structured tool-level relevance scores from 0–4;
+- validate judge output;
+- deterministically calculate:
+  - Top-1 Relevance;
+  - Average Top-3 Relevance.
+
+The LLM should only assign semantic relevance scores.
+Metric aggregation must remain deterministic.
+
+Not included in V1:
+- judge stability evaluation;
+- relevance threshold;
+- relevant recommendation rate;
+- Top-10 relevance.
+
+Validation:
+- manually inspect a small number of judge outputs;
+- verify structured response validation;
+- independently verify Top-1 and Average Top-3 calculations.
+
+Commit:
+feat: add top-3 relevance evaluator
+
+### Increment 6 — Evaluation Runner and Report
+
+Goal:
+Combine correctness, stability, and relevance into one offline evaluation run.
+
+Files to add:
+- evaluation/run_evaluation.py
+- evaluation/report.py
+- evaluation/results/
+
+Responsibilities:
+- load benchmark;
+- execute evaluation cases;
+- run correctness evaluation;
+- run stability evaluation where configured;
+- run Top-3 relevance evaluation;
+- aggregate case-level results;
+- generate run-level summary;
+- preserve failed cases;
+- record version metadata.
+
+Run metadata:
+- evaluation run ID;
+- code/system version;
+- benchmark version;
+- database version;
+- parser model;
+- parser prompt version;
+- judge model;
+- judge prompt version;
+- timestamp.
+
+Commit:
+feat: add offline evaluation runner and report
+

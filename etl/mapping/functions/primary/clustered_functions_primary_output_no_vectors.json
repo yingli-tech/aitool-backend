@@ -1,0 +1,4988 @@
+{
+    "pocket_0": {
+        "pocket_id": 0,
+        "items": [
+            {
+                "tag": "Accessibility Remediation"
+            }
+        ]
+    },
+    "pocket_1": {
+        "pocket_id": 1,
+        "items": [
+            {
+                "tag": "Workflow Automation"
+            },
+            {
+                "tag": "Workflow Monitoring"
+            },
+            {
+                "tag": "Workflow Design and Building"
+            },
+            {
+                "tag": "Workflow Automation and Execution"
+            },
+            {
+                "tag": "Workflow Management"
+            },
+            {
+                "tag": "Workflow Integrations"
+            },
+            {
+                "tag": "Workflow Optimization"
+            },
+            {
+                "tag": "Document Workflow Automation"
+            },
+            {
+                "tag": "Approval Workflow Management"
+            },
+            {
+                "tag": "Task and Workflow Scheduling"
+            },
+            {
+                "tag": "Document Workflow Generation"
+            }
+        ]
+    },
+    "pocket_2": {
+        "pocket_id": 2,
+        "items": [
+            {
+                "tag": "Automatic Jump Cut Editing"
+            },
+            {
+                "tag": "Real-Time Editing"
+            },
+            {
+                "tag": "Track Editing"
+            },
+            {
+                "tag": "Automated Video Editing"
+            },
+            {
+                "tag": "Automatic Video Zoom"
+            },
+            {
+                "tag": "Automated Video Interviews"
+            },
+            {
+                "tag": "Automated Video Publishing"
+            },
+            {
+                "tag": "Video Workflow Automation"
+            }
+        ]
+    },
+    "pocket_3": {
+        "pocket_id": 3,
+        "items": [
+            {
+                "tag": "Sentiment Analysis"
+            },
+            {
+                "tag": "Text Analytics"
+            }
+        ]
+    },
+    "pocket_4": {
+        "pocket_id": 4,
+        "items": [
+            {
+                "tag": "Voice Input and Control"
+            },
+            {
+                "tag": "Voice Typing"
+            },
+            {
+                "tag": "AI Voice Generation"
+            },
+            {
+                "tag": "Conversational Voice Agents"
+            },
+            {
+                "tag": "AI Vocal Generation"
+            },
+            {
+                "tag": "Voice-Based Prompting"
+            },
+            {
+                "tag": "Voice Messaging"
+            },
+            {
+                "tag": "Share of Voice Tracking"
+            },
+            {
+                "tag": "Voice Conversations"
+            },
+            {
+                "tag": "Voice Narration"
+            },
+            {
+                "tag": "Voice Question Answering"
+            },
+            {
+                "tag": "Speaker Identification"
+            },
+            {
+                "tag": "Synthetic Voice Detection"
+            },
+            {
+                "tag": "Brand Voice Management"
+            },
+            {
+                "tag": "Multi-Provider Voice AI Management"
+            },
+            {
+                "tag": "Voice Agent Reselling"
+            }
+        ]
+    },
+    "pocket_5": {
+        "pocket_id": 5,
+        "items": [
+            {
+                "tag": "Content Generation"
+            },
+            {
+                "tag": "Content Planning and Strategy"
+            },
+            {
+                "tag": "Content Writing"
+            },
+            {
+                "tag": "Content Generation"
+            },
+            {
+                "tag": "Content Brief Generation"
+            },
+            {
+                "tag": "Activity Generation"
+            },
+            {
+                "tag": "Email Content Generation"
+            },
+            {
+                "tag": "General Content Drafting"
+            },
+            {
+                "tag": "Communication Content Generation"
+            },
+            {
+                "tag": "Print Content Generation"
+            },
+            {
+                "tag": "Reference-Based Content Generation"
+            },
+            {
+                "tag": "Visual Content Generation"
+            },
+            {
+                "tag": "Table of Contents Generation"
+            },
+            {
+                "tag": "Social Media Post Generation"
+            },
+            {
+                "tag": "Text and Content Generation"
+            }
+        ]
+    },
+    "pocket_6": {
+        "pocket_id": 6,
+        "items": [
+            {
+                "tag": "Browser Extension"
+            },
+            {
+                "tag": "Image Extension"
+            },
+            {
+                "tag": "Image Element Replacement"
+            },
+            {
+                "tag": "Photo Upload"
+            },
+            {
+                "tag": "Learning Extensions"
+            },
+            {
+                "tag": "Image Uncropping"
+            },
+            {
+                "tag": "Image Cropping"
+            }
+        ]
+    },
+    "pocket_7": {
+        "pocket_id": 7,
+        "items": [
+            {
+                "tag": "Wireframe Digitization"
+            },
+            {
+                "tag": "Audio Lesson Creation"
+            },
+            {
+                "tag": "Media Playback Speed Control"
+            }
+        ]
+    },
+    "pocket_8": {
+        "pocket_id": 8,
+        "items": [
+            {
+                "tag": "Form Building"
+            },
+            {
+                "tag": "Calculator Building"
+            },
+            {
+                "tag": "Floor Plan Generation"
+            },
+            {
+                "tag": "Storyboard Creation"
+            },
+            {
+                "tag": "Container Generation"
+            },
+            {
+                "tag": "Guide and Walkthrough Creation"
+            },
+            {
+                "tag": "Layout Design and Generation"
+            },
+            {
+                "tag": "Architectural Space Planning"
+            },
+            {
+                "tag": "Camera Layout Design"
+            },
+            {
+                "tag": "Multi-Screen Design"
+            },
+            {
+                "tag": "Responsive Design"
+            },
+            {
+                "tag": "Pitch Deck Creation"
+            },
+            {
+                "tag": "Pivot Table Creation"
+            }
+        ]
+    },
+    "pocket_9": {
+        "pocket_id": 9,
+        "items": [
+            {
+                "tag": "Content and Data Export"
+            },
+            {
+                "tag": "Document Import and Export"
+            },
+            {
+                "tag": "Code Export"
+            },
+            {
+                "tag": "Data Export"
+            },
+            {
+                "tag": "Presentation Export"
+            },
+            {
+                "tag": "E-Learning Standards Export"
+            },
+            {
+                "tag": "AI Prompt Export"
+            },
+            {
+                "tag": "Image Export"
+            },
+            {
+                "tag": "Notion Export"
+            },
+            {
+                "tag": "Quiz Export"
+            },
+            {
+                "tag": "Workflow Export"
+            },
+            {
+                "tag": "Audio Export"
+            },
+            {
+                "tag": "Image Export"
+            },
+            {
+                "tag": "3D Animation Export"
+            },
+            {
+                "tag": "3D Model Export"
+            },
+            {
+                "tag": "HDRI Export"
+            },
+            {
+                "tag": "Chart Export"
+            }
+        ]
+    },
+    "pocket_10": {
+        "pocket_id": 10,
+        "items": [
+            {
+                "tag": "Onboarding Management"
+            },
+            {
+                "tag": "Participant Recruitment"
+            },
+            {
+                "tag": "Recruitment Analytics"
+            },
+            {
+                "tag": "Role Assignment"
+            },
+            {
+                "tag": "Contract Management"
+            },
+            {
+                "tag": "Retention Management"
+            },
+            {
+                "tag": "Reward Event Management"
+            },
+            {
+                "tag": "Itinerary Management"
+            },
+            {
+                "tag": "Lottery Participation"
+            },
+            {
+                "tag": "Kanban Board Management"
+            },
+            {
+                "tag": "Contact Management"
+            },
+            {
+                "tag": "User Role Management"
+            },
+            {
+                "tag": "Sponsorship Management"
+            },
+            {
+                "tag": "Dossier Management"
+            },
+            {
+                "tag": "Guided Relaxation Sessions"
+            },
+            {
+                "tag": "Session Management"
+            },
+            {
+                "tag": "Memory Management"
+            },
+            {
+                "tag": "Interview Preparation and Practice"
+            }
+        ]
+    },
+    "pocket_11": {
+        "pocket_id": 11,
+        "items": [
+            {
+                "tag": "CRM Synchronization"
+            },
+            {
+                "tag": "Bank Transaction Synchronization"
+            },
+            {
+                "tag": "Calendar Synchronization"
+            },
+            {
+                "tag": "Cloud Synchronization"
+            },
+            {
+                "tag": "Contact Synchronization"
+            },
+            {
+                "tag": "GitHub Synchronization"
+            },
+            {
+                "tag": "Automatic IP Warming"
+            },
+            {
+                "tag": "Code Repository Synchronization"
+            }
+        ]
+    },
+    "pocket_12": {
+        "pocket_id": 12,
+        "items": [
+            {
+                "tag": "Visual Search"
+            },
+            {
+                "tag": "Search Rank Tracking"
+            },
+            {
+                "tag": "Information and Source Retrieval"
+            },
+            {
+                "tag": "Media Search"
+            },
+            {
+                "tag": "Viral Format Matching"
+            },
+            {
+                "tag": "Knowledge Retrieval"
+            },
+            {
+                "tag": "Search and Result Filtering"
+            },
+            {
+                "tag": "Note Search"
+            },
+            {
+                "tag": "Web and File Search"
+            },
+            {
+                "tag": "Bulk Search"
+            },
+            {
+                "tag": "Candidate Search"
+            },
+            {
+                "tag": "Community Search"
+            },
+            {
+                "tag": "News Search"
+            },
+            {
+                "tag": "Semantic Search"
+            },
+            {
+                "tag": "Search Term Generation"
+            },
+            {
+                "tag": "Data Categorization"
+            },
+            {
+                "tag": "Information Comparison"
+            },
+            {
+                "tag": "Meeting Search"
+            },
+            {
+                "tag": "RFQ and RFI Search"
+            },
+            {
+                "tag": "Search Result Clustering"
+            }
+        ]
+    },
+    "pocket_13": {
+        "pocket_id": 13,
+        "items": [
+            {
+                "tag": "Knowledge Base Integration"
+            },
+            {
+                "tag": "Software Integration"
+            },
+            {
+                "tag": "Integration Management"
+            },
+            {
+                "tag": "Data Import"
+            },
+            {
+                "tag": "Data Integration"
+            },
+            {
+                "tag": "Data Cleaning and Deduplication"
+            },
+            {
+                "tag": "Data Delivery"
+            },
+            {
+                "tag": "Data Fusion"
+            },
+            {
+                "tag": "Data Transformation and Structuring"
+            },
+            {
+                "tag": "Tool and Service Integration"
+            },
+            {
+                "tag": "Custom Code Integration"
+            },
+            {
+                "tag": "App Integration"
+            },
+            {
+                "tag": "Conversion API Integration"
+            },
+            {
+                "tag": "Spreadsheet Data Filling"
+            }
+        ]
+    },
+    "pocket_14": {
+        "pocket_id": 14,
+        "items": [
+            {
+                "tag": "AI Agent Development"
+            },
+            {
+                "tag": "AI Agent Execution"
+            },
+            {
+                "tag": "AI Agent Management and Governance"
+            },
+            {
+                "tag": "Agent Memory Management"
+            },
+            {
+                "tag": "Agent Monitoring and Observability"
+            },
+            {
+                "tag": "Agent Evaluation and Testing"
+            },
+            {
+                "tag": "Agent API and Integration"
+            },
+            {
+                "tag": "Agent Workflow Orchestration"
+            },
+            {
+                "tag": "Terminal Agent Interaction"
+            },
+            {
+                "tag": "AI Agent and App Deployment"
+            },
+            {
+                "tag": "Parallel Agent Execution"
+            },
+            {
+                "tag": "Multi-Agent Orchestration"
+            },
+            {
+                "tag": "Agent Building"
+            }
+        ]
+    },
+    "pocket_15": {
+        "pocket_id": 15,
+        "items": [
+            {
+                "tag": "Object Recognition"
+            },
+            {
+                "tag": "Object Removal"
+            },
+            {
+                "tag": "Object Modification"
+            },
+            {
+                "tag": "Pattern Detection"
+            },
+            {
+                "tag": "Moment Detection"
+            },
+            {
+                "tag": "Manipulation Detection"
+            },
+            {
+                "tag": "Location-Based Investigation"
+            }
+        ]
+    },
+    "pocket_16": {
+        "pocket_id": 16,
+        "items": [
+            {
+                "tag": "Spelling Analysis"
+            },
+            {
+                "tag": "Hashtag Analysis"
+            },
+            {
+                "tag": "Typing Pattern Analysis"
+            },
+            {
+                "tag": "Literature Screening"
+            },
+            {
+                "tag": "Content Summarization"
+            },
+            {
+                "tag": "Retention Analysis"
+            },
+            {
+                "tag": "PDF Processing"
+            },
+            {
+                "tag": "Contextual Webpage Analysis"
+            },
+            {
+                "tag": "Document Analysis"
+            },
+            {
+                "tag": "Document Ingestion"
+            },
+            {
+                "tag": "Theme Analysis"
+            },
+            {
+                "tag": "Tax Document Review and Analysis"
+            },
+            {
+                "tag": "Domain Analysis"
+            },
+            {
+                "tag": "File Analysis"
+            },
+            {
+                "tag": "Content Gap Analysis"
+            },
+            {
+                "tag": "Style Analysis and Description"
+            },
+            {
+                "tag": "Multimodal Analysis"
+            },
+            {
+                "tag": "Document Scanning"
+            },
+            {
+                "tag": "Topic Clustering"
+            },
+            {
+                "tag": "Dependency Analysis"
+            },
+            {
+                "tag": "Repository Analysis"
+            }
+        ]
+    },
+    "pocket_17": {
+        "pocket_id": 17,
+        "items": [
+            {
+                "tag": "Email Writing"
+            },
+            {
+                "tag": "Email Editing"
+            },
+            {
+                "tag": "Browser Email Integration"
+            },
+            {
+                "tag": "Email Drafting"
+            },
+            {
+                "tag": "Email Design"
+            },
+            {
+                "tag": "Email Drafting and Scheduling"
+            },
+            {
+                "tag": "Email Filtering"
+            },
+            {
+                "tag": "Email Follow-up Automation"
+            },
+            {
+                "tag": "Email Prioritization"
+            },
+            {
+                "tag": "Email Snoozing"
+            },
+            {
+                "tag": "Email Delivery Throttling"
+            },
+            {
+                "tag": "Email Integration"
+            },
+            {
+                "tag": "Email Support"
+            },
+            {
+                "tag": "Email Sending"
+            },
+            {
+                "tag": "Certified Mail Delivery"
+            },
+            {
+                "tag": "Email Triage"
+            },
+            {
+                "tag": "Email Verification"
+            }
+        ]
+    },
+    "pocket_18": {
+        "pocket_id": 18,
+        "items": [
+            {
+                "tag": "Ad Format Curation"
+            },
+            {
+                "tag": "Ad Monetization"
+            },
+            {
+                "tag": "Ad Performance Analysis"
+            },
+            {
+                "tag": "Ad Performance Optimization"
+            },
+            {
+                "tag": "Ad Performance Pre-testing"
+            },
+            {
+                "tag": "Ad Tracking"
+            },
+            {
+                "tag": "Ad Template Browsing"
+            }
+        ]
+    },
+    "pocket_19": {
+        "pocket_id": 19,
+        "items": [
+            {
+                "tag": "Help Center Creation"
+            },
+            {
+                "tag": "Research Assistance"
+            },
+            {
+                "tag": "Business Assistance"
+            },
+            {
+                "tag": "Development Assistance"
+            },
+            {
+                "tag": "Legal Research"
+            },
+            {
+                "tag": "Terminal Assistance"
+            },
+            {
+                "tag": "Interview Assistance"
+            },
+            {
+                "tag": "Job Search Assistance"
+            }
+        ]
+    },
+    "pocket_20": {
+        "pocket_id": 20,
+        "items": [
+            {
+                "tag": "Marketing Automation"
+            },
+            {
+                "tag": "Advertising Automation"
+            },
+            {
+                "tag": "Ad Concept Generation"
+            },
+            {
+                "tag": "Job Advertising Management"
+            },
+            {
+                "tag": "Marketing and Sales Script Writing"
+            }
+        ]
+    },
+    "pocket_21": {
+        "pocket_id": 21,
+        "items": [
+            {
+                "tag": "Creator Management"
+            },
+            {
+                "tag": "Creator Sourcing"
+            },
+            {
+                "tag": "Marketing Strategy Generation"
+            },
+            {
+                "tag": "Marketing Content Creation"
+            },
+            {
+                "tag": "Marketing Attribution Analysis"
+            },
+            {
+                "tag": "Digital Twin Creation"
+            },
+            {
+                "tag": "Tech Pack Creation"
+            },
+            {
+                "tag": "Business Name Generation"
+            },
+            {
+                "tag": "Business Plan Generation"
+            },
+            {
+                "tag": "Marketing Copy Generation"
+            },
+            {
+                "tag": "Promotional Link Generation"
+            },
+            {
+                "tag": "Commercial Licensing"
+            },
+            {
+                "tag": "Business Profile Post Generation"
+            },
+            {
+                "tag": "Product Detail Preservation"
+            },
+            {
+                "tag": "Product Information Updates"
+            }
+        ]
+    },
+    "pocket_22": {
+        "pocket_id": 22,
+        "items": [
+            {
+                "tag": "Content Publishing and Distribution"
+            },
+            {
+                "tag": "Web Content Publishing"
+            },
+            {
+                "tag": "Social Media Publishing"
+            },
+            {
+                "tag": "App Publishing"
+            },
+            {
+                "tag": "Multi-Channel Publishing"
+            },
+            {
+                "tag": "Automated Publishing"
+            },
+            {
+                "tag": "Bulk Publishing"
+            },
+            {
+                "tag": "One-Click Publishing"
+            },
+            {
+                "tag": "API Publishing"
+            },
+            {
+                "tag": "Form Publishing"
+            },
+            {
+                "tag": "Automated Social Media Publishing"
+            },
+            {
+                "tag": "Content Publishing Scheduling"
+            }
+        ]
+    },
+    "pocket_23": {
+        "pocket_id": 23,
+        "items": [
+            {
+                "tag": "Speech-to-Text Transcription"
+            },
+            {
+                "tag": "Voice-Matched Writing"
+            },
+            {
+                "tag": "Keyboard Shortcuts"
+            },
+            {
+                "tag": "Sensory Language Enhancement"
+            },
+            {
+                "tag": "Language Detection"
+            },
+            {
+                "tag": "Speaker Diarization"
+            },
+            {
+                "tag": "Speech Activity Detection"
+            },
+            {
+                "tag": "Dialect Support"
+            },
+            {
+                "tag": "Pronunciation Customization"
+            },
+            {
+                "tag": "Pronunciation Feedback"
+            },
+            {
+                "tag": "Pronunciation Guidance"
+            },
+            {
+                "tag": "Speech Synthesis"
+            },
+            {
+                "tag": "Accent Conversion"
+            },
+            {
+                "tag": "Cross-Lingual Speech Synthesis"
+            },
+            {
+                "tag": "Pitch and Intonation Control"
+            }
+        ]
+    },
+    "pocket_24": {
+        "pocket_id": 24,
+        "items": [
+            {
+                "tag": "Noise Reduction"
+            },
+            {
+                "tag": "Silence Removal"
+            },
+            {
+                "tag": "Volume Control"
+            },
+            {
+                "tag": "Instrument Separation"
+            },
+            {
+                "tag": "Speaker Separation"
+            },
+            {
+                "tag": "Vocal Separation"
+            },
+            {
+                "tag": "Active Listening"
+            },
+            {
+                "tag": "Audio Mastering"
+            },
+            {
+                "tag": "Audio Volume Adjustment"
+            },
+            {
+                "tag": "Audio Stem Separation"
+            },
+            {
+                "tag": "Audio Stem Export"
+            },
+            {
+                "tag": "Audio Model Access"
+            },
+            {
+                "tag": "Audio Processing"
+            }
+        ]
+    },
+    "pocket_25": {
+        "pocket_id": 25,
+        "items": [
+            {
+                "tag": "Competitor Sales Monitoring"
+            },
+            {
+                "tag": "Ranking Analysis"
+            },
+            {
+                "tag": "Market Intelligence"
+            },
+            {
+                "tag": "Strategic Analysis"
+            },
+            {
+                "tag": "Competitive Intelligence and Analysis"
+            },
+            {
+                "tag": "Competitor Monitoring"
+            },
+            {
+                "tag": "Competitor Benchmarking and Comparison"
+            },
+            {
+                "tag": "Competitor Advertising and Creative Analysis"
+            }
+        ]
+    },
+    "pocket_26": {
+        "pocket_id": 26,
+        "items": [
+            {
+                "tag": "Adaptive Follow-Up Questioning"
+            },
+            {
+                "tag": "Follow-Up Question Answering"
+            }
+        ]
+    },
+    "pocket_27": {
+        "pocket_id": 27,
+        "items": [
+            {
+                "tag": "Niche Research"
+            },
+            {
+                "tag": "Writing Suggestions"
+            },
+            {
+                "tag": "Accommodation Recommendations"
+            },
+            {
+                "tag": "Content Recommendations"
+            },
+            {
+                "tag": "Product Recommendations"
+            },
+            {
+                "tag": "Evidence-Based Recommendations"
+            },
+            {
+                "tag": "Marketing Recommendations"
+            },
+            {
+                "tag": "Merge Recommendations"
+            },
+            {
+                "tag": "Next-Best-Action Recommendations"
+            },
+            {
+                "tag": "Personalized Recommendations"
+            }
+        ]
+    },
+    "pocket_28": {
+        "pocket_id": 28,
+        "items": [
+            {
+                "tag": "AI Chat"
+            },
+            {
+                "tag": "Character Chat"
+            },
+            {
+                "tag": "Meeting Chat"
+            },
+            {
+                "tag": "File-Based Chat"
+            },
+            {
+                "tag": "CAPTCHA Solving"
+            },
+            {
+                "tag": "Embeddable Chat Interface"
+            },
+            {
+                "tag": "Chatbot Automation"
+            },
+            {
+                "tag": "Chatbot Customization"
+            },
+            {
+                "tag": "AI Chat"
+            },
+            {
+                "tag": "Bookkeeping Chat Assistance"
+            },
+            {
+                "tag": "Chat Analysis"
+            },
+            {
+                "tag": "Chat Organization"
+            },
+            {
+                "tag": "Chat-Based Content Creation"
+            },
+            {
+                "tag": "Chat-Based Software Development"
+            },
+            {
+                "tag": "Document Chat"
+            },
+            {
+                "tag": "Live Chat"
+            },
+            {
+                "tag": "Live Chat Management"
+            }
+        ]
+    },
+    "pocket_29": {
+        "pocket_id": 29,
+        "items": [
+            {
+                "tag": "Stakeholder Profiling"
+            },
+            {
+                "tag": "Performance Monitoring"
+            },
+            {
+                "tag": "Performance Analysis"
+            },
+            {
+                "tag": "Performance Reporting"
+            },
+            {
+                "tag": "Commission Rate Analysis"
+            },
+            {
+                "tag": "Professional Profile Analysis"
+            },
+            {
+                "tag": "SERP Analysis"
+            },
+            {
+                "tag": "Search Performance Tracking"
+            },
+            {
+                "tag": "Creative Performance Analytics"
+            },
+            {
+                "tag": "Video Performance Tracking"
+            }
+        ]
+    },
+    "pocket_30": {
+        "pocket_id": 30,
+        "items": [
+            {
+                "tag": "Inquiry Automation"
+            },
+            {
+                "tag": "Form Handling"
+            },
+            {
+                "tag": "Online Mock Tests"
+            },
+            {
+                "tag": "Test Automation"
+            },
+            {
+                "tag": "Customer Inquiry Handling"
+            }
+        ]
+    },
+    "pocket_31": {
+        "pocket_id": 31,
+        "items": [
+            {
+                "tag": "Music Integration"
+            },
+            {
+                "tag": "Music Customization"
+            },
+            {
+                "tag": "Music Editing"
+            },
+            {
+                "tag": "Music Library Access"
+            },
+            {
+                "tag": "Personalized Music Streaming"
+            },
+            {
+                "tag": "Visual Style Customization"
+            },
+            {
+                "tag": "Timeline Customization"
+            }
+        ]
+    },
+    "pocket_32": {
+        "pocket_id": 32,
+        "items": [
+            {
+                "tag": "Scene Detection"
+            },
+            {
+                "tag": "3D Retopology"
+            },
+            {
+                "tag": "3D Scene Composition"
+            },
+            {
+                "tag": "Multi-Shot Scene Generation"
+            },
+            {
+                "tag": "Product Scene Generation"
+            },
+            {
+                "tag": "Scene Generation"
+            },
+            {
+                "tag": "Scene Expansion"
+            },
+            {
+                "tag": "Scene Planning"
+            },
+            {
+                "tag": "Scene Understanding"
+            },
+            {
+                "tag": "Scene Variation Generation"
+            },
+            {
+                "tag": "Scene Cutting"
+            }
+        ]
+    },
+    "pocket_33": {
+        "pocket_id": 33,
+        "items": [
+            {
+                "tag": "Automated Prompt Generation"
+            },
+            {
+                "tag": "Negative Prompting"
+            },
+            {
+                "tag": "Prompt Chaining"
+            },
+            {
+                "tag": "Prompt Generation"
+            },
+            {
+                "tag": "Prompt Optimization"
+            },
+            {
+                "tag": "Prompt Library Management"
+            },
+            {
+                "tag": "Prompt Experimentation"
+            },
+            {
+                "tag": "Prompt Monitoring"
+            },
+            {
+                "tag": "Prompt Library"
+            }
+        ]
+    },
+    "pocket_34": {
+        "pocket_id": 34,
+        "items": [
+            {
+                "tag": "Personalized Transcription"
+            },
+            {
+                "tag": "Transcript Editing"
+            },
+            {
+                "tag": "Transcript-Based Media Editing"
+            },
+            {
+                "tag": "Transcript Generation"
+            },
+            {
+                "tag": "Transcript Export"
+            },
+            {
+                "tag": "Transcript Analysis"
+            },
+            {
+                "tag": "Transcript Summarization"
+            },
+            {
+                "tag": "Transcript Translation"
+            }
+        ]
+    },
+    "pocket_35": {
+        "pocket_id": 35,
+        "items": [
+            {
+                "tag": "User Authentication"
+            },
+            {
+                "tag": "Authentication Management"
+            },
+            {
+                "tag": "Identity Protection"
+            },
+            {
+                "tag": "Bank Account Connection"
+            },
+            {
+                "tag": "Email Sign-In"
+            },
+            {
+                "tag": "Electronic Signatures"
+            }
+        ]
+    },
+    "pocket_36": {
+        "pocket_id": 36,
+        "items": [
+            {
+                "tag": "Personality Assessment"
+            },
+            {
+                "tag": "Assessment Creation"
+            },
+            {
+                "tag": "Candidate Assessment"
+            },
+            {
+                "tag": "Study Design"
+            },
+            {
+                "tag": "Written Response Grading"
+            },
+            {
+                "tag": "Academic Style Suggestions"
+            },
+            {
+                "tag": "Study Motivation"
+            },
+            {
+                "tag": "PTE Exam Guidance"
+            },
+            {
+                "tag": "Student Tools"
+            },
+            {
+                "tag": "Teacher Tools"
+            },
+            {
+                "tag": "Educational Differentiation"
+            },
+            {
+                "tag": "Automated Assessment Grading"
+            },
+            {
+                "tag": "Test-Taking Guidance"
+            }
+        ]
+    },
+    "pocket_37": {
+        "pocket_id": 37,
+        "items": [
+            {
+                "tag": "AI Scene Partner"
+            },
+            {
+                "tag": "General AI Editing"
+            },
+            {
+                "tag": "AI Phone Calls"
+            },
+            {
+                "tag": "AI Visibility Tracking"
+            },
+            {
+                "tag": "AI Content Writing"
+            },
+            {
+                "tag": "General AI Assistance"
+            },
+            {
+                "tag": "AI Model Access"
+            },
+            {
+                "tag": "AI Model Selection and Switching"
+            },
+            {
+                "tag": "AI Model Aggregation"
+            },
+            {
+                "tag": "AI Model Customization"
+            },
+            {
+                "tag": "AI Search Visibility Scoring"
+            },
+            {
+                "tag": "AI Coaching"
+            },
+            {
+                "tag": "AI Fashion Model Generation"
+            },
+            {
+                "tag": "AI System Integration"
+            },
+            {
+                "tag": "AI Assistance"
+            },
+            {
+                "tag": "AI Model Deployment"
+            },
+            {
+                "tag": "No-Code AI Development"
+            },
+            {
+                "tag": "AI Contract Drafting"
+            },
+            {
+                "tag": "AI Memory Import"
+            },
+            {
+                "tag": "AI Product Import"
+            },
+            {
+                "tag": "AI Response Automation"
+            },
+            {
+                "tag": "AI Meeting Note-Taking"
+            },
+            {
+                "tag": "AI-Generated Content Detection"
+            },
+            {
+                "tag": "AI-Generated Text Detection"
+            },
+            {
+                "tag": "AI-Generated Image Detection"
+            },
+            {
+                "tag": "AI-Generated Audio Detection"
+            },
+            {
+                "tag": "AI Detection Bypass"
+            },
+            {
+                "tag": "AI Copywriting"
+            },
+            {
+                "tag": "In-App AI Assistance"
+            },
+            {
+                "tag": "AI Memory"
+            },
+            {
+                "tag": "AI Search"
+            },
+            {
+                "tag": "AI Visibility Assessment"
+            },
+            {
+                "tag": "Collaborative AI Workflows"
+            }
+        ]
+    },
+    "pocket_38": {
+        "pocket_id": 38,
+        "items": [
+            {
+                "tag": "Image Colorization"
+            },
+            {
+                "tag": "Image Recoloring"
+            },
+            {
+                "tag": "Image Rendering"
+            },
+            {
+                "tag": "Photo Quality Assessment"
+            },
+            {
+                "tag": "Image Filtering"
+            },
+            {
+                "tag": "Bad Take Removal"
+            },
+            {
+                "tag": "Photo Effects"
+            },
+            {
+                "tag": "Photo Retouching"
+            },
+            {
+                "tag": "Image Analysis"
+            },
+            {
+                "tag": "Image Quality Assessment"
+            },
+            {
+                "tag": "Image Brightness Adjustment"
+            },
+            {
+                "tag": "Image Relighting"
+            },
+            {
+                "tag": "Image Enhancement"
+            },
+            {
+                "tag": "Video Enhancement"
+            },
+            {
+                "tag": "Contrast Enhancement"
+            },
+            {
+                "tag": "Color Enhancement"
+            },
+            {
+                "tag": "Face Enhancement"
+            },
+            {
+                "tag": "Image Sharpening"
+            },
+            {
+                "tag": "Resolution Enhancement"
+            },
+            {
+                "tag": "Visual Design Enhancement"
+            },
+            {
+                "tag": "Image Enhancement"
+            },
+            {
+                "tag": "Image Inpainting"
+            },
+            {
+                "tag": "Image Cutout Refinement"
+            },
+            {
+                "tag": "Atmospheric Effects"
+            },
+            {
+                "tag": "Sky Reflection Addition"
+            },
+            {
+                "tag": "Sky Replacement"
+            },
+            {
+                "tag": "One-Click Enhancements"
+            },
+            {
+                "tag": "Video Denoising"
+            },
+            {
+                "tag": "Image Deblurring"
+            },
+            {
+                "tag": "Image Restoration"
+            }
+        ]
+    },
+    "pocket_39": {
+        "pocket_id": 39,
+        "items": [
+            {
+                "tag": "Grammar Checking and Correction"
+            },
+            {
+                "tag": "Error Recovery and Resolution"
+            },
+            {
+                "tag": "Feedback and Correction Generation"
+            },
+            {
+                "tag": "Feedback Collection"
+            },
+            {
+                "tag": "Refund Dispute Handling"
+            },
+            {
+                "tag": "Citable Verdict Generation"
+            },
+            {
+                "tag": "Correction Detection"
+            },
+            {
+                "tag": "Error Correction"
+            }
+        ]
+    },
+    "pocket_40": {
+        "pocket_id": 40,
+        "items": [
+            {
+                "tag": "Caption Generation"
+            },
+            {
+                "tag": "Video Captioning"
+            },
+            {
+                "tag": "Caption Addition"
+            },
+            {
+                "tag": "Caption Editing"
+            },
+            {
+                "tag": "Caption Styling"
+            }
+        ]
+    },
+    "pocket_41": {
+        "pocket_id": 41,
+        "items": [
+            {
+                "tag": "Virtual Actor Creation"
+            },
+            {
+                "tag": "Animation Generation"
+            },
+            {
+                "tag": "Image Animation"
+            },
+            {
+                "tag": "Character Animation"
+            },
+            {
+                "tag": "Motion Graphics Generation"
+            },
+            {
+                "tag": "Real-Time Animation"
+            },
+            {
+                "tag": "Talking Photo Animation"
+            },
+            {
+                "tag": "Canvas Animation Loop Creation"
+            },
+            {
+                "tag": "Motion Visual Generation"
+            },
+            {
+                "tag": "Plot Development"
+            },
+            {
+                "tag": "Visual Effects Generation"
+            },
+            {
+                "tag": "Effects Generation"
+            }
+        ]
+    },
+    "pocket_42": {
+        "pocket_id": 42,
+        "items": [
+            {
+                "tag": "Asset Downloading"
+            },
+            {
+                "tag": "Asset Library Access"
+            },
+            {
+                "tag": "Asset Licensing"
+            },
+            {
+                "tag": "Asset Management"
+            },
+            {
+                "tag": "Asset Generation"
+            },
+            {
+                "tag": "Asset Resizing"
+            },
+            {
+                "tag": "Asset Stitching"
+            },
+            {
+                "tag": "Brand Asset Management"
+            }
+        ]
+    },
+    "pocket_43": {
+        "pocket_id": 43,
+        "items": [
+            {
+                "tag": "Transaction Categorization"
+            },
+            {
+                "tag": "Catalog Management"
+            },
+            {
+                "tag": "E-commerce Setup and Integration"
+            },
+            {
+                "tag": "E-commerce Management"
+            }
+        ]
+    },
+    "pocket_44": {
+        "pocket_id": 44,
+        "items": [
+            {
+                "tag": "Blog Writing"
+            },
+            {
+                "tag": "News Updates"
+            },
+            {
+                "tag": "Newsletter Creation"
+            },
+            {
+                "tag": "Newsletter Distribution"
+            },
+            {
+                "tag": "Newsletter Automation"
+            },
+            {
+                "tag": "News Curation"
+            }
+        ]
+    },
+    "pocket_45": {
+        "pocket_id": 45,
+        "items": [
+            {
+                "tag": "Workspace Administration"
+            },
+            {
+                "tag": "Workspace Collaboration"
+            },
+            {
+                "tag": "Workspace Loading"
+            },
+            {
+                "tag": "Workspace Search"
+            },
+            {
+                "tag": "Team Collaboration"
+            },
+            {
+                "tag": "Creative Content Collaboration"
+            },
+            {
+                "tag": "Project Organization"
+            },
+            {
+                "tag": "Real-Time Collaboration"
+            }
+        ]
+    },
+    "pocket_46": {
+        "pocket_id": 46,
+        "items": [
+            {
+                "tag": "Backend Setup"
+            },
+            {
+                "tag": "Database Generation"
+            },
+            {
+                "tag": "SQL Query Generation"
+            },
+            {
+                "tag": "Database Management"
+            },
+            {
+                "tag": "Database Querying"
+            },
+            {
+                "tag": "Database Connectivity"
+            },
+            {
+                "tag": "Database Setup"
+            },
+            {
+                "tag": "Table Creation"
+            }
+        ]
+    },
+    "pocket_47": {
+        "pocket_id": 47,
+        "items": [
+            {
+                "tag": "Presentation Generation"
+            },
+            {
+                "tag": "Educational Program Generation"
+            },
+            {
+                "tag": "Presentation Deck Generation"
+            },
+            {
+                "tag": "Presentation Generation"
+            },
+            {
+                "tag": "Slide Content Generation"
+            },
+            {
+                "tag": "Infographic Generation"
+            },
+            {
+                "tag": "Presentation Editing"
+            },
+            {
+                "tag": "Presenter Selection"
+            },
+            {
+                "tag": "Poster and Banner Generation"
+            }
+        ]
+    },
+    "pocket_48": {
+        "pocket_id": 48,
+        "items": [
+            {
+                "tag": "Background Removal"
+            },
+            {
+                "tag": "Background Editing and Replacement"
+            },
+            {
+                "tag": "Background Extension"
+            },
+            {
+                "tag": "Background Localization"
+            },
+            {
+                "tag": "Satellite Terminal Location"
+            },
+            {
+                "tag": "Geolocation"
+            },
+            {
+                "tag": "Content Localization"
+            },
+            {
+                "tag": "Video Background Removal"
+            }
+        ]
+    },
+    "pocket_49": {
+        "pocket_id": 49,
+        "items": [
+            {
+                "tag": "White-Label Branding"
+            },
+            {
+                "tag": "White-Label Deployment"
+            },
+            {
+                "tag": "White-Label Reporting"
+            }
+        ]
+    },
+    "pocket_50": {
+        "pocket_id": 50,
+        "items": [
+            {
+                "tag": "Internal Link Generation"
+            },
+            {
+                "tag": "Internal Link Optimization"
+            },
+            {
+                "tag": "Backlink Analysis"
+            },
+            {
+                "tag": "External Website Linking"
+            },
+            {
+                "tag": "File Linking"
+            }
+        ]
+    },
+    "pocket_51": {
+        "pocket_id": 51,
+        "items": [
+            {
+                "tag": "Content Visualization"
+            },
+            {
+                "tag": "Keyword Visualization"
+            },
+            {
+                "tag": "Pose Visualization"
+            },
+            {
+                "tag": "Room Visualization"
+            },
+            {
+                "tag": "Data Visualization Generation"
+            }
+        ]
+    },
+    "pocket_52": {
+        "pocket_id": 52,
+        "items": [
+            {
+                "tag": "Custom Content Type Creation"
+            },
+            {
+                "tag": "Template-Based Creation"
+            },
+            {
+                "tag": "Template Creation"
+            },
+            {
+                "tag": "Template Cloning"
+            },
+            {
+                "tag": "Template Selection"
+            },
+            {
+                "tag": "Summary Templates"
+            },
+            {
+                "tag": "Email Template Generation"
+            },
+            {
+                "tag": "Template-Based Note Structuring"
+            },
+            {
+                "tag": "Document Creation"
+            },
+            {
+                "tag": "Tax Document Drafting"
+            },
+            {
+                "tag": "Patent Document Drafting"
+            },
+            {
+                "tag": "Prototype Creation"
+            },
+            {
+                "tag": "Product Mockup Creation"
+            }
+        ]
+    },
+    "pocket_53": {
+        "pocket_id": 53,
+        "items": [
+            {
+                "tag": "Accounting Automation"
+            },
+            {
+                "tag": "Account Reconciliation"
+            },
+            {
+                "tag": "Credential Management"
+            },
+            {
+                "tag": "Invoice Generation"
+            },
+            {
+                "tag": "Invoice Management"
+            },
+            {
+                "tag": "Credit-Based Processing"
+            },
+            {
+                "tag": "Payment Integration"
+            },
+            {
+                "tag": "Payment Processing"
+            },
+            {
+                "tag": "Bill Capture"
+            },
+            {
+                "tag": "Bill Negotiation"
+            },
+            {
+                "tag": "Bill Payment"
+            },
+            {
+                "tag": "Billing Management"
+            },
+            {
+                "tag": "Subscription Management"
+            }
+        ]
+    },
+    "pocket_54": {
+        "pocket_id": 54,
+        "items": [
+            {
+                "tag": "Application Deployment"
+            },
+            {
+                "tag": "Rapid Deployment"
+            },
+            {
+                "tag": "Deployment Management"
+            },
+            {
+                "tag": "Self-Hosted Deployment and Operation"
+            },
+            {
+                "tag": "API Deployment"
+            },
+            {
+                "tag": "Serverless Function Deployment"
+            },
+            {
+                "tag": "SSL Certificate Deployment"
+            },
+            {
+                "tag": "Multichannel Deployment"
+            }
+        ]
+    },
+    "pocket_55": {
+        "pocket_id": 55,
+        "items": [
+            {
+                "tag": "Color Editing"
+            },
+            {
+                "tag": "Image Editing"
+            },
+            {
+                "tag": "Image Editing"
+            },
+            {
+                "tag": "Image Composition Control"
+            },
+            {
+                "tag": "Local Image Editing"
+            },
+            {
+                "tag": "Texture Control"
+            },
+            {
+                "tag": "Editing Guidance"
+            },
+            {
+                "tag": "Font Editing"
+            },
+            {
+                "tag": "Facial Expression Editing"
+            },
+            {
+                "tag": "Hairstyle Editing"
+            },
+            {
+                "tag": "Photo Editing"
+            },
+            {
+                "tag": "Body Pose Editing"
+            },
+            {
+                "tag": "Mask Editing"
+            },
+            {
+                "tag": "Thumbnail Customization"
+            },
+            {
+                "tag": "Clothing and Outfit Editing"
+            },
+            {
+                "tag": "Style Application and Transformation"
+            },
+            {
+                "tag": "Visual Drag-and-Drop Editing"
+            },
+            {
+                "tag": "File Editing"
+            },
+            {
+                "tag": "Layer-Based Editing"
+            },
+            {
+                "tag": "Multi-Source Editing"
+            },
+            {
+                "tag": "Multimodal Editing"
+            },
+            {
+                "tag": "Non-Destructive Editing"
+            },
+            {
+                "tag": "RAW Image Editing"
+            },
+            {
+                "tag": "Layout Editing"
+            }
+        ]
+    },
+    "pocket_56": {
+        "pocket_id": 56,
+        "items": [
+            {
+                "tag": "Text Completion"
+            },
+            {
+                "tag": "Text Cleanup"
+            },
+            {
+                "tag": "Text Snippets"
+            },
+            {
+                "tag": "Text Utilities"
+            },
+            {
+                "tag": "Filler Word Removal"
+            }
+        ]
+    },
+    "pocket_57": {
+        "pocket_id": 57,
+        "items": [
+            {
+                "tag": "Model Routing"
+            },
+            {
+                "tag": "Request Routing"
+            },
+            {
+                "tag": "Call Routing"
+            },
+            {
+                "tag": "Multi-Model Orchestration"
+            },
+            {
+                "tag": "Model Hosting"
+            },
+            {
+                "tag": "Model Management"
+            },
+            {
+                "tag": "Multi-Model Access"
+            }
+        ]
+    },
+    "pocket_58": {
+        "pocket_id": 58,
+        "items": [
+            {
+                "tag": "Anomaly and Error Detection"
+            },
+            {
+                "tag": "Trust Signal Analysis"
+            },
+            {
+                "tag": "Security Assessment"
+            },
+            {
+                "tag": "Public Information Scanning"
+            },
+            {
+                "tag": "Security Vulnerability Detection"
+            },
+            {
+                "tag": "Real-Time and Threshold Alerting"
+            },
+            {
+                "tag": "Security Monitoring"
+            },
+            {
+                "tag": "Sender Reputation Monitoring"
+            },
+            {
+                "tag": "Activity and Metrics Monitoring"
+            },
+            {
+                "tag": "IP Address Investigation"
+            }
+        ]
+    },
+    "pocket_59": {
+        "pocket_id": 59,
+        "items": [
+            {
+                "tag": "Entity Relationship Tracking"
+            },
+            {
+                "tag": "Information Organization"
+            },
+            {
+                "tag": "Channel Management"
+            },
+            {
+                "tag": "Opportunity Discovery and Monitoring"
+            },
+            {
+                "tag": "Deliverability Analytics"
+            },
+            {
+                "tag": "Mention Monitoring"
+            },
+            {
+                "tag": "Digital Channel Analytics"
+            },
+            {
+                "tag": "Communication Analytics"
+            }
+        ]
+    },
+    "pocket_60": {
+        "pocket_id": 60,
+        "items": [
+            {
+                "tag": "Video A/B Testing"
+            },
+            {
+                "tag": "A/B Testing Recommendations"
+            },
+            {
+                "tag": "Tool Testing"
+            },
+            {
+                "tag": "B-Roll Insertion"
+            },
+            {
+                "tag": "A/B Testing"
+            }
+        ]
+    },
+    "pocket_61": {
+        "pocket_id": 61,
+        "items": [
+            {
+                "tag": "Voice Cloning"
+            },
+            {
+                "tag": "Voice Dubbing"
+            },
+            {
+                "tag": "Audio Recording"
+            },
+            {
+                "tag": "Meeting Recording and Transcription"
+            },
+            {
+                "tag": "Podcast Creation"
+            },
+            {
+                "tag": "Video Dubbing"
+            },
+            {
+                "tag": "Audio and Video Transcription"
+            },
+            {
+                "tag": "Multispeaker Transcription"
+            },
+            {
+                "tag": "Lip Sync Generation"
+            },
+            {
+                "tag": "Real-Time Voice Streaming"
+            },
+            {
+                "tag": "Voice Rehearsal"
+            },
+            {
+                "tag": "Audio Dubbing"
+            },
+            {
+                "tag": "Screen Recording"
+            }
+        ]
+    },
+    "pocket_62": {
+        "pocket_id": 62,
+        "items": [
+            {
+                "tag": "Content Repurposing"
+            },
+            {
+                "tag": "Content Explanation"
+            },
+            {
+                "tag": "Content Curation"
+            },
+            {
+                "tag": "Content Enhancement and Originality"
+            },
+            {
+                "tag": "Content Bundling"
+            },
+            {
+                "tag": "Content Tooling"
+            },
+            {
+                "tag": "Content Remixing"
+            },
+            {
+                "tag": "Cross-Platform Content Repurposing"
+            },
+            {
+                "tag": "Artifact Removal"
+            },
+            {
+                "tag": "Content and Tool Embedding"
+            },
+            {
+                "tag": "Content-to-Social-Post Conversion"
+            },
+            {
+                "tag": "Content Humanization"
+            },
+            {
+                "tag": "Content Quality Review"
+            }
+        ]
+    },
+    "pocket_63": {
+        "pocket_id": 63,
+        "items": [
+            {
+                "tag": "Multichannel Customer Support"
+            },
+            {
+                "tag": "Customer Relationship Management"
+            },
+            {
+                "tag": "Customer Profile Management"
+            },
+            {
+                "tag": "Customer Segmentation"
+            },
+            {
+                "tag": "Customer Portals"
+            },
+            {
+                "tag": "Customer Behavior Analysis"
+            },
+            {
+                "tag": "Customer Ranking"
+            }
+        ]
+    },
+    "pocket_64": {
+        "pocket_id": 64,
+        "items": [
+            {
+                "tag": "Book Formatting"
+            },
+            {
+                "tag": "Cell Formatting"
+            },
+            {
+                "tag": "Data Formatting"
+            },
+            {
+                "tag": "Output Format Selection"
+            },
+            {
+                "tag": "Text and Typography Formatting"
+            },
+            {
+                "tag": "Content and Format Conversion"
+            },
+            {
+                "tag": "Product Page Conversion Optimization"
+            },
+            {
+                "tag": "Standards Alignment"
+            }
+        ]
+    },
+    "pocket_65": {
+        "pocket_id": 65,
+        "items": [
+            {
+                "tag": "Conversational Response Generation"
+            },
+            {
+                "tag": "Reply Suggestions"
+            },
+            {
+                "tag": "Automated Comment Engagement"
+            },
+            {
+                "tag": "Email Reply Generation"
+            },
+            {
+                "tag": "Objection Response Generation"
+            },
+            {
+                "tag": "Review Response Generation"
+            },
+            {
+                "tag": "Response Generation"
+            },
+            {
+                "tag": "Response Caching"
+            },
+            {
+                "tag": "Streaming Responses"
+            },
+            {
+                "tag": "Email Reply Generation"
+            },
+            {
+                "tag": "Session Recap Generation"
+            },
+            {
+                "tag": "Response Generation"
+            }
+        ]
+    },
+    "pocket_66": {
+        "pocket_id": 66,
+        "items": [
+            {
+                "tag": "Text-to-Image Generation"
+            },
+            {
+                "tag": "Image-to-Text Conversion"
+            },
+            {
+                "tag": "Text-to-Image Generation"
+            },
+            {
+                "tag": "Multimodal Content Generation"
+            },
+            {
+                "tag": "Image-to-Spreadsheet Conversion"
+            }
+        ]
+    },
+    "pocket_67": {
+        "pocket_id": 67,
+        "items": [
+            {
+                "tag": "Social Media Scheduling"
+            },
+            {
+                "tag": "Booking and Scheduling Management"
+            },
+            {
+                "tag": "Automated Reminders"
+            },
+            {
+                "tag": "Email Scheduling"
+            },
+            {
+                "tag": "Test Scheduling"
+            },
+            {
+                "tag": "Follow-Up Scheduling"
+            },
+            {
+                "tag": "Appointment Scheduling"
+            },
+            {
+                "tag": "Data Refresh Scheduling"
+            },
+            {
+                "tag": "Schedule C Tax Mapping"
+            }
+        ]
+    },
+    "pocket_68": {
+        "pocket_id": 68,
+        "items": [
+            {
+                "tag": "Search Console Integration"
+            },
+            {
+                "tag": "Search Alerts"
+            },
+            {
+                "tag": "Search History"
+            },
+            {
+                "tag": "Subscription Renewal Alerts"
+            }
+        ]
+    },
+    "pocket_69": {
+        "pocket_id": 69,
+        "items": [
+            {
+                "tag": "Context Management and Persistence"
+            },
+            {
+                "tag": "Context Integration"
+            },
+            {
+                "tag": "Context Matching"
+            }
+        ]
+    },
+    "pocket_70": {
+        "pocket_id": 70,
+        "items": [
+            {
+                "tag": "Autonomous Coding"
+            },
+            {
+                "tag": "Software Architecture Planning"
+            },
+            {
+                "tag": "Feature Development"
+            },
+            {
+                "tag": "Code Search"
+            },
+            {
+                "tag": "Script Writing"
+            },
+            {
+                "tag": "Code Generation"
+            },
+            {
+                "tag": "Code Editing"
+            },
+            {
+                "tag": "Code Refactoring and Optimization"
+            },
+            {
+                "tag": "Code Review"
+            },
+            {
+                "tag": "Code Verification"
+            },
+            {
+                "tag": "Code Planning"
+            },
+            {
+                "tag": "QR Code Editing"
+            },
+            {
+                "tag": "Code Explanation"
+            },
+            {
+                "tag": "Code Execution"
+            },
+            {
+                "tag": "Sandboxed Code Execution"
+            },
+            {
+                "tag": "Command-Line Execution"
+            },
+            {
+                "tag": "Aesthetic QR Code Generation"
+            },
+            {
+                "tag": "Codebase Analysis"
+            },
+            {
+                "tag": "Natural Language Software Development"
+            },
+            {
+                "tag": "Natural Language Command Execution"
+            },
+            {
+                "tag": "Code Completion"
+            },
+            {
+                "tag": "Custom Instruction Configuration"
+            },
+            {
+                "tag": "Code Generation"
+            },
+            {
+                "tag": "Coding Assistance"
+            }
+        ]
+    },
+    "pocket_71": {
+        "pocket_id": 71,
+        "items": [
+            {
+                "tag": "Voice Translation"
+            },
+            {
+                "tag": "Translation"
+            },
+            {
+                "tag": "Language Translation"
+            },
+            {
+                "tag": "Multilingual Interaction"
+            },
+            {
+                "tag": "Translation Automation"
+            },
+            {
+                "tag": "Translation Management"
+            },
+            {
+                "tag": "OCR Translation"
+            },
+            {
+                "tag": "Translation"
+            }
+        ]
+    },
+    "pocket_72": {
+        "pocket_id": 72,
+        "items": [
+            {
+                "tag": "Music Generation"
+            },
+            {
+                "tag": "Music Composition"
+            },
+            {
+                "tag": "Music Distribution"
+            },
+            {
+                "tag": "Music Generation"
+            },
+            {
+                "tag": "Sound Effects Generation"
+            },
+            {
+                "tag": "Soundscape Generation"
+            },
+            {
+                "tag": "Theme Generation"
+            },
+            {
+                "tag": "Meeting Playbook Generation"
+            },
+            {
+                "tag": "Genre Blending"
+            },
+            {
+                "tag": "Audio Generation"
+            },
+            {
+                "tag": "MIDI Generation"
+            }
+        ]
+    },
+    "pocket_73": {
+        "pocket_id": 73,
+        "items": [
+            {
+                "tag": "Lead Generation and Prospecting"
+            },
+            {
+                "tag": "Lead Capture"
+            },
+            {
+                "tag": "Lead Enrichment"
+            },
+            {
+                "tag": "Lead Intelligence"
+            },
+            {
+                "tag": "Lead Qualification"
+            },
+            {
+                "tag": "Lead Routing"
+            },
+            {
+                "tag": "Lead and Backing Track Separation"
+            }
+        ]
+    },
+    "pocket_74": {
+        "pocket_id": 74,
+        "items": [
+            {
+                "tag": "Text Generation"
+            },
+            {
+                "tag": "UI Generation from Text"
+            },
+            {
+                "tag": "Hashtag Generation"
+            },
+            {
+                "tag": "Rubric Generation"
+            },
+            {
+                "tag": "Text-to-Speech Generation"
+            },
+            {
+                "tag": "Title Generation"
+            },
+            {
+                "tag": "Idea Generation and Brainstorming"
+            },
+            {
+                "tag": "Teaching Material Generation"
+            },
+            {
+                "tag": "Email Sequence Generation"
+            },
+            {
+                "tag": "Python Script Generation"
+            },
+            {
+                "tag": "Structured Data Markup Generation"
+            },
+            {
+                "tag": "Story Generation"
+            },
+            {
+                "tag": "Essay Generation"
+            },
+            {
+                "tag": "Joke Generation"
+            },
+            {
+                "tag": "Note Generation"
+            },
+            {
+                "tag": "Outline Generation"
+            },
+            {
+                "tag": "Cross-Document Synthesis"
+            },
+            {
+                "tag": "File Generation"
+            },
+            {
+                "tag": "Description Generation"
+            },
+            {
+                "tag": "Parallel Generation"
+            },
+            {
+                "tag": "Timestamp Generation"
+            },
+            {
+                "tag": "Letter Generation"
+            },
+            {
+                "tag": "Character Reference Generation"
+            },
+            {
+                "tag": "Feature Bullet Generation"
+            },
+            {
+                "tag": "Formula Generation"
+            },
+            {
+                "tag": "Loop Generation"
+            },
+            {
+                "tag": "Diff Generation"
+            },
+            {
+                "tag": "Hook Generation"
+            },
+            {
+                "tag": "Chapter Generation"
+            },
+            {
+                "tag": "Episode Generation"
+            },
+            {
+                "tag": "FAQ Generation"
+            },
+            {
+                "tag": "Article Generation"
+            },
+            {
+                "tag": "World Generation"
+            },
+            {
+                "tag": "Document Generation"
+            },
+            {
+                "tag": "Spreadsheet Generation"
+            },
+            {
+                "tag": "Report Generation"
+            }
+        ]
+    },
+    "pocket_75": {
+        "pocket_id": 75,
+        "items": [
+            {
+                "tag": "Job Application Automation"
+            },
+            {
+                "tag": "Content Automation"
+            },
+            {
+                "tag": "Desktop Automation"
+            },
+            {
+                "tag": "Browser Automation"
+            },
+            {
+                "tag": "Website Update Automation"
+            },
+            {
+                "tag": "Version Control Management"
+            },
+            {
+                "tag": "Content Management System Management"
+            },
+            {
+                "tag": "Automated Content Moderation"
+            },
+            {
+                "tag": "CI/CD Automation"
+            },
+            {
+                "tag": "Prompt-Based Content Creation and Editing"
+            },
+            {
+                "tag": "Custom Trigger-Action Automation"
+            }
+        ]
+    },
+    "pocket_76": {
+        "pocket_id": 76,
+        "items": [
+            {
+                "tag": "Messaging Automation"
+            },
+            {
+                "tag": "Remarketing Activation"
+            },
+            {
+                "tag": "Automated Follow-Up Messaging"
+            },
+            {
+                "tag": "Direct Message Management"
+            },
+            {
+                "tag": "Multichannel Messaging"
+            },
+            {
+                "tag": "Instant Messaging"
+            },
+            {
+                "tag": "Message Explanation"
+            },
+            {
+                "tag": "Message Taking"
+            },
+            {
+                "tag": "Targeted Messaging"
+            },
+            {
+                "tag": "Messaging Integration"
+            },
+            {
+                "tag": "Sender Blocking"
+            },
+            {
+                "tag": "Neural Activity Modulation"
+            }
+        ]
+    },
+    "pocket_77": {
+        "pocket_id": 77,
+        "items": [
+            {
+                "tag": "Baby Sex Selection"
+            },
+            {
+                "tag": "Character Creation and Development"
+            },
+            {
+                "tag": "Audience Persona Creation"
+            },
+            {
+                "tag": "Outfit Generation"
+            },
+            {
+                "tag": "Persona Extraction"
+            },
+            {
+                "tag": "Character Consistency"
+            },
+            {
+                "tag": "Avatar Creation"
+            },
+            {
+                "tag": "User Persona Generation"
+            },
+            {
+                "tag": "Voice Avatar Generation"
+            },
+            {
+                "tag": "Character and Personality Customization"
+            },
+            {
+                "tag": "Character Generation"
+            }
+        ]
+    },
+    "pocket_78": {
+        "pocket_id": 78,
+        "items": [
+            {
+                "tag": "Shared Inbox"
+            },
+            {
+                "tag": "Unified Inbox Management"
+            },
+            {
+                "tag": "Cookie Preference Management"
+            }
+        ]
+    },
+    "pocket_79": {
+        "pocket_id": 79,
+        "items": [
+            {
+                "tag": "Platform Integration"
+            },
+            {
+                "tag": "Platform Compatibility"
+            },
+            {
+                "tag": "Cross-Platform Comparison"
+            },
+            {
+                "tag": "Platform Data Access"
+            },
+            {
+                "tag": "Secure Data Handling"
+            },
+            {
+                "tag": "Data Privacy Management"
+            },
+            {
+                "tag": "Data Isolation"
+            },
+            {
+                "tag": "End-to-End Encryption"
+            }
+        ]
+    },
+    "pocket_80": {
+        "pocket_id": 80,
+        "items": [
+            {
+                "tag": "Visual Object and Motion Tracking"
+            },
+            {
+                "tag": "Motion Prompting"
+            },
+            {
+                "tag": "3D Motion Effects"
+            },
+            {
+                "tag": "Motion Capture"
+            },
+            {
+                "tag": "Camera Angle Control"
+            },
+            {
+                "tag": "Consent Capture"
+            },
+            {
+                "tag": "Motion Data Editing"
+            },
+            {
+                "tag": "Motion Direction Control"
+            },
+            {
+                "tag": "Stop Motion Creation"
+            },
+            {
+                "tag": "Streak Tracking"
+            },
+            {
+                "tag": "Video Motion Estimation"
+            },
+            {
+                "tag": "Teleprompter"
+            },
+            {
+                "tag": "Multi-Frame Control"
+            }
+        ]
+    },
+    "pocket_81": {
+        "pocket_id": 81,
+        "items": [
+            {
+                "tag": "Metadata Optimization"
+            },
+            {
+                "tag": "Metadata Generation"
+            },
+            {
+                "tag": "Structured Data Markup Management and Optimization"
+            },
+            {
+                "tag": "SEO Metadata Management"
+            },
+            {
+                "tag": "Tag Management"
+            },
+            {
+                "tag": "Meta Description Optimization"
+            }
+        ]
+    },
+    "pocket_82": {
+        "pocket_id": 82,
+        "items": [
+            {
+                "tag": "Conversational AI Building"
+            },
+            {
+                "tag": "Conversation Automation"
+            },
+            {
+                "tag": "Conversational Survey Creation"
+            },
+            {
+                "tag": "Dialogue Extraction"
+            },
+            {
+                "tag": "Conversation Analytics"
+            },
+            {
+                "tag": "Conversation Monitoring"
+            },
+            {
+                "tag": "Contextual Conversation Memory"
+            },
+            {
+                "tag": "Conversation History"
+            },
+            {
+                "tag": "Conversation Routing and Assignment"
+            },
+            {
+                "tag": "Conversation Guardrails"
+            },
+            {
+                "tag": "Conversation Import"
+            },
+            {
+                "tag": "Conversation Practice and Roleplay"
+            },
+            {
+                "tag": "Conversation Search and Discovery"
+            },
+            {
+                "tag": "Conversation Sharing"
+            },
+            {
+                "tag": "Conversation Summarization"
+            },
+            {
+                "tag": "Conversation Testing"
+            },
+            {
+                "tag": "Social Listening"
+            },
+            {
+                "tag": "Conversational Avatars"
+            },
+            {
+                "tag": "Conversational Agent Testing"
+            },
+            {
+                "tag": "Conversational Editing"
+            },
+            {
+                "tag": "Conversational Assistance"
+            }
+        ]
+    },
+    "pocket_83": {
+        "pocket_id": 83,
+        "items": [
+            {
+                "tag": "Email Analytics"
+            },
+            {
+                "tag": "Support Analytics"
+            },
+            {
+                "tag": "Traffic Measurement and Tracking"
+            },
+            {
+                "tag": "Traffic Analysis"
+            },
+            {
+                "tag": "Traffic Reporting"
+            },
+            {
+                "tag": "Student Learning Analytics"
+            },
+            {
+                "tag": "Web Analytics"
+            },
+            {
+                "tag": "Streaming Statistics"
+            },
+            {
+                "tag": "Marketing Analytics and Reporting"
+            },
+            {
+                "tag": "Conversion Analytics"
+            },
+            {
+                "tag": "Data Analytics"
+            },
+            {
+                "tag": "Learning Analytics"
+            },
+            {
+                "tag": "Usage Analytics and Monitoring"
+            },
+            {
+                "tag": "Analytics Centralization"
+            },
+            {
+                "tag": "Analytics Reporting"
+            }
+        ]
+    },
+    "pocket_84": {
+        "pocket_id": 84,
+        "items": [
+            {
+                "tag": "Speaking Time Tracking"
+            },
+            {
+                "tag": "Time Tracking and Timesheet Management"
+            },
+            {
+                "tag": "Break Timers"
+            },
+            {
+                "tag": "Duration Matching"
+            },
+            {
+                "tag": "Time Management Guidance"
+            },
+            {
+                "tag": "Temporal Data Analysis"
+            },
+            {
+                "tag": "Work Time Tracking"
+            }
+        ]
+    },
+    "pocket_85": {
+        "pocket_id": 85,
+        "items": [
+            {
+                "tag": "Data Pipeline Automation"
+            },
+            {
+                "tag": "Sales Pipeline Tracking"
+            },
+            {
+                "tag": "Commerce Revenue Tracking"
+            },
+            {
+                "tag": "Sales Forecasting"
+            },
+            {
+                "tag": "Sales Dialing"
+            },
+            {
+                "tag": "Sales Pipeline Tracking"
+            },
+            {
+                "tag": "RAG Pipeline Creation"
+            }
+        ]
+    },
+    "pocket_86": {
+        "pocket_id": 86,
+        "items": [
+            {
+                "tag": "API Access"
+            },
+            {
+                "tag": "API Integration"
+            },
+            {
+                "tag": "API Data Collection"
+            },
+            {
+                "tag": "API Key Management"
+            },
+            {
+                "tag": "Custom API Key Integration"
+            },
+            {
+                "tag": "Access and Permission Management"
+            },
+            {
+                "tag": "CLI Access"
+            },
+            {
+                "tag": "Plugin Access"
+            }
+        ]
+    },
+    "pocket_87": {
+        "pocket_id": 87,
+        "items": [
+            {
+                "tag": "Financial Calculations"
+            },
+            {
+                "tag": "Financial Performance Monitoring"
+            },
+            {
+                "tag": "Financial Data Extraction"
+            },
+            {
+                "tag": "Financial Data Integration"
+            },
+            {
+                "tag": "Financial Forecasting and Scenario Modeling"
+            },
+            {
+                "tag": "Financial Data Querying"
+            },
+            {
+                "tag": "Financial Reporting"
+            },
+            {
+                "tag": "Financial Planning"
+            },
+            {
+                "tag": "Revenue Forecasting"
+            },
+            {
+                "tag": "Financial Document Capture"
+            },
+            {
+                "tag": "Tax Savings Analysis"
+            }
+        ]
+    },
+    "pocket_88": {
+        "pocket_id": 88,
+        "items": [
+            {
+                "tag": "Meaning Preservation"
+            },
+            {
+                "tag": "Aging Effects"
+            },
+            {
+                "tag": "Note Enhancement"
+            },
+            {
+                "tag": "Tone Modification"
+            },
+            {
+                "tag": "Tone Preservation"
+            }
+        ]
+    },
+    "pocket_89": {
+        "pocket_id": 89,
+        "items": [
+            {
+                "tag": "Content Answerability Analysis"
+            },
+            {
+                "tag": "Readability Improvement"
+            },
+            {
+                "tag": "Readability Assessment"
+            },
+            {
+                "tag": "Printability Assessment"
+            }
+        ]
+    },
+    "pocket_90": {
+        "pocket_id": 90,
+        "items": [
+            {
+                "tag": "Script Parsing"
+            },
+            {
+                "tag": "Data Extraction"
+            },
+            {
+                "tag": "Automated Data Extraction"
+            },
+            {
+                "tag": "Data Parsing"
+            },
+            {
+                "tag": "Key Point Extraction"
+            },
+            {
+                "tag": "Data Enrichment"
+            },
+            {
+                "tag": "Web Scraping"
+            },
+            {
+                "tag": "OCR Text Extraction"
+            },
+            {
+                "tag": "Map Data Scraping"
+            },
+            {
+                "tag": "Table Structure Detection"
+            }
+        ]
+    },
+    "pocket_91": {
+        "pocket_id": 91,
+        "items": [
+            {
+                "tag": "Content Training"
+            },
+            {
+                "tag": "Learning Mode"
+            },
+            {
+                "tag": "Training Delivery"
+            },
+            {
+                "tag": "Learning and Training Assistance"
+            },
+            {
+                "tag": "Training Academy Creation"
+            },
+            {
+                "tag": "Model Training"
+            }
+        ]
+    },
+    "pocket_92": {
+        "pocket_id": 92,
+        "items": [
+            {
+                "tag": "SEO and Content Optimization"
+            },
+            {
+                "tag": "SEO Blog Writing"
+            },
+            {
+                "tag": "SEO Analysis and Scoring"
+            },
+            {
+                "tag": "SEO Monitoring and Detection"
+            },
+            {
+                "tag": "SEO Reporting"
+            },
+            {
+                "tag": "SEO Automation"
+            },
+            {
+                "tag": "SEO Assistance"
+            },
+            {
+                "tag": "One-Click SEO Optimization"
+            },
+            {
+                "tag": "SEO Keyword Research"
+            }
+        ]
+    },
+    "pocket_93": {
+        "pocket_id": 93,
+        "items": [
+            {
+                "tag": "Vocabulary Tracking"
+            },
+            {
+                "tag": "Keyword Extraction"
+            },
+            {
+                "tag": "Keyword Analysis"
+            },
+            {
+                "tag": "Keyword Discovery and Generation"
+            },
+            {
+                "tag": "Keyword List Management"
+            },
+            {
+                "tag": "Keyword Optimization"
+            },
+            {
+                "tag": "Keyword Tracking"
+            },
+            {
+                "tag": "Custom Vocabulary"
+            },
+            {
+                "tag": "Terminology Management"
+            },
+            {
+                "tag": "Spam Call Filtering"
+            },
+            {
+                "tag": "Keyword Clustering"
+            }
+        ]
+    },
+    "pocket_94": {
+        "pocket_id": 94,
+        "items": [
+            {
+                "tag": "Error Diagnosis"
+            },
+            {
+                "tag": "Activity Logging"
+            },
+            {
+                "tag": "Code Debugging"
+            },
+            {
+                "tag": "Bug Detection"
+            },
+            {
+                "tag": "Bug Fixing"
+            },
+            {
+                "tag": "Bug Logging"
+            },
+            {
+                "tag": "Test Debugging"
+            }
+        ]
+    },
+    "pocket_95": {
+        "pocket_id": 95,
+        "items": [
+            {
+                "tag": "Guided Legal Intake"
+            },
+            {
+                "tag": "Policy Generation"
+            },
+            {
+                "tag": "Policy Inference"
+            },
+            {
+                "tag": "Policy Validation"
+            },
+            {
+                "tag": "Style Consistency and Compliance"
+            },
+            {
+                "tag": "Warmup Rule Configuration"
+            },
+            {
+                "tag": "Editorial Guidance"
+            }
+        ]
+    },
+    "pocket_96": {
+        "pocket_id": 96,
+        "items": [
+            {
+                "tag": "Marketing Campaign Generation"
+            },
+            {
+                "tag": "Marketing Campaign Execution"
+            },
+            {
+                "tag": "Campaign Planning"
+            },
+            {
+                "tag": "Campaign Creation"
+            },
+            {
+                "tag": "Campaign Management"
+            },
+            {
+                "tag": "Campaign Publishing"
+            },
+            {
+                "tag": "Campaign Automation"
+            },
+            {
+                "tag": "Campaign Optimization"
+            },
+            {
+                "tag": "Campaign Reporting"
+            },
+            {
+                "tag": "Strategy Assistance"
+            },
+            {
+                "tag": "Morning Briefings"
+            }
+        ]
+    },
+    "pocket_97": {
+        "pocket_id": 97,
+        "items": [
+            {
+                "tag": "Ad Creative Generation"
+            },
+            {
+                "tag": "Creative Assistance"
+            },
+            {
+                "tag": "Creative Localization"
+            },
+            {
+                "tag": "Creative Strategy"
+            },
+            {
+                "tag": "Creative Assistance"
+            },
+            {
+                "tag": "Design Assistance"
+            },
+            {
+                "tag": "Gamification"
+            },
+            {
+                "tag": "Smart Action Suggestions"
+            }
+        ]
+    },
+    "pocket_98": {
+        "pocket_id": 98,
+        "items": [
+            {
+                "tag": "Brand Customization"
+            },
+            {
+                "tag": "Brand Kit and Guide Generation"
+            },
+            {
+                "tag": "Brand Template Creation"
+            },
+            {
+                "tag": "Business Model Templates"
+            },
+            {
+                "tag": "Letter Template Selection"
+            }
+        ]
+    },
+    "pocket_99": {
+        "pocket_id": 99,
+        "items": [
+            {
+                "tag": "Custom URL Creation"
+            },
+            {
+                "tag": "Redirect Rule Creation"
+            },
+            {
+                "tag": "URL Slug Standardization"
+            }
+        ]
+    },
+    "pocket_100": {
+        "pocket_id": 100,
+        "items": [
+            {
+                "tag": "Interactive Video Environments"
+            },
+            {
+                "tag": "Interactive Learning"
+            },
+            {
+                "tag": "Virtual Photography"
+            },
+            {
+                "tag": "Interactive Canvas"
+            },
+            {
+                "tag": "Interactive UI Rendering"
+            },
+            {
+                "tag": "Virtual Clothing Try-On"
+            },
+            {
+                "tag": "Real-Time Suggestions"
+            },
+            {
+                "tag": "Virtual Receptionist"
+            }
+        ]
+    },
+    "pocket_101": {
+        "pocket_id": 101,
+        "items": [
+            {
+                "tag": "Intent Clarification"
+            },
+            {
+                "tag": "Intent Analysis"
+            },
+            {
+                "tag": "Search Intent Analysis"
+            },
+            {
+                "tag": "Buyer Intent Detection"
+            },
+            {
+                "tag": "PII Redaction"
+            }
+        ]
+    },
+    "pocket_102": {
+        "pocket_id": 102,
+        "items": [
+            {
+                "tag": "Web Browsing"
+            },
+            {
+                "tag": "Webpage Monitoring"
+            },
+            {
+                "tag": "Web Research"
+            },
+            {
+                "tag": "Website Generation"
+            },
+            {
+                "tag": "Website Guidance"
+            },
+            {
+                "tag": "Application and Website Hosting"
+            },
+            {
+                "tag": "Hosting Management"
+            },
+            {
+                "tag": "Website Building"
+            },
+            {
+                "tag": "Responsive Web Design"
+            },
+            {
+                "tag": "Website Copywriting"
+            },
+            {
+                "tag": "Website Diagnostics"
+            },
+            {
+                "tag": "Website Migration"
+            },
+            {
+                "tag": "Website Crawling"
+            }
+        ]
+    },
+    "pocket_103": {
+        "pocket_id": 103,
+        "items": [
+            {
+                "tag": "Chord Detection"
+            },
+            {
+                "tag": "Clothing Recognition"
+            },
+            {
+                "tag": "General Gap Detection"
+            },
+            {
+                "tag": "Research Gap Detection"
+            },
+            {
+                "tag": "Deepfake Detection"
+            },
+            {
+                "tag": "Hallucination Detection"
+            },
+            {
+                "tag": "Signal Detection"
+            },
+            {
+                "tag": "Automatic Highlight Detection"
+            }
+        ]
+    },
+    "pocket_104": {
+        "pocket_id": 104,
+        "items": [
+            {
+                "tag": "Citation-Backed Answers"
+            },
+            {
+                "tag": "Citation Creation and Management"
+            },
+            {
+                "tag": "Citation Tracking"
+            },
+            {
+                "tag": "Citation Analysis and Scoring"
+            },
+            {
+                "tag": "Citation Verification"
+            },
+            {
+                "tag": "Fact Verification"
+            },
+            {
+                "tag": "Plagiarism Detection"
+            },
+            {
+                "tag": "Reference Validation"
+            },
+            {
+                "tag": "Verified Statistics"
+            }
+        ]
+    },
+    "pocket_105": {
+        "pocket_id": 105,
+        "items": [
+            {
+                "tag": "Color Palette Generation"
+            },
+            {
+                "tag": "Color Palette Selection"
+            },
+            {
+                "tag": "Visual Content Selection"
+            },
+            {
+                "tag": "Color Grading"
+            },
+            {
+                "tag": "Color Saturation Adjustment"
+            },
+            {
+                "tag": "Chart Selection"
+            }
+        ]
+    },
+    "pocket_106": {
+        "pocket_id": 106,
+        "items": [
+            {
+                "tag": "Task Execution and Automation"
+            },
+            {
+                "tag": "Asynchronous and Long-Running Task Processing"
+            },
+            {
+                "tag": "Task Management"
+            },
+            {
+                "tag": "Task Management Integration"
+            },
+            {
+                "tag": "Task Decomposition"
+            },
+            {
+                "tag": "Task Extraction"
+            },
+            {
+                "tag": "Task Instruction Generation"
+            },
+            {
+                "tag": "Task Research"
+            },
+            {
+                "tag": "Task Routing"
+            },
+            {
+                "tag": "Action Item Extraction"
+            }
+        ]
+    },
+    "pocket_107": {
+        "pocket_id": 107,
+        "items": [
+            {
+                "tag": "Brand Insights"
+            },
+            {
+                "tag": "Brand Identification"
+            },
+            {
+                "tag": "Brand Kit Extraction"
+            },
+            {
+                "tag": "Brand Kit Management"
+            },
+            {
+                "tag": "Unit Economics Analysis"
+            },
+            {
+                "tag": "Brand Mention Monitoring"
+            },
+            {
+                "tag": "Brand Compliance Enforcement"
+            },
+            {
+                "tag": "Brand Management"
+            },
+            {
+                "tag": "Brand Analysis"
+            },
+            {
+                "tag": "Brand Guideline Management"
+            },
+            {
+                "tag": "Company Culture Analysis"
+            },
+            {
+                "tag": "Product Research and Analysis"
+            },
+            {
+                "tag": "Product Set Curation"
+            }
+        ]
+    },
+    "pocket_108": {
+        "pocket_id": 108,
+        "items": [
+            {
+                "tag": "Influencer Outreach"
+            },
+            {
+                "tag": "Engagement Analytics"
+            },
+            {
+                "tag": "Community Engagement Management"
+            }
+        ]
+    },
+    "pocket_109": {
+        "pocket_id": 109,
+        "items": [
+            {
+                "tag": "Video Editing"
+            },
+            {
+                "tag": "Video Templates"
+            },
+            {
+                "tag": "Video Publishing and Scheduling"
+            },
+            {
+                "tag": "Video Production"
+            },
+            {
+                "tag": "Video Editing and Assembly"
+            },
+            {
+                "tag": "Video Cloning"
+            },
+            {
+                "tag": "Video Series Management"
+            },
+            {
+                "tag": "Video Editing"
+            },
+            {
+                "tag": "Video Translation"
+            },
+            {
+                "tag": "Video Reframing and Resizing"
+            },
+            {
+                "tag": "Video Upscaling"
+            },
+            {
+                "tag": "Video Effects and Transitions"
+            },
+            {
+                "tag": "Video Merging"
+            },
+            {
+                "tag": "Video Preview"
+            },
+            {
+                "tag": "Video Rendering"
+            },
+            {
+                "tag": "Video Reversal"
+            },
+            {
+                "tag": "Video Synchronization"
+            },
+            {
+                "tag": "Video Export"
+            },
+            {
+                "tag": "Storyboard-to-Video Creation"
+            },
+            {
+                "tag": "Image-to-Video"
+            },
+            {
+                "tag": "Text and Content-to-Video"
+            },
+            {
+                "tag": "Audio-to-Video"
+            },
+            {
+                "tag": "Presentation-to-Video"
+            },
+            {
+                "tag": "Video-to-Text"
+            },
+            {
+                "tag": "Video Ideation"
+            },
+            {
+                "tag": "Video Anomaly Detection"
+            },
+            {
+                "tag": "Video Summarization"
+            },
+            {
+                "tag": "Video Customization and Personalization"
+            },
+            {
+                "tag": "Video Content Analysis"
+            },
+            {
+                "tag": "Slideshow-to-Video Conversion"
+            },
+            {
+                "tag": "Video Annotation"
+            },
+            {
+                "tag": "Video Format Selection"
+            },
+            {
+                "tag": "Video Localization"
+            },
+            {
+                "tag": "Video Narration"
+            },
+            {
+                "tag": "Video Style Recreation"
+            },
+            {
+                "tag": "Video Watermarking"
+            },
+            {
+                "tag": "Video Resolution Control"
+            }
+        ]
+    },
+    "pocket_110": {
+        "pocket_id": 110,
+        "items": [
+            {
+                "tag": "Knowledge-Grounded Answering"
+            },
+            {
+                "tag": "Question Answering"
+            },
+            {
+                "tag": "Legal Question Answering"
+            },
+            {
+                "tag": "Natural Language Querying"
+            },
+            {
+                "tag": "Language Comprehension Analytics"
+            },
+            {
+                "tag": "Tax Question Answering"
+            },
+            {
+                "tag": "Question Classification"
+            }
+        ]
+    },
+    "pocket_111": {
+        "pocket_id": 111,
+        "items": [
+            {
+                "tag": "Visual App Building"
+            },
+            {
+                "tag": "Visual Workflow Building"
+            },
+            {
+                "tag": "VS Code Integration"
+            },
+            {
+                "tag": "Virtual Try-On"
+            },
+            {
+                "tag": "Visual Sourcing"
+            }
+        ]
+    },
+    "pocket_112": {
+        "pocket_id": 112,
+        "items": [
+            {
+                "tag": "LLM Access"
+            },
+            {
+                "tag": "LLM Function Calling"
+            },
+            {
+                "tag": "LLM Indexing"
+            },
+            {
+                "tag": "llms.txt Analysis"
+            },
+            {
+                "tag": "llms.txt Generation"
+            }
+        ]
+    },
+    "pocket_113": {
+        "pocket_id": 113,
+        "items": [
+            {
+                "tag": "Resume Analysis"
+            },
+            {
+                "tag": "Resume Creation"
+            },
+            {
+                "tag": "Resume Sharing"
+            },
+            {
+                "tag": "Resume Tailoring"
+            }
+        ]
+    },
+    "pocket_114": {
+        "pocket_id": 114,
+        "items": [
+            {
+                "tag": "User Interaction Tracking"
+            },
+            {
+                "tag": "Content Personalization"
+            },
+            {
+                "tag": "Feed Personalization"
+            },
+            {
+                "tag": "Learning Personalization"
+            },
+            {
+                "tag": "Personalized Itinerary Generation"
+            },
+            {
+                "tag": "Track Personalization"
+            }
+        ]
+    },
+    "pocket_115": {
+        "pocket_id": 115,
+        "items": [
+            {
+                "tag": "Title Card Creation"
+            },
+            {
+                "tag": "Flashcard Generation"
+            },
+            {
+                "tag": "Flashcard Editing"
+            },
+            {
+                "tag": "Flashcard Export"
+            },
+            {
+                "tag": "Flashcard Sharing"
+            }
+        ]
+    },
+    "pocket_116": {
+        "pocket_id": 116,
+        "items": [
+            {
+                "tag": "Image Generation"
+            },
+            {
+                "tag": "Image Organization"
+            },
+            {
+                "tag": "Image Generation"
+            },
+            {
+                "tag": "Product Image Generation"
+            },
+            {
+                "tag": "Photo Collage Creation"
+            },
+            {
+                "tag": "Talking Photo Creation"
+            },
+            {
+                "tag": "Background Generation"
+            },
+            {
+                "tag": "Reference-Guided Image Generation"
+            },
+            {
+                "tag": "Pose-to-Image Generation"
+            },
+            {
+                "tag": "Sketch-to-Image Generation"
+            },
+            {
+                "tag": "Bulk Image Generation"
+            },
+            {
+                "tag": "Texture Generation"
+            },
+            {
+                "tag": "3D Model Generation"
+            },
+            {
+                "tag": "3D Material and Texturing"
+            },
+            {
+                "tag": "Thumbnail Generation"
+            },
+            {
+                "tag": "Ghost Mannequin Generation"
+            },
+            {
+                "tag": "Image Transformation"
+            },
+            {
+                "tag": "Image-to-3D Conversion"
+            },
+            {
+                "tag": "Headshot Generation"
+            }
+        ]
+    },
+    "pocket_117": {
+        "pocket_id": 117,
+        "items": [
+            {
+                "tag": "Subtitle Generation"
+            },
+            {
+                "tag": "Animated Subtitle Creation"
+            },
+            {
+                "tag": "Bilingual Subtitle Generation"
+            },
+            {
+                "tag": "Subtitle Addition"
+            },
+            {
+                "tag": "Subtitle Editing"
+            }
+        ]
+    },
+    "pocket_118": {
+        "pocket_id": 118,
+        "items": [
+            {
+                "tag": "Note Annotation"
+            },
+            {
+                "tag": "Keyboard Shortcut Capture"
+            },
+            {
+                "tag": "Screenshot Capture"
+            },
+            {
+                "tag": "Screenshot Annotation"
+            },
+            {
+                "tag": "Screenshot-to-Mockup Conversion"
+            }
+        ]
+    },
+    "pocket_119": {
+        "pocket_id": 119,
+        "items": [
+            {
+                "tag": "Face Swapping"
+            },
+            {
+                "tag": "Head Swapping"
+            },
+            {
+                "tag": "Skin Retouching"
+            },
+            {
+                "tag": "Facial Recognition"
+            },
+            {
+                "tag": "Proxy Rotation"
+            }
+        ]
+    },
+    "pocket_120": {
+        "pocket_id": 120,
+        "items": [
+            {
+                "tag": "Clip Extraction"
+            },
+            {
+                "tag": "Video Extension"
+            },
+            {
+                "tag": "Video-to-Shorts"
+            },
+            {
+                "tag": "Video Clip Creation"
+            },
+            {
+                "tag": "Content Clipping"
+            },
+            {
+                "tag": "Video Clip Extension"
+            },
+            {
+                "tag": "Video Cropping"
+            },
+            {
+                "tag": "Video Subtitling"
+            }
+        ]
+    },
+    "pocket_121": {
+        "pocket_id": 121,
+        "items": [
+            {
+                "tag": "Browser Rendering"
+            },
+            {
+                "tag": "JavaScript Application"
+            },
+            {
+                "tag": "Full-Stack Application Generation"
+            },
+            {
+                "tag": "Web Page Generation"
+            },
+            {
+                "tag": "Web Application Generation"
+            },
+            {
+                "tag": "Interface Mockup Generation"
+            },
+            {
+                "tag": "Application Generation"
+            },
+            {
+                "tag": "Website and Online Store Generation"
+            },
+            {
+                "tag": "Software Test Generation"
+            }
+        ]
+    },
+    "pocket_122": {
+        "pocket_id": 122,
+        "items": [
+            {
+                "tag": "Punctuation Correction"
+            },
+            {
+                "tag": "Clause Revision"
+            },
+            {
+                "tag": "Writing Improvement"
+            },
+            {
+                "tag": "Writing Style Adaptation"
+            },
+            {
+                "tag": "Lyrics Writing"
+            },
+            {
+                "tag": "Text and Content Editing"
+            },
+            {
+                "tag": "Natural-Language Editing"
+            },
+            {
+                "tag": "Academic and Research Writing"
+            },
+            {
+                "tag": "Text Rewriting"
+            },
+            {
+                "tag": "Text Paraphrasing"
+            },
+            {
+                "tag": "Text Simplification"
+            },
+            {
+                "tag": "Text Expansion"
+            },
+            {
+                "tag": "Formula Writing"
+            },
+            {
+                "tag": "Character Insertion"
+            },
+            {
+                "tag": "Natural Language Enhancement"
+            },
+            {
+                "tag": "Text Rewriting"
+            },
+            {
+                "tag": "Writing Refinement"
+            },
+            {
+                "tag": "Typography Refinement"
+            }
+        ]
+    },
+    "pocket_123": {
+        "pocket_id": 123,
+        "items": [
+            {
+                "tag": "Trend Analysis"
+            },
+            {
+                "tag": "Trend Monitoring"
+            },
+            {
+                "tag": "Trend Discovery"
+            },
+            {
+                "tag": "Data Analysis"
+            },
+            {
+                "tag": "Data Research"
+            },
+            {
+                "tag": "Qualitative Data Analysis"
+            },
+            {
+                "tag": "Risk Analysis"
+            },
+            {
+                "tag": "Data Analysis"
+            }
+        ]
+    },
+    "pocket_124": {
+        "pocket_id": 124,
+        "items": [
+            {
+                "tag": "Script-to-Video Generation"
+            },
+            {
+                "tag": "Video Script Generation"
+            },
+            {
+                "tag": "Video Generation"
+            },
+            {
+                "tag": "Video Generation"
+            },
+            {
+                "tag": "Lyric Video Creation"
+            },
+            {
+                "tag": "Podcast Video Creation"
+            },
+            {
+                "tag": "Avatar Video Generation"
+            },
+            {
+                "tag": "Video Generation"
+            },
+            {
+                "tag": "Multimedia Generation"
+            },
+            {
+                "tag": "Video Description Generation"
+            },
+            {
+                "tag": "Video Style Generation"
+            },
+            {
+                "tag": "Video Variation Generation"
+            },
+            {
+                "tag": "Template-Based Video Creation"
+            },
+            {
+                "tag": "Product Page-to-Video Generation"
+            },
+            {
+                "tag": "Prompt-to-Video Generation"
+            }
+        ]
+    },
+    "pocket_125": {
+        "pocket_id": 125,
+        "items": [
+            {
+                "tag": "Request and Run Tracing"
+            },
+            {
+                "tag": "Pull Request Creation"
+            },
+            {
+                "tag": "Pull Request Review"
+            }
+        ]
+    },
+    "pocket_126": {
+        "pocket_id": 126,
+        "items": [
+            {
+                "tag": "Traffic Distribution"
+            },
+            {
+                "tag": "Job Posting Distribution"
+            },
+            {
+                "tag": "Job Matching"
+            },
+            {
+                "tag": "Job Tracking"
+            },
+            {
+                "tag": "Jobs-to-be-Done Analysis"
+            },
+            {
+                "tag": "Labor Rate Calculation"
+            }
+        ]
+    },
+    "pocket_127": {
+        "pocket_id": 127,
+        "items": [
+            {
+                "tag": "Multi-Agent Chat"
+            },
+            {
+                "tag": "Multi-Model Chat"
+            },
+            {
+                "tag": "Distributed Inference"
+            },
+            {
+                "tag": "Multi-Model Chat"
+            },
+            {
+                "tag": "Multimodal Model Access"
+            }
+        ]
+    },
+    "pocket_128": {
+        "pocket_id": 128,
+        "items": [
+            {
+                "tag": "Batch Processing"
+            },
+            {
+                "tag": "Batch Editing"
+            },
+            {
+                "tag": "Batch Design Generation"
+            },
+            {
+                "tag": "Batch Image Processing"
+            },
+            {
+                "tag": "Bulk Data Editing"
+            },
+            {
+                "tag": "Batch Prompt Processing"
+            }
+        ]
+    },
+    "pocket_129": {
+        "pocket_id": 129,
+        "items": [
+            {
+                "tag": "Automated Optimization"
+            },
+            {
+                "tag": "Optimization Fix Prioritization"
+            },
+            {
+                "tag": "Optimization Controls"
+            },
+            {
+                "tag": "Platform-Specific Optimization"
+            },
+            {
+                "tag": "Model Fine-Tuning"
+            },
+            {
+                "tag": "Automatic Rigging"
+            },
+            {
+                "tag": "Copy Optimization"
+            },
+            {
+                "tag": "Budget Optimization"
+            },
+            {
+                "tag": "Estimate Generation"
+            },
+            {
+                "tag": "Bid Management and Optimization"
+            },
+            {
+                "tag": "Search Optimization"
+            },
+            {
+                "tag": "Generative Engine Optimization Auditing"
+            }
+        ]
+    },
+    "pocket_130": {
+        "pocket_id": 130,
+        "items": [
+            {
+                "tag": "Progress and Plan Tracking"
+            },
+            {
+                "tag": "Postback Tracking"
+            },
+            {
+                "tag": "Tracker Migration"
+            },
+            {
+                "tag": "Progress Support"
+            },
+            {
+                "tag": "Support CRM"
+            },
+            {
+                "tag": "Support Ticketing"
+            },
+            {
+                "tag": "Deal Progress Tracking"
+            },
+            {
+                "tag": "Helpdesk Support"
+            },
+            {
+                "tag": "Self-Healing Test Maintenance"
+            },
+            {
+                "tag": "Change Checkpointing"
+            },
+            {
+                "tag": "Decision Support"
+            }
+        ]
+    },
+    "pocket_131": {
+        "pocket_id": 131,
+        "items": [
+            {
+                "tag": "Dashboard Creation"
+            },
+            {
+                "tag": "Dashboard Auto-Refresh"
+            },
+            {
+                "tag": "Dashboard Sharing"
+            },
+            {
+                "tag": "Dashboard Templates"
+            }
+        ]
+    },
+    "pocket_132": {
+        "pocket_id": 132,
+        "items": [
+            {
+                "tag": "Confidence Scoring"
+            },
+            {
+                "tag": "Call Scoring"
+            },
+            {
+                "tag": "Candidate Scoring"
+            },
+            {
+                "tag": "Lead Scoring"
+            },
+            {
+                "tag": "Automated Scoring"
+            },
+            {
+                "tag": "Human Handoff"
+            },
+            {
+                "tag": "Call Transfer"
+            },
+            {
+                "tag": "Outbound Calling"
+            }
+        ]
+    },
+    "pocket_133": {
+        "pocket_id": 133,
+        "items": [
+            {
+                "tag": "User Story Analysis"
+            },
+            {
+                "tag": "Influencer Discovery"
+            },
+            {
+                "tag": "Audience Analytics"
+            },
+            {
+                "tag": "Audience Segmentation"
+            },
+            {
+                "tag": "Audience Targeting"
+            },
+            {
+                "tag": "Audience Sentiment Analysis"
+            }
+        ]
+    },
+    "pocket_134": {
+        "pocket_id": 134,
+        "items": [
+            {
+                "tag": "Echo and Reverb Reduction"
+            },
+            {
+                "tag": "Model Evaluation and Comparison"
+            },
+            {
+                "tag": "Output Evaluation"
+            },
+            {
+                "tag": "Simulation Evaluation"
+            },
+            {
+                "tag": "Output Age Selection"
+            }
+        ]
+    },
+    "pocket_135": {
+        "pocket_id": 135,
+        "items": [
+            {
+                "tag": "MCP Integration"
+            },
+            {
+                "tag": "LSP Integration"
+            },
+            {
+                "tag": "Supplier Pricing Integration"
+            },
+            {
+                "tag": "Form Integration"
+            },
+            {
+                "tag": "Model Integration"
+            },
+            {
+                "tag": "Product Integration"
+            }
+        ]
+    },
+    "pocket_136": {
+        "pocket_id": 136,
+        "items": [
+            {
+                "tag": "Dialogue Generation"
+            },
+            {
+                "tag": "Subject Line Generation"
+            },
+            {
+                "tag": "Quote Generation"
+            },
+            {
+                "tag": "Talking Head Generation"
+            },
+            {
+                "tag": "Dialogue Generation"
+            },
+            {
+                "tag": "Narrative Structure Development"
+            },
+            {
+                "tag": "Meeting Brief Generation"
+            },
+            {
+                "tag": "Quiz Generation"
+            },
+            {
+                "tag": "Interview Brief Generation"
+            },
+            {
+                "tag": "Interview Question Generation"
+            },
+            {
+                "tag": "Question Generation"
+            }
+        ]
+    },
+    "pocket_137": {
+        "pocket_id": 137,
+        "items": [
+            {
+                "tag": "Business Insights"
+            },
+            {
+                "tag": "Historical Insights"
+            },
+            {
+                "tag": "Business Insights"
+            },
+            {
+                "tag": "Real-Time Insights"
+            },
+            {
+                "tag": "Insight Generation"
+            },
+            {
+                "tag": "Insight Summarization"
+            }
+        ]
+    },
+    "pocket_138": {
+        "pocket_id": 138,
+        "items": [
+            {
+                "tag": "Webhook Integration"
+            },
+            {
+                "tag": "Webhook Triggers and Processing"
+            },
+            {
+                "tag": "Webhook Delivery and Forwarding"
+            }
+        ]
+    },
+    "pocket_139": {
+        "pocket_id": 139,
+        "items": [
+            {
+                "tag": "Human Behavior Emulation"
+            },
+            {
+                "tag": "Escalation Rule Management"
+            },
+            {
+                "tag": "Human Escalation"
+            },
+            {
+                "tag": "Emotion Control"
+            },
+            {
+                "tag": "Human Agent Escalation"
+            }
+        ]
+    },
+    "pocket_140": {
+        "pocket_id": 140,
+        "items": [
+            {
+                "tag": "Website Editing"
+            },
+            {
+                "tag": "Website and Page Editing"
+            },
+            {
+                "tag": "Location Customization"
+            },
+            {
+                "tag": "Custom Domain Support"
+            },
+            {
+                "tag": "Website Customization"
+            },
+            {
+                "tag": "Portal Customization"
+            },
+            {
+                "tag": "Page Management"
+            },
+            {
+                "tag": "Page and Template Customization"
+            },
+            {
+                "tag": "Content and Formatting Customization"
+            },
+            {
+                "tag": "Mode Customization"
+            }
+        ]
+    },
+    "pocket_141": {
+        "pocket_id": 141,
+        "items": [
+            {
+                "tag": "Knowledge Base Management"
+            },
+            {
+                "tag": "Database Schema Generation"
+            },
+            {
+                "tag": "Schema Management"
+            },
+            {
+                "tag": "Connected Device Mapping"
+            },
+            {
+                "tag": "Influence Mapping"
+            },
+            {
+                "tag": "Diagram Generation"
+            },
+            {
+                "tag": "Curriculum Mapping"
+            },
+            {
+                "tag": "Knowledge Map Generation"
+            },
+            {
+                "tag": "Logic Generation"
+            },
+            {
+                "tag": "Conditional Logic Generation"
+            },
+            {
+                "tag": "User Journey Mapping"
+            }
+        ]
+    },
+    "pocket_142": {
+        "pocket_id": 142,
+        "items": [
+            {
+                "tag": "Content Sharing"
+            },
+            {
+                "tag": "Image Sharing"
+            },
+            {
+                "tag": "Link and Embed Sharing"
+            },
+            {
+                "tag": "Video Sharing"
+            },
+            {
+                "tag": "Social Media Sharing"
+            },
+            {
+                "tag": "Document Sharing"
+            },
+            {
+                "tag": "Session Sharing"
+            }
+        ]
+    },
+    "pocket_143": {
+        "pocket_id": 143,
+        "items": [
+            {
+                "tag": "Data and File Validation"
+            },
+            {
+                "tag": "Bulk File Upload"
+            },
+            {
+                "tag": "Data Storage"
+            },
+            {
+                "tag": "File and Document Storage"
+            },
+            {
+                "tag": "File Management"
+            },
+            {
+                "tag": "File Storage Integration"
+            },
+            {
+                "tag": "File Upload"
+            },
+            {
+                "tag": "PDF Download"
+            }
+        ]
+    },
+    "pocket_144": {
+        "pocket_id": 144,
+        "items": [
+            {
+                "tag": "Evidence Traceability"
+            },
+            {
+                "tag": "E-commerce Auditing and Analytics"
+            },
+            {
+                "tag": "Fraud Detection"
+            },
+            {
+                "tag": "Account Auditing"
+            },
+            {
+                "tag": "Content Auditing"
+            },
+            {
+                "tag": "Website Auditing"
+            }
+        ]
+    },
+    "pocket_145": {
+        "pocket_id": 145,
+        "items": [
+            {
+                "tag": "Expert Team Formation"
+            },
+            {
+                "tag": "Skill Development"
+            },
+            {
+                "tag": "Skill Management"
+            },
+            {
+                "tag": "Skill Matching Analysis"
+            }
+        ]
+    },
+    "pocket_146": {
+        "pocket_id": 146,
+        "items": [
+            {
+                "tag": "Trend-Based Presets"
+            },
+            {
+                "tag": "Preset Recommendations"
+            },
+            {
+                "tag": "Style Selection and Presets"
+            }
+        ]
+    },
+    "pocket_147": {
+        "pocket_id": 147,
+        "items": [
+            {
+                "tag": "Budget Management and Tracking"
+            },
+            {
+                "tag": "Budget Alerts"
+            },
+            {
+                "tag": "Costbook Referencing"
+            },
+            {
+                "tag": "Spending Controls"
+            }
+        ]
+    },
+    "pocket_148": {
+        "pocket_id": 148,
+        "items": [
+            {
+                "tag": "Voice Conversion"
+            },
+            {
+                "tag": "Voice Design and Customization"
+            },
+            {
+                "tag": "Voice Enhancement"
+            },
+            {
+                "tag": "Voiceover Addition"
+            },
+            {
+                "tag": "Voiceover Editing"
+            },
+            {
+                "tag": "Voiceover Export"
+            }
+        ]
+    },
+    "pocket_149": {
+        "pocket_id": 149,
+        "items": [
+            {
+                "tag": "Logo Design"
+            },
+            {
+                "tag": "Animated Logo Creation"
+            },
+            {
+                "tag": "Logo Integration"
+            },
+            {
+                "tag": "Logo Editing"
+            }
+        ]
+    }
+}

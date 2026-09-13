@@ -1,0 +1,1183 @@
+[
+    {
+        "pocket_id": 57,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Audio Recording",
+                "source_tags": [
+                    "Meeting Recording",
+                    "Audio Recording",
+                    "Call Recording"
+                ]
+            },
+            {
+                "secondary_tag": "Meeting Recording and Transcription",
+                "source_tags": [
+                    "Meeting Recording and Transcription"
+                ]
+            },
+            {
+                "secondary_tag": "Audio Export",
+                "source_tags": [
+                    "Audio Export",
+                    "WAV Download"
+                ]
+            },
+            {
+                "secondary_tag": "Podcast Creation",
+                "source_tags": [
+                    "Podcast Creation"
+                ]
+            },
+            {
+                "secondary_tag": "Podcast Video Creation",
+                "source_tags": [
+                    "Podcast Video Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 12,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Email Integration",
+                "source_tags": [
+                    "Chrome Email Integration"
+                ]
+            },
+            {
+                "secondary_tag": "Email Analytics",
+                "source_tags": [
+                    "Email Analytics"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 140,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Payment Processing",
+                "source_tags": [
+                    "Payment Processing",
+                    "Stripe Payment Integration"
+                ]
+            },
+            {
+                "secondary_tag": "Bank Account Connection",
+                "source_tags": [
+                    "Bank Account Connection"
+                ]
+            },
+            {
+                "secondary_tag": "Bill Capture",
+                "source_tags": [
+                    "Bill Capture"
+                ]
+            },
+            {
+                "secondary_tag": "Bill Negotiation",
+                "source_tags": [
+                    "Bill Negotiation"
+                ]
+            },
+            {
+                "secondary_tag": "Bill Payment",
+                "source_tags": [
+                    "Bill Payment"
+                ]
+            },
+            {
+                "secondary_tag": "Billing Management",
+                "source_tags": [
+                    "Billing Management",
+                    "Client Billing",
+                    "Stripe Billing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 125,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Voice Messaging",
+                "source_tags": [
+                    "Voice Messaging"
+                ]
+            },
+            {
+                "secondary_tag": "Active Listening",
+                "source_tags": [
+                    "Active Listening"
+                ]
+            },
+            {
+                "secondary_tag": "Real-Time Voice Streaming",
+                "source_tags": [
+                    "Real-Time Voice Streaming"
+                ]
+            },
+            {
+                "secondary_tag": "Share of Voice Analytics",
+                "source_tags": [
+                    "Share of Voice Measurement",
+                    "Share Of Voice Tracking"
+                ]
+            },
+            {
+                "secondary_tag": "Social Listening",
+                "source_tags": [
+                    "Social Listening"
+                ]
+            },
+            {
+                "secondary_tag": "Voice Calling",
+                "source_tags": [
+                    "Voice Calling"
+                ]
+            },
+            {
+                "secondary_tag": "Voice Conversation",
+                "source_tags": [
+                    "Voice Conversation",
+                    "Voice Conversations"
+                ]
+            },
+            {
+                "secondary_tag": "Voice Narration",
+                "source_tags": [
+                    "Voice Narration"
+                ]
+            },
+            {
+                "secondary_tag": "Voice Question Answering",
+                "source_tags": [
+                    "Voice Question Answering"
+                ]
+            },
+            {
+                "secondary_tag": "Voice Rehearsal",
+                "source_tags": [
+                    "Voice Rehearsal"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 114,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Prompt Chaining",
+                "source_tags": [
+                    "Prompt Chaining"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt Generation",
+                "source_tags": [
+                    "AI Prompt Generation",
+                    "Prompt Generation",
+                    "Prompt Suggestions"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt Optimization",
+                "source_tags": [
+                    "Prompt Enhancement",
+                    "Prompt Refinement"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt-Based Editing",
+                "source_tags": [
+                    "Prompt-Based Editing"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt-Based Creation",
+                "source_tags": [
+                    "Prompt-Based Creation"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt Library Management",
+                "source_tags": [
+                    "Custom Prompt Presets",
+                    "Prompt Library",
+                    "Reusable Prompts"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt Experimentation",
+                "source_tags": [
+                    "Project Prompt Exploration",
+                    "Prompt Playground"
+                ]
+            },
+            {
+                "secondary_tag": "Prompt Monitoring",
+                "source_tags": [
+                    "Prompt Monitoring"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 71,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Audit Logging",
+                "source_tags": [
+                    "Audit Logging"
+                ]
+            },
+            {
+                "secondary_tag": "Workflow Logging",
+                "source_tags": [
+                    "Workflow Logging"
+                ]
+            },
+            {
+                "secondary_tag": "Workflow Monitoring",
+                "source_tags": [
+                    "Workflow Monitoring"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 52,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Text-to-Speech",
+                "source_tags": [
+                    "Text-to-Speech",
+                    "Text to Speech",
+                    "Text-to-Speech Generation",
+                    "Text-to-Speech Narration",
+                    "Text-to-Voice"
+                ]
+            },
+            {
+                "secondary_tag": "Speech-to-Text",
+                "source_tags": [
+                    "Speech-to-Text Transcription",
+                    "Speech-to-Text",
+                    "Voice-to-Text Responses"
+                ]
+            },
+            {
+                "secondary_tag": "Text-to-Dialogue Conversion",
+                "source_tags": [
+                    "Text-to-Dialogue"
+                ]
+            },
+            {
+                "secondary_tag": "Voice-Matched Writing",
+                "source_tags": [
+                    "Voice-Matched Writing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 279,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Keyword Clustering",
+                "source_tags": [
+                    "Keyword Clustering"
+                ]
+            },
+            {
+                "secondary_tag": "Search Results Clustering",
+                "source_tags": [
+                    "SERP Clustering"
+                ]
+            },
+            {
+                "secondary_tag": "Topic Clustering",
+                "source_tags": [
+                    "Topic Clustering"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 44,
+        "secondary_tags": [
+            {
+                "secondary_tag": "AI Model Routing",
+                "source_tags": [
+                    "Model Routing",
+                    "Call Routing",
+                    "Adaptive Model Routing",
+                    "Intelligent Model Routing",
+                    "Intelligent Request Routing",
+                    "Multi-Model AI Routing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 216,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Quiz Generation",
+                "source_tags": [
+                    "Quiz Generation",
+                    "Quiz Creation"
+                ]
+            },
+            {
+                "secondary_tag": "FAQ Generation",
+                "source_tags": [
+                    "FAQ Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Interview Planning Material Generation",
+                "source_tags": [
+                    "Interview Brief Generation",
+                    "Interview Outline Creation"
+                ]
+            },
+            {
+                "secondary_tag": "Interview Question and Answer Generation",
+                "source_tags": [
+                    "Interview Q&A Generation",
+                    "Interview Question Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Question Generation",
+                "source_tags": [
+                    "Quantitative Questioning",
+                    "Question Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Question Classification",
+                "source_tags": [
+                    "Question Classification"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 16,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Brand Insights",
+                "source_tags": [
+                    "Brand Insights"
+                ]
+            },
+            {
+                "secondary_tag": "Business Insights",
+                "source_tags": [
+                    "Business Insights",
+                    "Company Insights"
+                ]
+            },
+            {
+                "secondary_tag": "Historical Insights",
+                "source_tags": [
+                    "Historical Insights"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 15,
+        "secondary_tags": [
+            {
+                "secondary_tag": "SEO Content Optimization",
+                "source_tags": [
+                    "SEO Optimization",
+                    "Content Optimization",
+                    "AI Content Optimization",
+                    "AI-Readable Content Optimization",
+                    "SEO Content Optimization"
+                ]
+            },
+            {
+                "secondary_tag": "Metadata Optimization",
+                "source_tags": [
+                    "Title Optimization",
+                    "Alt Text Optimization",
+                    "Tag Optimization",
+                    "Title Tag Optimization"
+                ]
+            },
+            {
+                "secondary_tag": "Automated Optimization",
+                "source_tags": [
+                    "Automated Optimization"
+                ]
+            },
+            {
+                "secondary_tag": "Optimization Prioritization",
+                "source_tags": [
+                    "Fix Prioritization"
+                ]
+            },
+            {
+                "secondary_tag": "Optimization Controls",
+                "source_tags": [
+                    "Optimization Controls"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 47,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Phone-Based Customer Support",
+                "source_tags": [
+                    "Phone Support"
+                ]
+            },
+            {
+                "secondary_tag": "Progress Support",
+                "source_tags": [
+                    "Progress Support"
+                ]
+            },
+            {
+                "secondary_tag": "Social Media Customer Support",
+                "source_tags": [
+                    "Social Media Support"
+                ]
+            },
+            {
+                "secondary_tag": "Stakeholder Profiling",
+                "source_tags": [
+                    "Stakeholder Profiling"
+                ]
+            },
+            {
+                "secondary_tag": "Customer Support Analytics",
+                "source_tags": [
+                    "Support Analytics"
+                ]
+            },
+            {
+                "secondary_tag": "Customer Support CRM",
+                "source_tags": [
+                    "Support CRM"
+                ]
+            },
+            {
+                "secondary_tag": "Support Ticket Management",
+                "source_tags": [
+                    "Support Ticketing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 111,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Diagram Generation",
+                "source_tags": [
+                    "Diagram Generation",
+                    "AI Diagram Generation",
+                    "Diagram Creation",
+                    "Flowchart Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 119,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Traffic Tracking and Measurement",
+                "source_tags": [
+                    "AI Traffic Measurement",
+                    "Traffic Tracking"
+                ]
+            },
+            {
+                "secondary_tag": "Traffic Analytics",
+                "source_tags": [
+                    "Traffic Analysis",
+                    "Traffic Source Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Traffic Reporting",
+                "source_tags": [
+                    "AI Traffic Reporting"
+                ]
+            },
+            {
+                "secondary_tag": "Traffic Distribution",
+                "source_tags": [
+                    "Traffic Distribution"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 258,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Document Scanning",
+                "source_tags": [
+                    "Document Scanning"
+                ]
+            },
+            {
+                "secondary_tag": "OCR Text Extraction",
+                "source_tags": [
+                    "OCR",
+                    "OCR Text Extraction",
+                    "OCR Text Scanning"
+                ]
+            },
+            {
+                "secondary_tag": "OCR Translation",
+                "source_tags": [
+                    "OCR Translation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 13,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Content, File, and Data Export",
+                "source_tags": [
+                    "PDF Export",
+                    "Content Export",
+                    "Spreadsheet Export",
+                    "Asset Export",
+                    "CMS Export",
+                    "CSV Export",
+                    "Document Export",
+                    "DOCX Export",
+                    "Flipbook Export",
+                    "Google Docs Export",
+                    "HTML/CSS/JS Export",
+                    "Run History Export",
+                    "Table Export"
+                ]
+            },
+            {
+                "secondary_tag": "Document Import and Export",
+                "source_tags": [
+                    "Document Import and Export"
+                ]
+            },
+            {
+                "secondary_tag": "Print-Ready Export",
+                "source_tags": [
+                    "Print-Ready Export"
+                ]
+            },
+            {
+                "secondary_tag": "Watermark-Free Export",
+                "source_tags": [
+                    "Watermark-Free Export"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 287,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Screen Recording",
+                "source_tags": [
+                    "Screen Recording"
+                ]
+            },
+            {
+                "secondary_tag": "Screen and Camera Recording",
+                "source_tags": [
+                    "Screen and Camera Recording",
+                    "Screen and Webcam Recording"
+                ]
+            },
+            {
+                "secondary_tag": "Screenshot Capture",
+                "source_tags": [
+                    "Screenshot Capture"
+                ]
+            },
+            {
+                "secondary_tag": "Screenshot Annotation",
+                "source_tags": [
+                    "Screenshot Annotation"
+                ]
+            },
+            {
+                "secondary_tag": "Screenshot-to-Mockup Conversion",
+                "source_tags": [
+                    "Screenshot-to-Mockup Conversion"
+                ]
+            },
+            {
+                "secondary_tag": "Teleprompter",
+                "source_tags": [
+                    "Teleprompter"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 101,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Object Removal",
+                "source_tags": [
+                    "Object Removal"
+                ]
+            },
+            {
+                "secondary_tag": "Noise Reduction",
+                "source_tags": [
+                    "Noise Reduction",
+                    "Background Noise Removal",
+                    "Noise Cancellation",
+                    "Noise Removal"
+                ]
+            },
+            {
+                "secondary_tag": "Silence Removal",
+                "source_tags": [
+                    "Silence Removal"
+                ]
+            },
+            {
+                "secondary_tag": "Artifact Removal",
+                "source_tags": [
+                    "Artifact Removal"
+                ]
+            },
+            {
+                "secondary_tag": "Bad Take Removal",
+                "source_tags": [
+                    "Bad Take Removal"
+                ]
+            },
+            {
+                "secondary_tag": "Echo and Reverb Reduction",
+                "source_tags": [
+                    "Echo Removal",
+                    "Reverb Reduction",
+                    "Room Echo Reduction"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 214,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Data Analysis and Insights",
+                "source_tags": [
+                    "Data Analysis",
+                    "Data Insights"
+                ]
+            },
+            {
+                "secondary_tag": "Data Research",
+                "source_tags": [
+                    "Data Research"
+                ]
+            },
+            {
+                "secondary_tag": "Data Categorization",
+                "source_tags": [
+                    "Data Categorization"
+                ]
+            },
+            {
+                "secondary_tag": "SERP Analysis",
+                "source_tags": [
+                    "SERP Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Domain Analysis",
+                "source_tags": [
+                    "Domain Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "File Analysis",
+                "source_tags": [
+                    "File Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "GA4 Data Analysis",
+                "source_tags": [
+                    "GA4 Data Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Qualitative Data Analysis",
+                "source_tags": [
+                    "Qualitative Analysis",
+                    "Qualitative Data Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Risk Analysis",
+                "source_tags": [
+                    "Risk Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Structured Data Analysis",
+                "source_tags": [
+                    "Structured Data Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Temporal Data Analysis",
+                "source_tags": [
+                    "Time Data Analysis",
+                    "Timeframe-Based Investigation"
+                ]
+            },
+            {
+                "secondary_tag": "User-Generated Content Analysis",
+                "source_tags": [
+                    "UGC Analysis"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 112,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Data Extraction",
+                "source_tags": [
+                    "Information Extraction",
+                    "Data Extraction",
+                    "Business Data Extraction"
+                ]
+            },
+            {
+                "secondary_tag": "Structured Data Parsing",
+                "source_tags": [
+                    "Structured Data Extraction",
+                    "Data Parsing"
+                ]
+            },
+            {
+                "secondary_tag": "Text and Web Content Extraction",
+                "source_tags": [
+                    "Text Extraction",
+                    "Email Extraction",
+                    "HTML Extraction",
+                    "Web Data Extraction"
+                ]
+            },
+            {
+                "secondary_tag": "Key Information Extraction",
+                "source_tags": [
+                    "Key Point Extraction",
+                    "Key Term Extraction"
+                ]
+            },
+            {
+                "secondary_tag": "Automated and Scheduled Extraction",
+                "source_tags": [
+                    "Automated Data Extraction",
+                    "Scheduled Extraction"
+                ]
+            },
+            {
+                "secondary_tag": "Geospatial Data Extraction",
+                "source_tags": [
+                    "Geo-Based Extraction"
+                ]
+            },
+            {
+                "secondary_tag": "Instrument Data Extraction",
+                "source_tags": [
+                    "Instrument Extraction"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 229,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Multi-Model Chat",
+                "source_tags": [
+                    "Multi-Model Chat"
+                ]
+            },
+            {
+                "secondary_tag": "Conversational Bookkeeping Assistance",
+                "source_tags": [
+                    "Bookkeeping Expert Chat"
+                ]
+            },
+            {
+                "secondary_tag": "Chat Analysis",
+                "source_tags": [
+                    "Chat Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Chat Organization",
+                "source_tags": [
+                    "Chat Organization"
+                ]
+            },
+            {
+                "secondary_tag": "Conversational Content Creation",
+                "source_tags": [
+                    "Chat-Based Creation"
+                ]
+            },
+            {
+                "secondary_tag": "Conversational Software Development",
+                "source_tags": [
+                    "Chat-Based Development"
+                ]
+            },
+            {
+                "secondary_tag": "Document Chat",
+                "source_tags": [
+                    "Document Chat"
+                ]
+            },
+            {
+                "secondary_tag": "AI Chat Generation",
+                "source_tags": [
+                    "Human-Like Chat Generation",
+                    "Large Language Model Chat"
+                ]
+            },
+            {
+                "secondary_tag": "Live Chat",
+                "source_tags": [
+                    "Live Chat"
+                ]
+            },
+            {
+                "secondary_tag": "Live Chat Management",
+                "source_tags": [
+                    "Live Chat Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 142,
+        "secondary_tags": [
+            {
+                "secondary_tag": "QR Code Generation",
+                "source_tags": [
+                    "Aesthetic QR Code Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Communication Content Generation",
+                "source_tags": [
+                    "Communication Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Container Generation",
+                "source_tags": [
+                    "Container Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Presentation Generation",
+                "source_tags": [
+                    "Deck Generation"
+                ]
+            },
+            {
+                "secondary_tag": "File Generation",
+                "source_tags": [
+                    "File Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Print Content Generation",
+                "source_tags": [
+                    "Print Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Reference-Guided Generation",
+                "source_tags": [
+                    "Reference-Based Generation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 3,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Evidence Traceability",
+                "source_tags": [
+                    "Evidence Traceability"
+                ]
+            },
+            {
+                "secondary_tag": "Request Logging",
+                "source_tags": [
+                    "Request Detail Capture"
+                ]
+            },
+            {
+                "secondary_tag": "Execution Tracing",
+                "source_tags": [
+                    "Request Tracing",
+                    "Run Tracing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 81,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Background Removal",
+                "source_tags": [
+                    "Background Removal",
+                    "Transparent Background Creation"
+                ]
+            },
+            {
+                "secondary_tag": "Background Editing and Replacement",
+                "source_tags": [
+                    "Background Customization",
+                    "Background Replacement",
+                    "Background Changer",
+                    "Background Color Change",
+                    "Background Editing",
+                    "White Background Editing"
+                ]
+            },
+            {
+                "secondary_tag": "Background Extension",
+                "source_tags": [
+                    "Background Extension"
+                ]
+            },
+            {
+                "secondary_tag": "Background Generation",
+                "source_tags": [
+                    "Background Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Background Localization",
+                "source_tags": [
+                    "Background Localization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 174,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Fashion Model Generation",
+                "source_tags": [
+                    "AI Fashion Models"
+                ]
+            },
+            {
+                "secondary_tag": "Clothing Recognition",
+                "source_tags": [
+                    "Clothing Recognition"
+                ]
+            },
+            {
+                "secondary_tag": "Outfit Generation",
+                "source_tags": [
+                    "Outfit Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Clothing and Outfit Editing",
+                "source_tags": [
+                    "Clothing Editing",
+                    "Outfit Customization",
+                    "Outfit Modification"
+                ]
+            },
+            {
+                "secondary_tag": "Virtual Clothing Preview",
+                "source_tags": [
+                    "Live T-Shirt Preview",
+                    "Outfit Swapping"
+                ]
+            },
+            {
+                "secondary_tag": "Ghost Mannequin Generation",
+                "source_tags": [
+                    "Ghost Mannequin Generation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 79,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Ad Creative Generation",
+                "source_tags": [
+                    "Video Ad Generation",
+                    "Ad Creative Generation",
+                    "Ad Creative Production",
+                    "Ad Generation",
+                    "AI Ad Creation",
+                    "Batch Ad Generation",
+                    "Ad Variation Creation",
+                    "Static Ad Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Concept Ideation",
+                "source_tags": [
+                    "Ad Concept Generation"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Performance Analysis",
+                "source_tags": [
+                    "Ad Performance Analysis",
+                    "Ad Intelligence Analysis",
+                    "Advertising Analysis"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Performance Optimization",
+                "source_tags": [
+                    "Ad Performance Optimization"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Performance Pre-testing",
+                "source_tags": [
+                    "Ad Performance Pre-testing"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Tracking",
+                "source_tags": [
+                    "Ad Tracking"
+                ]
+            },
+            {
+                "secondary_tag": "Ad Template Browsing",
+                "source_tags": [
+                    "Ad Template Browsing"
+                ]
+            },
+            {
+                "secondary_tag": "Job Advertising Management",
+                "source_tags": [
+                    "Job Advertising Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 110,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Form Building",
+                "source_tags": [
+                    "Form Generation",
+                    "Contact Form Creation",
+                    "CTA and Form Creation",
+                    "Form Building"
+                ]
+            },
+            {
+                "secondary_tag": "Calculator Building",
+                "source_tags": [
+                    "Calculator Building"
+                ]
+            },
+            {
+                "secondary_tag": "Form Handling",
+                "source_tags": [
+                    "Form Handling"
+                ]
+            },
+            {
+                "secondary_tag": "Form Integration",
+                "source_tags": [
+                    "Form Integration"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 172,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Application and Website Hosting",
+                "source_tags": [
+                    "Website Hosting",
+                    "App Hosting",
+                    "Cloud Hosting",
+                    "Hosting"
+                ]
+            },
+            {
+                "secondary_tag": "Hosting Management",
+                "source_tags": [
+                    "Hosting Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 194,
+        "secondary_tags": [
+            {
+                "secondary_tag": "Flashcard Generation",
+                "source_tags": [
+                    "Flashcard Generation",
+                    "AI Flashcard Generation",
+                    "Document-to-Flashcard Conversion"
+                ]
+            },
+            {
+                "secondary_tag": "Flashcard Editing",
+                "source_tags": [
+                    "Flashcard Editing"
+                ]
+            },
+            {
+                "secondary_tag": "Flashcard Export",
+                "source_tags": [
+                    "Flashcard Export"
+                ]
+            },
+            {
+                "secondary_tag": "Flashcard Sharing",
+                "source_tags": [
+                    "Flashcard Sharing"
+                ]
+            }
+        ]
+    }
+]

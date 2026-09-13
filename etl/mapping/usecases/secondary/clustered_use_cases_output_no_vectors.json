@@ -1,0 +1,5948 @@
+{
+    "pocket_0": {
+        "pocket_id": 0,
+        "items": [
+            {
+                "tag": "Content Monetization"
+            },
+            {
+                "tag": "Creator Monetization"
+            },
+            {
+                "tag": "Knowledge Monetization"
+            },
+            {
+                "tag": "Media Buying ROI Optimization"
+            },
+            {
+                "tag": "Music Monetization"
+            },
+            {
+                "tag": "Video Monetization"
+            }
+        ]
+    },
+    "pocket_1": {
+        "pocket_id": 1,
+        "items": [
+            {
+                "tag": "Knowledge Management"
+            },
+            {
+                "tag": "Knowledge Base Creation"
+            },
+            {
+                "tag": "Internal Knowledge Bases"
+            },
+            {
+                "tag": "Knowledge Assessment"
+            },
+            {
+                "tag": "Knowledge Assistance"
+            },
+            {
+                "tag": "Knowledge Base Q&A"
+            },
+            {
+                "tag": "Product Knowledge Training"
+            }
+        ]
+    },
+    "pocket_2": {
+        "pocket_id": 2,
+        "items": [
+            {
+                "tag": "Bookkeeping Automation"
+            },
+            {
+                "tag": "Accounting Automation"
+            },
+            {
+                "tag": "Automated Bookkeeping"
+            },
+            {
+                "tag": "Bookkeeping"
+            },
+            {
+                "tag": "Habit Consistency"
+            }
+        ]
+    },
+    "pocket_3": {
+        "pocket_id": 3,
+        "items": [
+            {
+                "tag": "Affiliate Commission Management"
+            },
+            {
+                "tag": "API Cost Management"
+            },
+            {
+                "tag": "Marketplace Development"
+            }
+        ]
+    },
+    "pocket_4": {
+        "pocket_id": 4,
+        "items": [
+            {
+                "tag": "UI/UX Design"
+            },
+            {
+                "tag": "Approval System Creation"
+            },
+            {
+                "tag": "Cosplay Concept Design"
+            },
+            {
+                "tag": "Design Collaboration"
+            },
+            {
+                "tag": "Design Concept Development"
+            },
+            {
+                "tag": "Design Inspiration Management"
+            },
+            {
+                "tag": "Design System Creation"
+            },
+            {
+                "tag": "Interior Design"
+            },
+            {
+                "tag": "Pattern Design"
+            },
+            {
+                "tag": "Software Architecture Review"
+            },
+            {
+                "tag": "UI Design"
+            }
+        ]
+    },
+    "pocket_5": {
+        "pocket_id": 5,
+        "items": [
+            {
+                "tag": "Content Repurposing"
+            },
+            {
+                "tag": "Content Optimization"
+            },
+            {
+                "tag": "Content Strategy"
+            },
+            {
+                "tag": "Content Planning"
+            },
+            {
+                "tag": "Content Discoverability"
+            },
+            {
+                "tag": "Content Distribution"
+            },
+            {
+                "tag": "Content Explanation"
+            },
+            {
+                "tag": "Content Humanization"
+            },
+            {
+                "tag": "Content Originality"
+            },
+            {
+                "tag": "Content Toolkit"
+            },
+            {
+                "tag": "Dynamic Content Management"
+            },
+            {
+                "tag": "Kids Content"
+            },
+            {
+                "tag": "Link Building Content"
+            },
+            {
+                "tag": "Media Content Production"
+            },
+            {
+                "tag": "Multi-Site Content Operations"
+            },
+            {
+                "tag": "Product Launch Content"
+            },
+            {
+                "tag": "Reddit Story Content"
+            },
+            {
+                "tag": "VTuber Content"
+            },
+            {
+                "tag": "Website Content"
+            },
+            {
+                "tag": "Website Content Optimization"
+            }
+        ]
+    },
+    "pocket_6": {
+        "pocket_id": 6,
+        "items": [
+            {
+                "tag": "Meeting Notes"
+            },
+            {
+                "tag": "Note Taking"
+            },
+            {
+                "tag": "Meeting Note-Taking"
+            },
+            {
+                "tag": "Meeting Assistance"
+            },
+            {
+                "tag": "Meeting Documentation"
+            },
+            {
+                "tag": "Meeting Intelligence"
+            },
+            {
+                "tag": "Meeting Preparation"
+            },
+            {
+                "tag": "Acting Rehearsal"
+            },
+            {
+                "tag": "Hybrid Meeting Capture"
+            },
+            {
+                "tag": "In-Person Meeting Capture"
+            },
+            {
+                "tag": "In-Person Note-Taking"
+            },
+            {
+                "tag": "Lecture Note-Taking"
+            },
+            {
+                "tag": "Meeting Coaching"
+            },
+            {
+                "tag": "Meeting Management"
+            },
+            {
+                "tag": "Meeting Memory"
+            },
+            {
+                "tag": "Meeting Note Taking"
+            },
+            {
+                "tag": "Meeting Notetaking"
+            },
+            {
+                "tag": "Meeting Recording"
+            },
+            {
+                "tag": "Note-Taking"
+            },
+            {
+                "tag": "Online Meeting Enhancement"
+            }
+        ]
+    },
+    "pocket_7": {
+        "pocket_id": 7,
+        "items": [
+            {
+                "tag": "Avatar Video Creation"
+            },
+            {
+                "tag": "AI Avatar Creation"
+            },
+            {
+                "tag": "AI Avatar Videos"
+            },
+            {
+                "tag": "Avatar Creation"
+            },
+            {
+                "tag": "Character Avatars"
+            },
+            {
+                "tag": "Digital Human Creation"
+            },
+            {
+                "tag": "Interactive Avatar Experiences"
+            },
+            {
+                "tag": "Sketch-to-Anime Conversion"
+            },
+            {
+                "tag": "Talking Avatar Creation"
+            },
+            {
+                "tag": "Talking Avatar Videos"
+            },
+            {
+                "tag": "VTuber Avatar Art"
+            }
+        ]
+    },
+    "pocket_8": {
+        "pocket_id": 8,
+        "items": [
+            {
+                "tag": "Call Center Operations"
+            },
+            {
+                "tag": "Call Center Support"
+            },
+            {
+                "tag": "Call Centre Security"
+            },
+            {
+                "tag": "Call Review"
+            },
+            {
+                "tag": "Call Screening"
+            },
+            {
+                "tag": "Cold Calling"
+            },
+            {
+                "tag": "Inbound Call Handling"
+            }
+        ]
+    },
+    "pocket_9": {
+        "pocket_id": 9,
+        "items": [
+            {
+                "tag": "Audiobook Narration"
+            },
+            {
+                "tag": "Voice Dictation"
+            },
+            {
+                "tag": "Voice Generation"
+            },
+            {
+                "tag": "AI Voice Prompts"
+            },
+            {
+                "tag": "NPC Dialogue"
+            },
+            {
+                "tag": "Voice AI Applications"
+            },
+            {
+                "tag": "Voice AI Integration"
+            },
+            {
+                "tag": "Voice Dialogue"
+            },
+            {
+                "tag": "Voice Interaction"
+            },
+            {
+                "tag": "Voice Interactions"
+            },
+            {
+                "tag": "Voice Localization"
+            },
+            {
+                "tag": "Voice Note Taking"
+            },
+            {
+                "tag": "Voice Typing"
+            },
+            {
+                "tag": "White-Label Voice AI"
+            }
+        ]
+    },
+    "pocket_10": {
+        "pocket_id": 10,
+        "items": [
+            {
+                "tag": "Assessment Creation"
+            },
+            {
+                "tag": "Candidate Assessment"
+            },
+            {
+                "tag": "Candidate Scoring"
+            },
+            {
+                "tag": "Course Assessment"
+            },
+            {
+                "tag": "Course Assistance"
+            },
+            {
+                "tag": "Course Creation"
+            },
+            {
+                "tag": "Course Narration"
+            },
+            {
+                "tag": "Course Notes"
+            },
+            {
+                "tag": "Course Planning"
+            },
+            {
+                "tag": "Curriculum Planning"
+            },
+            {
+                "tag": "Exam Preparation"
+            },
+            {
+                "tag": "Exam Study"
+            },
+            {
+                "tag": "Interactive Assessments"
+            },
+            {
+                "tag": "Learner Assessment"
+            },
+            {
+                "tag": "LLM Evaluation"
+            },
+            {
+                "tag": "LLM Prompt Preparation"
+            },
+            {
+                "tag": "LMS Course Delivery"
+            },
+            {
+                "tag": "Prompt Management"
+            },
+            {
+                "tag": "PTE Exam Preparation"
+            },
+            {
+                "tag": "Student Assessment"
+            },
+            {
+                "tag": "Study Quiz Creation"
+            }
+        ]
+    },
+    "pocket_11": {
+        "pocket_id": 11,
+        "items": [
+            {
+                "tag": "Task Automation"
+            },
+            {
+                "tag": "Team Productivity"
+            },
+            {
+                "tag": "Administrative Tasks"
+            },
+            {
+                "tag": "Business Productivity"
+            },
+            {
+                "tag": "Interactive Workspaces"
+            },
+            {
+                "tag": "Meeting Productivity"
+            },
+            {
+                "tag": "Procedure Sharing"
+            },
+            {
+                "tag": "Productivity Automation"
+            },
+            {
+                "tag": "Productivity Improvement"
+            },
+            {
+                "tag": "Task Extraction"
+            },
+            {
+                "tag": "Task List Creation"
+            },
+            {
+                "tag": "Task Management"
+            },
+            {
+                "tag": "Task Scheduling"
+            }
+        ]
+    },
+    "pocket_12": {
+        "pocket_id": 12,
+        "items": [
+            {
+                "tag": "Customer Engagement"
+            },
+            {
+                "tag": "Customer Relationship Management"
+            },
+            {
+                "tag": "Customer Communication"
+            },
+            {
+                "tag": "Customer Contact Management"
+            },
+            {
+                "tag": "Customer Education"
+            },
+            {
+                "tag": "Customer Insight Research"
+            },
+            {
+                "tag": "Customer Insights"
+            },
+            {
+                "tag": "Customer Journey Mapping"
+            },
+            {
+                "tag": "Customer Referral Programs"
+            },
+            {
+                "tag": "Customer Research"
+            },
+            {
+                "tag": "Customer Training"
+            }
+        ]
+    },
+    "pocket_13": {
+        "pocket_id": 13,
+        "items": [
+            {
+                "tag": "SEO Content Creation"
+            },
+            {
+                "tag": "SEO Optimization"
+            },
+            {
+                "tag": "Search Ranking Optimization"
+            },
+            {
+                "tag": "SEO Content Planning"
+            },
+            {
+                "tag": "SEO Marketing"
+            },
+            {
+                "tag": "SEO Research"
+            },
+            {
+                "tag": "Enterprise Search"
+            },
+            {
+                "tag": "Local SEO"
+            },
+            {
+                "tag": "Local SEO Marketing"
+            },
+            {
+                "tag": "Programmatic SEO"
+            },
+            {
+                "tag": "Search Ranking Improvement"
+            },
+            {
+                "tag": "SEO"
+            },
+            {
+                "tag": "SEO Auditing"
+            },
+            {
+                "tag": "SEO Automation"
+            },
+            {
+                "tag": "SEO Content"
+            },
+            {
+                "tag": "SEO Content Optimization"
+            },
+            {
+                "tag": "SEO Content Writing"
+            },
+            {
+                "tag": "SEO Rank Tracking"
+            },
+            {
+                "tag": "Technical SEO Management"
+            },
+            {
+                "tag": "Website SEO Maintenance"
+            },
+            {
+                "tag": "WordPress SEO"
+            }
+        ]
+    },
+    "pocket_14": {
+        "pocket_id": 14,
+        "items": [
+            {
+                "tag": "AI Referral Tracking"
+            },
+            {
+                "tag": "AI Tool Monetization"
+            },
+            {
+                "tag": "AI Usage Monitoring"
+            },
+            {
+                "tag": "AI-Powered Analytics"
+            }
+        ]
+    },
+    "pocket_15": {
+        "pocket_id": 15,
+        "items": [
+            {
+                "tag": "AI Agent Development"
+            },
+            {
+                "tag": "Agent Development"
+            },
+            {
+                "tag": "Agent Monitoring"
+            },
+            {
+                "tag": "Agent Orchestration"
+            },
+            {
+                "tag": "Agent Production Deployment"
+            },
+            {
+                "tag": "Agentic Coding"
+            },
+            {
+                "tag": "AI Agent Orchestration"
+            },
+            {
+                "tag": "AI Agent Tasks"
+            },
+            {
+                "tag": "Voice Agent Development"
+            }
+        ]
+    },
+    "pocket_16": {
+        "pocket_id": 16,
+        "items": [
+            {
+                "tag": "Organic Traffic Growth"
+            },
+            {
+                "tag": "Influencer Discovery"
+            },
+            {
+                "tag": "Social Media Analytics"
+            },
+            {
+                "tag": "Website Analytics"
+            },
+            {
+                "tag": "Affiliate Marketing Analytics"
+            },
+            {
+                "tag": "Client Analytics Reporting"
+            },
+            {
+                "tag": "Customer Service Analytics"
+            },
+            {
+                "tag": "Market Intelligence"
+            },
+            {
+                "tag": "Market Presence Tracking"
+            },
+            {
+                "tag": "Marketing Analytics"
+            },
+            {
+                "tag": "Price Monitoring"
+            },
+            {
+                "tag": "Product Trend Analysis"
+            },
+            {
+                "tag": "Streaming Analytics"
+            },
+            {
+                "tag": "TikTok Analytics"
+            },
+            {
+                "tag": "Traffic Research"
+            },
+            {
+                "tag": "Trend Analysis"
+            },
+            {
+                "tag": "Website Traffic Analysis"
+            }
+        ]
+    },
+    "pocket_17": {
+        "pocket_id": 17,
+        "items": [
+            {
+                "tag": "Message Taking"
+            },
+            {
+                "tag": "Cross-Platform Messaging"
+            },
+            {
+                "tag": "Document Chat"
+            },
+            {
+                "tag": "Message Replies"
+            },
+            {
+                "tag": "Message Writing"
+            },
+            {
+                "tag": "Personalized Communication"
+            },
+            {
+                "tag": "Text Input"
+            }
+        ]
+    },
+    "pocket_18": {
+        "pocket_id": 18,
+        "items": [
+            {
+                "tag": "Conversion Optimization"
+            },
+            {
+                "tag": "Conversion Rate Optimization"
+            },
+            {
+                "tag": "Ad Campaign Optimization"
+            },
+            {
+                "tag": "Digital Marketing Optimization"
+            },
+            {
+                "tag": "Generative Engine Optimization"
+            },
+            {
+                "tag": "GEO Optimization"
+            },
+            {
+                "tag": "Google Business Profile Optimization"
+            },
+            {
+                "tag": "Internal Link Optimization"
+            },
+            {
+                "tag": "Process Optimization"
+            },
+            {
+                "tag": "Site Optimization"
+            },
+            {
+                "tag": "WordPress Site Optimization"
+            }
+        ]
+    },
+    "pocket_19": {
+        "pocket_id": 19,
+        "items": [
+            {
+                "tag": "Website Generation"
+            },
+            {
+                "tag": "Business Website Creation"
+            },
+            {
+                "tag": "Landing Page Creation"
+            },
+            {
+                "tag": "Website Creation"
+            },
+            {
+                "tag": "Portfolio Website Creation"
+            },
+            {
+                "tag": "Blog Creation"
+            },
+            {
+                "tag": "Blog Website Creation"
+            },
+            {
+                "tag": "Client Portal Creation"
+            },
+            {
+                "tag": "Form Creation"
+            },
+            {
+                "tag": "Service Page Creation"
+            },
+            {
+                "tag": "Website Development"
+            },
+            {
+                "tag": "Brand Website Creation"
+            },
+            {
+                "tag": "Company Intranet Creation"
+            },
+            {
+                "tag": "Guest Post Creation"
+            },
+            {
+                "tag": "Healthcare Website Creation"
+            },
+            {
+                "tag": "Internal Portal Creation"
+            },
+            {
+                "tag": "Personal Website Creation"
+            },
+            {
+                "tag": "Real Estate Website Creation"
+            },
+            {
+                "tag": "Responsive Website Design"
+            },
+            {
+                "tag": "Vendor Portal Creation"
+            },
+            {
+                "tag": "Web Design"
+            },
+            {
+                "tag": "Webpage Understanding"
+            },
+            {
+                "tag": "Website Building"
+            },
+            {
+                "tag": "Website Customization"
+            },
+            {
+                "tag": "Website Deployment"
+            },
+            {
+                "tag": "Website Design"
+            },
+            {
+                "tag": "Website Editing"
+            },
+            {
+                "tag": "Website Hosting"
+            },
+            {
+                "tag": "Website Visitor Engagement"
+            },
+            {
+                "tag": "White-Label Portal Creation"
+            },
+            {
+                "tag": "WordPress Page Creation"
+            },
+            {
+                "tag": "WordPress Website Creation"
+            }
+        ]
+    },
+    "pocket_20": {
+        "pocket_id": 20,
+        "items": [
+            {
+                "tag": "Video Generation"
+            },
+            {
+                "tag": "Short-Form Video Creation"
+            },
+            {
+                "tag": "Video Editing"
+            },
+            {
+                "tag": "Video Creation"
+            },
+            {
+                "tag": "Faceless Video Creation"
+            },
+            {
+                "tag": "Short Video Creation"
+            },
+            {
+                "tag": "Social Media Video Creation"
+            },
+            {
+                "tag": "Video Content Creation"
+            },
+            {
+                "tag": "Video Repurposing"
+            },
+            {
+                "tag": "Product Video Creation"
+            },
+            {
+                "tag": "Screen Recording"
+            },
+            {
+                "tag": "UGC Video Creation"
+            },
+            {
+                "tag": "AI Video Generation"
+            },
+            {
+                "tag": "Educational Video Creation"
+            },
+            {
+                "tag": "Explainer Video Creation"
+            },
+            {
+                "tag": "Image-to-Video Creation"
+            },
+            {
+                "tag": "Social Video Creation"
+            },
+            {
+                "tag": "Viral Clip Creation"
+            },
+            {
+                "tag": "Ad Video Creation"
+            },
+            {
+                "tag": "AI Video Creation"
+            },
+            {
+                "tag": "AI Video Production"
+            },
+            {
+                "tag": "Automated Video Production"
+            },
+            {
+                "tag": "Blog-to-Video Conversion"
+            },
+            {
+                "tag": "Brand Video Creation"
+            },
+            {
+                "tag": "Brand Video Production"
+            },
+            {
+                "tag": "Branded Video Creation"
+            },
+            {
+                "tag": "Cinematic Video Creation"
+            },
+            {
+                "tag": "Client Video Production"
+            },
+            {
+                "tag": "Course Video Creation"
+            },
+            {
+                "tag": "Creative Video Projects"
+            },
+            {
+                "tag": "Digital Twin Videos"
+            },
+            {
+                "tag": "Faceless Videos"
+            },
+            {
+                "tag": "Filmmaking"
+            },
+            {
+                "tag": "Gameplay Video Optimization"
+            },
+            {
+                "tag": "Image to Video Conversion"
+            },
+            {
+                "tag": "Image-to-Video Content"
+            },
+            {
+                "tag": "Interactive Media"
+            },
+            {
+                "tag": "Motion Graphics Videos"
+            },
+            {
+                "tag": "Onboarding Video Creation"
+            },
+            {
+                "tag": "Photo-Based Video Creation"
+            },
+            {
+                "tag": "Presentation Video Creation"
+            },
+            {
+                "tag": "Script-Based Video Creation"
+            },
+            {
+                "tag": "Selfie POV Videos"
+            },
+            {
+                "tag": "Short Film Creation"
+            },
+            {
+                "tag": "Short Film Production"
+            },
+            {
+                "tag": "Story Video Creation"
+            },
+            {
+                "tag": "Talking Head Video Creation"
+            },
+            {
+                "tag": "Talking-Head Video Creation"
+            },
+            {
+                "tag": "Text-to-Video Creation"
+            },
+            {
+                "tag": "Text-to-Video Generation"
+            },
+            {
+                "tag": "TikTok Video Creation"
+            },
+            {
+                "tag": "Training Video Creation"
+            },
+            {
+                "tag": "Training Video Production"
+            },
+            {
+                "tag": "Unboxing Video Creation"
+            },
+            {
+                "tag": "Video Compression"
+            },
+            {
+                "tag": "Video Concept Testing"
+            },
+            {
+                "tag": "Video Content Planning"
+            },
+            {
+                "tag": "Video Content Scheduling"
+            },
+            {
+                "tag": "Video Conversion"
+            },
+            {
+                "tag": "Video Learning"
+            },
+            {
+                "tag": "Video Optimization"
+            },
+            {
+                "tag": "Video Production"
+            },
+            {
+                "tag": "Video Recreation"
+            },
+            {
+                "tag": "Video Reframing"
+            },
+            {
+                "tag": "Video Script Writing"
+            },
+            {
+                "tag": "Video Sharing"
+            }
+        ]
+    },
+    "pocket_21": {
+        "pocket_id": 21,
+        "items": [
+            {
+                "tag": "Sales Automation"
+            },
+            {
+                "tag": "Sales Enablement"
+            },
+            {
+                "tag": "Digital Product Sales"
+            },
+            {
+                "tag": "Sales Conversion"
+            },
+            {
+                "tag": "B2B Sales"
+            },
+            {
+                "tag": "Cross-Border Sales"
+            },
+            {
+                "tag": "Enterprise Sales Intelligence"
+            },
+            {
+                "tag": "Government Sales Planning"
+            },
+            {
+                "tag": "Online Product Sales"
+            },
+            {
+                "tag": "Online Sales"
+            },
+            {
+                "tag": "Sales Acceleration"
+            },
+            {
+                "tag": "Sales Call Analysis"
+            },
+            {
+                "tag": "Sales Communication"
+            },
+            {
+                "tag": "Sales Decks"
+            },
+            {
+                "tag": "Sales Forecasting"
+            },
+            {
+                "tag": "Sales Generation"
+            },
+            {
+                "tag": "Sales Management"
+            },
+            {
+                "tag": "Sales Meeting Preparation"
+            },
+            {
+                "tag": "Sales Operations"
+            },
+            {
+                "tag": "Sales Pipeline Management"
+            },
+            {
+                "tag": "Sales Proposals"
+            },
+            {
+                "tag": "Sales Prospecting"
+            },
+            {
+                "tag": "Sales Sequence Creation"
+            },
+            {
+                "tag": "Sales Support"
+            },
+            {
+                "tag": "Sales Training"
+            },
+            {
+                "tag": "Website Sales"
+            }
+        ]
+    },
+    "pocket_22": {
+        "pocket_id": 22,
+        "items": [
+            {
+                "tag": "Social Media Content"
+            },
+            {
+                "tag": "Social Media Marketing"
+            },
+            {
+                "tag": "Social Media Videos"
+            },
+            {
+                "tag": "Social Media Advertising"
+            },
+            {
+                "tag": "Social Media Management"
+            },
+            {
+                "tag": "Social Media Graphics"
+            },
+            {
+                "tag": "Social Media Clips"
+            },
+            {
+                "tag": "Social Media Scheduling"
+            },
+            {
+                "tag": "Social Media Video"
+            },
+            {
+                "tag": "Social Listening"
+            },
+            {
+                "tag": "Social Media Assets"
+            },
+            {
+                "tag": "Social Media Benchmarking"
+            },
+            {
+                "tag": "Social Media Monitoring"
+            },
+            {
+                "tag": "Social Media Music"
+            },
+            {
+                "tag": "Social Media Photography"
+            },
+            {
+                "tag": "Social Media Photos"
+            },
+            {
+                "tag": "Social Media Profiles"
+            },
+            {
+                "tag": "Social Media Sharing"
+            },
+            {
+                "tag": "Social Media Visuals"
+            },
+            {
+                "tag": "TikTok Social Listening"
+            }
+        ]
+    },
+    "pocket_23": {
+        "pocket_id": 23,
+        "items": [
+            {
+                "tag": "Commercial Creative Projects"
+            },
+            {
+                "tag": "Advertising Creative"
+            },
+            {
+                "tag": "Advertising Creative Creation"
+            },
+            {
+                "tag": "Brand Creative"
+            },
+            {
+                "tag": "Commercial Production"
+            },
+            {
+                "tag": "Creative Inspiration"
+            },
+            {
+                "tag": "Creative Self-Expression"
+            },
+            {
+                "tag": "Localized Creative Production"
+            }
+        ]
+    },
+    "pocket_24": {
+        "pocket_id": 24,
+        "items": [
+            {
+                "tag": "Photo Animation"
+            },
+            {
+                "tag": "Animation Creation"
+            },
+            {
+                "tag": "3D Animation"
+            },
+            {
+                "tag": "Animation Previsualization"
+            },
+            {
+                "tag": "Family Memory Animation"
+            },
+            {
+                "tag": "Photo Effects"
+            },
+            {
+                "tag": "Photo-to-Anime Conversion"
+            },
+            {
+                "tag": "Real-Time Rendering"
+            },
+            {
+                "tag": "Video Effects"
+            },
+            {
+                "tag": "Visual Effects"
+            },
+            {
+                "tag": "Visual Effects Creation"
+            }
+        ]
+    },
+    "pocket_25": {
+        "pocket_id": 25,
+        "items": [
+            {
+                "tag": "Product Promotion"
+            },
+            {
+                "tag": "Brand Promotion"
+            },
+            {
+                "tag": "Affiliate Marketing"
+            },
+            {
+                "tag": "Affiliate Outreach"
+            },
+            {
+                "tag": "App Promotion"
+            },
+            {
+                "tag": "Event Promotion"
+            },
+            {
+                "tag": "Event Promotion Materials"
+            },
+            {
+                "tag": "Marketing Promotion"
+            },
+            {
+                "tag": "Product and Service Promotion"
+            },
+            {
+                "tag": "Product Updates"
+            },
+            {
+                "tag": "Promotions"
+            },
+            {
+                "tag": "Property Promotion"
+            },
+            {
+                "tag": "Referral Rewards"
+            }
+        ]
+    },
+    "pocket_26": {
+        "pocket_id": 26,
+        "items": [
+            {
+                "tag": "Podcast Production"
+            },
+            {
+                "tag": "Podcast Music"
+            },
+            {
+                "tag": "Podcast Content Repurposing"
+            },
+            {
+                "tag": "Podcast Creation"
+            },
+            {
+                "tag": "Podcast Intros"
+            },
+            {
+                "tag": "Podcast Video Creation"
+            },
+            {
+                "tag": "Podcast Audio Editing"
+            },
+            {
+                "tag": "Podcast Publishing"
+            },
+            {
+                "tag": "Podcast Transcription"
+            },
+            {
+                "tag": "Podcast Visualization"
+            },
+            {
+                "tag": "Podcasts"
+            }
+        ]
+    },
+    "pocket_27": {
+        "pocket_id": 27,
+        "items": [
+            {
+                "tag": "In-Page Translation"
+            }
+        ]
+    },
+    "pocket_28": {
+        "pocket_id": 28,
+        "items": [
+            {
+                "tag": "RAG Pipelines"
+            },
+            {
+                "tag": "Pipeline Management"
+            },
+            {
+                "tag": "RAG Pipeline Data"
+            },
+            {
+                "tag": "RAG Pipeline Development"
+            },
+            {
+                "tag": "RAG Systems"
+            }
+        ]
+    },
+    "pocket_29": {
+        "pocket_id": 29,
+        "items": [
+            {
+                "tag": "Tax Preparation"
+            },
+            {
+                "tag": "Investment Research"
+            },
+            {
+                "tag": "Pricing Research"
+            },
+            {
+                "tag": "Revenue Attribution"
+            },
+            {
+                "tag": "Tax Audit Review"
+            },
+            {
+                "tag": "Tax Document Analysis"
+            },
+            {
+                "tag": "Tax Planning"
+            },
+            {
+                "tag": "Tax Research"
+            }
+        ]
+    },
+    "pocket_30": {
+        "pocket_id": 30,
+        "items": [
+            {
+                "tag": "Bilingual Reading"
+            },
+            {
+                "tag": "Content Localization"
+            },
+            {
+                "tag": "Multilingual Assessment"
+            },
+            {
+                "tag": "Multilingual Content"
+            },
+            {
+                "tag": "Multilingual Content Creation"
+            },
+            {
+                "tag": "Multilingual Content Production"
+            },
+            {
+                "tag": "Multilingual Dictation"
+            },
+            {
+                "tag": "Multilingual Localization"
+            },
+            {
+                "tag": "Multilingual Support"
+            }
+        ]
+    },
+    "pocket_31": {
+        "pocket_id": 31,
+        "items": [
+            {
+                "tag": "Brand Content Creation"
+            },
+            {
+                "tag": "Brand Awareness"
+            },
+            {
+                "tag": "Brand Campaigns"
+            },
+            {
+                "tag": "Brand Communication"
+            },
+            {
+                "tag": "Brand Identity"
+            },
+            {
+                "tag": "Brand Marketing"
+            },
+            {
+                "tag": "Brand Protection"
+            },
+            {
+                "tag": "Brand Storytelling"
+            },
+            {
+                "tag": "Brand Strategy"
+            },
+            {
+                "tag": "Brand Visibility"
+            },
+            {
+                "tag": "Brand Visibility Management"
+            },
+            {
+                "tag": "Brand Visibility Optimization"
+            }
+        ]
+    },
+    "pocket_32": {
+        "pocket_id": 32,
+        "items": [
+            {
+                "tag": "Video Storytelling"
+            },
+            {
+                "tag": "Interactive Storytelling"
+            },
+            {
+                "tag": "Storytelling"
+            },
+            {
+                "tag": "Storytelling Videos"
+            },
+            {
+                "tag": "Bedtime Stories"
+            },
+            {
+                "tag": "Character Storytelling"
+            },
+            {
+                "tag": "Choose-Your-Own-Adventure Games"
+            },
+            {
+                "tag": "Cinematic Storytelling"
+            },
+            {
+                "tag": "Couple Entertainment"
+            },
+            {
+                "tag": "Creative Storytelling"
+            },
+            {
+                "tag": "Micro-Drama Production"
+            },
+            {
+                "tag": "Movies"
+            },
+            {
+                "tag": "Narration"
+            },
+            {
+                "tag": "Personalized Storytelling"
+            },
+            {
+                "tag": "Short-Form Storytelling"
+            },
+            {
+                "tag": "Story Generation"
+            },
+            {
+                "tag": "Story Planning"
+            },
+            {
+                "tag": "Storyboard Creation"
+            },
+            {
+                "tag": "Storyboard Development"
+            },
+            {
+                "tag": "Storyboarding"
+            }
+        ]
+    },
+    "pocket_33": {
+        "pocket_id": 33,
+        "items": [
+            {
+                "tag": "Proposal Creation"
+            },
+            {
+                "tag": "Research Assistance"
+            },
+            {
+                "tag": "Advisor Transitions"
+            },
+            {
+                "tag": "Deep Research"
+            },
+            {
+                "tag": "Expert Advice"
+            },
+            {
+                "tag": "Feature Planning"
+            },
+            {
+                "tag": "Local Search Research"
+            },
+            {
+                "tag": "Policy Development"
+            },
+            {
+                "tag": "Policy Research"
+            },
+            {
+                "tag": "Proposal Generation"
+            },
+            {
+                "tag": "Research Automation"
+            },
+            {
+                "tag": "Research Creation"
+            },
+            {
+                "tag": "Research Idea Discovery"
+            },
+            {
+                "tag": "Research Planning"
+            },
+            {
+                "tag": "Research Synthesis"
+            },
+            {
+                "tag": "Topic Planning"
+            }
+        ]
+    },
+    "pocket_34": {
+        "pocket_id": 34,
+        "items": [
+            {
+                "tag": "Client Account Management"
+            },
+            {
+                "tag": "Client Acquisition Content"
+            },
+            {
+                "tag": "Client Collaboration"
+            },
+            {
+                "tag": "Client Communication"
+            },
+            {
+                "tag": "Client Communications"
+            },
+            {
+                "tag": "Client Deliverable Creation"
+            },
+            {
+                "tag": "Client Intake"
+            },
+            {
+                "tag": "Client Management"
+            },
+            {
+                "tag": "Client Marketing"
+            },
+            {
+                "tag": "Client Portal Management"
+            },
+            {
+                "tag": "Client Support"
+            },
+            {
+                "tag": "Client Website Management"
+            }
+        ]
+    },
+    "pocket_35": {
+        "pocket_id": 35,
+        "items": [
+            {
+                "tag": "Account Access"
+            },
+            {
+                "tag": "Account Ban Prevention"
+            },
+            {
+                "tag": "Account Opening"
+            },
+            {
+                "tag": "Accounts Payable"
+            },
+            {
+                "tag": "Application Access"
+            },
+            {
+                "tag": "Cookie Consent Management"
+            },
+            {
+                "tag": "Geo-Restricted Content Access"
+            },
+            {
+                "tag": "Multi-Account Management"
+            },
+            {
+                "tag": "Workspace Access"
+            }
+        ]
+    },
+    "pocket_36": {
+        "pocket_id": 36,
+        "items": [
+            {
+                "tag": "Contract Collaboration"
+            },
+            {
+                "tag": "Contract Compliance"
+            },
+            {
+                "tag": "Contract Creation"
+            },
+            {
+                "tag": "Contractor Bidding"
+            },
+            {
+                "tag": "Contractor Disputes"
+            },
+            {
+                "tag": "Dispute Resolution"
+            },
+            {
+                "tag": "Issue Triage"
+            },
+            {
+                "tag": "Personal Loan Disputes"
+            },
+            {
+                "tag": "Property Disputes"
+            },
+            {
+                "tag": "Security Deposit Disputes"
+            },
+            {
+                "tag": "Service Provider Disputes"
+            },
+            {
+                "tag": "Unpaid Invoice Disputes"
+            },
+            {
+                "tag": "Wage Disputes"
+            }
+        ]
+    },
+    "pocket_37": {
+        "pocket_id": 37,
+        "items": [
+            {
+                "tag": "Document Analysis"
+            },
+            {
+                "tag": "File Analysis"
+            },
+            {
+                "tag": "File Processing"
+            },
+            {
+                "tag": "Information Extraction"
+            },
+            {
+                "tag": "Natural Language Processing"
+            },
+            {
+                "tag": "OCR Text Extraction"
+            },
+            {
+                "tag": "PDF Analysis"
+            },
+            {
+                "tag": "Readability Analysis"
+            },
+            {
+                "tag": "Readability Assessment"
+            },
+            {
+                "tag": "Text Analysis"
+            },
+            {
+                "tag": "Text Humanization"
+            },
+            {
+                "tag": "Topic Discovery"
+            }
+        ]
+    },
+    "pocket_38": {
+        "pocket_id": 38,
+        "items": [
+            {
+                "tag": "Workflow Automation"
+            },
+            {
+                "tag": "Browser Automation"
+            },
+            {
+                "tag": "Spreadsheet Automation"
+            },
+            {
+                "tag": "Business Process Automation"
+            },
+            {
+                "tag": "CI/CD Automation"
+            },
+            {
+                "tag": "Process Documentation"
+            },
+            {
+                "tag": "WordPress Automation"
+            },
+            {
+                "tag": "Agentic Workflow Automation"
+            },
+            {
+                "tag": "Automated Workflows"
+            },
+            {
+                "tag": "Automation Workflows"
+            },
+            {
+                "tag": "Batch Processing"
+            },
+            {
+                "tag": "Business Workflow Management"
+            },
+            {
+                "tag": "Compliance Workflows"
+            },
+            {
+                "tag": "Creative Workflow Automation"
+            },
+            {
+                "tag": "Creative Workflows"
+            },
+            {
+                "tag": "Data Pipeline Automation"
+            },
+            {
+                "tag": "Desktop Automation"
+            },
+            {
+                "tag": "Development Workflow Automation"
+            },
+            {
+                "tag": "Enterprise Software Engineering"
+            },
+            {
+                "tag": "Enterprise Workflow Automation"
+            },
+            {
+                "tag": "Marketing Workflow Automation"
+            },
+            {
+                "tag": "Operations Automation"
+            },
+            {
+                "tag": "Personalized Media Workflows"
+            },
+            {
+                "tag": "QA Workflow Management"
+            },
+            {
+                "tag": "Recurring Workflow Automation"
+            },
+            {
+                "tag": "Software Development Automation"
+            },
+            {
+                "tag": "Tax Workflow Automation"
+            },
+            {
+                "tag": "Visual Workflow Management"
+            },
+            {
+                "tag": "Workflow Execution"
+            },
+            {
+                "tag": "Workflow Migration"
+            },
+            {
+                "tag": "Workflow Optimization"
+            }
+        ]
+    },
+    "pocket_39": {
+        "pocket_id": 39,
+        "items": [
+            {
+                "tag": "Graphic Design"
+            },
+            {
+                "tag": "Branded Visual Generation"
+            },
+            {
+                "tag": "Commercial Visuals"
+            },
+            {
+                "tag": "Interactive Product Demos"
+            },
+            {
+                "tag": "Live Visual Experiences"
+            },
+            {
+                "tag": "Marketing Visual Creation"
+            },
+            {
+                "tag": "Product Demos"
+            },
+            {
+                "tag": "Product Showcases"
+            },
+            {
+                "tag": "Product Visuals"
+            },
+            {
+                "tag": "Visual Creation"
+            },
+            {
+                "tag": "Visual Design"
+            },
+            {
+                "tag": "Visual Direction"
+            }
+        ]
+    },
+    "pocket_40": {
+        "pocket_id": 40,
+        "items": [
+            {
+                "tag": "Content Marketing"
+            },
+            {
+                "tag": "Market Research"
+            },
+            {
+                "tag": "Marketing Automation"
+            },
+            {
+                "tag": "Marketing Strategy"
+            },
+            {
+                "tag": "Marketing Content"
+            },
+            {
+                "tag": "Marketing Content Creation"
+            },
+            {
+                "tag": "Product Marketing"
+            },
+            {
+                "tag": "Agency Marketing"
+            },
+            {
+                "tag": "Local Business Marketing"
+            },
+            {
+                "tag": "Marketing Reports"
+            },
+            {
+                "tag": "Marketing Support"
+            },
+            {
+                "tag": "Performance Marketing"
+            },
+            {
+                "tag": "Real Estate Marketing"
+            },
+            {
+                "tag": "Account-Based Marketing"
+            },
+            {
+                "tag": "Business Content Marketing"
+            },
+            {
+                "tag": "Business Marketing"
+            },
+            {
+                "tag": "Business Profile Marketing"
+            },
+            {
+                "tag": "D2C Marketing"
+            },
+            {
+                "tag": "Educational Marketing"
+            },
+            {
+                "tag": "Franchise Marketing"
+            },
+            {
+                "tag": "iGaming Marketing"
+            },
+            {
+                "tag": "Investor Pitching"
+            },
+            {
+                "tag": "Marketing Decision Support"
+            },
+            {
+                "tag": "Marketing Funnel Creation"
+            },
+            {
+                "tag": "Marketing Localization"
+            },
+            {
+                "tag": "Marketing Materials"
+            },
+            {
+                "tag": "Marketing Performance Analysis"
+            },
+            {
+                "tag": "Paid Marketing Management"
+            },
+            {
+                "tag": "Property Marketing"
+            },
+            {
+                "tag": "QR Code Marketing"
+            },
+            {
+                "tag": "Reddit Marketing"
+            }
+        ]
+    },
+    "pocket_41": {
+        "pocket_id": 41,
+        "items": [
+            {
+                "tag": "Social Media Publishing"
+            },
+            {
+                "tag": "Website Publishing"
+            },
+            {
+                "tag": "Blog Publishing"
+            },
+            {
+                "tag": "Amazon Publishing"
+            },
+            {
+                "tag": "Branded Web Publishing"
+            },
+            {
+                "tag": "Content Publishing"
+            },
+            {
+                "tag": "Cross-Platform Publishing"
+            },
+            {
+                "tag": "Kindle Publishing"
+            },
+            {
+                "tag": "LMS Course Publishing"
+            },
+            {
+                "tag": "Publication Preparation"
+            },
+            {
+                "tag": "Publisher Outreach"
+            },
+            {
+                "tag": "Self-Publishing"
+            },
+            {
+                "tag": "TikTok Commerce Publishing"
+            }
+        ]
+    },
+    "pocket_42": {
+        "pocket_id": 42,
+        "items": [
+            {
+                "tag": "Marketing Campaigns"
+            },
+            {
+                "tag": "Campaign Management"
+            },
+            {
+                "tag": "Influencer Campaign Management"
+            },
+            {
+                "tag": "Campaign Brainstorming"
+            },
+            {
+                "tag": "Campaign Creative"
+            },
+            {
+                "tag": "Campaign Creative Production"
+            },
+            {
+                "tag": "Campaign Development"
+            },
+            {
+                "tag": "Campaign Monitoring"
+            },
+            {
+                "tag": "Campaign Page Creation"
+            },
+            {
+                "tag": "Campaign Performance Tracking"
+            },
+            {
+                "tag": "Campaign Planning"
+            },
+            {
+                "tag": "Campaign Reporting"
+            },
+            {
+                "tag": "Email Campaign Automation"
+            },
+            {
+                "tag": "Email Campaigns"
+            },
+            {
+                "tag": "Global Campaigns"
+            },
+            {
+                "tag": "Marketing Campaign Automation"
+            },
+            {
+                "tag": "Marketing Campaign Creation"
+            },
+            {
+                "tag": "Marketing Campaign Management"
+            },
+            {
+                "tag": "Marketing Campaign Planning"
+            },
+            {
+                "tag": "Marketing Campaign Visuals"
+            },
+            {
+                "tag": "Outreach Campaigns"
+            },
+            {
+                "tag": "PPC Campaign Automation"
+            }
+        ]
+    },
+    "pocket_43": {
+        "pocket_id": 43,
+        "items": [
+            {
+                "tag": "Language Learning"
+            },
+            {
+                "tag": "Listening Practice"
+            },
+            {
+                "tag": "Speaking Practice"
+            },
+            {
+                "tag": "Pronunciation Practice"
+            },
+            {
+                "tag": "English Fluency Improvement"
+            },
+            {
+                "tag": "English Proficiency Testing"
+            },
+            {
+                "tag": "Grammar Checking"
+            },
+            {
+                "tag": "Language Exam Preparation"
+            },
+            {
+                "tag": "Language Practice"
+            },
+            {
+                "tag": "Language Self-Study"
+            },
+            {
+                "tag": "Reading Practice"
+            },
+            {
+                "tag": "Speech Practice"
+            }
+        ]
+    },
+    "pocket_44": {
+        "pocket_id": 44,
+        "items": [
+            {
+                "tag": "CRM Development"
+            },
+            {
+                "tag": "CRM Management"
+            },
+            {
+                "tag": "CRM Application Development"
+            },
+            {
+                "tag": "CRM Automation"
+            },
+            {
+                "tag": "CRM Call Data Integration"
+            },
+            {
+                "tag": "CRM Integration"
+            },
+            {
+                "tag": "CRM Research"
+            }
+        ]
+    },
+    "pocket_45": {
+        "pocket_id": 45,
+        "items": [
+            {
+                "tag": "Pitch Deck Creation"
+            },
+            {
+                "tag": "Pitch Decks"
+            },
+            {
+                "tag": "Pitch Practice"
+            },
+            {
+                "tag": "Pitch Writing"
+            },
+            {
+                "tag": "Slide Deck Creation"
+            },
+            {
+                "tag": "Stem Separation"
+            }
+        ]
+    },
+    "pocket_46": {
+        "pocket_id": 46,
+        "items": [
+            {
+                "tag": "eBook Creation"
+            },
+            {
+                "tag": "Client eBook Projects"
+            },
+            {
+                "tag": "Ebook Creation"
+            },
+            {
+                "tag": "Educational Book Creation"
+            },
+            {
+                "tag": "Interactive Flipbook Creation"
+            },
+            {
+                "tag": "Literacy Development"
+            },
+            {
+                "tag": "Nonfiction Book Creation"
+            },
+            {
+                "tag": "Poetry Book Creation"
+            }
+        ]
+    },
+    "pocket_47": {
+        "pocket_id": 47,
+        "items": [
+            {
+                "tag": "Bug Fixing"
+            },
+            {
+                "tag": "CI Failure Resolution"
+            },
+            {
+                "tag": "Codebase Maintenance"
+            },
+            {
+                "tag": "Production Debugging"
+            },
+            {
+                "tag": "Vulnerability Fixing"
+            },
+            {
+                "tag": "WordPress Error Debugging"
+            }
+        ]
+    },
+    "pocket_48": {
+        "pocket_id": 48,
+        "items": [
+            {
+                "tag": "Legal Consultation"
+            },
+            {
+                "tag": "Legal Document Preparation"
+            },
+            {
+                "tag": "Legal Document Review"
+            },
+            {
+                "tag": "Legal Document Writing"
+            },
+            {
+                "tag": "Legal Education"
+            },
+            {
+                "tag": "Legal Investigations"
+            },
+            {
+                "tag": "Legal Letter Drafting"
+            },
+            {
+                "tag": "Legal Research"
+            }
+        ]
+    },
+    "pocket_49": {
+        "pocket_id": 49,
+        "items": [
+            {
+                "tag": "Cash Flow Management"
+            },
+            {
+                "tag": "Bill Management"
+            },
+            {
+                "tag": "Cash Flow Analysis"
+            },
+            {
+                "tag": "Contract Lifecycle Management"
+            },
+            {
+                "tag": "Debt Management"
+            },
+            {
+                "tag": "Debt Servicing"
+            },
+            {
+                "tag": "Invoice Management"
+            },
+            {
+                "tag": "Mortgage Payment Assistance"
+            },
+            {
+                "tag": "Online Payment Collection"
+            },
+            {
+                "tag": "Paid Traffic Management"
+            },
+            {
+                "tag": "Payment Management"
+            },
+            {
+                "tag": "Payment Processing"
+            },
+            {
+                "tag": "Payroll Management"
+            },
+            {
+                "tag": "Recurring Client Billing"
+            },
+            {
+                "tag": "Subscription Management"
+            },
+            {
+                "tag": "Transaction Management"
+            }
+        ]
+    },
+    "pocket_50": {
+        "pocket_id": 50,
+        "items": [
+            {
+                "tag": "Applicant Tracking"
+            },
+            {
+                "tag": "Job Search"
+            },
+            {
+                "tag": "Affiliate Recruitment"
+            },
+            {
+                "tag": "Candidate Evaluation"
+            },
+            {
+                "tag": "Candidate Sourcing"
+            },
+            {
+                "tag": "Hiring Recruitment"
+            },
+            {
+                "tag": "Hospitality Training"
+            },
+            {
+                "tag": "Human Resources"
+            },
+            {
+                "tag": "Influencer Recruitment"
+            },
+            {
+                "tag": "International Job Applications"
+            },
+            {
+                "tag": "Job Application Preparation"
+            },
+            {
+                "tag": "Job Market Research"
+            },
+            {
+                "tag": "Job Matching"
+            },
+            {
+                "tag": "Prospecting and Recruiting"
+            },
+            {
+                "tag": "Recruitment Collaboration"
+            },
+            {
+                "tag": "Recruitment Team Alignment"
+            },
+            {
+                "tag": "Talent Acquisition"
+            }
+        ]
+    },
+    "pocket_51": {
+        "pocket_id": 51,
+        "items": [
+            {
+                "tag": "Appointment Booking"
+            },
+            {
+                "tag": "Meeting Scheduling"
+            },
+            {
+                "tag": "Accommodation Planning"
+            },
+            {
+                "tag": "Appointment Scheduling"
+            },
+            {
+                "tag": "Invitation Design"
+            },
+            {
+                "tag": "Meeting Booking"
+            },
+            {
+                "tag": "Online Booking"
+            },
+            {
+                "tag": "Scheduling"
+            },
+            {
+                "tag": "Ticket Resolution"
+            }
+        ]
+    },
+    "pocket_52": {
+        "pocket_id": 52,
+        "items": [
+            {
+                "tag": "AI Text Humanization"
+            },
+            {
+                "tag": "AI Content Detection"
+            },
+            {
+                "tag": "AI Search Optimization"
+            },
+            {
+                "tag": "AI Model Comparison"
+            },
+            {
+                "tag": "AI Assistance"
+            },
+            {
+                "tag": "AI Content Humanization"
+            },
+            {
+                "tag": "AI Detection"
+            },
+            {
+                "tag": "AI Detection Bypass"
+            },
+            {
+                "tag": "AI Feature Development"
+            },
+            {
+                "tag": "AI Model Access"
+            },
+            {
+                "tag": "AI Motion Capture"
+            },
+            {
+                "tag": "AI Skills Development"
+            },
+            {
+                "tag": "AI Training Data"
+            },
+            {
+                "tag": "Imitation Learning"
+            },
+            {
+                "tag": "Outbound AI Calling"
+            },
+            {
+                "tag": "Personal AI Assistance"
+            },
+            {
+                "tag": "Satellite Intelligence"
+            }
+        ]
+    },
+    "pocket_53": {
+        "pocket_id": 53,
+        "items": [
+            {
+                "tag": "Micro SaaS Launch"
+            },
+            {
+                "tag": "SaaS Application Creation"
+            },
+            {
+                "tag": "SaaS Application Development"
+            },
+            {
+                "tag": "SaaS Development"
+            },
+            {
+                "tag": "SaaS Integration"
+            },
+            {
+                "tag": "SaaS Website Creation"
+            }
+        ]
+    },
+    "pocket_54": {
+        "pocket_id": 54,
+        "items": [
+            {
+                "tag": "Code Review"
+            },
+            {
+                "tag": "Code Refactoring"
+            },
+            {
+                "tag": "Code Debugging"
+            },
+            {
+                "tag": "Code Development"
+            },
+            {
+                "tag": "Assignment Creation"
+            },
+            {
+                "tag": "Cloud Coding"
+            },
+            {
+                "tag": "Code Assistance"
+            },
+            {
+                "tag": "Code Documentation"
+            },
+            {
+                "tag": "Code Editing"
+            },
+            {
+                "tag": "Code Execution"
+            },
+            {
+                "tag": "Code Explanation"
+            },
+            {
+                "tag": "Code Generation"
+            },
+            {
+                "tag": "Code Migration"
+            },
+            {
+                "tag": "Code Security Review"
+            },
+            {
+                "tag": "Code Writing"
+            },
+            {
+                "tag": "Codebase Analysis"
+            },
+            {
+                "tag": "Coding Assistance"
+            },
+            {
+                "tag": "Coding Workloads"
+            },
+            {
+                "tag": "Python Code Generation"
+            },
+            {
+                "tag": "Software Engineering"
+            }
+        ]
+    },
+    "pocket_55": {
+        "pocket_id": 55,
+        "items": [
+            {
+                "tag": "Text-to-Speech"
+            },
+            {
+                "tag": "Audition Preparation"
+            },
+            {
+                "tag": "Screenplay Conversion"
+            },
+            {
+                "tag": "Speech Synthesis"
+            },
+            {
+                "tag": "Speech-to-Text Dictation"
+            }
+        ]
+    },
+    "pocket_56": {
+        "pocket_id": 56,
+        "items": [
+            {
+                "tag": "Project Management"
+            },
+            {
+                "tag": "Project Planning"
+            },
+            {
+                "tag": "Construction Cost Estimation"
+            },
+            {
+                "tag": "Educational Project Development"
+            },
+            {
+                "tag": "MVP Development"
+            },
+            {
+                "tag": "Project Asset Organization"
+            },
+            {
+                "tag": "Project Assistance"
+            },
+            {
+                "tag": "Project Estimation"
+            },
+            {
+                "tag": "Project Updates"
+            },
+            {
+                "tag": "Workshop Facilitation"
+            }
+        ]
+    },
+    "pocket_57": {
+        "pocket_id": 57,
+        "items": [
+            {
+                "tag": "E-commerce Marketing"
+            },
+            {
+                "tag": "Ecommerce Marketing"
+            },
+            {
+                "tag": "E-commerce Content"
+            },
+            {
+                "tag": "E-commerce Content Research"
+            },
+            {
+                "tag": "E-commerce Design"
+            },
+            {
+                "tag": "E-commerce Operations"
+            },
+            {
+                "tag": "E-commerce Product Imagery"
+            },
+            {
+                "tag": "E-commerce Product Listings"
+            },
+            {
+                "tag": "E-commerce Quizzes"
+            },
+            {
+                "tag": "E-commerce Visuals"
+            },
+            {
+                "tag": "Live Commerce Content"
+            },
+            {
+                "tag": "Shopify Theme Research"
+            },
+            {
+                "tag": "Shopping Search"
+            },
+            {
+                "tag": "Social Commerce Research"
+            }
+        ]
+    },
+    "pocket_58": {
+        "pocket_id": 58,
+        "items": [
+            {
+                "tag": "Audio Authenticity Verification"
+            },
+            {
+                "tag": "Content Authenticity Verification"
+            },
+            {
+                "tag": "Digital Forensics"
+            },
+            {
+                "tag": "Digital Investigations"
+            },
+            {
+                "tag": "E-commerce Image Auditing"
+            },
+            {
+                "tag": "Electronic Signature"
+            },
+            {
+                "tag": "Fraud Detection"
+            },
+            {
+                "tag": "Fraud Prevention"
+            },
+            {
+                "tag": "Identity Investigation"
+            },
+            {
+                "tag": "Insurance Fraud Detection"
+            },
+            {
+                "tag": "Plagiarism Checking"
+            },
+            {
+                "tag": "Writing Verification"
+            }
+        ]
+    },
+    "pocket_59": {
+        "pocket_id": 59,
+        "items": [
+            {
+                "tag": "B2B Outreach"
+            },
+            {
+                "tag": "Backlink Building"
+            },
+            {
+                "tag": "Community Building"
+            },
+            {
+                "tag": "Community Engagement"
+            },
+            {
+                "tag": "Community Growth"
+            },
+            {
+                "tag": "Dropshipping Niche Discovery"
+            },
+            {
+                "tag": "Home Improvement"
+            },
+            {
+                "tag": "Home Renovation Planning"
+            },
+            {
+                "tag": "Infrastructure Operations"
+            },
+            {
+                "tag": "Landscaping"
+            },
+            {
+                "tag": "Outbound Prospecting"
+            },
+            {
+                "tag": "Outreach Management"
+            },
+            {
+                "tag": "Public Sector Opportunity Discovery"
+            },
+            {
+                "tag": "Real Estate Walkthroughs"
+            },
+            {
+                "tag": "Thought Organization"
+            },
+            {
+                "tag": "Topical Authority Building"
+            }
+        ]
+    },
+    "pocket_60": {
+        "pocket_id": 60,
+        "items": [
+            {
+                "tag": "Merchandise Design"
+            },
+            {
+                "tag": "Packaging Design"
+            },
+            {
+                "tag": "Product Recommendations"
+            },
+            {
+                "tag": "Custom Merchandise Design"
+            },
+            {
+                "tag": "Designer Toy Production"
+            },
+            {
+                "tag": "Fashion Product Design"
+            },
+            {
+                "tag": "Fashion Product Discovery"
+            },
+            {
+                "tag": "Large-Format Printing"
+            },
+            {
+                "tag": "Monogram Design"
+            },
+            {
+                "tag": "Multichannel Merchandising"
+            },
+            {
+                "tag": "Outfit Identification"
+            },
+            {
+                "tag": "Print-on-Demand Design"
+            },
+            {
+                "tag": "Product Design"
+            },
+            {
+                "tag": "Product Listing Creation"
+            },
+            {
+                "tag": "T-Shirt Design"
+            },
+            {
+                "tag": "Textile Print Design"
+            }
+        ]
+    },
+    "pocket_61": {
+        "pocket_id": 61,
+        "items": [
+            {
+                "tag": "Call Follow-Up"
+            },
+            {
+                "tag": "Conversational Follow-ups"
+            },
+            {
+                "tag": "Follow-Up Emails"
+            },
+            {
+                "tag": "Follow-up Emails"
+            },
+            {
+                "tag": "Follow-up Management"
+            },
+            {
+                "tag": "Meeting Follow-Up"
+            },
+            {
+                "tag": "Order Lookup"
+            },
+            {
+                "tag": "Order Updates"
+            },
+            {
+                "tag": "SMS Lead Follow-ups"
+            }
+        ]
+    },
+    "pocket_62": {
+        "pocket_id": 62,
+        "items": [
+            {
+                "tag": "Software Development"
+            },
+            {
+                "tag": "E-learning Content"
+            },
+            {
+                "tag": "E-Learning Content"
+            },
+            {
+                "tag": "E-Learning Content Creation"
+            },
+            {
+                "tag": "eLearning Content Development"
+            },
+            {
+                "tag": "ERP Development"
+            },
+            {
+                "tag": "Game Development"
+            },
+            {
+                "tag": "Learning and Development"
+            },
+            {
+                "tag": "Terminal-Based Development"
+            },
+            {
+                "tag": "Theme Development"
+            },
+            {
+                "tag": "Training Content Development"
+            },
+            {
+                "tag": "WordPress Development"
+            }
+        ]
+    },
+    "pocket_63": {
+        "pocket_id": 63,
+        "items": [
+            {
+                "tag": "Regression Testing"
+            }
+        ]
+    },
+    "pocket_64": {
+        "pocket_id": 64,
+        "items": [
+            {
+                "tag": "AI Chat"
+            },
+            {
+                "tag": "Conversation Analysis"
+            },
+            {
+                "tag": "Multi-Model AI Chat"
+            },
+            {
+                "tag": "Adult Conversations"
+            },
+            {
+                "tag": "AI Character Conversations"
+            },
+            {
+                "tag": "AI Conversations"
+            },
+            {
+                "tag": "Chat Assistance"
+            },
+            {
+                "tag": "Chatbot Grounding"
+            },
+            {
+                "tag": "Conversation Automation"
+            },
+            {
+                "tag": "Conversation Intelligence"
+            },
+            {
+                "tag": "Conversation Search"
+            },
+            {
+                "tag": "Conversational Agents"
+            },
+            {
+                "tag": "Conversational AI"
+            },
+            {
+                "tag": "Conversational AI Services"
+            },
+            {
+                "tag": "Fictional Character Chat"
+            },
+            {
+                "tag": "Multi-Speaker Conversations"
+            },
+            {
+                "tag": "Roleplay Conversations"
+            },
+            {
+                "tag": "Website Chatbot"
+            }
+        ]
+    },
+    "pocket_65": {
+        "pocket_id": 65,
+        "items": [
+            {
+                "tag": "Lesson Planning"
+            },
+            {
+                "tag": "Educational Content"
+            },
+            {
+                "tag": "Children's Education"
+            },
+            {
+                "tag": "Classroom Instruction"
+            },
+            {
+                "tag": "Classroom Material Creation"
+            },
+            {
+                "tag": "Classroom Materials"
+            },
+            {
+                "tag": "Education Administration"
+            },
+            {
+                "tag": "Educational Leadership"
+            },
+            {
+                "tag": "Educational Materials"
+            },
+            {
+                "tag": "Educational Study"
+            },
+            {
+                "tag": "Homeschool Education"
+            },
+            {
+                "tag": "Interactive Learning"
+            },
+            {
+                "tag": "Learner Engagement"
+            },
+            {
+                "tag": "Lesson Plan Creation"
+            },
+            {
+                "tag": "School Education"
+            },
+            {
+                "tag": "Student Learning"
+            },
+            {
+                "tag": "Subject Learning"
+            },
+            {
+                "tag": "Teaching Materials"
+            },
+            {
+                "tag": "Teaching Tools"
+            },
+            {
+                "tag": "Tutorials"
+            }
+        ]
+    },
+    "pocket_66": {
+        "pocket_id": 66,
+        "items": [
+            {
+                "tag": "Web Application Development"
+            },
+            {
+                "tag": "App Development"
+            },
+            {
+                "tag": "Business App Development"
+            },
+            {
+                "tag": "Web App Development"
+            },
+            {
+                "tag": "App Creation"
+            },
+            {
+                "tag": "Application Development"
+            },
+            {
+                "tag": "Business Application Development"
+            },
+            {
+                "tag": "Cross-App Writing"
+            },
+            {
+                "tag": "Database App Development"
+            },
+            {
+                "tag": "Full-Stack App Development"
+            },
+            {
+                "tag": "Full-Stack Web Development"
+            },
+            {
+                "tag": "In-App Help"
+            },
+            {
+                "tag": "Mobile App Demos"
+            },
+            {
+                "tag": "Mobile App Development"
+            },
+            {
+                "tag": "Mobile Community Apps"
+            },
+            {
+                "tag": "Mobile Site Development"
+            },
+            {
+                "tag": "Plugin Development"
+            },
+            {
+                "tag": "Web App Prototyping"
+            },
+            {
+                "tag": "Web Application"
+            },
+            {
+                "tag": "Web Application Generation"
+            },
+            {
+                "tag": "White-Label App Development"
+            }
+        ]
+    },
+    "pocket_67": {
+        "pocket_id": 67,
+        "items": [
+            {
+                "tag": "Music Creation"
+            },
+            {
+                "tag": "Music Generation"
+            },
+            {
+                "tag": "Music Collaboration"
+            },
+            {
+                "tag": "Music Production"
+            },
+            {
+                "tag": "Music Promotion"
+            },
+            {
+                "tag": "Song Creation"
+            },
+            {
+                "tag": "Educational Music"
+            },
+            {
+                "tag": "Instrumental Music Creation"
+            },
+            {
+                "tag": "Live Performance"
+            },
+            {
+                "tag": "Music Distribution"
+            },
+            {
+                "tag": "Music Education"
+            },
+            {
+                "tag": "Music Mastering"
+            },
+            {
+                "tag": "Music Practice"
+            },
+            {
+                "tag": "Music Remixing"
+            },
+            {
+                "tag": "Rap Beats"
+            },
+            {
+                "tag": "Remix Preparation"
+            },
+            {
+                "tag": "Song Distribution"
+            },
+            {
+                "tag": "Streaming Music"
+            }
+        ]
+    },
+    "pocket_68": {
+        "pocket_id": 68,
+        "items": [
+            {
+                "tag": "3D Printing"
+            },
+            {
+                "tag": "3D Asset Creation"
+            },
+            {
+                "tag": "3D Environment Design"
+            },
+            {
+                "tag": "3D Model Creation"
+            },
+            {
+                "tag": "3D Model Generation"
+            },
+            {
+                "tag": "Floor Plan Generation"
+            },
+            {
+                "tag": "Humanoid Robot Simulation"
+            },
+            {
+                "tag": "Industrial Modeling"
+            },
+            {
+                "tag": "Model Benchmarking"
+            },
+            {
+                "tag": "Multi-Model Inference"
+            },
+            {
+                "tag": "Real-World Simulation"
+            }
+        ]
+    },
+    "pocket_69": {
+        "pocket_id": 69,
+        "items": [
+            {
+                "tag": "Literature Review"
+            },
+            {
+                "tag": "Academic Literature Review"
+            },
+            {
+                "tag": "Compliance Review"
+            },
+            {
+                "tag": "Content Review"
+            },
+            {
+                "tag": "Contract Review"
+            },
+            {
+                "tag": "Editorial Review"
+            },
+            {
+                "tag": "Product Reviews"
+            },
+            {
+                "tag": "Review Analysis"
+            },
+            {
+                "tag": "Review Management"
+            }
+        ]
+    },
+    "pocket_70": {
+        "pocket_id": 70,
+        "items": [
+            {
+                "tag": "Image Generation"
+            },
+            {
+                "tag": "Image Creation"
+            },
+            {
+                "tag": "AI Image Generation"
+            },
+            {
+                "tag": "Anime Art Creation"
+            },
+            {
+                "tag": "GIF Creation"
+            },
+            {
+                "tag": "Graphic Generation"
+            },
+            {
+                "tag": "Infographic Creation"
+            },
+            {
+                "tag": "AI Art Creation"
+            },
+            {
+                "tag": "AI Image Creation"
+            },
+            {
+                "tag": "Caption Creation"
+            },
+            {
+                "tag": "Image Analysis"
+            },
+            {
+                "tag": "Image Optimization"
+            },
+            {
+                "tag": "Image Search"
+            },
+            {
+                "tag": "Reverse Image Search"
+            }
+        ]
+    },
+    "pocket_71": {
+        "pocket_id": 71,
+        "items": [
+            {
+                "tag": "Resume Creation"
+            },
+            {
+                "tag": "Applicant Screening"
+            },
+            {
+                "tag": "Background Checks"
+            },
+            {
+                "tag": "Candidate Screening"
+            },
+            {
+                "tag": "Resume Development"
+            },
+            {
+                "tag": "Resume Screening"
+            }
+        ]
+    },
+    "pocket_72": {
+        "pocket_id": 72,
+        "items": [
+            {
+                "tag": "Report Writing"
+            },
+            {
+                "tag": "Report Generation"
+            },
+            {
+                "tag": "Automated Reporting"
+            },
+            {
+                "tag": "Client Reporting"
+            },
+            {
+                "tag": "Cross-Channel Reporting"
+            },
+            {
+                "tag": "Performance Reporting"
+            },
+            {
+                "tag": "Report Creation"
+            },
+            {
+                "tag": "Report Drafting"
+            },
+            {
+                "tag": "Report Readability Enhancement"
+            },
+            {
+                "tag": "Reports and Documents"
+            }
+        ]
+    },
+    "pocket_73": {
+        "pocket_id": 73,
+        "items": [
+            {
+                "tag": "Lead Generation"
+            },
+            {
+                "tag": "Lead Capture"
+            },
+            {
+                "tag": "Lead Management"
+            },
+            {
+                "tag": "Lead Nurturing"
+            },
+            {
+                "tag": "Lead Qualification"
+            },
+            {
+                "tag": "Interactive Lead Magnets"
+            },
+            {
+                "tag": "Lead Attribution"
+            },
+            {
+                "tag": "Lead Follow-up"
+            },
+            {
+                "tag": "Lead Magnet Creation"
+            },
+            {
+                "tag": "Sales Lead Generation"
+            },
+            {
+                "tag": "Thought Leadership Repurposing"
+            }
+        ]
+    },
+    "pocket_74": {
+        "pocket_id": 74,
+        "items": [
+            {
+                "tag": "Document Comprehension"
+            },
+            {
+                "tag": "Document Question Answering"
+            },
+            {
+                "tag": "FAQ Answering"
+            },
+            {
+                "tag": "FAQ Resolution"
+            },
+            {
+                "tag": "Web-Grounded Question Answering"
+            },
+            {
+                "tag": "Webpage Question Answering"
+            }
+        ]
+    },
+    "pocket_75": {
+        "pocket_id": 75,
+        "items": [
+            {
+                "tag": "Business Communication"
+            },
+            {
+                "tag": "Internal Communications"
+            },
+            {
+                "tag": "Business Phone Communication"
+            },
+            {
+                "tag": "Communication Training"
+            },
+            {
+                "tag": "Corporate Communication"
+            },
+            {
+                "tag": "Digital Human Communication"
+            },
+            {
+                "tag": "Global Business Communications"
+            },
+            {
+                "tag": "Global Communication"
+            },
+            {
+                "tag": "Investor Communications"
+            },
+            {
+                "tag": "Multi-Channel Messaging"
+            },
+            {
+                "tag": "Multichannel Communication"
+            },
+            {
+                "tag": "Multichannel Messaging"
+            },
+            {
+                "tag": "Real-World Communication"
+            },
+            {
+                "tag": "Training Communication"
+            }
+        ]
+    },
+    "pocket_76": {
+        "pocket_id": 76,
+        "items": [
+            {
+                "tag": "Audiobook Production"
+            },
+            {
+                "tag": "Audio Generation"
+            },
+            {
+                "tag": "Audio Creation"
+            },
+            {
+                "tag": "Sound Design"
+            },
+            {
+                "tag": "Sound Generation"
+            },
+            {
+                "tag": "Audio Analysis"
+            },
+            {
+                "tag": "Audio Enhancement"
+            },
+            {
+                "tag": "Audio Mastering"
+            },
+            {
+                "tag": "Audio Stem Separation"
+            },
+            {
+                "tag": "Game Audio"
+            },
+            {
+                "tag": "Gaming Audio"
+            },
+            {
+                "tag": "Soundscape Creation"
+            }
+        ]
+    },
+    "pocket_77": {
+        "pocket_id": 77,
+        "items": [
+            {
+                "tag": "Marketing Videos"
+            },
+            {
+                "tag": "Video Advertising"
+            },
+            {
+                "tag": "Marketing Video Creation"
+            },
+            {
+                "tag": "Video Marketing"
+            },
+            {
+                "tag": "Sales Videos"
+            },
+            {
+                "tag": "Advertising Videos"
+            },
+            {
+                "tag": "Video Ads"
+            },
+            {
+                "tag": "Customer Service Videos"
+            },
+            {
+                "tag": "E-commerce Video Marketing"
+            },
+            {
+                "tag": "News Videos"
+            },
+            {
+                "tag": "Personalized Outreach Videos"
+            },
+            {
+                "tag": "Personalized Videos"
+            },
+            {
+                "tag": "Product Marketing Videos"
+            },
+            {
+                "tag": "Product Video Ads"
+            },
+            {
+                "tag": "Romantic Video Messages"
+            },
+            {
+                "tag": "Talking Head Videos"
+            },
+            {
+                "tag": "Talking Videos"
+            },
+            {
+                "tag": "Video Advertisements"
+            },
+            {
+                "tag": "Video Content Marketing"
+            },
+            {
+                "tag": "Viral Short-Form Clips"
+            },
+            {
+                "tag": "Viral Video Ideation"
+            },
+            {
+                "tag": "Viral Video Marketing"
+            }
+        ]
+    },
+    "pocket_78": {
+        "pocket_id": 78,
+        "items": [
+            {
+                "tag": "Educational Videos"
+            },
+            {
+                "tag": "Explainer Videos"
+            },
+            {
+                "tag": "Presentation Videos"
+            },
+            {
+                "tag": "Tutorial Videos"
+            },
+            {
+                "tag": "Product Explainer Videos"
+            },
+            {
+                "tag": "Action Videos"
+            },
+            {
+                "tag": "Announcement Videos"
+            },
+            {
+                "tag": "Business Presentation Videos"
+            },
+            {
+                "tag": "Informative Videos"
+            },
+            {
+                "tag": "Motivational Clips"
+            },
+            {
+                "tag": "Product Demonstration Videos"
+            },
+            {
+                "tag": "Product Showcase Videos"
+            },
+            {
+                "tag": "Product Videos"
+            },
+            {
+                "tag": "Video Presentations"
+            }
+        ]
+    },
+    "pocket_79": {
+        "pocket_id": 79,
+        "items": [
+            {
+                "tag": "Meeting Transcription"
+            },
+            {
+                "tag": "Audio Transcription"
+            },
+            {
+                "tag": "Interview Transcription"
+            },
+            {
+                "tag": "Lecture Transcription"
+            },
+            {
+                "tag": "Speech Transcription"
+            },
+            {
+                "tag": "Audio File Transcription"
+            },
+            {
+                "tag": "Class Transcription"
+            },
+            {
+                "tag": "Text Transcription"
+            }
+        ]
+    },
+    "pocket_80": {
+        "pocket_id": 80,
+        "items": [
+            {
+                "tag": "E-commerce Advertising"
+            },
+            {
+                "tag": "Google Ads Management"
+            },
+            {
+                "tag": "Paid Advertising"
+            },
+            {
+                "tag": "Product Advertising"
+            },
+            {
+                "tag": "Ad Creation"
+            },
+            {
+                "tag": "Advertisement Creation"
+            },
+            {
+                "tag": "Advertisement Design"
+            },
+            {
+                "tag": "Advertising"
+            },
+            {
+                "tag": "Advertising Audio"
+            },
+            {
+                "tag": "Advertising Campaign Tracking"
+            },
+            {
+                "tag": "App Install Advertising"
+            },
+            {
+                "tag": "CTV Advertising"
+            },
+            {
+                "tag": "Digital Advertising"
+            },
+            {
+                "tag": "Local Advertising"
+            },
+            {
+                "tag": "Marketing Ad Creation"
+            },
+            {
+                "tag": "Multi-Channel Advertising"
+            },
+            {
+                "tag": "Paid Advertising Optimization"
+            },
+            {
+                "tag": "Paid Social Advertising"
+            },
+            {
+                "tag": "Promotional Ads"
+            },
+            {
+                "tag": "Short Advertisement Creation"
+            },
+            {
+                "tag": "Snapchat Advertising"
+            },
+            {
+                "tag": "TikTok Shop Video Ads"
+            },
+            {
+                "tag": "User-Generated Content Ads"
+            },
+            {
+                "tag": "YouTube Advertising"
+            }
+        ]
+    },
+    "pocket_81": {
+        "pocket_id": 81,
+        "items": [
+            {
+                "tag": "YouTube Content Creation"
+            },
+            {
+                "tag": "YouTube Channel Growth"
+            },
+            {
+                "tag": "YouTube Shorts Creation"
+            },
+            {
+                "tag": "YouTube Content"
+            },
+            {
+                "tag": "YouTube SEO"
+            },
+            {
+                "tag": "YouTube Thumbnail Creation"
+            },
+            {
+                "tag": "YouTube Thumbnail Design"
+            },
+            {
+                "tag": "YouTube Title Optimization"
+            },
+            {
+                "tag": "YouTube Video Analysis"
+            },
+            {
+                "tag": "YouTube Video Production"
+            },
+            {
+                "tag": "YouTube Video Publishing"
+            },
+            {
+                "tag": "YouTube Workflow Management"
+            }
+        ]
+    },
+    "pocket_82": {
+        "pocket_id": 82,
+        "items": [
+            {
+                "tag": "Online Course Creation"
+            },
+            {
+                "tag": "E-Learning"
+            },
+            {
+                "tag": "Online Course Management"
+            },
+            {
+                "tag": "Online Courses"
+            }
+        ]
+    },
+    "pocket_83": {
+        "pocket_id": 83,
+        "items": [
+            {
+                "tag": "Face Swapping"
+            },
+            {
+                "tag": "Portrait Retouching"
+            },
+            {
+                "tag": "Executive Portraits"
+            },
+            {
+                "tag": "Landscape Enhancement"
+            },
+            {
+                "tag": "Portrait Editing"
+            },
+            {
+                "tag": "Portrait Enhancement"
+            },
+            {
+                "tag": "Portrait Photography"
+            }
+        ]
+    },
+    "pocket_84": {
+        "pocket_id": 84,
+        "items": [
+            {
+                "tag": "Competitor Analysis"
+            },
+            {
+                "tag": "Competitive Intelligence"
+            },
+            {
+                "tag": "Competitor Benchmarking"
+            },
+            {
+                "tag": "Competitive Analysis"
+            },
+            {
+                "tag": "Competitive Benchmarking"
+            },
+            {
+                "tag": "Competitor Visibility Analysis"
+            },
+            {
+                "tag": "Market Analysis"
+            },
+            {
+                "tag": "Stakeholder Analysis"
+            },
+            {
+                "tag": "Strategic Analysis"
+            }
+        ]
+    },
+    "pocket_85": {
+        "pocket_id": 85,
+        "items": [
+            {
+                "tag": "Presentation Creation"
+            },
+            {
+                "tag": "Business Presentations"
+            },
+            {
+                "tag": "Presentation Design"
+            },
+            {
+                "tag": "Business Presentation Design"
+            },
+            {
+                "tag": "Classroom Lecture Design"
+            },
+            {
+                "tag": "Concept Presentation"
+            },
+            {
+                "tag": "Educational Presentations"
+            },
+            {
+                "tag": "Lecture Slides"
+            },
+            {
+                "tag": "Lesson Slides"
+            },
+            {
+                "tag": "Presentation Delivery Practice"
+            },
+            {
+                "tag": "Presentation Generation"
+            },
+            {
+                "tag": "Presentation Practice"
+            },
+            {
+                "tag": "Presentation Redesign"
+            },
+            {
+                "tag": "Presentations"
+            },
+            {
+                "tag": "Research Presentations"
+            },
+            {
+                "tag": "Thesis Presentations"
+            }
+        ]
+    },
+    "pocket_86": {
+        "pocket_id": 86,
+        "items": [
+            {
+                "tag": "Video Music"
+            },
+            {
+                "tag": "Lyric Videos"
+            },
+            {
+                "tag": "Music Video Creation"
+            },
+            {
+                "tag": "Video Content Search"
+            },
+            {
+                "tag": "Video Music Matching"
+            },
+            {
+                "tag": "Video Remixing"
+            },
+            {
+                "tag": "Video Sound Quality"
+            },
+            {
+                "tag": "Video Soundtrack Creation"
+            }
+        ]
+    },
+    "pocket_87": {
+        "pocket_id": 87,
+        "items": [
+            {
+                "tag": "Pull Request Automation"
+            },
+            {
+                "tag": "Estimate Approval"
+            },
+            {
+                "tag": "Pull Request Analysis"
+            },
+            {
+                "tag": "Pull Request Management"
+            },
+            {
+                "tag": "Pull Request Testing"
+            }
+        ]
+    },
+    "pocket_88": {
+        "pocket_id": 88,
+        "items": [
+            {
+                "tag": "Newsletter Creation"
+            },
+            {
+                "tag": "Newsletter Publishing"
+            },
+            {
+                "tag": "Newsletter Subscription"
+            },
+            {
+                "tag": "Newsletter Writing"
+            },
+            {
+                "tag": "Newsletters"
+            }
+        ]
+    },
+    "pocket_89": {
+        "pocket_id": 89,
+        "items": [
+            {
+                "tag": "LLM Citation Tracking"
+            },
+            {
+                "tag": "Plagiarism Detection"
+            },
+            {
+                "tag": "Academic Correspondence"
+            },
+            {
+                "tag": "AI Citation Optimization"
+            },
+            {
+                "tag": "Citation Management"
+            },
+            {
+                "tag": "Reference Library Management"
+            }
+        ]
+    },
+    "pocket_90": {
+        "pocket_id": 90,
+        "items": [
+            {
+                "tag": "Product Demonstrations"
+            },
+            {
+                "tag": "Game Prototyping"
+            },
+            {
+                "tag": "AI Prototyping"
+            },
+            {
+                "tag": "Interface Prototyping"
+            },
+            {
+                "tag": "Mockup Creation"
+            },
+            {
+                "tag": "MVP Prototyping"
+            },
+            {
+                "tag": "Product Prototyping"
+            },
+            {
+                "tag": "Prototype Development"
+            },
+            {
+                "tag": "Rapid Prototyping"
+            }
+        ]
+    },
+    "pocket_91": {
+        "pocket_id": 91,
+        "items": [
+            {
+                "tag": "Financial Goal Planning"
+            },
+            {
+                "tag": "GEO Strategy"
+            },
+            {
+                "tag": "Intention-Based Planning"
+            },
+            {
+                "tag": "Personal Goal Planning"
+            },
+            {
+                "tag": "Retirement Planning"
+            },
+            {
+                "tag": "Roadmap Planning"
+            },
+            {
+                "tag": "Startup Funding Planning"
+            },
+            {
+                "tag": "Strategic Account Planning"
+            },
+            {
+                "tag": "Travel Itinerary Planning"
+            },
+            {
+                "tag": "Travel Planning"
+            },
+            {
+                "tag": "Trip Planning"
+            },
+            {
+                "tag": "Venture Decision-Making"
+            }
+        ]
+    },
+    "pocket_92": {
+        "pocket_id": 92,
+        "items": [
+            {
+                "tag": "Action Item Tracking"
+            },
+            {
+                "tag": "Billable Hours Tracking"
+            },
+            {
+                "tag": "Contract Tracking"
+            },
+            {
+                "tag": "Device Tracking"
+            },
+            {
+                "tag": "Event Information"
+            },
+            {
+                "tag": "Expense Tracking"
+            },
+            {
+                "tag": "Rank Tracking"
+            },
+            {
+                "tag": "Time Tracking"
+            },
+            {
+                "tag": "Timeline Management"
+            }
+        ]
+    },
+    "pocket_93": {
+        "pocket_id": 93,
+        "items": [
+            {
+                "tag": "Customer Service Automation"
+            },
+            {
+                "tag": "Customer Support Automation"
+            },
+            {
+                "tag": "Customer Retargeting"
+            },
+            {
+                "tag": "Customer Self-Service"
+            },
+            {
+                "tag": "Self-Service Support"
+            }
+        ]
+    },
+    "pocket_94": {
+        "pocket_id": 94,
+        "items": [
+            {
+                "tag": "AI Application Development"
+            },
+            {
+                "tag": "AI Content Creation"
+            },
+            {
+                "tag": "AI Agent Workflows"
+            },
+            {
+                "tag": "AI Application"
+            },
+            {
+                "tag": "AI Application Deployment"
+            },
+            {
+                "tag": "AI Business Creation"
+            },
+            {
+                "tag": "AI Companionship"
+            },
+            {
+                "tag": "AI Content Rewriting"
+            },
+            {
+                "tag": "AI Cost Management"
+            },
+            {
+                "tag": "AI Product Integration"
+            },
+            {
+                "tag": "AI Productivity"
+            },
+            {
+                "tag": "AI Tool Creation"
+            },
+            {
+                "tag": "Cloud AI Deployment"
+            },
+            {
+                "tag": "Custom AI Agents"
+            },
+            {
+                "tag": "Custom AI Applications"
+            },
+            {
+                "tag": "Enterprise AI Agents"
+            },
+            {
+                "tag": "Enterprise AI Automation"
+            },
+            {
+                "tag": "Enterprise AI Deployment"
+            },
+            {
+                "tag": "Private AI Deployment"
+            },
+            {
+                "tag": "Self-Hosted AI"
+            },
+            {
+                "tag": "Team AI Adoption"
+            },
+            {
+                "tag": "Unified AI Workspace"
+            }
+        ]
+    },
+    "pocket_95": {
+        "pocket_id": 95,
+        "items": [
+            {
+                "tag": "Data Visualization"
+            },
+            {
+                "tag": "Interior Design Visualization"
+            },
+            {
+                "tag": "Academic Visualization"
+            },
+            {
+                "tag": "Architectural Visualization"
+            },
+            {
+                "tag": "Chart Explanation"
+            },
+            {
+                "tag": "Diagramming"
+            },
+            {
+                "tag": "Future Child Visualization"
+            },
+            {
+                "tag": "Gantt Chart Creation"
+            },
+            {
+                "tag": "Packaging Visualization"
+            },
+            {
+                "tag": "Product Catalog Enrichment"
+            },
+            {
+                "tag": "Product Visualization"
+            },
+            {
+                "tag": "Visual Bookmarking"
+            },
+            {
+                "tag": "Visual Diagramming"
+            }
+        ]
+    },
+    "pocket_96": {
+        "pocket_id": 96,
+        "items": [
+            {
+                "tag": "Academic Writing"
+            },
+            {
+                "tag": "Blog Writing"
+            },
+            {
+                "tag": "Creative Writing"
+            },
+            {
+                "tag": "Professional Writing"
+            },
+            {
+                "tag": "Article Writing"
+            },
+            {
+                "tag": "Content Writing"
+            },
+            {
+                "tag": "Essay Writing"
+            },
+            {
+                "tag": "Technical Writing"
+            },
+            {
+                "tag": "Writing Assistance"
+            },
+            {
+                "tag": "Writing Improvement"
+            },
+            {
+                "tag": "Writing Practice"
+            },
+            {
+                "tag": "Academic Paper Writing"
+            },
+            {
+                "tag": "Business Writing"
+            },
+            {
+                "tag": "Essay Editing"
+            },
+            {
+                "tag": "Journaling"
+            },
+            {
+                "tag": "Non-Native English Writing"
+            },
+            {
+                "tag": "Novel Writing"
+            },
+            {
+                "tag": "Proofreading"
+            },
+            {
+                "tag": "Research Writing"
+            },
+            {
+                "tag": "Resume Writing"
+            },
+            {
+                "tag": "Social Media Writing"
+            },
+            {
+                "tag": "Speech Writing"
+            },
+            {
+                "tag": "Story Writing"
+            },
+            {
+                "tag": "Writing"
+            },
+            {
+                "tag": "Writing Pattern Analysis"
+            },
+            {
+                "tag": "Writing Quality Improvement"
+            }
+        ]
+    },
+    "pocket_97": {
+        "pocket_id": 97,
+        "items": [
+            {
+                "tag": "Character Design"
+            },
+            {
+                "tag": "Character Animation"
+            },
+            {
+                "tag": "Anime Character Design"
+            },
+            {
+                "tag": "Character Development"
+            },
+            {
+                "tag": "Character Generation"
+            },
+            {
+                "tag": "Character Roleplay"
+            },
+            {
+                "tag": "Character Visualization"
+            }
+        ]
+    },
+    "pocket_98": {
+        "pocket_id": 98,
+        "items": [
+            {
+                "tag": "WordPress Site Management"
+            },
+            {
+                "tag": "Bulk Site Operations"
+            },
+            {
+                "tag": "Business Website Management"
+            },
+            {
+                "tag": "Development Site Management"
+            },
+            {
+                "tag": "Event Management"
+            },
+            {
+                "tag": "Membership Management"
+            },
+            {
+                "tag": "Online Community Management"
+            },
+            {
+                "tag": "Product Catalog Management"
+            },
+            {
+                "tag": "Repository Management"
+            },
+            {
+                "tag": "Reputation Management"
+            },
+            {
+                "tag": "Site Management"
+            },
+            {
+                "tag": "WordPress Management"
+            }
+        ]
+    },
+    "pocket_99": {
+        "pocket_id": 99,
+        "items": [
+            {
+                "tag": "Video Summarization"
+            },
+            {
+                "tag": "Meeting Summaries"
+            },
+            {
+                "tag": "Text Summarization"
+            },
+            {
+                "tag": "AI News Summaries"
+            },
+            {
+                "tag": "Blog Summaries"
+            },
+            {
+                "tag": "Content Summarization"
+            },
+            {
+                "tag": "Document Summarization"
+            },
+            {
+                "tag": "Email Summarization"
+            },
+            {
+                "tag": "Lecture Summarization"
+            },
+            {
+                "tag": "Meeting Summarization"
+            },
+            {
+                "tag": "PDF Summarization"
+            }
+        ]
+    },
+    "pocket_100": {
+        "pocket_id": 100,
+        "items": [
+            {
+                "tag": "AI Search Visibility"
+            },
+            {
+                "tag": "AI Search Visibility Monitoring"
+            },
+            {
+                "tag": "AI Visibility Analysis"
+            },
+            {
+                "tag": "AI Visibility Monitoring"
+            },
+            {
+                "tag": "AI Visibility Tracking"
+            },
+            {
+                "tag": "Search Visibility Analysis"
+            },
+            {
+                "tag": "Search Visibility Optimization"
+            },
+            {
+                "tag": "Website AI Visibility"
+            },
+            {
+                "tag": "Website Visibility Improvement"
+            }
+        ]
+    },
+    "pocket_101": {
+        "pocket_id": 101,
+        "items": [
+            {
+                "tag": "Client Onboarding"
+            },
+            {
+                "tag": "Customer Onboarding"
+            },
+            {
+                "tag": "Employee Onboarding"
+            },
+            {
+                "tag": "Financial Services Onboarding"
+            },
+            {
+                "tag": "Onboarding Content"
+            },
+            {
+                "tag": "Onboarding Decks"
+            },
+            {
+                "tag": "Onboarding Guides"
+            },
+            {
+                "tag": "Onboarding Systems"
+            },
+            {
+                "tag": "Onboarding Training"
+            },
+            {
+                "tag": "Product Onboarding"
+            },
+            {
+                "tag": "Startup Idea Validation"
+            }
+        ]
+    },
+    "pocket_102": {
+        "pocket_id": 102,
+        "items": [
+            {
+                "tag": "Dashboard Creation"
+            },
+            {
+                "tag": "Dashboard Development"
+            },
+            {
+                "tag": "Spreadsheet Creation"
+            }
+        ]
+    },
+    "pocket_103": {
+        "pocket_id": 103,
+        "items": [
+            {
+                "tag": "Interview Preparation"
+            },
+            {
+                "tag": "Academic Integrity"
+            },
+            {
+                "tag": "Academic Integrity Checks"
+            },
+            {
+                "tag": "Interview Assessment"
+            },
+            {
+                "tag": "Interview Integrity"
+            },
+            {
+                "tag": "Quality Assurance"
+            }
+        ]
+    },
+    "pocket_104": {
+        "pocket_id": 104,
+        "items": [
+            {
+                "tag": "Marketing Copywriting"
+            },
+            {
+                "tag": "Ad Copywriting"
+            },
+            {
+                "tag": "Advertising Copywriting"
+            },
+            {
+                "tag": "Conversion Attribution"
+            },
+            {
+                "tag": "Copywriting"
+            },
+            {
+                "tag": "Underwriting Intake"
+            },
+            {
+                "tag": "Website Copywriting"
+            }
+        ]
+    },
+    "pocket_105": {
+        "pocket_id": 105,
+        "items": [
+            {
+                "tag": "Casino Selection Guidance"
+            },
+            {
+                "tag": "Gambling Information"
+            },
+            {
+                "tag": "Lottery Events"
+            },
+            {
+                "tag": "Online Casino Comparison"
+            }
+        ]
+    },
+    "pocket_106": {
+        "pocket_id": 106,
+        "items": [
+            {
+                "tag": "Employee Training"
+            },
+            {
+                "tag": "Training Videos"
+            },
+            {
+                "tag": "Compliance Training"
+            },
+            {
+                "tag": "Training Content"
+            },
+            {
+                "tag": "Branded Training Academies"
+            },
+            {
+                "tag": "Corporate Training Videos"
+            },
+            {
+                "tag": "Custom Model Training"
+            },
+            {
+                "tag": "Design Sprint Training"
+            },
+            {
+                "tag": "Model Training Data"
+            },
+            {
+                "tag": "Safety Training"
+            },
+            {
+                "tag": "Training Materials"
+            }
+        ]
+    },
+    "pocket_107": {
+        "pocket_id": 107,
+        "items": [
+            {
+                "tag": "Photo Enhancement"
+            },
+            {
+                "tag": "Focus Enhancement"
+            },
+            {
+                "tag": "Image Enlargement"
+            },
+            {
+                "tag": "Image Upscaling"
+            },
+            {
+                "tag": "Product Photo Enhancement"
+            },
+            {
+                "tag": "Video Enhancement"
+            }
+        ]
+    },
+    "pocket_108": {
+        "pocket_id": 108,
+        "items": [
+            {
+                "tag": "Web Data Extraction"
+            },
+            {
+                "tag": "Business Directory Data"
+            },
+            {
+                "tag": "Car Listings"
+            },
+            {
+                "tag": "Data Categorization"
+            },
+            {
+                "tag": "Data Retrieval"
+            },
+            {
+                "tag": "Qualitative Data Collection"
+            },
+            {
+                "tag": "Real Estate Data Collection"
+            },
+            {
+                "tag": "Real Estate Listings"
+            },
+            {
+                "tag": "Site Data Analysis"
+            },
+            {
+                "tag": "Web Data Collection"
+            },
+            {
+                "tag": "Web Data Scraping"
+            },
+            {
+                "tag": "Web Search"
+            },
+            {
+                "tag": "Webinar Recaps"
+            },
+            {
+                "tag": "Webinars"
+            }
+        ]
+    },
+    "pocket_109": {
+        "pocket_id": 109,
+        "items": [
+            {
+                "tag": "E-commerce Website Creation"
+            },
+            {
+                "tag": "E-commerce Content Creation"
+            },
+            {
+                "tag": "E-commerce App Creation"
+            },
+            {
+                "tag": "E-commerce Application Development"
+            },
+            {
+                "tag": "E-commerce Automation"
+            },
+            {
+                "tag": "E-commerce Banner Creation"
+            },
+            {
+                "tag": "E-commerce Product Copy"
+            },
+            {
+                "tag": "E-commerce Store Creation"
+            },
+            {
+                "tag": "Shopify Store Analysis"
+            },
+            {
+                "tag": "Shopify Store Creation"
+            }
+        ]
+    },
+    "pocket_110": {
+        "pocket_id": 110,
+        "items": [
+            {
+                "tag": "UGC Ad Creation"
+            },
+            {
+                "tag": "UGC Advertising"
+            },
+            {
+                "tag": "UGC Marketing"
+            },
+            {
+                "tag": "UGC Videos"
+            },
+            {
+                "tag": "UGC-Style Advertising"
+            }
+        ]
+    },
+    "pocket_111": {
+        "pocket_id": 111,
+        "items": [
+            {
+                "tag": "Fact Checking"
+            },
+            {
+                "tag": "Journalism Fact-Checking"
+            },
+            {
+                "tag": "Journalism Verification"
+            },
+            {
+                "tag": "News Announcements"
+            },
+            {
+                "tag": "News Intelligence"
+            },
+            {
+                "tag": "News Media Verification"
+            }
+        ]
+    },
+    "pocket_112": {
+        "pocket_id": 112,
+        "items": [
+            {
+                "tag": "Bulk WhatsApp Messaging"
+            },
+            {
+                "tag": "WhatsApp Account Warmup"
+            },
+            {
+                "tag": "WhatsApp Marketing"
+            },
+            {
+                "tag": "WhatsApp Sales"
+            },
+            {
+                "tag": "WhatsApp Sales Management"
+            }
+        ]
+    },
+    "pocket_113": {
+        "pocket_id": 113,
+        "items": [
+            {
+                "tag": "Data Analysis"
+            },
+            {
+                "tag": "Keyword Research"
+            },
+            {
+                "tag": "Academic Research"
+            },
+            {
+                "tag": "Product Research"
+            },
+            {
+                "tag": "Web Research"
+            },
+            {
+                "tag": "Content Research"
+            },
+            {
+                "tag": "Research"
+            },
+            {
+                "tag": "Browser Research"
+            },
+            {
+                "tag": "Churn Research"
+            },
+            {
+                "tag": "Experience Research"
+            },
+            {
+                "tag": "Meta-Analysis"
+            },
+            {
+                "tag": "Niche Research"
+            },
+            {
+                "tag": "Qualitative Research"
+            },
+            {
+                "tag": "Relationship Analysis"
+            },
+            {
+                "tag": "Research Analysis"
+            },
+            {
+                "tag": "Research and Data Analysis"
+            },
+            {
+                "tag": "Research Data Analysis"
+            },
+            {
+                "tag": "Scientific Research"
+            },
+            {
+                "tag": "User Research"
+            }
+        ]
+    },
+    "pocket_114": {
+        "pocket_id": 114,
+        "items": [
+            {
+                "tag": "Image Editing"
+            },
+            {
+                "tag": "Photo Editing"
+            },
+            {
+                "tag": "Text Editing"
+            },
+            {
+                "tag": "Batch Image Processing"
+            },
+            {
+                "tag": "Batch Photo Editing"
+            },
+            {
+                "tag": "Bulk Image Editing"
+            },
+            {
+                "tag": "Creative Image Editing"
+            },
+            {
+                "tag": "Digital Illustrations"
+            },
+            {
+                "tag": "Image Outpainting"
+            },
+            {
+                "tag": "Photo Collage Creation"
+            },
+            {
+                "tag": "Photo Colorization"
+            },
+            {
+                "tag": "Photo Manipulation"
+            },
+            {
+                "tag": "Product Image Editing"
+            },
+            {
+                "tag": "Style Editing"
+            },
+            {
+                "tag": "WordPress Image Optimization"
+            }
+        ]
+    },
+    "pocket_115": {
+        "pocket_id": 115,
+        "items": [
+            {
+                "tag": "Campaign Asset Creation"
+            },
+            {
+                "tag": "Marketing Asset Creation"
+            },
+            {
+                "tag": "Creative Asset Creation"
+            },
+            {
+                "tag": "Creative Asset Downloads"
+            },
+            {
+                "tag": "Digital Asset Management"
+            },
+            {
+                "tag": "Game Asset Creation"
+            },
+            {
+                "tag": "Game Asset Production"
+            },
+            {
+                "tag": "Stock Asset Access"
+            },
+            {
+                "tag": "Stock Asset Sourcing"
+            },
+            {
+                "tag": "WordPress Asset Creation"
+            }
+        ]
+    },
+    "pocket_116": {
+        "pocket_id": 116,
+        "items": [
+            {
+                "tag": "Customer Feedback"
+            },
+            {
+                "tag": "Customer Feedback Analysis"
+            },
+            {
+                "tag": "Customer Feedback Surveys"
+            },
+            {
+                "tag": "Design Feedback"
+            },
+            {
+                "tag": "Learner Feedback"
+            }
+        ]
+    },
+    "pocket_117": {
+        "pocket_id": 117,
+        "items": [
+            {
+                "tag": "Video Localization"
+            },
+            {
+                "tag": "Video Transcription"
+            },
+            {
+                "tag": "Image Translation"
+            },
+            {
+                "tag": "Video Translation"
+            },
+            {
+                "tag": "Audio Translation"
+            },
+            {
+                "tag": "Localized Video Content"
+            },
+            {
+                "tag": "Multilingual Video Dubbing"
+            },
+            {
+                "tag": "Surreal Video Transformation"
+            },
+            {
+                "tag": "Video Analysis"
+            },
+            {
+                "tag": "Video Dubbing"
+            },
+            {
+                "tag": "Video Subtitle Translation"
+            },
+            {
+                "tag": "Video Upscaling"
+            },
+            {
+                "tag": "YouTube Video Translation"
+            }
+        ]
+    },
+    "pocket_118": {
+        "pocket_id": 118,
+        "items": [
+            {
+                "tag": "Study Notes"
+            },
+            {
+                "tag": "Art History Learning"
+            },
+            {
+                "tag": "Meditation"
+            },
+            {
+                "tag": "Memorization"
+            },
+            {
+                "tag": "Personal Progress"
+            },
+            {
+                "tag": "Personal Use"
+            },
+            {
+                "tag": "Power Napping"
+            },
+            {
+                "tag": "Relaxation"
+            },
+            {
+                "tag": "Sleep Improvement"
+            },
+            {
+                "tag": "Study Workflows"
+            },
+            {
+                "tag": "Studying"
+            }
+        ]
+    },
+    "pocket_119": {
+        "pocket_id": 119,
+        "items": [
+            {
+                "tag": "Email Marketing"
+            },
+            {
+                "tag": "Email Writing"
+            },
+            {
+                "tag": "Email Productivity"
+            },
+            {
+                "tag": "Email Replies"
+            },
+            {
+                "tag": "Business Email Writing"
+            },
+            {
+                "tag": "Business Emails"
+            },
+            {
+                "tag": "Educational Email Creation"
+            },
+            {
+                "tag": "Email Composition"
+            },
+            {
+                "tag": "Email Drafting"
+            },
+            {
+                "tag": "Email Engagement"
+            },
+            {
+                "tag": "Email Marketing Automation"
+            }
+        ]
+    },
+    "pocket_120": {
+        "pocket_id": 120,
+        "items": [
+            {
+                "tag": "Business Planning"
+            },
+            {
+                "tag": "Inventory Management"
+            },
+            {
+                "tag": "Accounting Firm Management"
+            },
+            {
+                "tag": "Business Decision-Making"
+            },
+            {
+                "tag": "Business Management"
+            },
+            {
+                "tag": "Business Model Validation"
+            },
+            {
+                "tag": "Business Process Management"
+            },
+            {
+                "tag": "Business Proposals"
+            },
+            {
+                "tag": "Business Strategy"
+            },
+            {
+                "tag": "Case Management"
+            },
+            {
+                "tag": "Change Management"
+            },
+            {
+                "tag": "Compliance Management"
+            },
+            {
+                "tag": "Deal Management"
+            },
+            {
+                "tag": "Digital Business Management"
+            },
+            {
+                "tag": "Franchise Management"
+            },
+            {
+                "tag": "LLM Observability"
+            },
+            {
+                "tag": "LLM Traffic Management"
+            },
+            {
+                "tag": "Solopreneur Business Growth"
+            }
+        ]
+    },
+    "pocket_121": {
+        "pocket_id": 121,
+        "items": [
+            {
+                "tag": "Old Photo Restoration"
+            },
+            {
+                "tag": "Abandoned Cart Recovery"
+            },
+            {
+                "tag": "Family Photo Restoration"
+            },
+            {
+                "tag": "Image Relighting"
+            },
+            {
+                "tag": "Image Retouching"
+            },
+            {
+                "tag": "Photo Restoration"
+            },
+            {
+                "tag": "Resume Photos"
+            }
+        ]
+    },
+    "pocket_122": {
+        "pocket_id": 122,
+        "items": [
+            {
+                "tag": "Social Media Content Creation"
+            },
+            {
+                "tag": "Facebook Content Creation"
+            },
+            {
+                "tag": "Facebook Page Growth"
+            },
+            {
+                "tag": "Organic Social Content"
+            },
+            {
+                "tag": "Social Clip Creation"
+            },
+            {
+                "tag": "Social Content Creation"
+            },
+            {
+                "tag": "Social Intelligence"
+            },
+            {
+                "tag": "Social Media Automation"
+            },
+            {
+                "tag": "Social Media Content Repurposing"
+            },
+            {
+                "tag": "Social Media Moderation"
+            },
+            {
+                "tag": "Social Post Creation"
+            }
+        ]
+    },
+    "pocket_123": {
+        "pocket_id": 123,
+        "items": [
+            {
+                "tag": "Email Management"
+            },
+            {
+                "tag": "Inbox Management"
+            },
+            {
+                "tag": "Month-End Close"
+            },
+            {
+                "tag": "Calendar Management"
+            },
+            {
+                "tag": "Email and Calendar Management"
+            },
+            {
+                "tag": "Email List Growth"
+            },
+            {
+                "tag": "Email List Management"
+            },
+            {
+                "tag": "Inbox Organization"
+            }
+        ]
+    },
+    "pocket_124": {
+        "pocket_id": 124,
+        "items": [
+            {
+                "tag": "Fitness Reels"
+            },
+            {
+                "tag": "Highlight Reel Creation"
+            },
+            {
+                "tag": "Mental Fitness"
+            },
+            {
+                "tag": "Travel Reels"
+            }
+        ]
+    },
+    "pocket_125": {
+        "pocket_id": 125,
+        "items": [
+            {
+                "tag": "Logo Design"
+            },
+            {
+                "tag": "Personal Branding"
+            },
+            {
+                "tag": "Poster Design"
+            },
+            {
+                "tag": "Social Media Branding"
+            },
+            {
+                "tag": "Brand Identity Design"
+            },
+            {
+                "tag": "Branding Design"
+            },
+            {
+                "tag": "MVP Branding"
+            },
+            {
+                "tag": "Responsive Design"
+            },
+            {
+                "tag": "Retail Branding"
+            },
+            {
+                "tag": "Sticker Design"
+            },
+            {
+                "tag": "Team Branding"
+            },
+            {
+                "tag": "Website Branding"
+            }
+        ]
+    },
+    "pocket_126": {
+        "pocket_id": 126,
+        "items": [
+            {
+                "tag": "Financial Reporting"
+            },
+            {
+                "tag": "Accountant Collaboration"
+            },
+            {
+                "tag": "Accounting Support"
+            },
+            {
+                "tag": "Financial Document Analysis"
+            },
+            {
+                "tag": "Financial Forecasting"
+            },
+            {
+                "tag": "Financial Health Assessment"
+            },
+            {
+                "tag": "Financial Modeling"
+            },
+            {
+                "tag": "Financial Reconciliation"
+            },
+            {
+                "tag": "Financial Recordkeeping"
+            },
+            {
+                "tag": "Financial Research"
+            },
+            {
+                "tag": "Financial Wellness"
+            }
+        ]
+    },
+    "pocket_127": {
+        "pocket_id": 127,
+        "items": [
+            {
+                "tag": "Brand Reputation Monitoring"
+            },
+            {
+                "tag": "Brand Discovery Analysis"
+            },
+            {
+                "tag": "Brand Management"
+            },
+            {
+                "tag": "Brand Monitoring"
+            },
+            {
+                "tag": "Brand Reputation Management"
+            },
+            {
+                "tag": "Brand Sentiment Monitoring"
+            },
+            {
+                "tag": "Multi-Brand Management"
+            }
+        ]
+    },
+    "pocket_128": {
+        "pocket_id": 128,
+        "items": [
+            {
+                "tag": "Team Collaboration"
+            },
+            {
+                "tag": "Team Headshots"
+            },
+            {
+                "tag": "Team Video Collaboration"
+            },
+            {
+                "tag": "Capture Team Alignment"
+            },
+            {
+                "tag": "Corporate Team Photos"
+            },
+            {
+                "tag": "Cross-Functional Collaboration"
+            },
+            {
+                "tag": "Team Course Collaboration"
+            },
+            {
+                "tag": "Team Handoffs"
+            },
+            {
+                "tag": "Team Training"
+            }
+        ]
+    },
+    "pocket_129": {
+        "pocket_id": 129,
+        "items": [
+            {
+                "tag": "Audience Growth"
+            },
+            {
+                "tag": "Audience Engagement"
+            },
+            {
+                "tag": "Audience Segmentation"
+            },
+            {
+                "tag": "Audience Insights"
+            },
+            {
+                "tag": "Audience Search Analysis"
+            }
+        ]
+    },
+    "pocket_130": {
+        "pocket_id": 130,
+        "items": [
+            {
+                "tag": "Text Translation"
+            },
+            {
+                "tag": "Document Translation"
+            },
+            {
+                "tag": "Website Translation"
+            },
+            {
+                "tag": "Bulk Translation"
+            },
+            {
+                "tag": "Content Translation"
+            },
+            {
+                "tag": "Language Translation"
+            },
+            {
+                "tag": "Note Translation"
+            },
+            {
+                "tag": "Web Translation"
+            }
+        ]
+    },
+    "pocket_131": {
+        "pocket_id": 131,
+        "items": [
+            {
+                "tag": "Professional Headshots"
+            },
+            {
+                "tag": "Product Photography"
+            },
+            {
+                "tag": "Catalog Photography"
+            },
+            {
+                "tag": "Commercial Photography"
+            },
+            {
+                "tag": "Commercial Portraits"
+            },
+            {
+                "tag": "Company Website Photos"
+            },
+            {
+                "tag": "Corporate Photography"
+            },
+            {
+                "tag": "E-commerce Product Photography"
+            },
+            {
+                "tag": "E-commerce Product Photos"
+            },
+            {
+                "tag": "Entertainment Photography"
+            },
+            {
+                "tag": "Personal Photography"
+            },
+            {
+                "tag": "Print Photography"
+            },
+            {
+                "tag": "Website Photography"
+            }
+        ]
+    },
+    "pocket_132": {
+        "pocket_id": 132,
+        "items": [
+            {
+                "tag": "Internal Tool Development"
+            },
+            {
+                "tag": "Everyday Utility Tools"
+            },
+            {
+                "tag": "Internal Tool Creation"
+            }
+        ]
+    },
+    "pocket_133": {
+        "pocket_id": 133,
+        "items": [
+            {
+                "tag": "Voiceover Creation"
+            },
+            {
+                "tag": "Voiceover Production"
+            },
+            {
+                "tag": "E-Learning Voiceovers"
+            },
+            {
+                "tag": "Entertainment Voiceovers"
+            },
+            {
+                "tag": "Marketing Voiceovers"
+            },
+            {
+                "tag": "Video Voiceover"
+            },
+            {
+                "tag": "Video Voiceovers"
+            },
+            {
+                "tag": "Vocal Removal"
+            },
+            {
+                "tag": "Voice Cleanup"
+            },
+            {
+                "tag": "Voice Transformation"
+            },
+            {
+                "tag": "Voiceover Integration"
+            }
+        ]
+    },
+    "pocket_134": {
+        "pocket_id": 134,
+        "items": [
+            {
+                "tag": "Study Support"
+            },
+            {
+                "tag": "Emotional Support"
+            },
+            {
+                "tag": "IT Support"
+            },
+            {
+                "tag": "Stress Relief"
+            },
+            {
+                "tag": "Student Support"
+            },
+            {
+                "tag": "Teacher Support"
+            }
+        ]
+    },
+    "pocket_135": {
+        "pocket_id": 135,
+        "items": [
+            {
+                "tag": "Profile Picture Creation"
+            },
+            {
+                "tag": "LinkedIn Profile Optimization"
+            },
+            {
+                "tag": "Professional Profile Photos"
+            },
+            {
+                "tag": "Dating Profiles"
+            },
+            {
+                "tag": "LinkedIn Headshots"
+            },
+            {
+                "tag": "LinkedIn Profile Photos"
+            },
+            {
+                "tag": "LinkedIn Profiles"
+            }
+        ]
+    },
+    "pocket_136": {
+        "pocket_id": 136,
+        "items": [
+            {
+                "tag": "Website Monitoring"
+            },
+            {
+                "tag": "Alert Monitoring"
+            },
+            {
+                "tag": "Business Monitoring"
+            },
+            {
+                "tag": "Emergency Dispatching"
+            },
+            {
+                "tag": "News Monitoring"
+            },
+            {
+                "tag": "Threat Monitoring"
+            },
+            {
+                "tag": "Website Performance Monitoring"
+            }
+        ]
+    },
+    "pocket_137": {
+        "pocket_id": 137,
+        "items": [
+            {
+                "tag": "Complex Scene Creation"
+            },
+            {
+                "tag": "Concept Explanation"
+            },
+            {
+                "tag": "Concept Scene Creation"
+            },
+            {
+                "tag": "Custom World Creation"
+            },
+            {
+                "tag": "Fantasy Scenarios"
+            },
+            {
+                "tag": "Game Trailer Creation"
+            },
+            {
+                "tag": "Trailer Creation"
+            },
+            {
+                "tag": "Virtual Production"
+            },
+            {
+                "tag": "Virtual Staging"
+            },
+            {
+                "tag": "Visual Novel Creation"
+            },
+            {
+                "tag": "Worldbuilding"
+            }
+        ]
+    },
+    "pocket_138": {
+        "pocket_id": 138,
+        "items": [
+            {
+                "tag": "Background Music Creation"
+            },
+            {
+                "tag": "Background Music"
+            },
+            {
+                "tag": "Backing Track Creation"
+            },
+            {
+                "tag": "Karaoke Track Creation"
+            },
+            {
+                "tag": "Spotify Canvas Content"
+            }
+        ]
+    },
+    "pocket_139": {
+        "pocket_id": 139,
+        "items": [
+            {
+                "tag": "Accessibility"
+            },
+            {
+                "tag": "Accessibility Support"
+            },
+            {
+                "tag": "ADHD Attention Support"
+            },
+            {
+                "tag": "Hands-Free Typing"
+            },
+            {
+                "tag": "Support Resolution Guides"
+            }
+        ]
+    },
+    "pocket_140": {
+        "pocket_id": 140,
+        "items": [
+            {
+                "tag": "A/B Testing"
+            },
+            {
+                "tag": "API Testing"
+            },
+            {
+                "tag": "Concept Testing"
+            },
+            {
+                "tag": "Early-Stage Testing"
+            },
+            {
+                "tag": "Enterprise Application Testing"
+            },
+            {
+                "tag": "Security Testing"
+            },
+            {
+                "tag": "Software Testing"
+            },
+            {
+                "tag": "Test Automation"
+            },
+            {
+                "tag": "Test Development"
+            },
+            {
+                "tag": "UI Testing"
+            }
+        ]
+    },
+    "pocket_141": {
+        "pocket_id": 141,
+        "items": [
+            {
+                "tag": "Agency Workflows"
+            },
+            {
+                "tag": "Agency Content Management"
+            },
+            {
+                "tag": "Agent Workflows"
+            },
+            {
+                "tag": "Content Agency Workflows"
+            },
+            {
+                "tag": "Content Team Workflows"
+            },
+            {
+                "tag": "Multi-Agent Workflows"
+            }
+        ]
+    },
+    "pocket_142": {
+        "pocket_id": 142,
+        "items": [
+            {
+                "tag": "Online Business Presence"
+            },
+            {
+                "tag": "Online Engagement"
+            },
+            {
+                "tag": "Online Presence"
+            },
+            {
+                "tag": "Online Presence Building"
+            }
+        ]
+    },
+    "pocket_143": {
+        "pocket_id": 143,
+        "items": [
+            {
+                "tag": "Customer Support"
+            },
+            {
+                "tag": "Customer Service"
+            },
+            {
+                "tag": "Multichannel Customer Support"
+            },
+            {
+                "tag": "Customer Question Handling"
+            },
+            {
+                "tag": "Customer Support Communication"
+            },
+            {
+                "tag": "Due Diligence"
+            },
+            {
+                "tag": "Refund Recovery"
+            },
+            {
+                "tag": "Special Offers"
+            },
+            {
+                "tag": "Support Agent Assistance"
+            }
+        ]
+    },
+    "pocket_144": {
+        "pocket_id": 144,
+        "items": [
+            {
+                "tag": "Content Creation"
+            },
+            {
+                "tag": "Subtitle Creation"
+            },
+            {
+                "tag": "Meme Creation"
+            },
+            {
+                "tag": "Blog Content Creation"
+            },
+            {
+                "tag": "Creative Content Generation"
+            },
+            {
+                "tag": "TikTok Content Creation"
+            },
+            {
+                "tag": "Visual Content Creation"
+            },
+            {
+                "tag": "Anime Generation"
+            },
+            {
+                "tag": "B2B Content Creation"
+            },
+            {
+                "tag": "Blog Article Generation"
+            },
+            {
+                "tag": "Catalog Content Creation"
+            },
+            {
+                "tag": "Character-Based Content Creation"
+            },
+            {
+                "tag": "Content Generation"
+            },
+            {
+                "tag": "Creative Content Creation"
+            },
+            {
+                "tag": "Creator Content"
+            },
+            {
+                "tag": "eLearning Content Creation"
+            },
+            {
+                "tag": "Hashtag Generation"
+            },
+            {
+                "tag": "Interactive Content Creation"
+            },
+            {
+                "tag": "Quote Generation"
+            },
+            {
+                "tag": "Text Generation"
+            }
+        ]
+    },
+    "pocket_145": {
+        "pocket_id": 145,
+        "items": [
+            {
+                "tag": "Cover Letter Writing"
+            },
+            {
+                "tag": "Cover Artwork"
+            },
+            {
+                "tag": "Cover Letter Creation"
+            },
+            {
+                "tag": "Ebook Cover Design"
+            }
+        ]
+    },
+    "pocket_146": {
+        "pocket_id": 146,
+        "items": [
+            {
+                "tag": "Document Creation"
+            },
+            {
+                "tag": "Document Editing"
+            },
+            {
+                "tag": "Documentation Creation"
+            },
+            {
+                "tag": "Document Digitization"
+            },
+            {
+                "tag": "Document Listening"
+            },
+            {
+                "tag": "Document Management"
+            },
+            {
+                "tag": "Document Research"
+            },
+            {
+                "tag": "Long-Form Article Creation"
+            },
+            {
+                "tag": "Patent Documentation"
+            },
+            {
+                "tag": "Repository Documentation"
+            },
+            {
+                "tag": "Research Document Creation"
+            },
+            {
+                "tag": "Schema Markup"
+            }
+        ]
+    },
+    "pocket_147": {
+        "pocket_id": 147,
+        "items": [
+            {
+                "tag": "Advisory Services"
+            },
+            {
+                "tag": "Help Center Content"
+            },
+            {
+                "tag": "Help Center Creation"
+            },
+            {
+                "tag": "Helpdesk Management"
+            },
+            {
+                "tag": "IT Helpdesk"
+            },
+            {
+                "tag": "Personalized Assistance"
+            },
+            {
+                "tag": "Support Hub Creation"
+            }
+        ]
+    },
+    "pocket_148": {
+        "pocket_id": 148,
+        "items": [
+            {
+                "tag": "Background Removal"
+            },
+            {
+                "tag": "Background Replacement"
+            },
+            {
+                "tag": "Object Removal"
+            },
+            {
+                "tag": "Object Replacement"
+            },
+            {
+                "tag": "Sky Replacement"
+            },
+            {
+                "tag": "Skybox Creation"
+            },
+            {
+                "tag": "Wallpaper Design"
+            }
+        ]
+    },
+    "pocket_149": {
+        "pocket_id": 149,
+        "items": [
+            {
+                "tag": "API Integration"
+            },
+            {
+                "tag": "Data Cleaning"
+            },
+            {
+                "tag": "Data Integration"
+            },
+            {
+                "tag": "Data Export"
+            },
+            {
+                "tag": "Data Management"
+            },
+            {
+                "tag": "Data Transformation"
+            },
+            {
+                "tag": "HR Data Management"
+            },
+            {
+                "tag": "Invoice Data Extraction"
+            },
+            {
+                "tag": "Legacy System Integration"
+            },
+            {
+                "tag": "Synthetic Data Generation"
+            }
+        ]
+    }
+}

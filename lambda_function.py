@@ -4,6 +4,7 @@ import datatier as db
 import parser
 import retriever
 import response
+import tag_selector
 
 import os
 
@@ -211,11 +212,19 @@ def lambda_handler(event, context):
     # 3. taxonomy context for prompt / simple RAG
     ###########################################################
     taxonomy_context = db.get_taxonomy_context(dbConn)
+    candidate_tags = tag_selector.select_candidate_tags(
+      query=query,
+      client=client,
+      top_k=50
+    )
+    prompt_taxonomy_context = dict(taxonomy_context)
+    prompt_taxonomy_context["use_cases"] = candidate_tags["use_cases"]
+    prompt_taxonomy_context["functions"] = candidate_tags["functions"]
 
     ###########################################################
     # 4. build prompt
     ###########################################################
-    prompt = parser.build_parsing_prompt(query, taxonomy_context)
+    prompt = parser.build_parsing_prompt(query, prompt_taxonomy_context)
 
     ###########################################################
     # 5. call LLM

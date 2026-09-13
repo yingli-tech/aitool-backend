@@ -1,175 +1,79 @@
-# 1. ETL framework
+# AI Tool ETL
 
-0. Source Discovery
-1. Collect
-2. Extract & Normalize
-3. Review
-4. Validate
-5. Load
-6. Report
+This repository discovers AI tools, retrieves official-site content, enriches tool records, builds function and use-case taxonomies, and loads the resulting data into MySQL.
 
-# 2. Responsibility, input and output
+The current production path supports one discovery source: `aitoolsdirectory`. The pipeline is script-oriented; it has no single end-to-end orchestrator.
 
-## 2.0 Source Discovery
+## Pipeline Overview
 
-**Responsibility:** Find potential AI tool candidates and their official URLs.
+```text
+configuration/etl_config.yaml
+  -> Source Discovery
+  -> Candidate filtering
+  -> Official-site collection and content filtering
+  -> LLM enrichment and quality review
+  -> Function and use-case taxonomy mapping
+  -> MySQL taxonomy and tool loading
+```
 
-**Input:** Seed sources
+```text
+candidate_tool_records.json
+  -> complete_candidate_tool_records.json
+  -> extracted_content.json
+  -> filtered_extracted_content.json + garbled_tool_names.txt
+  -> enriched_candidate_tool_records.jsonl
+  -> enriched_candidate_tool_records.json
+  -> enriched_candidate_tool_records_cleaned.json
+  -> mapping/output/unique_functions.json + unique_use_cases.json
+  -> secondary taxonomy
+  -> primary taxonomy
+  -> database tables and relationship maps
+```
 
-**Output:** Candidate tool records
+## Repository Layout
 
-### 2.0.1 Seed Sources
+```text
+configuration/     Runtime configuration and database connection settings.
+source_discovery/  Candidate discovery and completeness filtering.
+collect/           Official-site retrieval and extracted-content filtering.
+enrich/            LLM enrichment, conversion, and quality checks.
+mapping/           Taxonomy inputs, generated artifacts, and reusable scripts.
+load/              MySQL taxonomy and tool loaders.
+outputs/           Inter-stage JSON, JSONL, logs, evaluations, and diagnostics.
+experiments/       Non-production experiments.
+tests/             Unit tests.
+```
 
-#### Active
+`mapping/scripts/archived/` contains superseded scripts and is not part of the current mapping path.
 
-- https://aitoolsdirectory.com/
+## Configuration
 
-#### To Be Evaluated
+The intended ETL configuration file is `configuration/etl_config.yaml`. It contains the `source_discovery.seed_sources` configuration for `aitoolsdirectory`.
 
-At the moment, this is not a near-term priority.
+Database credentials are configured in `configuration/aitools-config.ini` in an `[rds]` section. Do not commit credentials.
 
-The current `aitoolsdirectory` source already yields 600+ candidate tools, which is sufficient for the current increment and near-term ETL needs.
+### Current Configuration Path Limitation
 
-Additional discovery sources may be evaluated later, but they are not needed right now.
+`source_discovery/source_discovery.py` and `enrich/enrich_tools.py` currently resolve `etl_config.yaml` from the ETL root, while the actual configuration file is under `configuration/`. This code-path inconsistency must be aligned before either script can be run from a clean checkout. The configuration location documented here is the intended location.
 
-- https://tooldirectory.ai/
-- https://tooldirectory.ai/research
-- https://tooldirectory.ai/top-100-ai-tools
-- https://theaidirectory.ai/en
-- https://www.aitools-directory.com/
-- https://aitools.inc/
-- https://beginnersinai.org/ai-tools-directory/
-- https://www.toolify.ai/
-- https://opentools.ai/
-- https://toollist.ai/
-- https://aitoptools.com/
-- https://www.insidr.ai/ai-tools/
-- https://www.futurepedia.io/
-- https://aichief.com/ai-tools/
+## Stage 1: Source Discovery
 
+**Responsibility:** discover candidate tools, resolve their official URLs, and retain the source description supplied by the directory API.
 
-### 2.0.2 Source-Specific Discovery Logic
+**Implementation:** `source_discovery/source_discovery.py`
 
-#### 2.0.2.1 Source: AI Tools Directory
+The active source is `https://aitoolsdirectory.com/`. Its listing page is dynamic, so discovery calls the configured listing API rather than parsing rendered HTML.
 
-**Base URL**
+For each listed tool the module:
 
-https://aitoolsdirectory.com/
+1. Reads the tool name from `table.filtersValues[0].values[].name`.
+2. Builds a detail API request by Base64-encoding a `getRowBy.slug` query.
+3. Reads `URL-` and `Longdescription-` from the detail response.
+4. Follows the third-party redirect in `URL-` with a browser-like User-Agent.
+5. Removes query parameters from a successfully resolved final URL.
+6. Writes a candidate record and deduplicates records by normalized name.
 
-**Corresponding API**
-
-https://spread.name/sheet/Ch-JZHaS1Jr33yDMpDzHjQD1JJAP5FHRF3LI221VGFm-12MzaYevvfCflDPkrrRlLppo/filters/?query=e30%3D&options=eyJyb3dzTGltaXQiOjUwMDAsImRlYWxUeXBlIjoiYXBwc3VtbyIsImR5bmFtaWNEYXRhIjp7InNoZWV0SGFzaCI6IjE4MDM3NTYzODciLCJTQ1BUYWJsZUxhdGVzdFVwZGF0ZVRpbWVzdGFtcCI6MTc4Nzk5ODI5MDUwOH0sInNlYXJjaCI6eyJlbmFibGVkIjp0cnVlLCJjb2x1bW5zIjpbIk5hbWUtIiwiUHJpY2UtIiwiQ2F0ZWdvcnktIiwiSGFzaHRhZy0iLCJMb25nZGVzY3JpcHRpb24tIl19LCJzb3J0aW5nIjp7ImVuYWJsZWQiOmZhbHNlLCJzaHVmZmxlIjpmYWxzZX0sInBhZ2luYXRpb24iOnsiZW5hYmxlZCI6dHJ1ZSwiaXRlbXNQZXJQYWdlIjoiMTAwIn0sImZpbHRlcnMiOnsiZW5hYmxlZCI6dHJ1ZSwidmFsdWVzIjpbeyJpZCI6Ik5hbWUtIiwidHlwZSI6Im11bHRpcGxlIn0seyJpZCI6IkNhdGVnb3J5LSIsInR5cGUiOiJtdWx0aXBsZSJ9LHsiaWQiOiJQcmljZS0iLCJ0eXBlIjoibXVsdGlwbGUifV19LCJtYXBWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJpZCI6bnVsbCwibWFya2VyVHlwZSI6InBpbiIsImltYWdlQ29sSWQiOiIifSwiY2FsZW5kYXJWaWV3Ijp7ImVuYWJsZWQiOmZhbHNlLCJzdGFydERhdGVDb2xJZCI6bnVsbCwidGl0bGVDb2xJZCI6Ik5hbWUtIn19
-
-This is a dynamic website.
-
-#### 2.0.2.2 Discover tools
-
-AI Tools Directory loads its tool data dynamically rather than embedding the tool records directly in the initial HTML response.
-
-Therefore, Source Discovery does not extract tool entries from the rendered listing-page DOM.
-
-Instead:
-
-1. Call the discovered listing data API.
-2. Parse the returned JSON response.
-3. Extract the available tool names.
-4. Normalize each extracted name by trimming leading and trailing whitespace.
-
-
-#### 2.0.2.3 Resolve tool detail data
-
-For each discovered tool, retrieve its corresponding detail record through the
-site's underlying detail data API.
-
-The detail API request contains a Base64-encoded `query` parameter representing
-a JSON structure of the form:
-
-{
-  "getRowBy": {
-    "slug": "<tool_slug>"
-  }
-}
-
-Construct the query dynamically for each tool:
-
-1. determine the tool slug;
-2. construct the `getRowBy` JSON object;
-3. serialize the object to JSON;
-4. Base64-encode the serialized JSON;
-5. send the encoded value as the API's `query` parameter;
-6. parse the returned JSON detail record.
-
-Observed example:
-
-{
-  "getRowBy": {
-    "slug": "getsolved"
-  }
-}
-
-The request configuration contained in the API's `options` parameter should
-remain unchanged unless further investigation shows that dynamic construction
-is required.
-
-If the detail record cannot be reliably retrieved, do not invent missing data.
-
-
-#### 2.0.2.4 Collect source fields
-
-For each tool detail record, collect the source data needed for:
-
-- name
-- official_url
-- source
-- source_url
-- source_description
-
-For this source:
-
-source = "aitoolsdirectory"
-
-source_url = "https://aitoolsdirectory.com/"
-
-`official_url`:
-
-- Extract the external destination URL from the `URL-` field in the detail API response.
-- Treat this URL as a third-party destination that may redirect rather than assuming it is already the final official URL.
-- Request the extracted URL and follow HTTP redirects.
-- Use the final resolved URL as the candidate official URL.
-- Normalize the resolved URL by removing the entire query string while preserving the scheme, domain, and path.
-- If the destination cannot be successfully resolved, leave `official_url` null.
-
-Example:
-
-Detail API `URL-` value:
-
-https://example-redirect.com/...
-
-→ follow redirects
-
-→ final resolved URL:
-
-https://getsolved.ai/?utm_source=aitoolsdirectory
-
-→ normalize
-
-→ official_url:
-
-https://getsolved.ai/
-
-`source_description`:
-- Extract the descriptive content directly from the detail API response.
-- Preserve the relevant descriptive text returned by the source.
-
-If a required field cannot be reliably obtained from the API response, leave it null.
-
-Do not invent missing values during scraping.
-
-
-#### 2.0.2.5 Produce candidate record
-
-Each discovered tool should produce a structured candidate record containing:
-
+```json
 {
   "name": "...",
   "official_url": "...",
@@ -177,482 +81,204 @@ Each discovered tool should produce a structured candidate record containing:
   "source_url": "https://aitoolsdirectory.com/",
   "source_description": "..."
 }
+```
 
+Missing or unreliable fields remain `null`; values are never invented. A failed third-party redirect does not stop discovery: `official_url` becomes `null` and the failure is classified as `403` or `other_failure`.
 
-#### 2.0.2.6 Deduplicate candidate records
+Outputs:
 
-- Within a single source discovery run, candidate records with the same
-  normalized name should be treated as duplicates.
-- Emit only one candidate record per unique normalized tool name.
-- Name normalization for deduplication should trim leading/trailing whitespace
-  and collapse internal repeated whitespace.
-- Do not perform cross-source deduplication in this stage.
+- `outputs/candidate_tool_records.json`
+- `outputs/source_discovery_log.txt`
+- `outputs/source_discovery_summary.json`
 
-#### 2.0.7 Candidate Record Handoff
+The summary reports `total_tools`, `redirect_success`, `redirect_403`, and `redirect_other_failure`.
 
-Source Discovery allows incomplete candidate records to be persisted.
+`source_discovery/filter_candidate_records.py` retains only records with non-empty `name`, `official_url`, `source`, `source_url`, and `source_description`:
 
-Before downstream processing:
-- candidate records containing `null` in required fields are excluded
-- only complete candidate records proceed to Enrich & Normalize
+```text
+outputs/candidate_tool_records.json
+  -> outputs/complete_candidate_tool_records.json
+```
 
-Source Discovery
-→ candidate_tool_records.json
-→ filter incomplete records
-→ Enrich & Normalize
+## Stage 2: Collect
 
+**Responsibility:** retrieve and filter text from each retained official URL.
 
+`collect/website_content_extractor.py` reads `complete_candidate_tool_records.json`, uses Trafilatura to fetch and extract website content, preserves `name` and `official_url`, and writes:
 
-## 2.1 Collect
+- `outputs/extracted_content.json`
+- `outputs/website_content_extraction_log.txt`
 
-**Responsibility:** Retrieve raw web pages / raw source data
+`collect/filter_extracted_content.py` uses `raw_text` when present and otherwise `text`, excludes records without usable text, records source-domain matching, and detects garbled content through replacement-character and unusual Unicode ratios.
 
-**Input:** Source URLs
+It writes:
 
-**Output:** Raw source data
+- `outputs/filtered_extracted_content.json`: records with usable text;
+- `outputs/clean_extracted_content.json`: records that also pass the garbling check;
+- `outputs/garbled_tool_names.txt`: names excluded by the garbling check.
 
-## 2.2 Enrich & Normalize
+Enrichment consumes `filtered_extracted_content.json` and excludes names listed in `garbled_tool_names.txt`; `clean_extracted_content.json` is a diagnostic artifact rather than the direct Enrich input.
 
-**Responsibility:**
+## Stage 3: Enrich and Review
 
-* Extract standardized fields
-* Normalize field formats
-* Generate function / use case candidates
+**Responsibility:** use an LLM to add structured metadata grounded in collected content, then inspect selected quality rules.
 
-**Input:** Raw source data
+`enrich/enrich_tools.py` combines collected content with the original complete candidate record and uses OpenAI structured output with a Pydantic schema. It produces:
 
-**Output:** Structured candidate records
-
-Each raw datum should produce a structured candidate record containing:
-- category
-- language
-- use_case
-- function
-- price_type
-- one_line_desc
-
-Merge these fields into the original record; the output should look as below:
-
+```json
 {
   "name": "...",
   "official_url": "...",
-  "source": "aitoolsdirectory",
-  "source_url": "https://aitoolsdirectory.com/",
+  "source": "...",
+  "source_url": "...",
   "source_description": "...",
-  "category": "...",
-  "language": "...",
-  "use_case": "...",
-  "function": "...",
-  "price_type": "...",
+  "category": "AI Coding",
+  "language": ["English"],
+  "use_case": ["..."],
+  "function": ["..."],
+  "price_type": ["free", "paid"],
   "one_line_desc": "..."
 }
+```
 
-## 2.3 Review
+Rules enforced by the enrichment schema and prompt:
 
-**Responsibility:** Manually review, modify, and approve candidate records
+- `category` is one of `AI Video`, `AI Image`, `AI Writing`, `AI Coding`, `AI Chat`, or `AI Audio`.
+- `language`, `function`, `use_case`, and `price_type` are non-empty lists.
+- `price_type` values are `free`, `free trial`, and/or `paid`; more than one value is allowed.
+- `language` contains human natural languages only. English is always present.
+- If no pricing evidence is available, `price_type` defaults to `["free"]`.
+- LLM-generated values must be grounded in the selected source text.
 
-**Input:** Structured candidate records
+The enrichment writer appends each successful result to JSONL and records each failure separately, allowing later runs to skip completed tool names:
 
-**Output:** Reviewed records
+- `outputs/enriched_candidate_tool_records.jsonl`
+- `outputs/enrichment_errors.jsonl`
 
-## 2.4 Validate
+`enrich/convert_enriched_jsonl_to_json.py` converts JSONL records to `outputs/enriched_candidate_tool_records.json`.
 
-**Responsibility:**
+`enrich/evaluate_enriched_records.py` checks language values against `outputs/allowed_human_languages.json` and flags `free trial` values that omit `paid`. Its result is `outputs/enrichment_evaluation.json`.
 
-* Validate required fields
-* Validate function / use case values
-* Check for duplicates and constraint violations
-* Determine whether each record is eligible to be loaded into the database
+### Manually Cleaned Enrichment Baseline
 
-**Input:** Reviewed records
+`outputs/enriched_candidate_tool_records_cleaned.json` is the downstream input for Mapping and database loading. It is currently a manual correction of the enriched JSON, not an automatically generated stage. The recorded corrections remove programming technologies incorrectly labeled as languages, normalize several language labels to canonical names, and add `paid` to one incomplete price-type record. See `outputs/output_explanation.md` for the recorded detail.
 
-**Output:** Valid records + rejected records
+## Stage 4: Taxonomy Mapping
 
-This stage performs validation-time duplicate checks beyond the in-source deduplication already done during Source Discovery
+**Responsibility:** build separate hierarchical taxonomies for `functions` and `use_cases`.
 
-## 2.5 Load
+```text
+raw tags -> secondary tags -> primary tags
+```
 
-**Responsibility:** Write data into the `tools`, `function`, `use_case`, and mapping tables
+Functions and use cases remain independent taxonomies. The current production approach uses sentence-transformer embeddings, K-Means clustering, and LLM consolidation. The older semantic-normalization work under `experiments/` is not part of this flow.
 
-**Input:** Valid records
+### Mapping Flow
 
-**Output:** Database write results
+1. `extract_tags_from_records.py` extracts and frequency-counts raw `function` and `use_case` values.
+2. `count_tag_frequencies.py` writes count distributions for inspection.
+3. `cluster_tags.py` embeds tags with `all-MiniLM-L6-v2` and applies K-Means with `random_state=42` and `n_init=10`.
+4. `consolidate_clustered_tags.py` uses one of four prompts selected by tag type and target level: functions/use_cases x secondary/primary.
+5. `validate_consolidated_tags.py` verifies exactly-once assignment and detects missing, unexpected, duplicate, or cross-pocket conflicting assignments.
+6. `deduplicate_primary_tags.py` merges equivalent primary labels across pockets and combines their source secondary tags.
+7. `generate_tag_embeddings.py` writes metadata and NumPy embeddings for primary-secondary taxonomy pairs.
 
-## 2.6 Report
+Secondary clustering accepts raw records with a `tag` field. Primary clustering reads `secondary_tag` values from consolidated secondary-pocket records.
 
-**Responsibility:** Summarize added, failed, skipped, and errored records
+| Tag type | Target level | Consolidated output |
+| --- | --- | --- |
+| `functions` | `secondary` | `consolidated_functions_secondary_tags.json` |
+| `use_cases` | `secondary` | `consolidated_use_cases_secondary_tags.json` |
+| `functions` | `primary` | `consolidated_functions_primary_tags.json` |
+| `use_cases` | `primary` | `consolidated_use_cases_primary_tags.json` |
 
-**Input:** Execution results from all stages of the current ETL run
+Current artifacts are stored under `mapping/functions/` and `mapping/usecases/`. Secondary experiments may be grouped by `k=<value>`; primary results currently reside directly under the corresponding `primary/` directory.
 
-**Output:** ETL run report
+### Mapping Commands
 
-# 3 Data Flow
+Run commands from the ETL root. Choose a new output directory for a new run so existing artifacts are not overwritten.
 
-AI Tools Directory
-        ↓
-Discovery / Collection
-        ↓
-name
-official_url
-source
-source_url
-source_description
-        ↓
-Fetch official website
-        ↓
-official_raw_text
-        ↓
-LLM enrichment
-        ↓
-category
-language
-use_case
-function
-price_type
-one_line_desc
+```powershell
+# Extract raw tags and count distributions
+python mapping/scripts/extract_tags_from_records.py `
+  --input outputs/enriched_candidate_tool_records_cleaned.json `
+  --output-dir mapping/output
 
-# 4 Implementation
+python mapping/scripts/count_tag_frequencies.py `
+  --input mapping/output/unique_functions.json mapping/output/unique_use_cases.json `
+  --output-dir mapping/output
 
-## 4.1 Source Discovery
+# Functions: raw tags -> secondary tags
+python mapping/scripts/cluster_tags.py `
+  --input mapping/output/unique_functions.json `
+  --output-dir mapping/functions/secondary/k=300 `
+  --k 300 `
+  --tag-type functions `
+  --target-level secondary
 
-### 4.1.1 Purpose
+python mapping/scripts/consolidate_clustered_tags.py `
+  --input mapping/functions/secondary/k=300/clustered_functions_output_no_vectors.json `
+  --output-dir mapping/functions/secondary/k=300`
+  --tag-type functions `
+  --target-level secondary
 
-Implement Source Discovery as a standalone stage that discovers candidate AI tools from configured external sources.
+python mapping/scripts/validate_consolidated_tags.py `
+  --input mapping/functions/secondary/k=300/clustered_functions_output_no_vectors.json `
+  --consolidated-input mapping/functions/secondary/k=300/consolidated_functions_secondary_tags.json `
+  --tag-type functions `
+  --target-level secondary
 
-The module:
+# Functions: secondary tags -> primary tags
+python mapping/scripts/cluster_tags.py `
+  --input mapping/functions/secondary/k=300/consolidated_functions_secondary_tags.json `
+  --output-dir mapping/functions/primary `
+  --k 30 `
+  --tag-type functions `
+  --target-level primary
 
-- accepts YAML-configured `seed_sources` 
-- validates configuration using Pydantic models
-- retrieves the required source listing API, detail API, and third-party redirect targets
-- extracts source-level candidate data
-- returns `candidate_tool_records`
+python mapping/scripts/consolidate_clustered_tags.py `
+  --input mapping/functions/primary/clustered_functions_primary_output_no_vectors.json `
+  --output-dir mapping/functions/primary `
+  --tag-type functions `
+  --target-level primary
 
-Source Discovery only retrieves the source/API data required to discover candidate tools, official URLs, and source descriptions.
+python mapping/scripts/deduplicate_primary_tags.py `
+  --input mapping/functions/primary/consolidated_functions_primary_tags.json `
+  --output mapping/functions/primary/deduplicated_functions_primary_tags.json
+```
 
-It does not fetch or analyze content from the tools' official websites.
+Use the same commands for use cases with `--tag-type use_cases`, `mapping/output/run-001/unique_use_cases.json`, and `mapping/usecases/` paths.
 
+`sample_clusters_for_evaluation.py` samples a fixed number of pockets using seed `42`. `evaluate_sample_clusters.py` scores CSV samples as `Good`, `Mixed`, or `Bad`; it requires an OpenAI API key. `count_consolidated_tags.py` prints per-pocket and total tag counts.
 
-### 4.1.2 Scope of this increment
+## Stage 5: Load
 
-This increment supports only the `aitoolsdirectory` source.
+Loading writes to MySQL and is not a read-only operation.
 
-For this increment:
+`load/load_taxonomy_to_db.py` reads a deduplicated primary taxonomy file and inserts unique `(primary_tag, secondary_tag)` pairs into either `functions` or `use_cases` using `INSERT IGNORE`.
 
-- each active source processes exactly one configured listing page
-- official website content is not fetched
-- source-specific discovery logic is embedded in code rather than stored as external source-specific rule objects
-- no additional discovery sources are needed at this time because `aitoolsdirectory` already provides 600+ tools for this stage
+```powershell
+python load/load_taxonomy_to_db.py `
+  --input mapping/functions/primary/deduplicated_functions_primary_tags.json `
+  --tag-type functions
+```
 
+`load/load_tools_to_db.py` loads tools and their sources, price types, languages, function mappings, and use-case mappings. It requires the cleaned enriched records plus both taxonomy levels for both tag types. The script uses a transaction and rolls back the current run on error.
 
-### 4.1.3 Execution flow
+```powershell
+python load/load_tools_to_db.py `
+  --tools-input outputs/enriched_candidate_tool_records_cleaned.json `
+  --functions-secondary-input mapping/functions/secondary/k=300/consolidated_functions_secondary_tags.json `
+  --use-cases-secondary-input mapping/usecases/secondary/consolidated_use_cases_secondary_tags.json `
+  --functions-primary-input mapping/functions/primary/deduplicated_functions_primary_tags.json `
+  --use-cases-primary-input mapping/usecases/primary/deduplicated_use_cases_primary_tags.json
+```
 
-Source Discovery follows this pipeline:
+## Operational Notes and Current Limits
 
-YAML configuration
-
-→ Pydantic validation
-
-→ Load the configured listing API for each active source
-
-→ Extract tool name  
-
-→ Build tool detail API request
-
-→ Call tool detail API
-
-→ Extract redirect URL and `source_description` from the detail API response
-
-→ Follow the redirect URL to resolve the final `official_url`
-
-→ Build `candidate_tool_records`
-
-→ Deduplicate records by normalized `name`
-
-→ Persist results, summary, and logs
-
-
-### 4.1.4 Configuration and schema
-
-#### 4.1.4.1 Configuration
-
-Discovery inputs are stored in `source_discovery.yaml`.
-
-The configuration contains:
-
-- `seed_sources`
-
-The YAML configuration must be parsed and validated with Pydantic before discovery begins.
-
-For this increment, the configuration contains one active source definition for `aitoolsdirectory`.
-
-
-#### 4.1.4.2 Schemas
-
-`schemas.py` defines the data structures and serialization contract used by Source Discovery:
-
-- `SeedSource` — defines a configured discovery source and its listing pages.
-- `CandidateToolRecord` — defines the output schema for each discovered tool.
-- `SourceDiscoveryConfig` — defines the top-level Source Discovery configuration containing the seed sources.
-- `UrlResolutionSummary` — records summary statistics for official URL resolution, including successful resolutions, `403` responses, and other failures.
-- `dump_candidate_records()` — converts validated `CandidateToolRecord` objects into JSON-serializable dictionaries for persistence.
-
-All Pydantic models use `extra="forbid"` to reject fields that are not explicitly defined in their schemas.
-
-If a candidate tool is discovered but a field cannot be reliably extracted, the field must be `null`.
-
-No field value may be invented during discovery.
-
-
-### 4.1.5 Files
-
-This increment contains four files:
-
-#### 4.1.5.1 `source_discovery.py`
-
-Responsibility: implement and orchestrate Source Discovery.
-
-Public entrypoint:
-
-`discover_sources(seed_sources) -> list[CandidateToolRecord]`
-
-Internal responsibilities:
-
-- iterate configured seed sources
-- retrieve configured listing pages
-- build and call tool detail APIs
-- extract official URLs and source descriptions
-- build candidate records
-- deduplicate the final records
-- persist candidate records, resolution summary, and run logs
-
-Expected functions:
-
-- `discover_sources(...)`
-  - top-level orchestration
-  - returns all candidate records
-
-- `discover_from_source(seed_source)`
-  - runs discovery for one source
-
-- `get_listing_page_urls(...)`
-  - determines which configured listing pages should be processed
-
-- `extract_tool_names(...)`
-  - extracts tool names from the listing API response
-
-- `build_detail_request(...)`
-  - builds the detail API request for a tool using its derived slug and the listing API `options` value
-
-- `extract_official_url(detail_response)`
-  - extracts the redirect target from the detail API response
-  - follows redirects and applies the documented URL normalization rules
-
-- `extract_source_description(detail_response)`
-  - extracts the description directly from the detail API response
-
-- `resolve_final_url(...)`
-  - follows the third-party redirect URL
-  - returns the resolved final URL when successful
-  - catches third-party URL resolution failures so one bad tool URL does not stop the full discovery run
-
-- `configure_logging(...)`
-  - configures console and file logging for the discovery run
-
-- `persist_summary(...)`
-  - writes the URL-resolution summary JSON document
-
-- `build_candidate_record(...)`
-  - assembles a `CandidateToolRecord`
-  - uses `null` for missing or unreliable fields
-
-- `load_config(...)`
-  - loads the Source Discovery configuration from YAML
-  - validates the configuration against `SourceDiscoveryConfig`
-
-- `fetch_json(...)`
-  - sends an HTTP GET request to the specified API endpoint
-  - validates the HTTP response status
-  - returns the response body as JSON
-
-- `deduplicate_records(...)`
-  - removes duplicate candidate records based on normalized tool names
-  - preserves the first occurrence of each tool
-
-- `persist_results(...)`
-  - serializes candidate records into JSON-compatible dictionaries
-  - writes the final candidate records to the configured output JSON file
-
-- `main()`
-  - configures logging and loads the Source Discovery configuration
-  - runs the Source Discovery pipeline
-
-
-#### 4.1.5.2 `schemas.py`
-
-Responsibility: define the Source Discovery configuration and output data structures.
-
-Contains:
-
-- `SeedSource`
-- `CandidateToolRecord`
-- `SourceDiscoveryConfig`
-- `UrlResolutionSummary`
-- `dump_candidate_records`
-
-
-#### 4.1.5.3 `source_discovery.yaml`
-
-Responsibility: define seed sources.
-
-For this increment, it contains the configuration for `aitoolsdirectory` only.
-
-### 4.1.5.4 `filter_candidate_records.py`
-
-Filters incomplete candidate records before downstream processing.
-
-Key functions:
-
-- `is_complete(record)`
-  - checks whether all required fields are non-null and non-empty
-
-- `filter_complete_records(records)`
-  - removes incomplete records
-  - keeps only complete candidate records
-
-- `main()`
-  - loads the existing candidate records
-  - applies the filter
-  - persists the filtered records
-  - reports retained and excluded record counts
-
-
-### 4.1.6 Deduplication
-
-Deduplication occurs within a single Source Discovery run.
-
-Rules:
-
-- normalize the tool name before comparison
-- emit only one record for each unique normalized tool name
-- do not perform cross-source deduplication at this stage
-
-
-### 4.1.7 Output contract
-
-Source Discovery returns:
-
-`list[CandidateToolRecord]`
-
-Each discovered tool produces one candidate record.
-
-Requirements:
-
-- missing or unreliable fields must be `null`
-- scraped values must come from the configured source; values must not be invented
-- records must be deduplicated by normalized tool name before final output
-- the final result must also be persisted as a human-readable JSON file for inspection and use by the next pipeline stage
-
-### 4.1.8 Detail API field contract
-
-For the current `aitoolsdirectory` implementation, Source Discovery depends on the following response fields:
-
-- listing API tool names:
-  - `table.filtersValues[0].values[].name`
-- detail API redirect URL:
-  - `table.rows[0].cells["URL-"].value`
-- detail API source description:
-  - `table.rows[0].cells["Longdescription-"].value`
-
-If these fields are missing or malformed, the implementation must not invent replacement values.
-
-### 4.1.9 Third-party URL resolution error handling
-
-The redirect URL extracted from the detail API is treated as a third-party URL resolution step.
-
-Rules:
-
-- a single tool's redirect failure must not stop the full Source Discovery run
-- if redirect resolution fails, continue processing the next tool
-- if redirect resolution fails, set `official_url` to `null`
-- classify redirect outcomes into:
-  - success
-  - `403`
-  - other failure
-- for non-`403` failures, preserve the current handling behavior while logging the returned status code and error details when available
-
-### 4.1.11 Failure Modes and Handling
-
-Source Discovery handles failures at the individual tool level where possible so that one failed official URL does not terminate the full discovery run.
-
-- **Missing redirect URL**
-  - The detail API response does not contain a usable `URL-` value.
-  - `official_url` is set to `null`.
-  - The failure is counted as `other_failure`.
-
-- **HTTP 403 during URL resolution**
-  - The redirect URL exists, but the target website returns HTTP 403 when requested.
-  - `official_url` is set to `null`.
-  - The failure is classified and counted as `403`.
-  - Discovery continues with the remaining tools.
-
-- **Other HTTP errors during URL resolution**
-  - The target website returns another unsuccessful HTTP status.
-  - `official_url` is set to `null`.
-  - The failure is classified and counted as `other_failure`.
-  - Discovery continues with the remaining tools.
-
-- **Network, connection, or SSL failure**
-  - The redirect URL cannot be resolved because of a request-level failure.
-  - `official_url` is set to `null`.
-  - The failure is classified and counted as `other_failure`.
-  - Discovery continues with the remaining tools.
-
-- **Missing source description**
-  - The detail API response does not contain a usable `Longdescription-` value.
-  - `source_description` is set to `null`.
-  - No value is invented or inferred.
-
-- **Missing tool name**
-  - A listing record does not contain a usable tool name.
-  - Detail retrieval is skipped because the detail request cannot be constructed reliably.
-  - The candidate record is retained with unavailable fields set to `null`.
-  - The failure is counted as `other_failure`.
-
-Incomplete candidate records may remain in the Source Discovery output. Records with required fields set to `null` can be excluded before downstream enrichment and normalization.
-
-### 4.1.10 Logging and summary outputs
-
-Source Discovery should produce observable run outputs in addition to `candidate_tool_records`.
-
-Logging:
-
-- print progress messages during execution so the operator can see what the stage is currently doing
-- write the same progress information to:
-  - `outputs/source_discovery_log.txt`
-
-Typical log events include:
-
-- fetching the tool list
-- fetching a specific tool
-- resolving a tool's `official_url`
-- extracting a tool's `source_description`
-- logging redirect-resolution failures with status code and error details when available
-
-Summary:
-
-- persist URL-resolution summary statistics to:
-  - `outputs/source_discovery_summary.json`
-- URL resolution 
-  - count of URLs that can be successfully accessed and resolved to their final resolved address.
-
-The summary should include:
-
-- `total_tools`
-- `redirect_success`
-- `redirect_403`
-- `redirect_other_failure`
-
-
-
-
-
+- Source Discovery processes the first configured listing page only.
+- Discovery has one source-specific implementation and no fallback discovery source.
+- Collection, enrichment, and several review utilities use fixed `outputs/` paths rather than a run-specific CLI contract.
+- There is no top-level orchestrator, global run ID, or consolidated ETL report.
+- Mapping evaluation and consolidation call OpenAI; database loaders write to MySQL. Review inputs and credentials before running either.
+- `experiments/` and archived scripts are retained for investigation and are not authoritative production artifacts.

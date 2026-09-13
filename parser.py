@@ -6,7 +6,7 @@ import re
 # build_parsing_prompt
 #
 # Builds the prompt for the LLM to parse the user's query into
-# a structured JSON object with core/sub taxonomy tags.
+# a structured JSON object with primary/secondary taxonomy tags.
 #
 def build_parsing_prompt(query, taxonomy_context):
   """
@@ -20,8 +20,8 @@ def build_parsing_prompt(query, taxonomy_context):
         "categories": [...],
         "price_types": [...],
         "languages": [...],
-        "use_cases": [{"core": "...", "sub": "..."}, ...],
-        "functions": [{"core": "...", "sub": "..."}, ...]
+        "use_cases": [{"primary_tag": "...", "secondary_tag": "..."}, ...],
+        "functions": [{"primary_tag": "...", "secondary_tag": "..."}, ...]
       }
 
   Returns
@@ -49,16 +49,23 @@ You must follow these rules carefully:
    - language
    - use_cases
 3. Extract nice-to-have use_cases if present.
-4. Extract function tags from the provided function taxonomy whenever possible.
-5. Use the provided database taxonomy as the first-choice source of truth.
-6. For use_cases and functions, return objects with:
-   - core: required string
-   - sub: string or null
-7. Prefer existing core/sub combinations from the taxonomy.
-8. Only generate a new core or sub label when the existing taxonomy truly cannot express the meaning.
-9. Multiple use_cases and multiple functions are allowed when the query contains multiple intents.
-10. If you are only confident about the core but not the sub, set sub to null.
-11. Return JSON only. Do not include explanation, markdown, or extra text.
+4. For use_cases and functions, return objects with:
+   - primary_tag: required string
+   - secondary_tag: string or null
+5. Multiple use_cases and multiple functions are allowed when the query contains multiple intents.
+6. If you are only confident about the primary tag but not the secondary tag, set secondary_tag to null.
+7. Return JSON only. Do not include explanation, markdown, or extra text.
+
+Tag Selection Rules for use_cases and functions:
+1. Primary tags represent broad capabilities and are used for candidate tool filtering. Strongly prefer selecting primary tags from the provided canonical primary-tag candidates.
+2. Select the closest applicable canonical primary tag whenever the user's intent can reasonably be covered by it. A primary tag does not need to describe the request with fine-grained precision.
+3. Do NOT generate a new primary tag merely because a canonical primary tag is broader than the exact request.
+4. Generate a new primary tag only when none of the provided canonical primary tags can reasonably represent the requested capability.
+5. Secondary tags represent more specific capabilities and are primarily used for ranking. Prefer canonical secondary tags when they adequately describe the intent, but allow more flexibility than for primary tags.
+6. If no canonical secondary tag adequately captures an important specific capability, a new secondary tag may be generated.
+7. Do not generate a new tag merely to paraphrase, rename, or combine existing canonical tags.
+
+Primary tags are intentionally broad. Semantic coverage is more important than exact wording or fine-grained specificity when selecting a primary tag.
 
 Important rule for price_type:
 - If the user does NOT mention price preference, then include all available price types in must_have.price_type.
@@ -71,16 +78,16 @@ JSON schema:
     "price_type": ["string", "..."],
     "language": ["string", "..."],
     "use_cases": [
-      {{"core": "string", "sub": "string or null"}}
+      {{"primary_tag": "string", "secondary_tag": "string or null"}}
     ]
   }},
   "nice_to_have": {{
     "use_cases": [
-      {{"core": "string", "sub": "string or null"}}
+      {{"primary_tag": "string", "secondary_tag": "string or null"}}
     ]
   }},
   "functions": [
-    {{"core": "string", "sub": "string or null"}}
+    {{"primary_tag": "string", "secondary_tag": "string or null"}}
   ]
 }}
 
@@ -93,10 +100,10 @@ Available price_types:
 Available languages:
 {json.dumps(languages, ensure_ascii=False)}
 
-Available use_case taxonomy:
+Canonical use_case tag candidates selected by semantic similarity:
 {json.dumps(use_cases, ensure_ascii=False)}
 
-Available function taxonomy:
+Canonical function tag candidates selected by semantic similarity:
 {json.dumps(functions, ensure_ascii=False)}
 
 User query:
@@ -305,15 +312,17 @@ def _validate_tag_list(tags, field_name):
     if not isinstance(item, dict):
       raise ValueError(f"All items in '{field_name}' must be strings or objects")
 
-    if "core" not in item:
-      raise ValueError(f"Each item in '{field_name}' must contain 'core'")
+    if "primary_tag" not in item:
+      raise ValueError(f"Each item in '{field_name}' must contain 'primary_tag'")
 
-    if not isinstance(item["core"], str):
-      raise ValueError(f"'core' in '{field_name}' must be a string")
+    if not isinstance(item["primary_tag"], str):
+      raise ValueError(f"'primary_tag' in '{field_name}' must be a string")
 
-    sub = item.get("sub")
-    if sub is not None and not isinstance(sub, str):
-      raise ValueError(f"'sub' in '{field_name}' must be a string or null")
+    secondary_tag = item.get("secondary_tag")
+    if secondary_tag is not None and not isinstance(secondary_tag, str):
+      raise ValueError(
+        f"'secondary_tag' in '{field_name}' must be a string or null"
+      )
 
 
 def _strip_code_fences(text):
@@ -359,7 +368,10 @@ def _normalize_tag_list(tags, taxonomy_index):
 
   for item in tags:
     normalized_tag = _normalize_tag(item, taxonomy_index)
-    key = (normalized_tag["core"], normalized_tag["sub"])
+    key = (
+      normalized_tag["primary_tag"],
+      normalized_tag["secondary_tag"]
+    )
 
     if key in seen:
       continue
@@ -372,81 +384,106 @@ def _normalize_tag_list(tags, taxonomy_index):
 
 def _normalize_tag(item, taxonomy_index):
   if isinstance(item, str):
-    core, sub = _resolve_from_string(item, taxonomy_index)
-    return {"core": core, "sub": sub}
+    primary_tag, secondary_tag = _resolve_from_string(item, taxonomy_index)
+    return {
+      "primary_tag": primary_tag,
+      "secondary_tag": secondary_tag
+    }
 
-  core = _normalize_string(item.get("core"))
-  sub = item.get("sub")
-  sub = _normalize_string(sub) if sub is not None else None
+  primary_tag = _normalize_string(item.get("primary_tag"))
+  secondary_tag = item.get("secondary_tag")
+  secondary_tag = (
+    _normalize_string(secondary_tag)
+    if secondary_tag is not None
+    else None
+  )
 
-  if sub == "":
-    sub = None
+  if secondary_tag == "":
+    secondary_tag = None
 
-  matched = _match_known_tag(core, sub, taxonomy_index)
+  matched = _match_known_tag(primary_tag, secondary_tag, taxonomy_index)
   if matched is not None:
     return matched
 
-  return {"core": core, "sub": sub}
+  return {
+    "primary_tag": primary_tag,
+    "secondary_tag": secondary_tag
+  }
 
 
 def _resolve_from_string(value, taxonomy_index):
   normalized_value = _normalize_string(value)
-  candidates = taxonomy_index["sub_to_pairs"].get(normalized_value, [])
+  candidates = taxonomy_index["secondary_to_pairs"].get(normalized_value, [])
 
   if len(candidates) == 1:
     return candidates[0]
 
-  if normalized_value in taxonomy_index["cores"]:
+  if normalized_value in taxonomy_index["primary_tags"]:
     return normalized_value, None
 
   return "", normalized_value
 
 
-def _match_known_tag(core, sub, taxonomy_index):
-  if core and (core, sub) in taxonomy_index["pairs"]:
-    return {"core": core, "sub": sub}
+def _match_known_tag(primary_tag, secondary_tag, taxonomy_index):
+  if primary_tag and (primary_tag, secondary_tag) in taxonomy_index["pairs"]:
+    return {"primary_tag": primary_tag, "secondary_tag": secondary_tag}
 
-  if sub:
-    candidates = taxonomy_index["sub_to_pairs"].get(sub, [])
+  if secondary_tag:
+    candidates = taxonomy_index["secondary_to_pairs"].get(secondary_tag, [])
 
-    if core:
-      for candidate_core, candidate_sub in candidates:
-        if candidate_core == core:
-          return {"core": candidate_core, "sub": candidate_sub}
+    if primary_tag:
+      for candidate_primary_tag, candidate_secondary_tag in candidates:
+        if candidate_primary_tag == primary_tag:
+          return {
+            "primary_tag": candidate_primary_tag,
+            "secondary_tag": candidate_secondary_tag
+          }
 
     if len(candidates) == 1:
-      candidate_core, candidate_sub = candidates[0]
-      return {"core": candidate_core, "sub": candidate_sub}
+      candidate_primary_tag, candidate_secondary_tag = candidates[0]
+      return {
+        "primary_tag": candidate_primary_tag,
+        "secondary_tag": candidate_secondary_tag
+      }
 
-  if core and core in taxonomy_index["cores"]:
-    return {"core": core, "sub": sub}
+  if primary_tag and primary_tag in taxonomy_index["primary_tags"]:
+    return {
+      "primary_tag": primary_tag,
+      "secondary_tag": secondary_tag
+    }
 
   return None
 
 
 def _build_taxonomy_index(tags):
   pairs = set()
-  cores = set()
-  sub_to_pairs = {}
+  primary_tags = set()
+  secondary_to_pairs = {}
 
   for tag in tags:
-    core = _normalize_string(tag.get("core"))
-    sub = tag.get("sub")
-    sub = _normalize_string(sub) if sub is not None else None
+    primary_tag = _normalize_string(tag.get("primary_tag"))
+    secondary_tag = tag.get("secondary_tag")
+    secondary_tag = (
+      _normalize_string(secondary_tag)
+      if secondary_tag is not None
+      else None
+    )
 
-    if not core:
+    if not primary_tag:
       continue
 
-    pairs.add((core, sub))
-    cores.add(core)
+    pairs.add((primary_tag, secondary_tag))
+    primary_tags.add(primary_tag)
 
-    if sub:
-      sub_to_pairs.setdefault(sub, []).append((core, sub))
+    if secondary_tag:
+      secondary_to_pairs.setdefault(secondary_tag, []).append(
+        (primary_tag, secondary_tag)
+      )
 
   return {
     "pairs": pairs,
-    "cores": cores,
-    "sub_to_pairs": sub_to_pairs
+    "primary_tags": primary_tags,
+    "secondary_to_pairs": secondary_to_pairs
   }
 
 

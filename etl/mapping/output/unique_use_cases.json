@@ -1,0 +1,6930 @@
+[
+  {
+    "tag": "Social Media Content",
+    "count": 24
+  },
+  {
+    "tag": "Image Generation",
+    "count": 19
+  },
+  {
+    "tag": "Workflow Automation",
+    "count": 19
+  },
+  {
+    "tag": "Customer Support",
+    "count": 15
+  },
+  {
+    "tag": "Lead Generation",
+    "count": 15
+  },
+  {
+    "tag": "Content Creation",
+    "count": 14
+  },
+  {
+    "tag": "Video Generation",
+    "count": 14
+  },
+  {
+    "tag": "Team Collaboration",
+    "count": 13
+  },
+  {
+    "tag": "Software Development",
+    "count": 12
+  },
+  {
+    "tag": "Competitor Analysis",
+    "count": 11
+  },
+  {
+    "tag": "Email Marketing",
+    "count": 11
+  },
+  {
+    "tag": "Social Media Marketing",
+    "count": 11
+  },
+  {
+    "tag": "Website Generation",
+    "count": 11
+  },
+  {
+    "tag": "Academic Writing",
+    "count": 10
+  },
+  {
+    "tag": "Data Analysis",
+    "count": 10
+  },
+  {
+    "tag": "Presentation Creation",
+    "count": 10
+  },
+  {
+    "tag": "SEO Content Creation",
+    "count": 10
+  },
+  {
+    "tag": "Short-Form Video Creation",
+    "count": 10
+  },
+  {
+    "tag": "Video Editing",
+    "count": 10
+  },
+  {
+    "tag": "Social Media Videos",
+    "count": 9
+  },
+  {
+    "tag": "Video Creation",
+    "count": 9
+  },
+  {
+    "tag": "Blog Writing",
+    "count": 8
+  },
+  {
+    "tag": "Business Website Creation",
+    "count": 8
+  },
+  {
+    "tag": "Code Review",
+    "count": 8
+  },
+  {
+    "tag": "Content Marketing",
+    "count": 8
+  },
+  {
+    "tag": "Content Repurposing",
+    "count": 8
+  },
+  {
+    "tag": "Email Writing",
+    "count": 8
+  },
+  {
+    "tag": "Image Creation",
+    "count": 8
+  },
+  {
+    "tag": "Image Editing",
+    "count": 8
+  },
+  {
+    "tag": "Keyword Research",
+    "count": 8
+  },
+  {
+    "tag": "Landing Page Creation",
+    "count": 8
+  },
+  {
+    "tag": "Professional Headshots",
+    "count": 8
+  },
+  {
+    "tag": "Social Media Content Creation",
+    "count": 8
+  },
+  {
+    "tag": "AI Search Visibility",
+    "count": 7
+  },
+  {
+    "tag": "Market Research",
+    "count": 7
+  },
+  {
+    "tag": "Marketing Automation",
+    "count": 7
+  },
+  {
+    "tag": "SEO Optimization",
+    "count": 7
+  },
+  {
+    "tag": "Website Creation",
+    "count": 7
+  },
+  {
+    "tag": "Audience Growth",
+    "count": 6
+  },
+  {
+    "tag": "Content Optimization",
+    "count": 6
+  },
+  {
+    "tag": "Content Strategy",
+    "count": 6
+  },
+  {
+    "tag": "Customer Engagement",
+    "count": 6
+  },
+  {
+    "tag": "E-commerce Website Creation",
+    "count": 6
+  },
+  {
+    "tag": "Faceless Video Creation",
+    "count": 6
+  },
+  {
+    "tag": "Language Learning",
+    "count": 6
+  },
+  {
+    "tag": "Social Media Advertising",
+    "count": 6
+  },
+  {
+    "tag": "Subtitle Creation",
+    "count": 6
+  },
+  {
+    "tag": "Academic Research",
+    "count": 5
+  },
+  {
+    "tag": "AI Text Humanization",
+    "count": 5
+  },
+  {
+    "tag": "Content Planning",
+    "count": 5
+  },
+  {
+    "tag": "Creative Writing",
+    "count": 5
+  },
+  {
+    "tag": "Document Analysis",
+    "count": 5
+  },
+  {
+    "tag": "E-commerce Marketing",
+    "count": 5
+  },
+  {
+    "tag": "Interview Preparation",
+    "count": 5
+  },
+  {
+    "tag": "Knowledge Management",
+    "count": 5
+  },
+  {
+    "tag": "Marketing Videos",
+    "count": 5
+  },
+  {
+    "tag": "Meeting Notes",
+    "count": 5
+  },
+  {
+    "tag": "Meeting Transcription",
+    "count": 5
+  },
+  {
+    "tag": "Music Creation",
+    "count": 5
+  },
+  {
+    "tag": "Photo Editing",
+    "count": 5
+  },
+  {
+    "tag": "Podcast Production",
+    "count": 5
+  },
+  {
+    "tag": "Product Demonstrations",
+    "count": 5
+  },
+  {
+    "tag": "Product Research",
+    "count": 5
+  },
+  {
+    "tag": "Short Video Creation",
+    "count": 5
+  },
+  {
+    "tag": "Social Media Management",
+    "count": 5
+  },
+  {
+    "tag": "Video Advertising",
+    "count": 5
+  },
+  {
+    "tag": "Video Localization",
+    "count": 5
+  },
+  {
+    "tag": "Video Summarization",
+    "count": 5
+  },
+  {
+    "tag": "YouTube Content Creation",
+    "count": 5
+  },
+  {
+    "tag": "AI Content Detection",
+    "count": 4
+  },
+  {
+    "tag": "AI Image Generation",
+    "count": 4
+  },
+  {
+    "tag": "AI Search Optimization",
+    "count": 4
+  },
+  {
+    "tag": "Appointment Booking",
+    "count": 4
+  },
+  {
+    "tag": "Audio Transcription",
+    "count": 4
+  },
+  {
+    "tag": "Audiobook Production",
+    "count": 4
+  },
+  {
+    "tag": "Business Communication",
+    "count": 4
+  },
+  {
+    "tag": "Customer Service",
+    "count": 4
+  },
+  {
+    "tag": "Dashboard Creation",
+    "count": 4
+  },
+  {
+    "tag": "Data Visualization",
+    "count": 4
+  },
+  {
+    "tag": "E-commerce Content Creation",
+    "count": 4
+  },
+  {
+    "tag": "Educational Videos",
+    "count": 4
+  },
+  {
+    "tag": "Employee Training",
+    "count": 4
+  },
+  {
+    "tag": "Explainer Videos",
+    "count": 4
+  },
+  {
+    "tag": "Financial Reporting",
+    "count": 4
+  },
+  {
+    "tag": "Lead Capture",
+    "count": 4
+  },
+  {
+    "tag": "Lead Management",
+    "count": 4
+  },
+  {
+    "tag": "Logo Design",
+    "count": 4
+  },
+  {
+    "tag": "Marketing Strategy",
+    "count": 4
+  },
+  {
+    "tag": "Marketing Video Creation",
+    "count": 4
+  },
+  {
+    "tag": "Note Taking",
+    "count": 4
+  },
+  {
+    "tag": "Online Course Creation",
+    "count": 4
+  },
+  {
+    "tag": "Personal Branding",
+    "count": 4
+  },
+  {
+    "tag": "Photo Enhancement",
+    "count": 4
+  },
+  {
+    "tag": "Portfolio Website Creation",
+    "count": 4
+  },
+  {
+    "tag": "Product Photography",
+    "count": 4
+  },
+  {
+    "tag": "Social Media Publishing",
+    "count": 4
+  },
+  {
+    "tag": "Social Media Video Creation",
+    "count": 4
+  },
+  {
+    "tag": "Task Automation",
+    "count": 4
+  },
+  {
+    "tag": "Text Translation",
+    "count": 4
+  },
+  {
+    "tag": "Training Videos",
+    "count": 4
+  },
+  {
+    "tag": "Video Content Creation",
+    "count": 4
+  },
+  {
+    "tag": "Video Marketing",
+    "count": 4
+  },
+  {
+    "tag": "Video Repurposing",
+    "count": 4
+  },
+  {
+    "tag": "Video Transcription",
+    "count": 4
+  },
+  {
+    "tag": "Voiceover Creation",
+    "count": 4
+  },
+  {
+    "tag": "Web Research",
+    "count": 4
+  },
+  {
+    "tag": "AI Application Development",
+    "count": 3
+  },
+  {
+    "tag": "AI Chat",
+    "count": 3
+  },
+  {
+    "tag": "API Integration",
+    "count": 3
+  },
+  {
+    "tag": "Audience Engagement",
+    "count": 3
+  },
+  {
+    "tag": "Audio Generation",
+    "count": 3
+  },
+  {
+    "tag": "Background Removal",
+    "count": 3
+  },
+  {
+    "tag": "Bookkeeping Automation",
+    "count": 3
+  },
+  {
+    "tag": "Brand Content Creation",
+    "count": 3
+  },
+  {
+    "tag": "Browser Automation",
+    "count": 3
+  },
+  {
+    "tag": "Character Design",
+    "count": 3
+  },
+  {
+    "tag": "Code Refactoring",
+    "count": 3
+  },
+  {
+    "tag": "Commercial Creative Projects",
+    "count": 3
+  },
+  {
+    "tag": "Competitive Intelligence",
+    "count": 3
+  },
+  {
+    "tag": "Conversion Optimization",
+    "count": 3
+  },
+  {
+    "tag": "CRM Development",
+    "count": 3
+  },
+  {
+    "tag": "Customer Service Automation",
+    "count": 3
+  },
+  {
+    "tag": "Customer Support Automation",
+    "count": 3
+  },
+  {
+    "tag": "Dashboard Development",
+    "count": 3
+  },
+  {
+    "tag": "E-commerce Advertising",
+    "count": 3
+  },
+  {
+    "tag": "Email Management",
+    "count": 3
+  },
+  {
+    "tag": "Google Ads Management",
+    "count": 3
+  },
+  {
+    "tag": "Graphic Design",
+    "count": 3
+  },
+  {
+    "tag": "Internal Communications",
+    "count": 3
+  },
+  {
+    "tag": "Internal Tool Development",
+    "count": 3
+  },
+  {
+    "tag": "Lesson Planning",
+    "count": 3
+  },
+  {
+    "tag": "Listening Practice",
+    "count": 3
+  },
+  {
+    "tag": "Marketing Campaigns",
+    "count": 3
+  },
+  {
+    "tag": "Marketing Content",
+    "count": 3
+  },
+  {
+    "tag": "Marketing Content Creation",
+    "count": 3
+  },
+  {
+    "tag": "Marketing Copywriting",
+    "count": 3
+  },
+  {
+    "tag": "Meeting Note-Taking",
+    "count": 3
+  },
+  {
+    "tag": "Meme Creation",
+    "count": 3
+  },
+  {
+    "tag": "Music Generation",
+    "count": 3
+  },
+  {
+    "tag": "Organic Traffic Growth",
+    "count": 3
+  },
+  {
+    "tag": "Paid Advertising",
+    "count": 3
+  },
+  {
+    "tag": "Photo Animation",
+    "count": 3
+  },
+  {
+    "tag": "Podcast Music",
+    "count": 3
+  },
+  {
+    "tag": "Poster Design",
+    "count": 3
+  },
+  {
+    "tag": "Presentation Videos",
+    "count": 3
+  },
+  {
+    "tag": "Product Marketing",
+    "count": 3
+  },
+  {
+    "tag": "Product Promotion",
+    "count": 3
+  },
+  {
+    "tag": "Product Video Creation",
+    "count": 3
+  },
+  {
+    "tag": "Professional Writing",
+    "count": 3
+  },
+  {
+    "tag": "Profile Picture Creation",
+    "count": 3
+  },
+  {
+    "tag": "Project Management",
+    "count": 3
+  },
+  {
+    "tag": "Project Planning",
+    "count": 3
+  },
+  {
+    "tag": "Report Writing",
+    "count": 3
+  },
+  {
+    "tag": "Sales Automation",
+    "count": 3
+  },
+  {
+    "tag": "Sales Enablement",
+    "count": 3
+  },
+  {
+    "tag": "Sales Videos",
+    "count": 3
+  },
+  {
+    "tag": "Screen Recording",
+    "count": 3
+  },
+  {
+    "tag": "Social Media Branding",
+    "count": 3
+  },
+  {
+    "tag": "Social Media Graphics",
+    "count": 3
+  },
+  {
+    "tag": "Speaking Practice",
+    "count": 3
+  },
+  {
+    "tag": "Spreadsheet Automation",
+    "count": 3
+  },
+  {
+    "tag": "Tax Preparation",
+    "count": 3
+  },
+  {
+    "tag": "Tutorial Videos",
+    "count": 3
+  },
+  {
+    "tag": "UGC Video Creation",
+    "count": 3
+  },
+  {
+    "tag": "Video Storytelling",
+    "count": 3
+  },
+  {
+    "tag": "Voiceover Production",
+    "count": 3
+  },
+  {
+    "tag": "Web Application Development",
+    "count": 3
+  },
+  {
+    "tag": "Website Publishing",
+    "count": 3
+  },
+  {
+    "tag": "3D Printing",
+    "count": 2
+  },
+  {
+    "tag": "A/B Testing",
+    "count": 2
+  },
+  {
+    "tag": "Academic Integrity",
+    "count": 2
+  },
+  {
+    "tag": "Accounting Automation",
+    "count": 2
+  },
+  {
+    "tag": "Ad Copywriting",
+    "count": 2
+  },
+  {
+    "tag": "Advertising Copywriting",
+    "count": 2
+  },
+  {
+    "tag": "Advertising Creative",
+    "count": 2
+  },
+  {
+    "tag": "Advertising Videos",
+    "count": 2
+  },
+  {
+    "tag": "Agency Marketing",
+    "count": 2
+  },
+  {
+    "tag": "Agency Workflows",
+    "count": 2
+  },
+  {
+    "tag": "AI Agent Development",
+    "count": 2
+  },
+  {
+    "tag": "AI Content Creation",
+    "count": 2
+  },
+  {
+    "tag": "AI Model Comparison",
+    "count": 2
+  },
+  {
+    "tag": "AI Video Generation",
+    "count": 2
+  },
+  {
+    "tag": "Animation Creation",
+    "count": 2
+  },
+  {
+    "tag": "Anime Art Creation",
+    "count": 2
+  },
+  {
+    "tag": "App Development",
+    "count": 2
+  },
+  {
+    "tag": "Applicant Tracking",
+    "count": 2
+  },
+  {
+    "tag": "Article Writing",
+    "count": 2
+  },
+  {
+    "tag": "Audience Segmentation",
+    "count": 2
+  },
+  {
+    "tag": "Audio Creation",
+    "count": 2
+  },
+  {
+    "tag": "Audiobook Narration",
+    "count": 2
+  },
+  {
+    "tag": "Avatar Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Background Music Creation",
+    "count": 2
+  },
+  {
+    "tag": "Blog Content Creation",
+    "count": 2
+  },
+  {
+    "tag": "Blog Creation",
+    "count": 2
+  },
+  {
+    "tag": "Blog Publishing",
+    "count": 2
+  },
+  {
+    "tag": "Blog Website Creation",
+    "count": 2
+  },
+  {
+    "tag": "Brand Identity Design",
+    "count": 2
+  },
+  {
+    "tag": "Brand Promotion",
+    "count": 2
+  },
+  {
+    "tag": "Brand Reputation Monitoring",
+    "count": 2
+  },
+  {
+    "tag": "Business App Development",
+    "count": 2
+  },
+  {
+    "tag": "Business Planning",
+    "count": 2
+  },
+  {
+    "tag": "Business Presentations",
+    "count": 2
+  },
+  {
+    "tag": "Business Process Automation",
+    "count": 2
+  },
+  {
+    "tag": "Campaign Asset Creation",
+    "count": 2
+  },
+  {
+    "tag": "Campaign Management",
+    "count": 2
+  },
+  {
+    "tag": "Cash Flow Management",
+    "count": 2
+  },
+  {
+    "tag": "Character Animation",
+    "count": 2
+  },
+  {
+    "tag": "CI/CD Automation",
+    "count": 2
+  },
+  {
+    "tag": "Client Portal Creation",
+    "count": 2
+  },
+  {
+    "tag": "Code Debugging",
+    "count": 2
+  },
+  {
+    "tag": "Code Development",
+    "count": 2
+  },
+  {
+    "tag": "Competitor Benchmarking",
+    "count": 2
+  },
+  {
+    "tag": "Compliance Training",
+    "count": 2
+  },
+  {
+    "tag": "Content Monetization",
+    "count": 2
+  },
+  {
+    "tag": "Content Research",
+    "count": 2
+  },
+  {
+    "tag": "Content Writing",
+    "count": 2
+  },
+  {
+    "tag": "Conversation Analysis",
+    "count": 2
+  },
+  {
+    "tag": "Conversion Rate Optimization",
+    "count": 2
+  },
+  {
+    "tag": "Cover Letter Writing",
+    "count": 2
+  },
+  {
+    "tag": "Creative Content Generation",
+    "count": 2
+  },
+  {
+    "tag": "CRM Management",
+    "count": 2
+  },
+  {
+    "tag": "Customer Relationship Management",
+    "count": 2
+  },
+  {
+    "tag": "Data Cleaning",
+    "count": 2
+  },
+  {
+    "tag": "Data Integration",
+    "count": 2
+  },
+  {
+    "tag": "Digital Product Sales",
+    "count": 2
+  },
+  {
+    "tag": "Document Creation",
+    "count": 2
+  },
+  {
+    "tag": "Document Editing",
+    "count": 2
+  },
+  {
+    "tag": "Document Translation",
+    "count": 2
+  },
+  {
+    "tag": "Documentation Creation",
+    "count": 2
+  },
+  {
+    "tag": "eBook Creation",
+    "count": 2
+  },
+  {
+    "tag": "Ecommerce Marketing",
+    "count": 2
+  },
+  {
+    "tag": "Educational Content",
+    "count": 2
+  },
+  {
+    "tag": "Educational Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Email Productivity",
+    "count": 2
+  },
+  {
+    "tag": "Email Replies",
+    "count": 2
+  },
+  {
+    "tag": "Essay Writing",
+    "count": 2
+  },
+  {
+    "tag": "Explainer Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Face Swapping",
+    "count": 2
+  },
+  {
+    "tag": "File Analysis",
+    "count": 2
+  },
+  {
+    "tag": "Form Creation",
+    "count": 2
+  },
+  {
+    "tag": "Game Prototyping",
+    "count": 2
+  },
+  {
+    "tag": "GIF Creation",
+    "count": 2
+  },
+  {
+    "tag": "Graphic Generation",
+    "count": 2
+  },
+  {
+    "tag": "Image Translation",
+    "count": 2
+  },
+  {
+    "tag": "Image-to-Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Inbox Management",
+    "count": 2
+  },
+  {
+    "tag": "Influencer Campaign Management",
+    "count": 2
+  },
+  {
+    "tag": "Influencer Discovery",
+    "count": 2
+  },
+  {
+    "tag": "Infographic Creation",
+    "count": 2
+  },
+  {
+    "tag": "Interactive Storytelling",
+    "count": 2
+  },
+  {
+    "tag": "Interior Design Visualization",
+    "count": 2
+  },
+  {
+    "tag": "Interview Transcription",
+    "count": 2
+  },
+  {
+    "tag": "Inventory Management",
+    "count": 2
+  },
+  {
+    "tag": "Job Search",
+    "count": 2
+  },
+  {
+    "tag": "Knowledge Base Creation",
+    "count": 2
+  },
+  {
+    "tag": "Lead Nurturing",
+    "count": 2
+  },
+  {
+    "tag": "Lead Qualification",
+    "count": 2
+  },
+  {
+    "tag": "Lecture Transcription",
+    "count": 2
+  },
+  {
+    "tag": "LinkedIn Profile Optimization",
+    "count": 2
+  },
+  {
+    "tag": "Literature Review",
+    "count": 2
+  },
+  {
+    "tag": "LLM Citation Tracking",
+    "count": 2
+  },
+  {
+    "tag": "Local Business Marketing",
+    "count": 2
+  },
+  {
+    "tag": "Marketing Asset Creation",
+    "count": 2
+  },
+  {
+    "tag": "Marketing Reports",
+    "count": 2
+  },
+  {
+    "tag": "Marketing Support",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Assistance",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Documentation",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Intelligence",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Preparation",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Scheduling",
+    "count": 2
+  },
+  {
+    "tag": "Meeting Summaries",
+    "count": 2
+  },
+  {
+    "tag": "Merchandise Design",
+    "count": 2
+  },
+  {
+    "tag": "Message Taking",
+    "count": 2
+  },
+  {
+    "tag": "Month-End Close",
+    "count": 2
+  },
+  {
+    "tag": "Multi-Model AI Chat",
+    "count": 2
+  },
+  {
+    "tag": "Multichannel Customer Support",
+    "count": 2
+  },
+  {
+    "tag": "Music Collaboration",
+    "count": 2
+  },
+  {
+    "tag": "Music Production",
+    "count": 2
+  },
+  {
+    "tag": "Music Promotion",
+    "count": 2
+  },
+  {
+    "tag": "Old Photo Restoration",
+    "count": 2
+  },
+  {
+    "tag": "Packaging Design",
+    "count": 2
+  },
+  {
+    "tag": "Performance Marketing",
+    "count": 2
+  },
+  {
+    "tag": "Plagiarism Detection",
+    "count": 2
+  },
+  {
+    "tag": "Podcast Content Repurposing",
+    "count": 2
+  },
+  {
+    "tag": "Podcast Creation",
+    "count": 2
+  },
+  {
+    "tag": "Podcast Intros",
+    "count": 2
+  },
+  {
+    "tag": "Podcast Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Portrait Retouching",
+    "count": 2
+  },
+  {
+    "tag": "Presentation Design",
+    "count": 2
+  },
+  {
+    "tag": "Process Documentation",
+    "count": 2
+  },
+  {
+    "tag": "Product Advertising",
+    "count": 2
+  },
+  {
+    "tag": "Product Explainer Videos",
+    "count": 2
+  },
+  {
+    "tag": "Product Recommendations",
+    "count": 2
+  },
+  {
+    "tag": "Professional Profile Photos",
+    "count": 2
+  },
+  {
+    "tag": "Pronunciation Practice",
+    "count": 2
+  },
+  {
+    "tag": "Proposal Creation",
+    "count": 2
+  },
+  {
+    "tag": "Pull Request Automation",
+    "count": 2
+  },
+  {
+    "tag": "RAG Pipelines",
+    "count": 2
+  },
+  {
+    "tag": "Real Estate Marketing",
+    "count": 2
+  },
+  {
+    "tag": "Report Generation",
+    "count": 2
+  },
+  {
+    "tag": "Research",
+    "count": 2
+  },
+  {
+    "tag": "Research Assistance",
+    "count": 2
+  },
+  {
+    "tag": "Resume Creation",
+    "count": 2
+  },
+  {
+    "tag": "Sales Conversion",
+    "count": 2
+  },
+  {
+    "tag": "Search Ranking Optimization",
+    "count": 2
+  },
+  {
+    "tag": "SEO Content Planning",
+    "count": 2
+  },
+  {
+    "tag": "SEO Marketing",
+    "count": 2
+  },
+  {
+    "tag": "SEO Research",
+    "count": 2
+  },
+  {
+    "tag": "Service Page Creation",
+    "count": 2
+  },
+  {
+    "tag": "Social Media Analytics",
+    "count": 2
+  },
+  {
+    "tag": "Social Media Clips",
+    "count": 2
+  },
+  {
+    "tag": "Social Media Scheduling",
+    "count": 2
+  },
+  {
+    "tag": "Social Media Video",
+    "count": 2
+  },
+  {
+    "tag": "Social Video Creation",
+    "count": 2
+  },
+  {
+    "tag": "Song Creation",
+    "count": 2
+  },
+  {
+    "tag": "Sound Design",
+    "count": 2
+  },
+  {
+    "tag": "Sound Generation",
+    "count": 2
+  },
+  {
+    "tag": "Speech Transcription",
+    "count": 2
+  },
+  {
+    "tag": "Spreadsheet Creation",
+    "count": 2
+  },
+  {
+    "tag": "Storytelling",
+    "count": 2
+  },
+  {
+    "tag": "Storytelling Videos",
+    "count": 2
+  },
+  {
+    "tag": "Study Notes",
+    "count": 2
+  },
+  {
+    "tag": "Study Support",
+    "count": 2
+  },
+  {
+    "tag": "Team Headshots",
+    "count": 2
+  },
+  {
+    "tag": "Team Productivity",
+    "count": 2
+  },
+  {
+    "tag": "Team Video Collaboration",
+    "count": 2
+  },
+  {
+    "tag": "Technical Writing",
+    "count": 2
+  },
+  {
+    "tag": "Text Editing",
+    "count": 2
+  },
+  {
+    "tag": "Text Summarization",
+    "count": 2
+  },
+  {
+    "tag": "Text-to-Speech",
+    "count": 2
+  },
+  {
+    "tag": "TikTok Content Creation",
+    "count": 2
+  },
+  {
+    "tag": "Training Content",
+    "count": 2
+  },
+  {
+    "tag": "UI/UX Design",
+    "count": 2
+  },
+  {
+    "tag": "Video Ads",
+    "count": 2
+  },
+  {
+    "tag": "Video Music",
+    "count": 2
+  },
+  {
+    "tag": "Video Translation",
+    "count": 2
+  },
+  {
+    "tag": "Viral Clip Creation",
+    "count": 2
+  },
+  {
+    "tag": "Visual Content Creation",
+    "count": 2
+  },
+  {
+    "tag": "Voice Dictation",
+    "count": 2
+  },
+  {
+    "tag": "Voice Generation",
+    "count": 2
+  },
+  {
+    "tag": "Web App Development",
+    "count": 2
+  },
+  {
+    "tag": "Web Data Extraction",
+    "count": 2
+  },
+  {
+    "tag": "Website Analytics",
+    "count": 2
+  },
+  {
+    "tag": "Website Development",
+    "count": 2
+  },
+  {
+    "tag": "Website Monitoring",
+    "count": 2
+  },
+  {
+    "tag": "Website Translation",
+    "count": 2
+  },
+  {
+    "tag": "WordPress Automation",
+    "count": 2
+  },
+  {
+    "tag": "WordPress Site Management",
+    "count": 2
+  },
+  {
+    "tag": "Writing Assistance",
+    "count": 2
+  },
+  {
+    "tag": "Writing Improvement",
+    "count": 2
+  },
+  {
+    "tag": "Writing Practice",
+    "count": 2
+  },
+  {
+    "tag": "YouTube Channel Growth",
+    "count": 2
+  },
+  {
+    "tag": "YouTube Shorts Creation",
+    "count": 2
+  },
+  {
+    "tag": "3D Animation",
+    "count": 1
+  },
+  {
+    "tag": "3D Asset Creation",
+    "count": 1
+  },
+  {
+    "tag": "3D Environment Design",
+    "count": 1
+  },
+  {
+    "tag": "3D Model Creation",
+    "count": 1
+  },
+  {
+    "tag": "3D Model Generation",
+    "count": 1
+  },
+  {
+    "tag": "Abandoned Cart Recovery",
+    "count": 1
+  },
+  {
+    "tag": "Academic Correspondence",
+    "count": 1
+  },
+  {
+    "tag": "Academic Integrity Checks",
+    "count": 1
+  },
+  {
+    "tag": "Academic Literature Review",
+    "count": 1
+  },
+  {
+    "tag": "Academic Paper Writing",
+    "count": 1
+  },
+  {
+    "tag": "Academic Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Accessibility",
+    "count": 1
+  },
+  {
+    "tag": "Accessibility Support",
+    "count": 1
+  },
+  {
+    "tag": "Accommodation Planning",
+    "count": 1
+  },
+  {
+    "tag": "Account Access",
+    "count": 1
+  },
+  {
+    "tag": "Account Ban Prevention",
+    "count": 1
+  },
+  {
+    "tag": "Account Opening",
+    "count": 1
+  },
+  {
+    "tag": "Account-Based Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Accountant Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Accounting Firm Management",
+    "count": 1
+  },
+  {
+    "tag": "Accounting Support",
+    "count": 1
+  },
+  {
+    "tag": "Accounts Payable",
+    "count": 1
+  },
+  {
+    "tag": "Acting Rehearsal",
+    "count": 1
+  },
+  {
+    "tag": "Action Item Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Action Videos",
+    "count": 1
+  },
+  {
+    "tag": "Ad Campaign Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Ad Creation",
+    "count": 1
+  },
+  {
+    "tag": "Ad Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "ADHD Attention Support",
+    "count": 1
+  },
+  {
+    "tag": "Administrative Tasks",
+    "count": 1
+  },
+  {
+    "tag": "Adult Conversations",
+    "count": 1
+  },
+  {
+    "tag": "Advertisement Creation",
+    "count": 1
+  },
+  {
+    "tag": "Advertisement Design",
+    "count": 1
+  },
+  {
+    "tag": "Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Advertising Audio",
+    "count": 1
+  },
+  {
+    "tag": "Advertising Campaign Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Advertising Creative Creation",
+    "count": 1
+  },
+  {
+    "tag": "Advisor Transitions",
+    "count": 1
+  },
+  {
+    "tag": "Advisory Services",
+    "count": 1
+  },
+  {
+    "tag": "Affiliate Commission Management",
+    "count": 1
+  },
+  {
+    "tag": "Affiliate Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Affiliate Marketing Analytics",
+    "count": 1
+  },
+  {
+    "tag": "Affiliate Outreach",
+    "count": 1
+  },
+  {
+    "tag": "Affiliate Recruitment",
+    "count": 1
+  },
+  {
+    "tag": "Agency Content Management",
+    "count": 1
+  },
+  {
+    "tag": "Agent Development",
+    "count": 1
+  },
+  {
+    "tag": "Agent Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Agent Orchestration",
+    "count": 1
+  },
+  {
+    "tag": "Agent Production Deployment",
+    "count": 1
+  },
+  {
+    "tag": "Agent Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Agentic Coding",
+    "count": 1
+  },
+  {
+    "tag": "Agentic Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "AI Agent Orchestration",
+    "count": 1
+  },
+  {
+    "tag": "AI Agent Tasks",
+    "count": 1
+  },
+  {
+    "tag": "AI Agent Workflows",
+    "count": 1
+  },
+  {
+    "tag": "AI Application",
+    "count": 1
+  },
+  {
+    "tag": "AI Application Deployment",
+    "count": 1
+  },
+  {
+    "tag": "AI Art Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Assistance",
+    "count": 1
+  },
+  {
+    "tag": "AI Avatar Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Avatar Videos",
+    "count": 1
+  },
+  {
+    "tag": "AI Business Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Character Conversations",
+    "count": 1
+  },
+  {
+    "tag": "AI Citation Optimization",
+    "count": 1
+  },
+  {
+    "tag": "AI Companionship",
+    "count": 1
+  },
+  {
+    "tag": "AI Content Humanization",
+    "count": 1
+  },
+  {
+    "tag": "AI Content Rewriting",
+    "count": 1
+  },
+  {
+    "tag": "AI Conversations",
+    "count": 1
+  },
+  {
+    "tag": "AI Cost Management",
+    "count": 1
+  },
+  {
+    "tag": "AI Detection",
+    "count": 1
+  },
+  {
+    "tag": "AI Detection Bypass",
+    "count": 1
+  },
+  {
+    "tag": "AI Feature Development",
+    "count": 1
+  },
+  {
+    "tag": "AI Image Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Model Access",
+    "count": 1
+  },
+  {
+    "tag": "AI Motion Capture",
+    "count": 1
+  },
+  {
+    "tag": "AI News Summaries",
+    "count": 1
+  },
+  {
+    "tag": "AI Product Integration",
+    "count": 1
+  },
+  {
+    "tag": "AI Productivity",
+    "count": 1
+  },
+  {
+    "tag": "AI Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "AI Referral Tracking",
+    "count": 1
+  },
+  {
+    "tag": "AI Search Visibility Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "AI Skills Development",
+    "count": 1
+  },
+  {
+    "tag": "AI Tool Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Tool Monetization",
+    "count": 1
+  },
+  {
+    "tag": "AI Training Data",
+    "count": 1
+  },
+  {
+    "tag": "AI Usage Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "AI Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "AI Video Production",
+    "count": 1
+  },
+  {
+    "tag": "AI Visibility Analysis",
+    "count": 1
+  },
+  {
+    "tag": "AI Visibility Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "AI Visibility Tracking",
+    "count": 1
+  },
+  {
+    "tag": "AI Voice Prompts",
+    "count": 1
+  },
+  {
+    "tag": "AI-Powered Analytics",
+    "count": 1
+  },
+  {
+    "tag": "Alert Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Amazon Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Animation Previsualization",
+    "count": 1
+  },
+  {
+    "tag": "Anime Character Design",
+    "count": 1
+  },
+  {
+    "tag": "Anime Generation",
+    "count": 1
+  },
+  {
+    "tag": "Announcement Videos",
+    "count": 1
+  },
+  {
+    "tag": "API Cost Management",
+    "count": 1
+  },
+  {
+    "tag": "API Testing",
+    "count": 1
+  },
+  {
+    "tag": "App Creation",
+    "count": 1
+  },
+  {
+    "tag": "App Install Advertising",
+    "count": 1
+  },
+  {
+    "tag": "App Promotion",
+    "count": 1
+  },
+  {
+    "tag": "Applicant Screening",
+    "count": 1
+  },
+  {
+    "tag": "Application Access",
+    "count": 1
+  },
+  {
+    "tag": "Application Development",
+    "count": 1
+  },
+  {
+    "tag": "Appointment Scheduling",
+    "count": 1
+  },
+  {
+    "tag": "Approval System Creation",
+    "count": 1
+  },
+  {
+    "tag": "Architectural Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Art History Learning",
+    "count": 1
+  },
+  {
+    "tag": "Assessment Creation",
+    "count": 1
+  },
+  {
+    "tag": "Assignment Creation",
+    "count": 1
+  },
+  {
+    "tag": "Audience Insights",
+    "count": 1
+  },
+  {
+    "tag": "Audience Search Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Audio Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Audio Authenticity Verification",
+    "count": 1
+  },
+  {
+    "tag": "Audio Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Audio File Transcription",
+    "count": 1
+  },
+  {
+    "tag": "Audio Mastering",
+    "count": 1
+  },
+  {
+    "tag": "Audio Stem Separation",
+    "count": 1
+  },
+  {
+    "tag": "Audio Translation",
+    "count": 1
+  },
+  {
+    "tag": "Audition Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Automated Bookkeeping",
+    "count": 1
+  },
+  {
+    "tag": "Automated Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Automated Video Production",
+    "count": 1
+  },
+  {
+    "tag": "Automated Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Automation Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Avatar Creation",
+    "count": 1
+  },
+  {
+    "tag": "B2B Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "B2B Outreach",
+    "count": 1
+  },
+  {
+    "tag": "B2B Sales",
+    "count": 1
+  },
+  {
+    "tag": "Background Checks",
+    "count": 1
+  },
+  {
+    "tag": "Background Music",
+    "count": 1
+  },
+  {
+    "tag": "Background Replacement",
+    "count": 1
+  },
+  {
+    "tag": "Backing Track Creation",
+    "count": 1
+  },
+  {
+    "tag": "Backlink Building",
+    "count": 1
+  },
+  {
+    "tag": "Batch Image Processing",
+    "count": 1
+  },
+  {
+    "tag": "Batch Photo Editing",
+    "count": 1
+  },
+  {
+    "tag": "Batch Processing",
+    "count": 1
+  },
+  {
+    "tag": "Bedtime Stories",
+    "count": 1
+  },
+  {
+    "tag": "Bilingual Reading",
+    "count": 1
+  },
+  {
+    "tag": "Bill Management",
+    "count": 1
+  },
+  {
+    "tag": "Billable Hours Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Blog Article Generation",
+    "count": 1
+  },
+  {
+    "tag": "Blog Summaries",
+    "count": 1
+  },
+  {
+    "tag": "Blog-to-Video Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Bookkeeping",
+    "count": 1
+  },
+  {
+    "tag": "Brand Awareness",
+    "count": 1
+  },
+  {
+    "tag": "Brand Campaigns",
+    "count": 1
+  },
+  {
+    "tag": "Brand Communication",
+    "count": 1
+  },
+  {
+    "tag": "Brand Creative",
+    "count": 1
+  },
+  {
+    "tag": "Brand Discovery Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Brand Identity",
+    "count": 1
+  },
+  {
+    "tag": "Brand Management",
+    "count": 1
+  },
+  {
+    "tag": "Brand Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Brand Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Brand Protection",
+    "count": 1
+  },
+  {
+    "tag": "Brand Reputation Management",
+    "count": 1
+  },
+  {
+    "tag": "Brand Sentiment Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Brand Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Brand Strategy",
+    "count": 1
+  },
+  {
+    "tag": "Brand Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Brand Video Production",
+    "count": 1
+  },
+  {
+    "tag": "Brand Visibility",
+    "count": 1
+  },
+  {
+    "tag": "Brand Visibility Management",
+    "count": 1
+  },
+  {
+    "tag": "Brand Visibility Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Brand Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Branded Training Academies",
+    "count": 1
+  },
+  {
+    "tag": "Branded Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Branded Visual Generation",
+    "count": 1
+  },
+  {
+    "tag": "Branded Web Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Branding Design",
+    "count": 1
+  },
+  {
+    "tag": "Browser Research",
+    "count": 1
+  },
+  {
+    "tag": "Bug Fixing",
+    "count": 1
+  },
+  {
+    "tag": "Bulk Image Editing",
+    "count": 1
+  },
+  {
+    "tag": "Bulk Site Operations",
+    "count": 1
+  },
+  {
+    "tag": "Bulk Translation",
+    "count": 1
+  },
+  {
+    "tag": "Bulk WhatsApp Messaging",
+    "count": 1
+  },
+  {
+    "tag": "Business Application Development",
+    "count": 1
+  },
+  {
+    "tag": "Business Content Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Business Decision-Making",
+    "count": 1
+  },
+  {
+    "tag": "Business Directory Data",
+    "count": 1
+  },
+  {
+    "tag": "Business Email Writing",
+    "count": 1
+  },
+  {
+    "tag": "Business Emails",
+    "count": 1
+  },
+  {
+    "tag": "Business Management",
+    "count": 1
+  },
+  {
+    "tag": "Business Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Business Model Validation",
+    "count": 1
+  },
+  {
+    "tag": "Business Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Business Phone Communication",
+    "count": 1
+  },
+  {
+    "tag": "Business Presentation Design",
+    "count": 1
+  },
+  {
+    "tag": "Business Presentation Videos",
+    "count": 1
+  },
+  {
+    "tag": "Business Process Management",
+    "count": 1
+  },
+  {
+    "tag": "Business Productivity",
+    "count": 1
+  },
+  {
+    "tag": "Business Profile Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Business Proposals",
+    "count": 1
+  },
+  {
+    "tag": "Business Strategy",
+    "count": 1
+  },
+  {
+    "tag": "Business Website Management",
+    "count": 1
+  },
+  {
+    "tag": "Business Workflow Management",
+    "count": 1
+  },
+  {
+    "tag": "Business Writing",
+    "count": 1
+  },
+  {
+    "tag": "Calendar Management",
+    "count": 1
+  },
+  {
+    "tag": "Call Center Operations",
+    "count": 1
+  },
+  {
+    "tag": "Call Center Support",
+    "count": 1
+  },
+  {
+    "tag": "Call Centre Security",
+    "count": 1
+  },
+  {
+    "tag": "Call Follow-Up",
+    "count": 1
+  },
+  {
+    "tag": "Call Review",
+    "count": 1
+  },
+  {
+    "tag": "Call Screening",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Brainstorming",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Creative",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Creative Production",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Development",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Page Creation",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Performance Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Planning",
+    "count": 1
+  },
+  {
+    "tag": "Campaign Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Candidate Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Candidate Evaluation",
+    "count": 1
+  },
+  {
+    "tag": "Candidate Scoring",
+    "count": 1
+  },
+  {
+    "tag": "Candidate Screening",
+    "count": 1
+  },
+  {
+    "tag": "Candidate Sourcing",
+    "count": 1
+  },
+  {
+    "tag": "Caption Creation",
+    "count": 1
+  },
+  {
+    "tag": "Capture Team Alignment",
+    "count": 1
+  },
+  {
+    "tag": "Car Listings",
+    "count": 1
+  },
+  {
+    "tag": "Case Management",
+    "count": 1
+  },
+  {
+    "tag": "Cash Flow Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Casino Selection Guidance",
+    "count": 1
+  },
+  {
+    "tag": "Catalog Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Catalog Photography",
+    "count": 1
+  },
+  {
+    "tag": "Change Management",
+    "count": 1
+  },
+  {
+    "tag": "Character Avatars",
+    "count": 1
+  },
+  {
+    "tag": "Character Development",
+    "count": 1
+  },
+  {
+    "tag": "Character Generation",
+    "count": 1
+  },
+  {
+    "tag": "Character Roleplay",
+    "count": 1
+  },
+  {
+    "tag": "Character Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Character Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Character-Based Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Chart Explanation",
+    "count": 1
+  },
+  {
+    "tag": "Chat Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Chatbot Grounding",
+    "count": 1
+  },
+  {
+    "tag": "Children's Education",
+    "count": 1
+  },
+  {
+    "tag": "Choose-Your-Own-Adventure Games",
+    "count": 1
+  },
+  {
+    "tag": "Churn Research",
+    "count": 1
+  },
+  {
+    "tag": "CI Failure Resolution",
+    "count": 1
+  },
+  {
+    "tag": "Cinematic Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Cinematic Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Citation Management",
+    "count": 1
+  },
+  {
+    "tag": "Class Transcription",
+    "count": 1
+  },
+  {
+    "tag": "Classroom Instruction",
+    "count": 1
+  },
+  {
+    "tag": "Classroom Lecture Design",
+    "count": 1
+  },
+  {
+    "tag": "Classroom Material Creation",
+    "count": 1
+  },
+  {
+    "tag": "Classroom Materials",
+    "count": 1
+  },
+  {
+    "tag": "Client Account Management",
+    "count": 1
+  },
+  {
+    "tag": "Client Acquisition Content",
+    "count": 1
+  },
+  {
+    "tag": "Client Analytics Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Client Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Client Communication",
+    "count": 1
+  },
+  {
+    "tag": "Client Communications",
+    "count": 1
+  },
+  {
+    "tag": "Client Deliverable Creation",
+    "count": 1
+  },
+  {
+    "tag": "Client eBook Projects",
+    "count": 1
+  },
+  {
+    "tag": "Client Intake",
+    "count": 1
+  },
+  {
+    "tag": "Client Management",
+    "count": 1
+  },
+  {
+    "tag": "Client Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Client Onboarding",
+    "count": 1
+  },
+  {
+    "tag": "Client Portal Management",
+    "count": 1
+  },
+  {
+    "tag": "Client Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Client Support",
+    "count": 1
+  },
+  {
+    "tag": "Client Video Production",
+    "count": 1
+  },
+  {
+    "tag": "Client Website Management",
+    "count": 1
+  },
+  {
+    "tag": "Cloud AI Deployment",
+    "count": 1
+  },
+  {
+    "tag": "Cloud Coding",
+    "count": 1
+  },
+  {
+    "tag": "Code Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Code Documentation",
+    "count": 1
+  },
+  {
+    "tag": "Code Editing",
+    "count": 1
+  },
+  {
+    "tag": "Code Execution",
+    "count": 1
+  },
+  {
+    "tag": "Code Explanation",
+    "count": 1
+  },
+  {
+    "tag": "Code Generation",
+    "count": 1
+  },
+  {
+    "tag": "Code Migration",
+    "count": 1
+  },
+  {
+    "tag": "Code Security Review",
+    "count": 1
+  },
+  {
+    "tag": "Code Writing",
+    "count": 1
+  },
+  {
+    "tag": "Codebase Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Codebase Maintenance",
+    "count": 1
+  },
+  {
+    "tag": "Coding Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Coding Workloads",
+    "count": 1
+  },
+  {
+    "tag": "Cold Calling",
+    "count": 1
+  },
+  {
+    "tag": "Commercial Photography",
+    "count": 1
+  },
+  {
+    "tag": "Commercial Portraits",
+    "count": 1
+  },
+  {
+    "tag": "Commercial Production",
+    "count": 1
+  },
+  {
+    "tag": "Commercial Visuals",
+    "count": 1
+  },
+  {
+    "tag": "Communication Training",
+    "count": 1
+  },
+  {
+    "tag": "Community Building",
+    "count": 1
+  },
+  {
+    "tag": "Community Engagement",
+    "count": 1
+  },
+  {
+    "tag": "Community Growth",
+    "count": 1
+  },
+  {
+    "tag": "Company Intranet Creation",
+    "count": 1
+  },
+  {
+    "tag": "Company Website Photos",
+    "count": 1
+  },
+  {
+    "tag": "Competitive Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Competitive Benchmarking",
+    "count": 1
+  },
+  {
+    "tag": "Competitor Visibility Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Complex Scene Creation",
+    "count": 1
+  },
+  {
+    "tag": "Compliance Management",
+    "count": 1
+  },
+  {
+    "tag": "Compliance Review",
+    "count": 1
+  },
+  {
+    "tag": "Compliance Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Concept Explanation",
+    "count": 1
+  },
+  {
+    "tag": "Concept Presentation",
+    "count": 1
+  },
+  {
+    "tag": "Concept Scene Creation",
+    "count": 1
+  },
+  {
+    "tag": "Concept Testing",
+    "count": 1
+  },
+  {
+    "tag": "Construction Cost Estimation",
+    "count": 1
+  },
+  {
+    "tag": "Content Agency Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Content Authenticity Verification",
+    "count": 1
+  },
+  {
+    "tag": "Content Discoverability",
+    "count": 1
+  },
+  {
+    "tag": "Content Distribution",
+    "count": 1
+  },
+  {
+    "tag": "Content Explanation",
+    "count": 1
+  },
+  {
+    "tag": "Content Generation",
+    "count": 1
+  },
+  {
+    "tag": "Content Humanization",
+    "count": 1
+  },
+  {
+    "tag": "Content Localization",
+    "count": 1
+  },
+  {
+    "tag": "Content Originality",
+    "count": 1
+  },
+  {
+    "tag": "Content Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Content Review",
+    "count": 1
+  },
+  {
+    "tag": "Content Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Content Team Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Content Toolkit",
+    "count": 1
+  },
+  {
+    "tag": "Content Translation",
+    "count": 1
+  },
+  {
+    "tag": "Contract Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Contract Compliance",
+    "count": 1
+  },
+  {
+    "tag": "Contract Creation",
+    "count": 1
+  },
+  {
+    "tag": "Contract Lifecycle Management",
+    "count": 1
+  },
+  {
+    "tag": "Contract Review",
+    "count": 1
+  },
+  {
+    "tag": "Contract Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Contractor Bidding",
+    "count": 1
+  },
+  {
+    "tag": "Contractor Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Conversation Automation",
+    "count": 1
+  },
+  {
+    "tag": "Conversation Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "Conversation Search",
+    "count": 1
+  },
+  {
+    "tag": "Conversational Agents",
+    "count": 1
+  },
+  {
+    "tag": "Conversational AI",
+    "count": 1
+  },
+  {
+    "tag": "Conversational AI Services",
+    "count": 1
+  },
+  {
+    "tag": "Conversational Follow-ups",
+    "count": 1
+  },
+  {
+    "tag": "Conversion Attribution",
+    "count": 1
+  },
+  {
+    "tag": "Cookie Consent Management",
+    "count": 1
+  },
+  {
+    "tag": "Copywriting",
+    "count": 1
+  },
+  {
+    "tag": "Corporate Communication",
+    "count": 1
+  },
+  {
+    "tag": "Corporate Photography",
+    "count": 1
+  },
+  {
+    "tag": "Corporate Team Photos",
+    "count": 1
+  },
+  {
+    "tag": "Corporate Training Videos",
+    "count": 1
+  },
+  {
+    "tag": "Cosplay Concept Design",
+    "count": 1
+  },
+  {
+    "tag": "Couple Entertainment",
+    "count": 1
+  },
+  {
+    "tag": "Course Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Course Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Course Creation",
+    "count": 1
+  },
+  {
+    "tag": "Course Narration",
+    "count": 1
+  },
+  {
+    "tag": "Course Notes",
+    "count": 1
+  },
+  {
+    "tag": "Course Planning",
+    "count": 1
+  },
+  {
+    "tag": "Course Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Cover Artwork",
+    "count": 1
+  },
+  {
+    "tag": "Cover Letter Creation",
+    "count": 1
+  },
+  {
+    "tag": "Creative Asset Creation",
+    "count": 1
+  },
+  {
+    "tag": "Creative Asset Downloads",
+    "count": 1
+  },
+  {
+    "tag": "Creative Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Creative Image Editing",
+    "count": 1
+  },
+  {
+    "tag": "Creative Inspiration",
+    "count": 1
+  },
+  {
+    "tag": "Creative Self-Expression",
+    "count": 1
+  },
+  {
+    "tag": "Creative Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Creative Video Projects",
+    "count": 1
+  },
+  {
+    "tag": "Creative Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Creative Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Creator Content",
+    "count": 1
+  },
+  {
+    "tag": "Creator Monetization",
+    "count": 1
+  },
+  {
+    "tag": "CRM Application Development",
+    "count": 1
+  },
+  {
+    "tag": "CRM Automation",
+    "count": 1
+  },
+  {
+    "tag": "CRM Call Data Integration",
+    "count": 1
+  },
+  {
+    "tag": "CRM Integration",
+    "count": 1
+  },
+  {
+    "tag": "CRM Research",
+    "count": 1
+  },
+  {
+    "tag": "Cross-App Writing",
+    "count": 1
+  },
+  {
+    "tag": "Cross-Border Sales",
+    "count": 1
+  },
+  {
+    "tag": "Cross-Channel Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Cross-Functional Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Cross-Platform Messaging",
+    "count": 1
+  },
+  {
+    "tag": "Cross-Platform Publishing",
+    "count": 1
+  },
+  {
+    "tag": "CTV Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Curriculum Planning",
+    "count": 1
+  },
+  {
+    "tag": "Custom AI Agents",
+    "count": 1
+  },
+  {
+    "tag": "Custom AI Applications",
+    "count": 1
+  },
+  {
+    "tag": "Custom Merchandise Design",
+    "count": 1
+  },
+  {
+    "tag": "Custom Model Training",
+    "count": 1
+  },
+  {
+    "tag": "Custom World Creation",
+    "count": 1
+  },
+  {
+    "tag": "Customer Communication",
+    "count": 1
+  },
+  {
+    "tag": "Customer Contact Management",
+    "count": 1
+  },
+  {
+    "tag": "Customer Education",
+    "count": 1
+  },
+  {
+    "tag": "Customer Feedback",
+    "count": 1
+  },
+  {
+    "tag": "Customer Feedback Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Customer Feedback Surveys",
+    "count": 1
+  },
+  {
+    "tag": "Customer Insight Research",
+    "count": 1
+  },
+  {
+    "tag": "Customer Insights",
+    "count": 1
+  },
+  {
+    "tag": "Customer Journey Mapping",
+    "count": 1
+  },
+  {
+    "tag": "Customer Onboarding",
+    "count": 1
+  },
+  {
+    "tag": "Customer Question Handling",
+    "count": 1
+  },
+  {
+    "tag": "Customer Referral Programs",
+    "count": 1
+  },
+  {
+    "tag": "Customer Research",
+    "count": 1
+  },
+  {
+    "tag": "Customer Retargeting",
+    "count": 1
+  },
+  {
+    "tag": "Customer Self-Service",
+    "count": 1
+  },
+  {
+    "tag": "Customer Service Analytics",
+    "count": 1
+  },
+  {
+    "tag": "Customer Service Videos",
+    "count": 1
+  },
+  {
+    "tag": "Customer Support Communication",
+    "count": 1
+  },
+  {
+    "tag": "Customer Training",
+    "count": 1
+  },
+  {
+    "tag": "D2C Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Data Categorization",
+    "count": 1
+  },
+  {
+    "tag": "Data Export",
+    "count": 1
+  },
+  {
+    "tag": "Data Management",
+    "count": 1
+  },
+  {
+    "tag": "Data Pipeline Automation",
+    "count": 1
+  },
+  {
+    "tag": "Data Retrieval",
+    "count": 1
+  },
+  {
+    "tag": "Data Transformation",
+    "count": 1
+  },
+  {
+    "tag": "Database App Development",
+    "count": 1
+  },
+  {
+    "tag": "Dating Profiles",
+    "count": 1
+  },
+  {
+    "tag": "Deal Management",
+    "count": 1
+  },
+  {
+    "tag": "Debt Management",
+    "count": 1
+  },
+  {
+    "tag": "Debt Servicing",
+    "count": 1
+  },
+  {
+    "tag": "Deep Research",
+    "count": 1
+  },
+  {
+    "tag": "Design Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Design Concept Development",
+    "count": 1
+  },
+  {
+    "tag": "Design Feedback",
+    "count": 1
+  },
+  {
+    "tag": "Design Inspiration Management",
+    "count": 1
+  },
+  {
+    "tag": "Design Sprint Training",
+    "count": 1
+  },
+  {
+    "tag": "Design System Creation",
+    "count": 1
+  },
+  {
+    "tag": "Designer Toy Production",
+    "count": 1
+  },
+  {
+    "tag": "Desktop Automation",
+    "count": 1
+  },
+  {
+    "tag": "Development Site Management",
+    "count": 1
+  },
+  {
+    "tag": "Development Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Device Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Diagramming",
+    "count": 1
+  },
+  {
+    "tag": "Digital Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Digital Asset Management",
+    "count": 1
+  },
+  {
+    "tag": "Digital Business Management",
+    "count": 1
+  },
+  {
+    "tag": "Digital Forensics",
+    "count": 1
+  },
+  {
+    "tag": "Digital Human Communication",
+    "count": 1
+  },
+  {
+    "tag": "Digital Human Creation",
+    "count": 1
+  },
+  {
+    "tag": "Digital Illustrations",
+    "count": 1
+  },
+  {
+    "tag": "Digital Investigations",
+    "count": 1
+  },
+  {
+    "tag": "Digital Marketing Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Digital Twin Videos",
+    "count": 1
+  },
+  {
+    "tag": "Dispute Resolution",
+    "count": 1
+  },
+  {
+    "tag": "Document Chat",
+    "count": 1
+  },
+  {
+    "tag": "Document Comprehension",
+    "count": 1
+  },
+  {
+    "tag": "Document Digitization",
+    "count": 1
+  },
+  {
+    "tag": "Document Listening",
+    "count": 1
+  },
+  {
+    "tag": "Document Management",
+    "count": 1
+  },
+  {
+    "tag": "Document Question Answering",
+    "count": 1
+  },
+  {
+    "tag": "Document Research",
+    "count": 1
+  },
+  {
+    "tag": "Document Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Dropshipping Niche Discovery",
+    "count": 1
+  },
+  {
+    "tag": "Due Diligence",
+    "count": 1
+  },
+  {
+    "tag": "Dynamic Content Management",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce App Creation",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Application Development",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Automation",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Banner Creation",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Content",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Content Research",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Design",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Image Auditing",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Operations",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Product Copy",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Product Imagery",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Product Listings",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Product Photography",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Product Photos",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Quizzes",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Store Creation",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Video Marketing",
+    "count": 1
+  },
+  {
+    "tag": "E-commerce Visuals",
+    "count": 1
+  },
+  {
+    "tag": "E-Learning",
+    "count": 1
+  },
+  {
+    "tag": "E-learning Content",
+    "count": 1
+  },
+  {
+    "tag": "E-Learning Content",
+    "count": 1
+  },
+  {
+    "tag": "E-Learning Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "E-Learning Voiceovers",
+    "count": 1
+  },
+  {
+    "tag": "Early-Stage Testing",
+    "count": 1
+  },
+  {
+    "tag": "Ebook Cover Design",
+    "count": 1
+  },
+  {
+    "tag": "Ebook Creation",
+    "count": 1
+  },
+  {
+    "tag": "Editorial Review",
+    "count": 1
+  },
+  {
+    "tag": "Education Administration",
+    "count": 1
+  },
+  {
+    "tag": "Educational Book Creation",
+    "count": 1
+  },
+  {
+    "tag": "Educational Email Creation",
+    "count": 1
+  },
+  {
+    "tag": "Educational Leadership",
+    "count": 1
+  },
+  {
+    "tag": "Educational Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Educational Materials",
+    "count": 1
+  },
+  {
+    "tag": "Educational Music",
+    "count": 1
+  },
+  {
+    "tag": "Educational Presentations",
+    "count": 1
+  },
+  {
+    "tag": "Educational Project Development",
+    "count": 1
+  },
+  {
+    "tag": "Educational Study",
+    "count": 1
+  },
+  {
+    "tag": "eLearning Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "eLearning Content Development",
+    "count": 1
+  },
+  {
+    "tag": "Electronic Signature",
+    "count": 1
+  },
+  {
+    "tag": "Email and Calendar Management",
+    "count": 1
+  },
+  {
+    "tag": "Email Campaign Automation",
+    "count": 1
+  },
+  {
+    "tag": "Email Campaigns",
+    "count": 1
+  },
+  {
+    "tag": "Email Composition",
+    "count": 1
+  },
+  {
+    "tag": "Email Drafting",
+    "count": 1
+  },
+  {
+    "tag": "Email Engagement",
+    "count": 1
+  },
+  {
+    "tag": "Email List Growth",
+    "count": 1
+  },
+  {
+    "tag": "Email List Management",
+    "count": 1
+  },
+  {
+    "tag": "Email Marketing Automation",
+    "count": 1
+  },
+  {
+    "tag": "Email Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Emergency Dispatching",
+    "count": 1
+  },
+  {
+    "tag": "Emotional Support",
+    "count": 1
+  },
+  {
+    "tag": "Employee Onboarding",
+    "count": 1
+  },
+  {
+    "tag": "English Fluency Improvement",
+    "count": 1
+  },
+  {
+    "tag": "English Proficiency Testing",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise AI Agents",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise AI Automation",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise AI Deployment",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise Application Testing",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise Sales Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise Search",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise Software Engineering",
+    "count": 1
+  },
+  {
+    "tag": "Enterprise Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Entertainment Photography",
+    "count": 1
+  },
+  {
+    "tag": "Entertainment Voiceovers",
+    "count": 1
+  },
+  {
+    "tag": "ERP Development",
+    "count": 1
+  },
+  {
+    "tag": "Essay Editing",
+    "count": 1
+  },
+  {
+    "tag": "Estimate Approval",
+    "count": 1
+  },
+  {
+    "tag": "Event Information",
+    "count": 1
+  },
+  {
+    "tag": "Event Management",
+    "count": 1
+  },
+  {
+    "tag": "Event Promotion",
+    "count": 1
+  },
+  {
+    "tag": "Event Promotion Materials",
+    "count": 1
+  },
+  {
+    "tag": "Everyday Utility Tools",
+    "count": 1
+  },
+  {
+    "tag": "Exam Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Exam Study",
+    "count": 1
+  },
+  {
+    "tag": "Executive Portraits",
+    "count": 1
+  },
+  {
+    "tag": "Expense Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Experience Research",
+    "count": 1
+  },
+  {
+    "tag": "Expert Advice",
+    "count": 1
+  },
+  {
+    "tag": "Facebook Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Facebook Page Growth",
+    "count": 1
+  },
+  {
+    "tag": "Faceless Videos",
+    "count": 1
+  },
+  {
+    "tag": "Fact Checking",
+    "count": 1
+  },
+  {
+    "tag": "Family Memory Animation",
+    "count": 1
+  },
+  {
+    "tag": "Family Photo Restoration",
+    "count": 1
+  },
+  {
+    "tag": "Fantasy Scenarios",
+    "count": 1
+  },
+  {
+    "tag": "FAQ Answering",
+    "count": 1
+  },
+  {
+    "tag": "FAQ Resolution",
+    "count": 1
+  },
+  {
+    "tag": "Fashion Product Design",
+    "count": 1
+  },
+  {
+    "tag": "Fashion Product Discovery",
+    "count": 1
+  },
+  {
+    "tag": "Feature Planning",
+    "count": 1
+  },
+  {
+    "tag": "Fictional Character Chat",
+    "count": 1
+  },
+  {
+    "tag": "File Processing",
+    "count": 1
+  },
+  {
+    "tag": "Filmmaking",
+    "count": 1
+  },
+  {
+    "tag": "Financial Document Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Financial Forecasting",
+    "count": 1
+  },
+  {
+    "tag": "Financial Goal Planning",
+    "count": 1
+  },
+  {
+    "tag": "Financial Health Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Financial Modeling",
+    "count": 1
+  },
+  {
+    "tag": "Financial Reconciliation",
+    "count": 1
+  },
+  {
+    "tag": "Financial Recordkeeping",
+    "count": 1
+  },
+  {
+    "tag": "Financial Research",
+    "count": 1
+  },
+  {
+    "tag": "Financial Services Onboarding",
+    "count": 1
+  },
+  {
+    "tag": "Financial Wellness",
+    "count": 1
+  },
+  {
+    "tag": "Fitness Reels",
+    "count": 1
+  },
+  {
+    "tag": "Floor Plan Generation",
+    "count": 1
+  },
+  {
+    "tag": "Focus Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Follow-Up Emails",
+    "count": 1
+  },
+  {
+    "tag": "Follow-up Emails",
+    "count": 1
+  },
+  {
+    "tag": "Follow-up Management",
+    "count": 1
+  },
+  {
+    "tag": "Franchise Management",
+    "count": 1
+  },
+  {
+    "tag": "Franchise Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Fraud Detection",
+    "count": 1
+  },
+  {
+    "tag": "Fraud Prevention",
+    "count": 1
+  },
+  {
+    "tag": "Full-Stack App Development",
+    "count": 1
+  },
+  {
+    "tag": "Full-Stack Web Development",
+    "count": 1
+  },
+  {
+    "tag": "Future Child Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Gambling Information",
+    "count": 1
+  },
+  {
+    "tag": "Game Asset Creation",
+    "count": 1
+  },
+  {
+    "tag": "Game Asset Production",
+    "count": 1
+  },
+  {
+    "tag": "Game Audio",
+    "count": 1
+  },
+  {
+    "tag": "Game Development",
+    "count": 1
+  },
+  {
+    "tag": "Game Trailer Creation",
+    "count": 1
+  },
+  {
+    "tag": "Gameplay Video Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Gaming Audio",
+    "count": 1
+  },
+  {
+    "tag": "Gantt Chart Creation",
+    "count": 1
+  },
+  {
+    "tag": "Generative Engine Optimization",
+    "count": 1
+  },
+  {
+    "tag": "GEO Optimization",
+    "count": 1
+  },
+  {
+    "tag": "GEO Strategy",
+    "count": 1
+  },
+  {
+    "tag": "Geo-Restricted Content Access",
+    "count": 1
+  },
+  {
+    "tag": "Global Business Communications",
+    "count": 1
+  },
+  {
+    "tag": "Global Campaigns",
+    "count": 1
+  },
+  {
+    "tag": "Global Communication",
+    "count": 1
+  },
+  {
+    "tag": "Google Business Profile Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Government Sales Planning",
+    "count": 1
+  },
+  {
+    "tag": "Grammar Checking",
+    "count": 1
+  },
+  {
+    "tag": "Guest Post Creation",
+    "count": 1
+  },
+  {
+    "tag": "Habit Consistency",
+    "count": 1
+  },
+  {
+    "tag": "Hands-Free Typing",
+    "count": 1
+  },
+  {
+    "tag": "Hashtag Generation",
+    "count": 1
+  },
+  {
+    "tag": "Healthcare Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Help Center Content",
+    "count": 1
+  },
+  {
+    "tag": "Help Center Creation",
+    "count": 1
+  },
+  {
+    "tag": "Helpdesk Management",
+    "count": 1
+  },
+  {
+    "tag": "Highlight Reel Creation",
+    "count": 1
+  },
+  {
+    "tag": "Hiring Recruitment",
+    "count": 1
+  },
+  {
+    "tag": "Home Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Home Renovation Planning",
+    "count": 1
+  },
+  {
+    "tag": "Homeschool Education",
+    "count": 1
+  },
+  {
+    "tag": "Hospitality Training",
+    "count": 1
+  },
+  {
+    "tag": "HR Data Management",
+    "count": 1
+  },
+  {
+    "tag": "Human Resources",
+    "count": 1
+  },
+  {
+    "tag": "Humanoid Robot Simulation",
+    "count": 1
+  },
+  {
+    "tag": "Hybrid Meeting Capture",
+    "count": 1
+  },
+  {
+    "tag": "Identity Investigation",
+    "count": 1
+  },
+  {
+    "tag": "iGaming Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Image Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Image Enlargement",
+    "count": 1
+  },
+  {
+    "tag": "Image Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Image Outpainting",
+    "count": 1
+  },
+  {
+    "tag": "Image Relighting",
+    "count": 1
+  },
+  {
+    "tag": "Image Retouching",
+    "count": 1
+  },
+  {
+    "tag": "Image Search",
+    "count": 1
+  },
+  {
+    "tag": "Image to Video Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Image Upscaling",
+    "count": 1
+  },
+  {
+    "tag": "Image-to-Video Content",
+    "count": 1
+  },
+  {
+    "tag": "Imitation Learning",
+    "count": 1
+  },
+  {
+    "tag": "In-App Help",
+    "count": 1
+  },
+  {
+    "tag": "In-Page Translation",
+    "count": 1
+  },
+  {
+    "tag": "In-Person Meeting Capture",
+    "count": 1
+  },
+  {
+    "tag": "In-Person Note-Taking",
+    "count": 1
+  },
+  {
+    "tag": "Inbound Call Handling",
+    "count": 1
+  },
+  {
+    "tag": "Inbox Organization",
+    "count": 1
+  },
+  {
+    "tag": "Industrial Modeling",
+    "count": 1
+  },
+  {
+    "tag": "Influencer Recruitment",
+    "count": 1
+  },
+  {
+    "tag": "Information Extraction",
+    "count": 1
+  },
+  {
+    "tag": "Informative Videos",
+    "count": 1
+  },
+  {
+    "tag": "Infrastructure Operations",
+    "count": 1
+  },
+  {
+    "tag": "Instrumental Music Creation",
+    "count": 1
+  },
+  {
+    "tag": "Insurance Fraud Detection",
+    "count": 1
+  },
+  {
+    "tag": "Intention-Based Planning",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Assessments",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Avatar Experiences",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Flipbook Creation",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Lead Magnets",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Learning",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Media",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Product Demos",
+    "count": 1
+  },
+  {
+    "tag": "Interactive Workspaces",
+    "count": 1
+  },
+  {
+    "tag": "Interface Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "Interior Design",
+    "count": 1
+  },
+  {
+    "tag": "Internal Knowledge Bases",
+    "count": 1
+  },
+  {
+    "tag": "Internal Link Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Internal Portal Creation",
+    "count": 1
+  },
+  {
+    "tag": "Internal Tool Creation",
+    "count": 1
+  },
+  {
+    "tag": "International Job Applications",
+    "count": 1
+  },
+  {
+    "tag": "Interview Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Interview Integrity",
+    "count": 1
+  },
+  {
+    "tag": "Investment Research",
+    "count": 1
+  },
+  {
+    "tag": "Investor Communications",
+    "count": 1
+  },
+  {
+    "tag": "Investor Pitching",
+    "count": 1
+  },
+  {
+    "tag": "Invitation Design",
+    "count": 1
+  },
+  {
+    "tag": "Invoice Data Extraction",
+    "count": 1
+  },
+  {
+    "tag": "Invoice Management",
+    "count": 1
+  },
+  {
+    "tag": "Issue Triage",
+    "count": 1
+  },
+  {
+    "tag": "IT Helpdesk",
+    "count": 1
+  },
+  {
+    "tag": "IT Support",
+    "count": 1
+  },
+  {
+    "tag": "Job Application Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Job Market Research",
+    "count": 1
+  },
+  {
+    "tag": "Job Matching",
+    "count": 1
+  },
+  {
+    "tag": "Journaling",
+    "count": 1
+  },
+  {
+    "tag": "Journalism Fact-Checking",
+    "count": 1
+  },
+  {
+    "tag": "Journalism Verification",
+    "count": 1
+  },
+  {
+    "tag": "Karaoke Track Creation",
+    "count": 1
+  },
+  {
+    "tag": "Kids Content",
+    "count": 1
+  },
+  {
+    "tag": "Kindle Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Knowledge Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Knowledge Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Knowledge Base Q&A",
+    "count": 1
+  },
+  {
+    "tag": "Knowledge Monetization",
+    "count": 1
+  },
+  {
+    "tag": "Landscape Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Landscaping",
+    "count": 1
+  },
+  {
+    "tag": "Language Exam Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Language Practice",
+    "count": 1
+  },
+  {
+    "tag": "Language Self-Study",
+    "count": 1
+  },
+  {
+    "tag": "Language Translation",
+    "count": 1
+  },
+  {
+    "tag": "Large-Format Printing",
+    "count": 1
+  },
+  {
+    "tag": "Lead Attribution",
+    "count": 1
+  },
+  {
+    "tag": "Lead Follow-up",
+    "count": 1
+  },
+  {
+    "tag": "Lead Magnet Creation",
+    "count": 1
+  },
+  {
+    "tag": "Learner Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Learner Engagement",
+    "count": 1
+  },
+  {
+    "tag": "Learner Feedback",
+    "count": 1
+  },
+  {
+    "tag": "Learning and Development",
+    "count": 1
+  },
+  {
+    "tag": "Lecture Note-Taking",
+    "count": 1
+  },
+  {
+    "tag": "Lecture Slides",
+    "count": 1
+  },
+  {
+    "tag": "Lecture Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Legacy System Integration",
+    "count": 1
+  },
+  {
+    "tag": "Legal Consultation",
+    "count": 1
+  },
+  {
+    "tag": "Legal Document Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Legal Document Review",
+    "count": 1
+  },
+  {
+    "tag": "Legal Document Writing",
+    "count": 1
+  },
+  {
+    "tag": "Legal Education",
+    "count": 1
+  },
+  {
+    "tag": "Legal Investigations",
+    "count": 1
+  },
+  {
+    "tag": "Legal Letter Drafting",
+    "count": 1
+  },
+  {
+    "tag": "Legal Research",
+    "count": 1
+  },
+  {
+    "tag": "Lesson Plan Creation",
+    "count": 1
+  },
+  {
+    "tag": "Lesson Slides",
+    "count": 1
+  },
+  {
+    "tag": "Link Building Content",
+    "count": 1
+  },
+  {
+    "tag": "LinkedIn Headshots",
+    "count": 1
+  },
+  {
+    "tag": "LinkedIn Profile Photos",
+    "count": 1
+  },
+  {
+    "tag": "LinkedIn Profiles",
+    "count": 1
+  },
+  {
+    "tag": "Literacy Development",
+    "count": 1
+  },
+  {
+    "tag": "Live Commerce Content",
+    "count": 1
+  },
+  {
+    "tag": "Live Performance",
+    "count": 1
+  },
+  {
+    "tag": "Live Visual Experiences",
+    "count": 1
+  },
+  {
+    "tag": "LLM Evaluation",
+    "count": 1
+  },
+  {
+    "tag": "LLM Observability",
+    "count": 1
+  },
+  {
+    "tag": "LLM Prompt Preparation",
+    "count": 1
+  },
+  {
+    "tag": "LLM Traffic Management",
+    "count": 1
+  },
+  {
+    "tag": "LMS Course Delivery",
+    "count": 1
+  },
+  {
+    "tag": "LMS Course Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Local Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Local Search Research",
+    "count": 1
+  },
+  {
+    "tag": "Local SEO",
+    "count": 1
+  },
+  {
+    "tag": "Local SEO Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Localized Creative Production",
+    "count": 1
+  },
+  {
+    "tag": "Localized Video Content",
+    "count": 1
+  },
+  {
+    "tag": "Long-Form Article Creation",
+    "count": 1
+  },
+  {
+    "tag": "Lottery Events",
+    "count": 1
+  },
+  {
+    "tag": "Lyric Videos",
+    "count": 1
+  },
+  {
+    "tag": "Market Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Market Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "Market Presence Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Ad Creation",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Analytics",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Campaign Automation",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Campaign Creation",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Campaign Management",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Campaign Planning",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Campaign Visuals",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Decision Support",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Funnel Creation",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Localization",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Materials",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Performance Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Promotion",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Visual Creation",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Voiceovers",
+    "count": 1
+  },
+  {
+    "tag": "Marketing Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Marketplace Development",
+    "count": 1
+  },
+  {
+    "tag": "Media Buying ROI Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Media Content Production",
+    "count": 1
+  },
+  {
+    "tag": "Meditation",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Booking",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Coaching",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Follow-Up",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Management",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Memory",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Note Taking",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Notetaking",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Productivity",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Recording",
+    "count": 1
+  },
+  {
+    "tag": "Meeting Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Membership Management",
+    "count": 1
+  },
+  {
+    "tag": "Memorization",
+    "count": 1
+  },
+  {
+    "tag": "Mental Fitness",
+    "count": 1
+  },
+  {
+    "tag": "Message Replies",
+    "count": 1
+  },
+  {
+    "tag": "Message Writing",
+    "count": 1
+  },
+  {
+    "tag": "Meta-Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Micro SaaS Launch",
+    "count": 1
+  },
+  {
+    "tag": "Micro-Drama Production",
+    "count": 1
+  },
+  {
+    "tag": "Mobile App Demos",
+    "count": 1
+  },
+  {
+    "tag": "Mobile App Development",
+    "count": 1
+  },
+  {
+    "tag": "Mobile Community Apps",
+    "count": 1
+  },
+  {
+    "tag": "Mobile Site Development",
+    "count": 1
+  },
+  {
+    "tag": "Mockup Creation",
+    "count": 1
+  },
+  {
+    "tag": "Model Benchmarking",
+    "count": 1
+  },
+  {
+    "tag": "Model Training Data",
+    "count": 1
+  },
+  {
+    "tag": "Monogram Design",
+    "count": 1
+  },
+  {
+    "tag": "Mortgage Payment Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Motion Graphics Videos",
+    "count": 1
+  },
+  {
+    "tag": "Motivational Clips",
+    "count": 1
+  },
+  {
+    "tag": "Movies",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Account Management",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Agent Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Brand Management",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Channel Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Channel Messaging",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Model Inference",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Site Content Operations",
+    "count": 1
+  },
+  {
+    "tag": "Multi-Speaker Conversations",
+    "count": 1
+  },
+  {
+    "tag": "Multichannel Communication",
+    "count": 1
+  },
+  {
+    "tag": "Multichannel Merchandising",
+    "count": 1
+  },
+  {
+    "tag": "Multichannel Messaging",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Content",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Content Production",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Dictation",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Localization",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Support",
+    "count": 1
+  },
+  {
+    "tag": "Multilingual Video Dubbing",
+    "count": 1
+  },
+  {
+    "tag": "Music Distribution",
+    "count": 1
+  },
+  {
+    "tag": "Music Education",
+    "count": 1
+  },
+  {
+    "tag": "Music Mastering",
+    "count": 1
+  },
+  {
+    "tag": "Music Monetization",
+    "count": 1
+  },
+  {
+    "tag": "Music Practice",
+    "count": 1
+  },
+  {
+    "tag": "Music Remixing",
+    "count": 1
+  },
+  {
+    "tag": "Music Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "MVP Branding",
+    "count": 1
+  },
+  {
+    "tag": "MVP Development",
+    "count": 1
+  },
+  {
+    "tag": "MVP Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "Narration",
+    "count": 1
+  },
+  {
+    "tag": "Natural Language Processing",
+    "count": 1
+  },
+  {
+    "tag": "News Announcements",
+    "count": 1
+  },
+  {
+    "tag": "News Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "News Media Verification",
+    "count": 1
+  },
+  {
+    "tag": "News Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "News Videos",
+    "count": 1
+  },
+  {
+    "tag": "Newsletter Creation",
+    "count": 1
+  },
+  {
+    "tag": "Newsletter Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Newsletter Subscription",
+    "count": 1
+  },
+  {
+    "tag": "Newsletter Writing",
+    "count": 1
+  },
+  {
+    "tag": "Newsletters",
+    "count": 1
+  },
+  {
+    "tag": "Niche Research",
+    "count": 1
+  },
+  {
+    "tag": "Non-Native English Writing",
+    "count": 1
+  },
+  {
+    "tag": "Nonfiction Book Creation",
+    "count": 1
+  },
+  {
+    "tag": "Note Translation",
+    "count": 1
+  },
+  {
+    "tag": "Note-Taking",
+    "count": 1
+  },
+  {
+    "tag": "Novel Writing",
+    "count": 1
+  },
+  {
+    "tag": "NPC Dialogue",
+    "count": 1
+  },
+  {
+    "tag": "Object Removal",
+    "count": 1
+  },
+  {
+    "tag": "Object Replacement",
+    "count": 1
+  },
+  {
+    "tag": "OCR Text Extraction",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Content",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Decks",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Guides",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Systems",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Training",
+    "count": 1
+  },
+  {
+    "tag": "Onboarding Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Online Booking",
+    "count": 1
+  },
+  {
+    "tag": "Online Business Presence",
+    "count": 1
+  },
+  {
+    "tag": "Online Casino Comparison",
+    "count": 1
+  },
+  {
+    "tag": "Online Community Management",
+    "count": 1
+  },
+  {
+    "tag": "Online Course Management",
+    "count": 1
+  },
+  {
+    "tag": "Online Courses",
+    "count": 1
+  },
+  {
+    "tag": "Online Engagement",
+    "count": 1
+  },
+  {
+    "tag": "Online Meeting Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Online Payment Collection",
+    "count": 1
+  },
+  {
+    "tag": "Online Presence",
+    "count": 1
+  },
+  {
+    "tag": "Online Presence Building",
+    "count": 1
+  },
+  {
+    "tag": "Online Product Sales",
+    "count": 1
+  },
+  {
+    "tag": "Online Sales",
+    "count": 1
+  },
+  {
+    "tag": "Operations Automation",
+    "count": 1
+  },
+  {
+    "tag": "Order Lookup",
+    "count": 1
+  },
+  {
+    "tag": "Order Updates",
+    "count": 1
+  },
+  {
+    "tag": "Organic Social Content",
+    "count": 1
+  },
+  {
+    "tag": "Outbound AI Calling",
+    "count": 1
+  },
+  {
+    "tag": "Outbound Prospecting",
+    "count": 1
+  },
+  {
+    "tag": "Outfit Identification",
+    "count": 1
+  },
+  {
+    "tag": "Outreach Campaigns",
+    "count": 1
+  },
+  {
+    "tag": "Outreach Management",
+    "count": 1
+  },
+  {
+    "tag": "Packaging Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Paid Advertising Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Paid Marketing Management",
+    "count": 1
+  },
+  {
+    "tag": "Paid Social Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Paid Traffic Management",
+    "count": 1
+  },
+  {
+    "tag": "Patent Documentation",
+    "count": 1
+  },
+  {
+    "tag": "Pattern Design",
+    "count": 1
+  },
+  {
+    "tag": "Payment Management",
+    "count": 1
+  },
+  {
+    "tag": "Payment Processing",
+    "count": 1
+  },
+  {
+    "tag": "Payroll Management",
+    "count": 1
+  },
+  {
+    "tag": "PDF Analysis",
+    "count": 1
+  },
+  {
+    "tag": "PDF Summarization",
+    "count": 1
+  },
+  {
+    "tag": "Performance Reporting",
+    "count": 1
+  },
+  {
+    "tag": "Personal AI Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Personal Goal Planning",
+    "count": 1
+  },
+  {
+    "tag": "Personal Loan Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Personal Photography",
+    "count": 1
+  },
+  {
+    "tag": "Personal Progress",
+    "count": 1
+  },
+  {
+    "tag": "Personal Use",
+    "count": 1
+  },
+  {
+    "tag": "Personal Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Communication",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Media Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Outreach Videos",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Personalized Videos",
+    "count": 1
+  },
+  {
+    "tag": "Photo Collage Creation",
+    "count": 1
+  },
+  {
+    "tag": "Photo Colorization",
+    "count": 1
+  },
+  {
+    "tag": "Photo Effects",
+    "count": 1
+  },
+  {
+    "tag": "Photo Manipulation",
+    "count": 1
+  },
+  {
+    "tag": "Photo Restoration",
+    "count": 1
+  },
+  {
+    "tag": "Photo-Based Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Photo-to-Anime Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Pipeline Management",
+    "count": 1
+  },
+  {
+    "tag": "Pitch Deck Creation",
+    "count": 1
+  },
+  {
+    "tag": "Pitch Decks",
+    "count": 1
+  },
+  {
+    "tag": "Pitch Practice",
+    "count": 1
+  },
+  {
+    "tag": "Pitch Writing",
+    "count": 1
+  },
+  {
+    "tag": "Plagiarism Checking",
+    "count": 1
+  },
+  {
+    "tag": "Plugin Development",
+    "count": 1
+  },
+  {
+    "tag": "Podcast Audio Editing",
+    "count": 1
+  },
+  {
+    "tag": "Podcast Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Podcast Transcription",
+    "count": 1
+  },
+  {
+    "tag": "Podcast Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Podcasts",
+    "count": 1
+  },
+  {
+    "tag": "Poetry Book Creation",
+    "count": 1
+  },
+  {
+    "tag": "Policy Development",
+    "count": 1
+  },
+  {
+    "tag": "Policy Research",
+    "count": 1
+  },
+  {
+    "tag": "Portrait Editing",
+    "count": 1
+  },
+  {
+    "tag": "Portrait Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Portrait Photography",
+    "count": 1
+  },
+  {
+    "tag": "Power Napping",
+    "count": 1
+  },
+  {
+    "tag": "PPC Campaign Automation",
+    "count": 1
+  },
+  {
+    "tag": "Presentation Delivery Practice",
+    "count": 1
+  },
+  {
+    "tag": "Presentation Generation",
+    "count": 1
+  },
+  {
+    "tag": "Presentation Practice",
+    "count": 1
+  },
+  {
+    "tag": "Presentation Redesign",
+    "count": 1
+  },
+  {
+    "tag": "Presentation Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Presentations",
+    "count": 1
+  },
+  {
+    "tag": "Price Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Pricing Research",
+    "count": 1
+  },
+  {
+    "tag": "Print Photography",
+    "count": 1
+  },
+  {
+    "tag": "Print-on-Demand Design",
+    "count": 1
+  },
+  {
+    "tag": "Private AI Deployment",
+    "count": 1
+  },
+  {
+    "tag": "Procedure Sharing",
+    "count": 1
+  },
+  {
+    "tag": "Process Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Product and Service Promotion",
+    "count": 1
+  },
+  {
+    "tag": "Product Catalog Enrichment",
+    "count": 1
+  },
+  {
+    "tag": "Product Catalog Management",
+    "count": 1
+  },
+  {
+    "tag": "Product Demonstration Videos",
+    "count": 1
+  },
+  {
+    "tag": "Product Demos",
+    "count": 1
+  },
+  {
+    "tag": "Product Design",
+    "count": 1
+  },
+  {
+    "tag": "Product Image Editing",
+    "count": 1
+  },
+  {
+    "tag": "Product Knowledge Training",
+    "count": 1
+  },
+  {
+    "tag": "Product Launch Content",
+    "count": 1
+  },
+  {
+    "tag": "Product Listing Creation",
+    "count": 1
+  },
+  {
+    "tag": "Product Marketing Videos",
+    "count": 1
+  },
+  {
+    "tag": "Product Onboarding",
+    "count": 1
+  },
+  {
+    "tag": "Product Photo Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Product Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "Product Reviews",
+    "count": 1
+  },
+  {
+    "tag": "Product Showcase Videos",
+    "count": 1
+  },
+  {
+    "tag": "Product Showcases",
+    "count": 1
+  },
+  {
+    "tag": "Product Trend Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Product Updates",
+    "count": 1
+  },
+  {
+    "tag": "Product Video Ads",
+    "count": 1
+  },
+  {
+    "tag": "Product Videos",
+    "count": 1
+  },
+  {
+    "tag": "Product Visualization",
+    "count": 1
+  },
+  {
+    "tag": "Product Visuals",
+    "count": 1
+  },
+  {
+    "tag": "Production Debugging",
+    "count": 1
+  },
+  {
+    "tag": "Productivity Automation",
+    "count": 1
+  },
+  {
+    "tag": "Productivity Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Programmatic SEO",
+    "count": 1
+  },
+  {
+    "tag": "Project Asset Organization",
+    "count": 1
+  },
+  {
+    "tag": "Project Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Project Estimation",
+    "count": 1
+  },
+  {
+    "tag": "Project Updates",
+    "count": 1
+  },
+  {
+    "tag": "Promotional Ads",
+    "count": 1
+  },
+  {
+    "tag": "Promotions",
+    "count": 1
+  },
+  {
+    "tag": "Prompt Management",
+    "count": 1
+  },
+  {
+    "tag": "Proofreading",
+    "count": 1
+  },
+  {
+    "tag": "Property Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Property Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Property Promotion",
+    "count": 1
+  },
+  {
+    "tag": "Proposal Generation",
+    "count": 1
+  },
+  {
+    "tag": "Prospecting and Recruiting",
+    "count": 1
+  },
+  {
+    "tag": "Prototype Development",
+    "count": 1
+  },
+  {
+    "tag": "PTE Exam Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Public Sector Opportunity Discovery",
+    "count": 1
+  },
+  {
+    "tag": "Publication Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Publisher Outreach",
+    "count": 1
+  },
+  {
+    "tag": "Pull Request Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Pull Request Management",
+    "count": 1
+  },
+  {
+    "tag": "Pull Request Testing",
+    "count": 1
+  },
+  {
+    "tag": "Python Code Generation",
+    "count": 1
+  },
+  {
+    "tag": "QA Workflow Management",
+    "count": 1
+  },
+  {
+    "tag": "QR Code Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Qualitative Data Collection",
+    "count": 1
+  },
+  {
+    "tag": "Qualitative Research",
+    "count": 1
+  },
+  {
+    "tag": "Quality Assurance",
+    "count": 1
+  },
+  {
+    "tag": "Quote Generation",
+    "count": 1
+  },
+  {
+    "tag": "RAG Pipeline Data",
+    "count": 1
+  },
+  {
+    "tag": "RAG Pipeline Development",
+    "count": 1
+  },
+  {
+    "tag": "RAG Systems",
+    "count": 1
+  },
+  {
+    "tag": "Rank Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Rap Beats",
+    "count": 1
+  },
+  {
+    "tag": "Rapid Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "Readability Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Readability Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Reading Practice",
+    "count": 1
+  },
+  {
+    "tag": "Real Estate Data Collection",
+    "count": 1
+  },
+  {
+    "tag": "Real Estate Listings",
+    "count": 1
+  },
+  {
+    "tag": "Real Estate Walkthroughs",
+    "count": 1
+  },
+  {
+    "tag": "Real Estate Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Real-Time Rendering",
+    "count": 1
+  },
+  {
+    "tag": "Real-World Communication",
+    "count": 1
+  },
+  {
+    "tag": "Real-World Simulation",
+    "count": 1
+  },
+  {
+    "tag": "Recruitment Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Recruitment Team Alignment",
+    "count": 1
+  },
+  {
+    "tag": "Recurring Client Billing",
+    "count": 1
+  },
+  {
+    "tag": "Recurring Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Reddit Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Reddit Story Content",
+    "count": 1
+  },
+  {
+    "tag": "Reference Library Management",
+    "count": 1
+  },
+  {
+    "tag": "Referral Rewards",
+    "count": 1
+  },
+  {
+    "tag": "Refund Recovery",
+    "count": 1
+  },
+  {
+    "tag": "Regression Testing",
+    "count": 1
+  },
+  {
+    "tag": "Relationship Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Relaxation",
+    "count": 1
+  },
+  {
+    "tag": "Remix Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Report Creation",
+    "count": 1
+  },
+  {
+    "tag": "Report Drafting",
+    "count": 1
+  },
+  {
+    "tag": "Report Readability Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Reports and Documents",
+    "count": 1
+  },
+  {
+    "tag": "Repository Documentation",
+    "count": 1
+  },
+  {
+    "tag": "Repository Management",
+    "count": 1
+  },
+  {
+    "tag": "Reputation Management",
+    "count": 1
+  },
+  {
+    "tag": "Research Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Research and Data Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Research Automation",
+    "count": 1
+  },
+  {
+    "tag": "Research Creation",
+    "count": 1
+  },
+  {
+    "tag": "Research Data Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Research Document Creation",
+    "count": 1
+  },
+  {
+    "tag": "Research Idea Discovery",
+    "count": 1
+  },
+  {
+    "tag": "Research Planning",
+    "count": 1
+  },
+  {
+    "tag": "Research Presentations",
+    "count": 1
+  },
+  {
+    "tag": "Research Synthesis",
+    "count": 1
+  },
+  {
+    "tag": "Research Writing",
+    "count": 1
+  },
+  {
+    "tag": "Responsive Design",
+    "count": 1
+  },
+  {
+    "tag": "Responsive Website Design",
+    "count": 1
+  },
+  {
+    "tag": "Resume Development",
+    "count": 1
+  },
+  {
+    "tag": "Resume Photos",
+    "count": 1
+  },
+  {
+    "tag": "Resume Screening",
+    "count": 1
+  },
+  {
+    "tag": "Resume Writing",
+    "count": 1
+  },
+  {
+    "tag": "Retail Branding",
+    "count": 1
+  },
+  {
+    "tag": "Retirement Planning",
+    "count": 1
+  },
+  {
+    "tag": "Revenue Attribution",
+    "count": 1
+  },
+  {
+    "tag": "Reverse Image Search",
+    "count": 1
+  },
+  {
+    "tag": "Review Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Review Management",
+    "count": 1
+  },
+  {
+    "tag": "Roadmap Planning",
+    "count": 1
+  },
+  {
+    "tag": "Roleplay Conversations",
+    "count": 1
+  },
+  {
+    "tag": "Romantic Video Messages",
+    "count": 1
+  },
+  {
+    "tag": "SaaS Application Creation",
+    "count": 1
+  },
+  {
+    "tag": "SaaS Application Development",
+    "count": 1
+  },
+  {
+    "tag": "SaaS Development",
+    "count": 1
+  },
+  {
+    "tag": "SaaS Integration",
+    "count": 1
+  },
+  {
+    "tag": "SaaS Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Safety Training",
+    "count": 1
+  },
+  {
+    "tag": "Sales Acceleration",
+    "count": 1
+  },
+  {
+    "tag": "Sales Call Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Sales Communication",
+    "count": 1
+  },
+  {
+    "tag": "Sales Decks",
+    "count": 1
+  },
+  {
+    "tag": "Sales Forecasting",
+    "count": 1
+  },
+  {
+    "tag": "Sales Generation",
+    "count": 1
+  },
+  {
+    "tag": "Sales Lead Generation",
+    "count": 1
+  },
+  {
+    "tag": "Sales Management",
+    "count": 1
+  },
+  {
+    "tag": "Sales Meeting Preparation",
+    "count": 1
+  },
+  {
+    "tag": "Sales Operations",
+    "count": 1
+  },
+  {
+    "tag": "Sales Pipeline Management",
+    "count": 1
+  },
+  {
+    "tag": "Sales Proposals",
+    "count": 1
+  },
+  {
+    "tag": "Sales Prospecting",
+    "count": 1
+  },
+  {
+    "tag": "Sales Sequence Creation",
+    "count": 1
+  },
+  {
+    "tag": "Sales Support",
+    "count": 1
+  },
+  {
+    "tag": "Sales Training",
+    "count": 1
+  },
+  {
+    "tag": "Satellite Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "Scheduling",
+    "count": 1
+  },
+  {
+    "tag": "Schema Markup",
+    "count": 1
+  },
+  {
+    "tag": "School Education",
+    "count": 1
+  },
+  {
+    "tag": "Scientific Research",
+    "count": 1
+  },
+  {
+    "tag": "Screenplay Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Script-Based Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Search Ranking Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Search Visibility Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Search Visibility Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Security Deposit Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Security Testing",
+    "count": 1
+  },
+  {
+    "tag": "Self-Hosted AI",
+    "count": 1
+  },
+  {
+    "tag": "Self-Publishing",
+    "count": 1
+  },
+  {
+    "tag": "Self-Service Support",
+    "count": 1
+  },
+  {
+    "tag": "Selfie POV Videos",
+    "count": 1
+  },
+  {
+    "tag": "SEO",
+    "count": 1
+  },
+  {
+    "tag": "SEO Auditing",
+    "count": 1
+  },
+  {
+    "tag": "SEO Automation",
+    "count": 1
+  },
+  {
+    "tag": "SEO Content",
+    "count": 1
+  },
+  {
+    "tag": "SEO Content Optimization",
+    "count": 1
+  },
+  {
+    "tag": "SEO Content Writing",
+    "count": 1
+  },
+  {
+    "tag": "SEO Rank Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Service Provider Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Shopify Store Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Shopify Store Creation",
+    "count": 1
+  },
+  {
+    "tag": "Shopify Theme Research",
+    "count": 1
+  },
+  {
+    "tag": "Shopping Search",
+    "count": 1
+  },
+  {
+    "tag": "Short Advertisement Creation",
+    "count": 1
+  },
+  {
+    "tag": "Short Film Creation",
+    "count": 1
+  },
+  {
+    "tag": "Short Film Production",
+    "count": 1
+  },
+  {
+    "tag": "Short-Form Storytelling",
+    "count": 1
+  },
+  {
+    "tag": "Site Data Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Site Management",
+    "count": 1
+  },
+  {
+    "tag": "Site Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Sketch-to-Anime Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Sky Replacement",
+    "count": 1
+  },
+  {
+    "tag": "Skybox Creation",
+    "count": 1
+  },
+  {
+    "tag": "Sleep Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Slide Deck Creation",
+    "count": 1
+  },
+  {
+    "tag": "SMS Lead Follow-ups",
+    "count": 1
+  },
+  {
+    "tag": "Snapchat Advertising",
+    "count": 1
+  },
+  {
+    "tag": "Social Clip Creation",
+    "count": 1
+  },
+  {
+    "tag": "Social Commerce Research",
+    "count": 1
+  },
+  {
+    "tag": "Social Content Creation",
+    "count": 1
+  },
+  {
+    "tag": "Social Intelligence",
+    "count": 1
+  },
+  {
+    "tag": "Social Listening",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Assets",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Automation",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Benchmarking",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Content Repurposing",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Moderation",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Music",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Photography",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Photos",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Profiles",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Sharing",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Visuals",
+    "count": 1
+  },
+  {
+    "tag": "Social Media Writing",
+    "count": 1
+  },
+  {
+    "tag": "Social Post Creation",
+    "count": 1
+  },
+  {
+    "tag": "Software Architecture Review",
+    "count": 1
+  },
+  {
+    "tag": "Software Development Automation",
+    "count": 1
+  },
+  {
+    "tag": "Software Engineering",
+    "count": 1
+  },
+  {
+    "tag": "Software Testing",
+    "count": 1
+  },
+  {
+    "tag": "Solopreneur Business Growth",
+    "count": 1
+  },
+  {
+    "tag": "Song Distribution",
+    "count": 1
+  },
+  {
+    "tag": "Soundscape Creation",
+    "count": 1
+  },
+  {
+    "tag": "Special Offers",
+    "count": 1
+  },
+  {
+    "tag": "Speech Practice",
+    "count": 1
+  },
+  {
+    "tag": "Speech Synthesis",
+    "count": 1
+  },
+  {
+    "tag": "Speech Writing",
+    "count": 1
+  },
+  {
+    "tag": "Speech-to-Text Dictation",
+    "count": 1
+  },
+  {
+    "tag": "Spotify Canvas Content",
+    "count": 1
+  },
+  {
+    "tag": "Stakeholder Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Startup Funding Planning",
+    "count": 1
+  },
+  {
+    "tag": "Startup Idea Validation",
+    "count": 1
+  },
+  {
+    "tag": "Stem Separation",
+    "count": 1
+  },
+  {
+    "tag": "Sticker Design",
+    "count": 1
+  },
+  {
+    "tag": "Stock Asset Access",
+    "count": 1
+  },
+  {
+    "tag": "Stock Asset Sourcing",
+    "count": 1
+  },
+  {
+    "tag": "Story Generation",
+    "count": 1
+  },
+  {
+    "tag": "Story Planning",
+    "count": 1
+  },
+  {
+    "tag": "Story Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Story Writing",
+    "count": 1
+  },
+  {
+    "tag": "Storyboard Creation",
+    "count": 1
+  },
+  {
+    "tag": "Storyboard Development",
+    "count": 1
+  },
+  {
+    "tag": "Storyboarding",
+    "count": 1
+  },
+  {
+    "tag": "Strategic Account Planning",
+    "count": 1
+  },
+  {
+    "tag": "Strategic Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Streaming Analytics",
+    "count": 1
+  },
+  {
+    "tag": "Streaming Music",
+    "count": 1
+  },
+  {
+    "tag": "Stress Relief",
+    "count": 1
+  },
+  {
+    "tag": "Student Assessment",
+    "count": 1
+  },
+  {
+    "tag": "Student Learning",
+    "count": 1
+  },
+  {
+    "tag": "Student Support",
+    "count": 1
+  },
+  {
+    "tag": "Study Quiz Creation",
+    "count": 1
+  },
+  {
+    "tag": "Study Workflows",
+    "count": 1
+  },
+  {
+    "tag": "Studying",
+    "count": 1
+  },
+  {
+    "tag": "Style Editing",
+    "count": 1
+  },
+  {
+    "tag": "Subject Learning",
+    "count": 1
+  },
+  {
+    "tag": "Subscription Management",
+    "count": 1
+  },
+  {
+    "tag": "Support Agent Assistance",
+    "count": 1
+  },
+  {
+    "tag": "Support Hub Creation",
+    "count": 1
+  },
+  {
+    "tag": "Support Resolution Guides",
+    "count": 1
+  },
+  {
+    "tag": "Surreal Video Transformation",
+    "count": 1
+  },
+  {
+    "tag": "Synthetic Data Generation",
+    "count": 1
+  },
+  {
+    "tag": "T-Shirt Design",
+    "count": 1
+  },
+  {
+    "tag": "Talent Acquisition",
+    "count": 1
+  },
+  {
+    "tag": "Talking Avatar Creation",
+    "count": 1
+  },
+  {
+    "tag": "Talking Avatar Videos",
+    "count": 1
+  },
+  {
+    "tag": "Talking Head Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Talking Head Videos",
+    "count": 1
+  },
+  {
+    "tag": "Talking Videos",
+    "count": 1
+  },
+  {
+    "tag": "Talking-Head Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Task Extraction",
+    "count": 1
+  },
+  {
+    "tag": "Task List Creation",
+    "count": 1
+  },
+  {
+    "tag": "Task Management",
+    "count": 1
+  },
+  {
+    "tag": "Task Scheduling",
+    "count": 1
+  },
+  {
+    "tag": "Tax Audit Review",
+    "count": 1
+  },
+  {
+    "tag": "Tax Document Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Tax Planning",
+    "count": 1
+  },
+  {
+    "tag": "Tax Research",
+    "count": 1
+  },
+  {
+    "tag": "Tax Workflow Automation",
+    "count": 1
+  },
+  {
+    "tag": "Teacher Support",
+    "count": 1
+  },
+  {
+    "tag": "Teaching Materials",
+    "count": 1
+  },
+  {
+    "tag": "Teaching Tools",
+    "count": 1
+  },
+  {
+    "tag": "Team AI Adoption",
+    "count": 1
+  },
+  {
+    "tag": "Team Branding",
+    "count": 1
+  },
+  {
+    "tag": "Team Course Collaboration",
+    "count": 1
+  },
+  {
+    "tag": "Team Handoffs",
+    "count": 1
+  },
+  {
+    "tag": "Team Training",
+    "count": 1
+  },
+  {
+    "tag": "Technical SEO Management",
+    "count": 1
+  },
+  {
+    "tag": "Terminal-Based Development",
+    "count": 1
+  },
+  {
+    "tag": "Test Automation",
+    "count": 1
+  },
+  {
+    "tag": "Test Development",
+    "count": 1
+  },
+  {
+    "tag": "Text Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Text Generation",
+    "count": 1
+  },
+  {
+    "tag": "Text Humanization",
+    "count": 1
+  },
+  {
+    "tag": "Text Input",
+    "count": 1
+  },
+  {
+    "tag": "Text Transcription",
+    "count": 1
+  },
+  {
+    "tag": "Text-to-Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Text-to-Video Generation",
+    "count": 1
+  },
+  {
+    "tag": "Textile Print Design",
+    "count": 1
+  },
+  {
+    "tag": "Theme Development",
+    "count": 1
+  },
+  {
+    "tag": "Thesis Presentations",
+    "count": 1
+  },
+  {
+    "tag": "Thought Leadership Repurposing",
+    "count": 1
+  },
+  {
+    "tag": "Thought Organization",
+    "count": 1
+  },
+  {
+    "tag": "Threat Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Ticket Resolution",
+    "count": 1
+  },
+  {
+    "tag": "TikTok Analytics",
+    "count": 1
+  },
+  {
+    "tag": "TikTok Commerce Publishing",
+    "count": 1
+  },
+  {
+    "tag": "TikTok Shop Video Ads",
+    "count": 1
+  },
+  {
+    "tag": "TikTok Social Listening",
+    "count": 1
+  },
+  {
+    "tag": "TikTok Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Time Tracking",
+    "count": 1
+  },
+  {
+    "tag": "Timeline Management",
+    "count": 1
+  },
+  {
+    "tag": "Topic Discovery",
+    "count": 1
+  },
+  {
+    "tag": "Topic Planning",
+    "count": 1
+  },
+  {
+    "tag": "Topical Authority Building",
+    "count": 1
+  },
+  {
+    "tag": "Traffic Research",
+    "count": 1
+  },
+  {
+    "tag": "Trailer Creation",
+    "count": 1
+  },
+  {
+    "tag": "Training Communication",
+    "count": 1
+  },
+  {
+    "tag": "Training Content Development",
+    "count": 1
+  },
+  {
+    "tag": "Training Materials",
+    "count": 1
+  },
+  {
+    "tag": "Training Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Training Video Production",
+    "count": 1
+  },
+  {
+    "tag": "Transaction Management",
+    "count": 1
+  },
+  {
+    "tag": "Travel Itinerary Planning",
+    "count": 1
+  },
+  {
+    "tag": "Travel Planning",
+    "count": 1
+  },
+  {
+    "tag": "Travel Reels",
+    "count": 1
+  },
+  {
+    "tag": "Trend Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Trip Planning",
+    "count": 1
+  },
+  {
+    "tag": "Tutorials",
+    "count": 1
+  },
+  {
+    "tag": "UGC Ad Creation",
+    "count": 1
+  },
+  {
+    "tag": "UGC Advertising",
+    "count": 1
+  },
+  {
+    "tag": "UGC Marketing",
+    "count": 1
+  },
+  {
+    "tag": "UGC Videos",
+    "count": 1
+  },
+  {
+    "tag": "UGC-Style Advertising",
+    "count": 1
+  },
+  {
+    "tag": "UI Design",
+    "count": 1
+  },
+  {
+    "tag": "UI Testing",
+    "count": 1
+  },
+  {
+    "tag": "Unboxing Video Creation",
+    "count": 1
+  },
+  {
+    "tag": "Underwriting Intake",
+    "count": 1
+  },
+  {
+    "tag": "Unified AI Workspace",
+    "count": 1
+  },
+  {
+    "tag": "Unpaid Invoice Disputes",
+    "count": 1
+  },
+  {
+    "tag": "User Research",
+    "count": 1
+  },
+  {
+    "tag": "User-Generated Content Ads",
+    "count": 1
+  },
+  {
+    "tag": "Vendor Portal Creation",
+    "count": 1
+  },
+  {
+    "tag": "Venture Decision-Making",
+    "count": 1
+  },
+  {
+    "tag": "Video Advertisements",
+    "count": 1
+  },
+  {
+    "tag": "Video Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Video Compression",
+    "count": 1
+  },
+  {
+    "tag": "Video Concept Testing",
+    "count": 1
+  },
+  {
+    "tag": "Video Content Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Video Content Planning",
+    "count": 1
+  },
+  {
+    "tag": "Video Content Scheduling",
+    "count": 1
+  },
+  {
+    "tag": "Video Content Search",
+    "count": 1
+  },
+  {
+    "tag": "Video Conversion",
+    "count": 1
+  },
+  {
+    "tag": "Video Dubbing",
+    "count": 1
+  },
+  {
+    "tag": "Video Effects",
+    "count": 1
+  },
+  {
+    "tag": "Video Enhancement",
+    "count": 1
+  },
+  {
+    "tag": "Video Learning",
+    "count": 1
+  },
+  {
+    "tag": "Video Monetization",
+    "count": 1
+  },
+  {
+    "tag": "Video Music Matching",
+    "count": 1
+  },
+  {
+    "tag": "Video Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Video Presentations",
+    "count": 1
+  },
+  {
+    "tag": "Video Production",
+    "count": 1
+  },
+  {
+    "tag": "Video Recreation",
+    "count": 1
+  },
+  {
+    "tag": "Video Reframing",
+    "count": 1
+  },
+  {
+    "tag": "Video Remixing",
+    "count": 1
+  },
+  {
+    "tag": "Video Script Writing",
+    "count": 1
+  },
+  {
+    "tag": "Video Sharing",
+    "count": 1
+  },
+  {
+    "tag": "Video Sound Quality",
+    "count": 1
+  },
+  {
+    "tag": "Video Soundtrack Creation",
+    "count": 1
+  },
+  {
+    "tag": "Video Subtitle Translation",
+    "count": 1
+  },
+  {
+    "tag": "Video Upscaling",
+    "count": 1
+  },
+  {
+    "tag": "Video Voiceover",
+    "count": 1
+  },
+  {
+    "tag": "Video Voiceovers",
+    "count": 1
+  },
+  {
+    "tag": "Viral Short-Form Clips",
+    "count": 1
+  },
+  {
+    "tag": "Viral Video Ideation",
+    "count": 1
+  },
+  {
+    "tag": "Viral Video Marketing",
+    "count": 1
+  },
+  {
+    "tag": "Virtual Production",
+    "count": 1
+  },
+  {
+    "tag": "Virtual Staging",
+    "count": 1
+  },
+  {
+    "tag": "Visual Bookmarking",
+    "count": 1
+  },
+  {
+    "tag": "Visual Creation",
+    "count": 1
+  },
+  {
+    "tag": "Visual Design",
+    "count": 1
+  },
+  {
+    "tag": "Visual Diagramming",
+    "count": 1
+  },
+  {
+    "tag": "Visual Direction",
+    "count": 1
+  },
+  {
+    "tag": "Visual Effects",
+    "count": 1
+  },
+  {
+    "tag": "Visual Effects Creation",
+    "count": 1
+  },
+  {
+    "tag": "Visual Novel Creation",
+    "count": 1
+  },
+  {
+    "tag": "Visual Workflow Management",
+    "count": 1
+  },
+  {
+    "tag": "Vocal Removal",
+    "count": 1
+  },
+  {
+    "tag": "Voice Agent Development",
+    "count": 1
+  },
+  {
+    "tag": "Voice AI Applications",
+    "count": 1
+  },
+  {
+    "tag": "Voice AI Integration",
+    "count": 1
+  },
+  {
+    "tag": "Voice Cleanup",
+    "count": 1
+  },
+  {
+    "tag": "Voice Dialogue",
+    "count": 1
+  },
+  {
+    "tag": "Voice Interaction",
+    "count": 1
+  },
+  {
+    "tag": "Voice Interactions",
+    "count": 1
+  },
+  {
+    "tag": "Voice Localization",
+    "count": 1
+  },
+  {
+    "tag": "Voice Note Taking",
+    "count": 1
+  },
+  {
+    "tag": "Voice Transformation",
+    "count": 1
+  },
+  {
+    "tag": "Voice Typing",
+    "count": 1
+  },
+  {
+    "tag": "Voiceover Integration",
+    "count": 1
+  },
+  {
+    "tag": "VTuber Avatar Art",
+    "count": 1
+  },
+  {
+    "tag": "VTuber Content",
+    "count": 1
+  },
+  {
+    "tag": "Vulnerability Fixing",
+    "count": 1
+  },
+  {
+    "tag": "Wage Disputes",
+    "count": 1
+  },
+  {
+    "tag": "Wallpaper Design",
+    "count": 1
+  },
+  {
+    "tag": "Web App Prototyping",
+    "count": 1
+  },
+  {
+    "tag": "Web Application",
+    "count": 1
+  },
+  {
+    "tag": "Web Application Generation",
+    "count": 1
+  },
+  {
+    "tag": "Web Data Collection",
+    "count": 1
+  },
+  {
+    "tag": "Web Data Scraping",
+    "count": 1
+  },
+  {
+    "tag": "Web Design",
+    "count": 1
+  },
+  {
+    "tag": "Web Search",
+    "count": 1
+  },
+  {
+    "tag": "Web Translation",
+    "count": 1
+  },
+  {
+    "tag": "Web-Grounded Question Answering",
+    "count": 1
+  },
+  {
+    "tag": "Webinar Recaps",
+    "count": 1
+  },
+  {
+    "tag": "Webinars",
+    "count": 1
+  },
+  {
+    "tag": "Webpage Question Answering",
+    "count": 1
+  },
+  {
+    "tag": "Webpage Understanding",
+    "count": 1
+  },
+  {
+    "tag": "Website AI Visibility",
+    "count": 1
+  },
+  {
+    "tag": "Website Branding",
+    "count": 1
+  },
+  {
+    "tag": "Website Building",
+    "count": 1
+  },
+  {
+    "tag": "Website Chatbot",
+    "count": 1
+  },
+  {
+    "tag": "Website Content",
+    "count": 1
+  },
+  {
+    "tag": "Website Content Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Website Copywriting",
+    "count": 1
+  },
+  {
+    "tag": "Website Customization",
+    "count": 1
+  },
+  {
+    "tag": "Website Deployment",
+    "count": 1
+  },
+  {
+    "tag": "Website Design",
+    "count": 1
+  },
+  {
+    "tag": "Website Editing",
+    "count": 1
+  },
+  {
+    "tag": "Website Hosting",
+    "count": 1
+  },
+  {
+    "tag": "Website Performance Monitoring",
+    "count": 1
+  },
+  {
+    "tag": "Website Photography",
+    "count": 1
+  },
+  {
+    "tag": "Website Sales",
+    "count": 1
+  },
+  {
+    "tag": "Website SEO Maintenance",
+    "count": 1
+  },
+  {
+    "tag": "Website Traffic Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Website Visibility Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Website Visitor Engagement",
+    "count": 1
+  },
+  {
+    "tag": "WhatsApp Account Warmup",
+    "count": 1
+  },
+  {
+    "tag": "WhatsApp Marketing",
+    "count": 1
+  },
+  {
+    "tag": "WhatsApp Sales",
+    "count": 1
+  },
+  {
+    "tag": "WhatsApp Sales Management",
+    "count": 1
+  },
+  {
+    "tag": "White-Label App Development",
+    "count": 1
+  },
+  {
+    "tag": "White-Label Portal Creation",
+    "count": 1
+  },
+  {
+    "tag": "White-Label Voice AI",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Asset Creation",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Development",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Error Debugging",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Image Optimization",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Management",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Page Creation",
+    "count": 1
+  },
+  {
+    "tag": "WordPress SEO",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Site Optimization",
+    "count": 1
+  },
+  {
+    "tag": "WordPress Website Creation",
+    "count": 1
+  },
+  {
+    "tag": "Workflow Execution",
+    "count": 1
+  },
+  {
+    "tag": "Workflow Migration",
+    "count": 1
+  },
+  {
+    "tag": "Workflow Optimization",
+    "count": 1
+  },
+  {
+    "tag": "Workshop Facilitation",
+    "count": 1
+  },
+  {
+    "tag": "Workspace Access",
+    "count": 1
+  },
+  {
+    "tag": "Worldbuilding",
+    "count": 1
+  },
+  {
+    "tag": "Writing",
+    "count": 1
+  },
+  {
+    "tag": "Writing Pattern Analysis",
+    "count": 1
+  },
+  {
+    "tag": "Writing Quality Improvement",
+    "count": 1
+  },
+  {
+    "tag": "Writing Verification",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Advertising",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Content",
+    "count": 1
+  },
+  {
+    "tag": "YouTube SEO",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Thumbnail Creation",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Thumbnail Design",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Title Optimization",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Video Analysis",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Video Production",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Video Publishing",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Video Translation",
+    "count": 1
+  },
+  {
+    "tag": "YouTube Workflow Management",
+    "count": 1
+  }
+]

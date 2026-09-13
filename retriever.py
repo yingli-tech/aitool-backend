@@ -3,12 +3,12 @@ import copy
 import datatier as db
 
 
-USE_CASE_CORE_WEIGHT = 2
-USE_CASE_SUB_WEIGHT = 4
-FUNCTION_CORE_WEIGHT = 2
-FUNCTION_SUB_WEIGHT = 4
-NICE_TO_HAVE_CORE_WEIGHT = 1
-NICE_TO_HAVE_SUB_WEIGHT = 2
+USE_CASE_PRIMARY_TAG_WEIGHT = 2
+USE_CASE_SECONDARY_TAG_WEIGHT = 4
+FUNCTION_PRIMARY_TAG_WEIGHT = 2
+FUNCTION_SECONDARY_TAG_WEIGHT = 4
+NICE_TO_HAVE_PRIMARY_TAG_WEIGHT = 1
+NICE_TO_HAVE_SECONDARY_TAG_WEIGHT = 2
 
 FALLBACK_RELAX_ORDER = ["functions", "price_type", "language"]
 
@@ -20,8 +20,8 @@ FALLBACK_RELAX_ORDER = ["functions", "price_type", "language"]
 #   - category match
 #   - must-have price_type match
 #   - must-have language match
-#   - must-have use case core match
-#   - function core match
+#   - must-have use case primary-tag match
+#   - function primary-tag match
 #
 def retrieve_candidates(dbConn, parsed_query):
   """
@@ -43,14 +43,20 @@ def retrieve_candidates(dbConn, parsed_query):
     category_tool_map = {tool["tool_id"]: tool for tool in category_tools}
     candidate_ids = set(category_tool_map.keys())
 
-    use_case_cores = _extract_cores(must_have_use_cases)
-    if use_case_cores:
-      use_case_ids = db.get_tool_ids_by_use_case_cores(dbConn, use_case_cores)
+    use_case_primary_tags = _extract_primary_tags(must_have_use_cases)
+    if use_case_primary_tags:
+      use_case_ids = db.get_tool_ids_by_use_case_primary_tags(
+        dbConn,
+        use_case_primary_tags
+      )
       candidate_ids = candidate_ids & use_case_ids
 
-    function_cores = _extract_cores(functions)
-    if function_cores:
-      function_ids = db.get_tool_ids_by_function_cores(dbConn, function_cores)
+    function_primary_tags = _extract_primary_tags(functions)
+    if function_primary_tags:
+      function_ids = db.get_tool_ids_by_function_primary_tags(
+        dbConn,
+        function_primary_tags
+      )
       candidate_ids = candidate_ids & function_ids
 
     if must_have_price_types:
@@ -187,7 +193,7 @@ def relax_single_constraint(parsed_query, field_name):
 #
 def score_candidates(dbConn, candidates, parsed_query):
   """
-  Scores candidate tools using core/sub-aware ranking.
+  Scores candidate tools using primary/secondary-tag-aware ranking.
   """
   try:
     if not candidates:
@@ -200,29 +206,29 @@ def score_candidates(dbConn, candidates, parsed_query):
     nice_to_have_use_cases = nice_to_have.get("use_cases", [])
     functions = parsed_query.get("functions", [])
 
-    must_usecase_core_tool_ids = {}
-    must_usecase_sub_tool_ids = {}
+    must_usecase_primary_tool_ids = {}
+    must_usecase_secondary_tool_ids = {}
     for use_case in must_have_use_cases:
-      core = use_case.get("core")
-      if core:
-        must_usecase_core_tool_ids[core] = db.get_tool_ids_by_use_case_cores(dbConn, [core])
-      must_usecase_sub_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
+      primary_tag = use_case.get("primary_tag")
+      if primary_tag:
+        must_usecase_primary_tool_ids[primary_tag] = db.get_tool_ids_by_use_case_primary_tags(dbConn, [primary_tag])
+      must_usecase_secondary_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
 
-    nice_usecase_core_tool_ids = {}
-    nice_usecase_sub_tool_ids = {}
+    nice_usecase_primary_tool_ids = {}
+    nice_usecase_secondary_tool_ids = {}
     for use_case in nice_to_have_use_cases:
-      core = use_case.get("core")
-      if core:
-        nice_usecase_core_tool_ids[core] = db.get_tool_ids_by_use_case_cores(dbConn, [core])
-      nice_usecase_sub_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
+      primary_tag = use_case.get("primary_tag")
+      if primary_tag:
+        nice_usecase_primary_tool_ids[primary_tag] = db.get_tool_ids_by_use_case_primary_tags(dbConn, [primary_tag])
+      nice_usecase_secondary_tool_ids[_tag_key(use_case)] = db.get_tool_ids_by_use_case_tag(dbConn, use_case)
 
-    function_core_tool_ids = {}
-    function_sub_tool_ids = {}
+    function_primary_tool_ids = {}
+    function_secondary_tool_ids = {}
     for func in functions:
-      core = func.get("core")
-      if core:
-        function_core_tool_ids[core] = db.get_tool_ids_by_function_cores(dbConn, [core])
-      function_sub_tool_ids[_tag_key(func)] = db.get_tool_ids_by_function_tag(dbConn, func)
+      primary_tag = func.get("primary_tag")
+      if primary_tag:
+        function_primary_tool_ids[primary_tag] = db.get_tool_ids_by_function_primary_tags(dbConn, [primary_tag])
+      function_secondary_tool_ids[_tag_key(func)] = db.get_tool_ids_by_function_tag(dbConn, func)
 
     scored_candidates = []
 
@@ -230,64 +236,64 @@ def score_candidates(dbConn, candidates, parsed_query):
       tool_id = candidate["tool_id"]
       name = candidate["name"]
 
-      matched_use_case_core_count = 0
-      matched_use_case_sub_count = 0
-      matched_nice_to_have_core_count = 0
-      matched_nice_to_have_sub_count = 0
-      matched_function_core_count = 0
-      matched_function_sub_count = 0
+      matched_use_case_primary_tag_count = 0
+      matched_use_case_secondary_tag_count = 0
+      matched_nice_to_have_primary_tag_count = 0
+      matched_nice_to_have_secondary_tag_count = 0
+      matched_function_primary_tag_count = 0
+      matched_function_secondary_tag_count = 0
 
       for use_case in must_have_use_cases:
-        core = use_case.get("core")
-        sub = use_case.get("sub")
+        primary_tag = use_case.get("primary_tag")
+        secondary_tag = use_case.get("secondary_tag")
 
-        if core and tool_id in must_usecase_core_tool_ids.get(core, set()):
-          matched_use_case_core_count += 1
+        if primary_tag and tool_id in must_usecase_primary_tool_ids.get(primary_tag, set()):
+          matched_use_case_primary_tag_count += 1
 
-        if sub and tool_id in must_usecase_sub_tool_ids.get(_tag_key(use_case), set()):
-          matched_use_case_sub_count += 1
+        if secondary_tag and tool_id in must_usecase_secondary_tool_ids.get(_tag_key(use_case), set()):
+          matched_use_case_secondary_tag_count += 1
 
       for use_case in nice_to_have_use_cases:
-        core = use_case.get("core")
-        sub = use_case.get("sub")
+        primary_tag = use_case.get("primary_tag")
+        secondary_tag = use_case.get("secondary_tag")
 
-        if core and tool_id in nice_usecase_core_tool_ids.get(core, set()):
-          matched_nice_to_have_core_count += 1
+        if primary_tag and tool_id in nice_usecase_primary_tool_ids.get(primary_tag, set()):
+          matched_nice_to_have_primary_tag_count += 1
 
-        if sub and tool_id in nice_usecase_sub_tool_ids.get(_tag_key(use_case), set()):
-          matched_nice_to_have_sub_count += 1
+        if secondary_tag and tool_id in nice_usecase_secondary_tool_ids.get(_tag_key(use_case), set()):
+          matched_nice_to_have_secondary_tag_count += 1
 
       for func in functions:
-        core = func.get("core")
-        sub = func.get("sub")
+        primary_tag = func.get("primary_tag")
+        secondary_tag = func.get("secondary_tag")
 
-        if core and tool_id in function_core_tool_ids.get(core, set()):
-          matched_function_core_count += 1
+        if primary_tag and tool_id in function_primary_tool_ids.get(primary_tag, set()):
+          matched_function_primary_tag_count += 1
 
-        if sub and tool_id in function_sub_tool_ids.get(_tag_key(func), set()):
-          matched_function_sub_count += 1
+        if secondary_tag and tool_id in function_secondary_tool_ids.get(_tag_key(func), set()):
+          matched_function_secondary_tag_count += 1
 
       score = (
-        USE_CASE_CORE_WEIGHT * matched_use_case_core_count
-        + USE_CASE_SUB_WEIGHT * matched_use_case_sub_count
-        + FUNCTION_CORE_WEIGHT * matched_function_core_count
-        + FUNCTION_SUB_WEIGHT * matched_function_sub_count
-        + NICE_TO_HAVE_CORE_WEIGHT * matched_nice_to_have_core_count
-        + NICE_TO_HAVE_SUB_WEIGHT * matched_nice_to_have_sub_count
+        USE_CASE_PRIMARY_TAG_WEIGHT * matched_use_case_primary_tag_count
+        + USE_CASE_SECONDARY_TAG_WEIGHT * matched_use_case_secondary_tag_count
+        + FUNCTION_PRIMARY_TAG_WEIGHT * matched_function_primary_tag_count
+        + FUNCTION_SECONDARY_TAG_WEIGHT * matched_function_secondary_tag_count
+        + NICE_TO_HAVE_PRIMARY_TAG_WEIGHT * matched_nice_to_have_primary_tag_count
+        + NICE_TO_HAVE_SECONDARY_TAG_WEIGHT * matched_nice_to_have_secondary_tag_count
       )
 
       scored_candidates.append({
         "tool_id": tool_id,
         "name": name,
-        "matched_use_case_core_count": matched_use_case_core_count,
-        "matched_use_case_sub_count": matched_use_case_sub_count,
-        "matched_function_core_count": matched_function_core_count,
-        "matched_function_sub_count": matched_function_sub_count,
-        "matched_nice_to_have_core_count": matched_nice_to_have_core_count,
-        "matched_nice_to_have_sub_count": matched_nice_to_have_sub_count,
-        "matched_use_case_count": matched_use_case_core_count + matched_use_case_sub_count,
-        "matched_function_count": matched_function_core_count + matched_function_sub_count,
-        "matched_nice_to_have_count": matched_nice_to_have_core_count + matched_nice_to_have_sub_count,
+        "matched_use_case_primary_tag_count": matched_use_case_primary_tag_count,
+        "matched_use_case_secondary_tag_count": matched_use_case_secondary_tag_count,
+        "matched_function_primary_tag_count": matched_function_primary_tag_count,
+        "matched_function_secondary_tag_count": matched_function_secondary_tag_count,
+        "matched_nice_to_have_primary_tag_count": matched_nice_to_have_primary_tag_count,
+        "matched_nice_to_have_secondary_tag_count": matched_nice_to_have_secondary_tag_count,
+        "matched_use_case_count": matched_use_case_primary_tag_count + matched_use_case_secondary_tag_count,
+        "matched_function_count": matched_function_primary_tag_count + matched_function_secondary_tag_count,
+        "matched_nice_to_have_count": matched_nice_to_have_primary_tag_count + matched_nice_to_have_secondary_tag_count,
         "score": score
       })
 
@@ -311,10 +317,10 @@ def sort_candidates(scored_candidates):
       scored_candidates,
       key=lambda x: (
         -x["score"],
-        -x["matched_use_case_sub_count"],
-        -x["matched_function_sub_count"],
-        -x["matched_use_case_core_count"],
-        -x["matched_function_core_count"],
+        -x["matched_use_case_secondary_tag_count"],
+        -x["matched_function_secondary_tag_count"],
+        -x["matched_use_case_primary_tag_count"],
+        -x["matched_function_primary_tag_count"],
         x["name"].lower(),
         x["tool_id"]
       )
@@ -376,21 +382,22 @@ def _extract_constraints_snapshot(parsed_query):
   }
 
 
-def _extract_cores(tags):
-  cores = []
+def _extract_primary_tags(tags):
+  primary_tags = []
   seen = set()
 
   for tag in tags:
-    core = (tag.get("core") or "").strip().lower()
-    if core and core not in seen:
-      seen.add(core)
-      cores.append(core)
+    primary_tag = (tag.get("primary_tag") or "").strip().lower()
+    if primary_tag and primary_tag not in seen:
+      seen.add(primary_tag)
+      primary_tags.append(primary_tag)
 
-  return cores
+  return primary_tags
 
 
 def _tag_key(tag):
   return (
-    (tag.get("core") or "").strip().lower(),
-    (tag.get("sub") or "").strip().lower() if tag.get("sub") else ""
+    (tag.get("primary_tag") or "").strip().lower(),
+    (tag.get("secondary_tag") or "").strip().lower()
+    if tag.get("secondary_tag") else ""
   )

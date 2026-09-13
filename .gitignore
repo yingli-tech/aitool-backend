@@ -1,0 +1,2 @@
+# Ignore the configuration for database 
+etl/configuration/aitools-config.ini

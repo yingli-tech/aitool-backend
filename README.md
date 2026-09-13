@@ -88,8 +88,8 @@ Mapping tables:
 - `tool_source_map`
 
 Both `functions` and `use_cases` use a two-level taxonomy:
-- `core`: broad requirement used as a hard filter
-- `sub`: more specific label used as a stronger scoring signal
+- `primary_tag`: broad requirement used as a hard filter
+- `secondary_tag`: more specific label used as a stronger scoring signal
 
 ## Data Pipeline
 
@@ -98,7 +98,7 @@ The system uses a lightweight ETL pipeline to build a structured AI tool databas
 - **Extract**: raw tool data collected from curated sources (CSV / Excel)
 - **Transform**:
   - text normalization (trim, lowercase, whitespace cleanup)
-  - mapping raw labels to standardized taxonomy (`core` / `sub`)
+  - mapping raw labels to standardized taxonomy (`primary_tag` / `secondary_tag`)
 - **Load**:
   - insert tools into normalized tables
   - generate mapping tables (`tool_function_map`, `tool_usecase_map`, etc.)
@@ -111,27 +111,27 @@ This ensures the data is clean, consistent, and suitable for structured retrieva
 - category
 - price_type
 - language
-- use_case core tags
-- function core tags
+- use_case primary tags
+- function primary tags
 
 Strict filtering is applied first. A tool must satisfy all active hard constraints in the current retrieval round.
 
 ### Scoring
 The current code uses two-level taxonomy scoring:
-- use_case core match: `+2`
-- use_case sub match: `+4`
-- function core match: `+2`
-- function sub match: `+4`
-- nice_to_have use_case core match: `+1`
-- nice_to_have use_case sub match: `+2`
+- use_case primary-tag match: `+2`
+- use_case secondary-tag match: `+4`
+- function primary-tag match: `+2`
+- function secondary-tag match: `+4`
+- nice_to_have use_case primary-tag match: `+1`
+- nice_to_have use_case secondary-tag match: `+2`
 
-`sub` has higher weight than `core`, because `sub` is the more specific signal in the project scoring mechanism.
+`secondary_tag` has higher weight than `primary_tag`, because it is the more specific signal in the project scoring mechanism.
 
 ### Tie-break
-1. matched_use_case_sub_count
-2. matched_function_sub_count
-3. matched_use_case_core_count
-4. matched_function_core_count
+1. matched_use_case_secondary_tag_count
+2. matched_function_secondary_tag_count
+3. matched_use_case_primary_tag_count
+4. matched_function_primary_tag_count
 5. tool name / id
 
 ### Fallback Strategy
@@ -183,8 +183,8 @@ Response:
       "language": ["chinese"],
       "use_cases": [
         {
-          "core": "content creation",
-          "sub": "podcast editing"
+          "primary_tag": "content creation",
+          "secondary_tag": "podcast editing"
         }
       ]
     },
@@ -193,8 +193,8 @@ Response:
     },
     "functions": [
       {
-        "core": "audio processing",
-        "sub": "noise reduction"
+        "primary_tag": "audio processing",
+        "secondary_tag": "noise reduction"
       }
     ]
   },
@@ -204,16 +204,16 @@ Response:
   "original_constraints": {
     "functions": [
       {
-        "core": "audio processing",
-        "sub": "noise reduction"
+        "primary_tag": "audio processing",
+        "secondary_tag": "noise reduction"
       }
     ],
     "price_type": ["free"],
     "language": ["chinese"],
     "use_cases": [
       {
-        "core": "content creation",
-        "sub": "podcast editing"
+        "primary_tag": "content creation",
+        "secondary_tag": "podcast editing"
       }
     ]
   },
@@ -242,7 +242,10 @@ Response:
 This service depends on the following AWS Lambda layers:
 
 - `pymysql-layer` for MySQL access
-- `openai-layer` for LLM integration
+- `pydantic-layer` for data validation and structured models
+- `numpy-layer` for vector and similarity computations
+- `requests-layer` for HTTP requests
+- `openai-layer` for OpenAI API integration
 
 ### Environment Variables
 The following environment variables must be configured in Lambda:

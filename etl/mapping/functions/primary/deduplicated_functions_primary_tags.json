@@ -1,0 +1,4499 @@
+[
+    {
+        "primary_tag": "3D Animation Production",
+        "source_secondary_tags": [
+            "Automatic Rigging"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "3D Content Creation",
+        "source_secondary_tags": [
+            "Texture Generation",
+            "3D Model Generation",
+            "3D Material and Texturing",
+            "Image-to-3D Conversion"
+        ],
+        "source_pocket_ids": [
+            116
+        ]
+    },
+    {
+        "primary_tag": "3D Geometry Processing",
+        "source_secondary_tags": [
+            "3D Retopology"
+        ],
+        "source_pocket_ids": [
+            32
+        ]
+    },
+    {
+        "primary_tag": "Academic Research and Writing Support",
+        "source_secondary_tags": [
+            "Study Design",
+            "Academic Style Suggestions"
+        ],
+        "source_pocket_ids": [
+            36
+        ]
+    },
+    {
+        "primary_tag": "Access and Credential Management",
+        "source_secondary_tags": [
+            "API Key Management",
+            "Custom API Key Integration",
+            "Access and Permission Management"
+        ],
+        "source_pocket_ids": [
+            86
+        ]
+    },
+    {
+        "primary_tag": "Accessibility Enhancement",
+        "source_secondary_tags": [
+            "Accessibility Remediation"
+        ],
+        "source_pocket_ids": [
+            0
+        ]
+    },
+    {
+        "primary_tag": "Accounting Management",
+        "source_secondary_tags": [
+            "Accounting Automation",
+            "Account Reconciliation"
+        ],
+        "source_pocket_ids": [
+            53
+        ]
+    },
+    {
+        "primary_tag": "Accounts Payable Management",
+        "source_secondary_tags": [
+            "Bill Capture",
+            "Bill Negotiation",
+            "Bill Payment"
+        ],
+        "source_pocket_ids": [
+            53
+        ]
+    },
+    {
+        "primary_tag": "Ad Creative Management",
+        "source_secondary_tags": [
+            "Ad Format Curation",
+            "Ad Template Browsing"
+        ],
+        "source_pocket_ids": [
+            18
+        ]
+    },
+    {
+        "primary_tag": "Ad Monetization",
+        "source_secondary_tags": [
+            "Ad Monetization"
+        ],
+        "source_pocket_ids": [
+            18
+        ]
+    },
+    {
+        "primary_tag": "Ad Performance Management",
+        "source_secondary_tags": [
+            "Ad Performance Analysis",
+            "Ad Performance Optimization",
+            "Ad Performance Pre-testing",
+            "Ad Tracking"
+        ],
+        "source_pocket_ids": [
+            18
+        ]
+    },
+    {
+        "primary_tag": "Advertising Campaign Optimization",
+        "source_secondary_tags": [
+            "Budget Optimization",
+            "Bid Management and Optimization"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "AI Agent Development and Integration",
+        "source_secondary_tags": [
+            "AI Agent Development",
+            "Agent Building",
+            "Agent Memory Management",
+            "Agent API and Integration",
+            "Terminal Agent Interaction"
+        ],
+        "source_pocket_ids": [
+            14
+        ]
+    },
+    {
+        "primary_tag": "AI Agent Operations and Governance",
+        "source_secondary_tags": [
+            "AI Agent Management and Governance",
+            "Agent Monitoring and Observability",
+            "Agent Evaluation and Testing",
+            "AI Agent and App Deployment"
+        ],
+        "source_pocket_ids": [
+            14
+        ]
+    },
+    {
+        "primary_tag": "AI Agent Orchestration and Execution",
+        "source_secondary_tags": [
+            "AI Agent Execution",
+            "Agent Workflow Orchestration",
+            "Parallel Agent Execution",
+            "Multi-Agent Orchestration"
+        ],
+        "source_pocket_ids": [
+            14
+        ]
+    },
+    {
+        "primary_tag": "AI Assistance and Coaching",
+        "source_secondary_tags": [
+            "AI Scene Partner",
+            "General AI Assistance",
+            "AI Coaching",
+            "AI Assistance",
+            "In-App AI Assistance"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Content Creation and Editing",
+        "source_secondary_tags": [
+            "General AI Editing",
+            "AI Content Writing",
+            "AI Fashion Model Generation",
+            "AI Contract Drafting",
+            "AI Copywriting"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Integration and Data Import",
+        "source_secondary_tags": [
+            "AI System Integration",
+            "AI Product Import"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Memory Management",
+        "source_secondary_tags": [
+            "AI Memory Import",
+            "AI Memory"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Model Access",
+        "source_secondary_tags": [
+            "Audio Model Access"
+        ],
+        "source_pocket_ids": [
+            24
+        ]
+    },
+    {
+        "primary_tag": "AI Model Customization",
+        "source_secondary_tags": [
+            "Model Fine-Tuning"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "AI Model Development",
+        "source_secondary_tags": [
+            "Model Training"
+        ],
+        "source_pocket_ids": [
+            91
+        ]
+    },
+    {
+        "primary_tag": "AI Model Development and Management",
+        "source_secondary_tags": [
+            "AI Model Access",
+            "AI Model Selection and Switching",
+            "AI Model Aggregation",
+            "AI Model Customization",
+            "AI Model Deployment",
+            "No-Code AI Development"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Search and Retrieval",
+        "source_secondary_tags": [
+            "AI Search"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Search Visibility Analytics",
+        "source_secondary_tags": [
+            "AI Visibility Tracking",
+            "AI Search Visibility Scoring",
+            "AI Visibility Assessment"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "AI Workflow and Communication Automation",
+        "source_secondary_tags": [
+            "AI Phone Calls",
+            "AI Response Automation",
+            "AI Meeting Note-Taking",
+            "Collaborative AI Workflows"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "Alerts and Notifications",
+        "source_secondary_tags": [
+            "Search Alerts",
+            "Subscription Renewal Alerts"
+        ],
+        "source_pocket_ids": [
+            68
+        ]
+    },
+    {
+        "primary_tag": "Analytics and Attribution Tracking",
+        "source_secondary_tags": [
+            "Postback Tracking"
+        ],
+        "source_pocket_ids": [
+            130
+        ]
+    },
+    {
+        "primary_tag": "Analytics and Insight Generation",
+        "source_secondary_tags": [
+            "Business Insights",
+            "Historical Insights",
+            "Real-Time Insights",
+            "Insight Generation",
+            "Insight Summarization"
+        ],
+        "source_pocket_ids": [
+            137
+        ]
+    },
+    {
+        "primary_tag": "Analytics and Reporting",
+        "source_secondary_tags": [
+            "Email Analytics",
+            "Support Analytics",
+            "Traffic Measurement and Tracking",
+            "Traffic Analysis",
+            "Traffic Reporting",
+            "Student Learning Analytics",
+            "Web Analytics",
+            "Streaming Statistics",
+            "Marketing Analytics and Reporting",
+            "Conversion Analytics",
+            "Data Analytics",
+            "Learning Analytics",
+            "Usage Analytics and Monitoring",
+            "Analytics Centralization",
+            "Analytics Reporting"
+        ],
+        "source_pocket_ids": [
+            83
+        ]
+    },
+    {
+        "primary_tag": "Animation & Motion Media Creation",
+        "source_secondary_tags": [
+            "Virtual Actor Creation",
+            "Animation Generation",
+            "Image Animation",
+            "Character Animation",
+            "Motion Graphics Generation",
+            "Real-Time Animation",
+            "Talking Photo Animation",
+            "Canvas Animation Loop Creation",
+            "Motion Visual Generation"
+        ],
+        "source_pocket_ids": [
+            41
+        ]
+    },
+    {
+        "primary_tag": "Application and Service Integration",
+        "source_secondary_tags": [
+            "Knowledge Base Integration",
+            "Software Integration",
+            "Integration Management",
+            "Tool and Service Integration",
+            "Custom Code Integration",
+            "App Integration",
+            "Conversion API Integration"
+        ],
+        "source_pocket_ids": [
+            13
+        ]
+    },
+    {
+        "primary_tag": "Application Context Management",
+        "source_secondary_tags": [
+            "Session Management",
+            "Memory Management"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Assessment and Evaluation",
+        "source_secondary_tags": [
+            "Personality Assessment",
+            "Assessment Creation",
+            "Candidate Assessment",
+            "Written Response Grading",
+            "Automated Assessment Grading"
+        ],
+        "source_pocket_ids": [
+            36
+        ]
+    },
+    {
+        "primary_tag": "Asset Creation and Transformation",
+        "source_secondary_tags": [
+            "Asset Generation",
+            "Asset Resizing",
+            "Asset Stitching"
+        ],
+        "source_pocket_ids": [
+            42
+        ]
+    },
+    {
+        "primary_tag": "Asset Library and Rights Management",
+        "source_secondary_tags": [
+            "Asset Downloading",
+            "Asset Library Access",
+            "Asset Licensing",
+            "Asset Management",
+            "Brand Asset Management"
+        ],
+        "source_pocket_ids": [
+            42
+        ]
+    },
+    {
+        "primary_tag": "Assistant Customization",
+        "source_secondary_tags": [
+            "Custom Instruction Configuration"
+        ],
+        "source_pocket_ids": [
+            70
+        ]
+    },
+    {
+        "primary_tag": "Audience Intelligence and Targeting",
+        "source_secondary_tags": [
+            "Influencer Discovery",
+            "Audience Analytics",
+            "Audience Segmentation",
+            "Audience Targeting",
+            "Audience Sentiment Analysis"
+        ],
+        "source_pocket_ids": [
+            133
+        ]
+    },
+    {
+        "primary_tag": "Audience Relationship Management",
+        "source_secondary_tags": [
+            "Influencer Outreach",
+            "Community Engagement Management"
+        ],
+        "source_pocket_ids": [
+            108
+        ]
+    },
+    {
+        "primary_tag": "Audio and Music Creation",
+        "source_secondary_tags": [
+            "Music Generation",
+            "Music Composition",
+            "Sound Effects Generation",
+            "Soundscape Generation",
+            "Theme Generation",
+            "Genre Blending",
+            "Audio Generation",
+            "MIDI Generation"
+        ],
+        "source_pocket_ids": [
+            72
+        ]
+    },
+    {
+        "primary_tag": "Audio Editing and Enhancement",
+        "source_secondary_tags": [
+            "Noise Reduction",
+            "Silence Removal",
+            "Volume Control",
+            "Audio Mastering",
+            "Audio Volume Adjustment",
+            "Audio Processing"
+        ],
+        "source_pocket_ids": [
+            24
+        ]
+    },
+    {
+        "primary_tag": "Audio Enhancement",
+        "source_secondary_tags": [
+            "Echo and Reverb Reduction"
+        ],
+        "source_pocket_ids": [
+            134
+        ]
+    },
+    {
+        "primary_tag": "Audio Monitoring",
+        "source_secondary_tags": [
+            "Active Listening"
+        ],
+        "source_pocket_ids": [
+            24
+        ]
+    },
+    {
+        "primary_tag": "Audio Source Separation",
+        "source_secondary_tags": [
+            "Instrument Separation",
+            "Speaker Separation",
+            "Vocal Separation",
+            "Audio Stem Separation",
+            "Audio Stem Export",
+            "Lead and Backing Track Separation"
+        ],
+        "source_pocket_ids": [
+            24,
+            73
+        ]
+    },
+    {
+        "primary_tag": "Auditing and Traceability",
+        "source_secondary_tags": [
+            "Evidence Traceability",
+            "E-commerce Auditing and Analytics",
+            "Account Auditing",
+            "Content Auditing",
+            "Website Auditing"
+        ],
+        "source_pocket_ids": [
+            144
+        ]
+    },
+    {
+        "primary_tag": "Automated Messaging and Outreach",
+        "source_secondary_tags": [
+            "Messaging Automation",
+            "Remarketing Activation",
+            "Automated Follow-Up Messaging",
+            "Multichannel Messaging",
+            "Targeted Messaging"
+        ],
+        "source_pocket_ids": [
+            76
+        ]
+    },
+    {
+        "primary_tag": "Automated Response Generation",
+        "source_secondary_tags": [
+            "Conversational Response Generation",
+            "Reply Suggestions",
+            "Automated Comment Engagement",
+            "Email Reply Generation",
+            "Objection Response Generation",
+            "Review Response Generation",
+            "Response Generation"
+        ],
+        "source_pocket_ids": [
+            65
+        ]
+    },
+    {
+        "primary_tag": "Automated Scoring and Evaluation",
+        "source_secondary_tags": [
+            "Confidence Scoring",
+            "Call Scoring",
+            "Candidate Scoring",
+            "Lead Scoring",
+            "Automated Scoring"
+        ],
+        "source_pocket_ids": [
+            132
+        ]
+    },
+    {
+        "primary_tag": "Avatar Video Generation",
+        "source_secondary_tags": [
+            "Talking Head Generation"
+        ],
+        "source_pocket_ids": [
+            136
+        ]
+    },
+    {
+        "primary_tag": "Backend Development and Infrastructure",
+        "source_secondary_tags": [
+            "Backend Setup"
+        ],
+        "source_pocket_ids": [
+            46
+        ]
+    },
+    {
+        "primary_tag": "Batch Processing",
+        "source_secondary_tags": [
+            "Batch Processing",
+            "Batch Editing",
+            "Batch Design Generation",
+            "Batch Image Processing",
+            "Bulk Data Editing",
+            "Batch Prompt Processing"
+        ],
+        "source_pocket_ids": [
+            128
+        ]
+    },
+    {
+        "primary_tag": "Behavioral Analytics",
+        "source_secondary_tags": [
+            "Typing Pattern Analysis",
+            "Retention Analysis"
+        ],
+        "source_pocket_ids": [
+            16
+        ]
+    },
+    {
+        "primary_tag": "Billing and Subscription Management",
+        "source_secondary_tags": [
+            "Invoice Generation",
+            "Invoice Management",
+            "Billing Management",
+            "Subscription Management"
+        ],
+        "source_pocket_ids": [
+            53
+        ]
+    },
+    {
+        "primary_tag": "Biometric Recognition",
+        "source_secondary_tags": [
+            "Facial Recognition"
+        ],
+        "source_pocket_ids": [
+            119
+        ]
+    },
+    {
+        "primary_tag": "Brand Identity Management",
+        "source_secondary_tags": [
+            "Brand Voice Management",
+            "Brand Customization",
+            "Brand Kit and Guide Generation",
+            "Brand Template Creation"
+        ],
+        "source_pocket_ids": [
+            4,
+            98
+        ]
+    },
+    {
+        "primary_tag": "Brand Management and Intelligence",
+        "source_secondary_tags": [
+            "Brand Insights",
+            "Brand Identification",
+            "Brand Kit Extraction",
+            "Brand Kit Management",
+            "Brand Mention Monitoring",
+            "Brand Compliance Enforcement",
+            "Brand Management",
+            "Brand Analysis",
+            "Brand Guideline Management"
+        ],
+        "source_pocket_ids": [
+            107
+        ]
+    },
+    {
+        "primary_tag": "Brief Generation",
+        "source_secondary_tags": [
+            "Meeting Brief Generation",
+            "Interview Brief Generation"
+        ],
+        "source_pocket_ids": [
+            136
+        ]
+    },
+    {
+        "primary_tag": "Briefing Generation",
+        "source_secondary_tags": [
+            "Morning Briefings"
+        ],
+        "source_pocket_ids": [
+            96
+        ]
+    },
+    {
+        "primary_tag": "Budget and Spending Management",
+        "source_secondary_tags": [
+            "Budget Management and Tracking",
+            "Budget Alerts",
+            "Costbook Referencing",
+            "Spending Controls"
+        ],
+        "source_pocket_ids": [
+            147
+        ]
+    },
+    {
+        "primary_tag": "Business and Financial Analysis",
+        "source_secondary_tags": [
+            "Unit Economics Analysis"
+        ],
+        "source_pocket_ids": [
+            107
+        ]
+    },
+    {
+        "primary_tag": "Business Content Generation",
+        "source_secondary_tags": [
+            "Meeting Playbook Generation"
+        ],
+        "source_pocket_ids": [
+            72
+        ]
+    },
+    {
+        "primary_tag": "Business Document Templates",
+        "source_secondary_tags": [
+            "Business Model Templates",
+            "Letter Template Selection"
+        ],
+        "source_pocket_ids": [
+            98
+        ]
+    },
+    {
+        "primary_tag": "Business Planning and Formation",
+        "source_secondary_tags": [
+            "Business Name Generation",
+            "Business Plan Generation",
+            "Business Profile Post Generation"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Business Relationship Management",
+        "source_secondary_tags": [
+            "Contract Management",
+            "Contact Management",
+            "Sponsorship Management"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Business Support",
+        "source_secondary_tags": [
+            "Business Assistance"
+        ],
+        "source_pocket_ids": [
+            19
+        ]
+    },
+    {
+        "primary_tag": "Call Spam Protection",
+        "source_secondary_tags": [
+            "Spam Call Filtering"
+        ],
+        "source_pocket_ids": [
+            93
+        ]
+    },
+    {
+        "primary_tag": "CAPTCHA Automation",
+        "source_secondary_tags": [
+            "CAPTCHA Solving"
+        ],
+        "source_pocket_ids": [
+            28
+        ]
+    },
+    {
+        "primary_tag": "Caption Creation and Management",
+        "source_secondary_tags": [
+            "Caption Generation",
+            "Video Captioning",
+            "Caption Addition",
+            "Caption Editing",
+            "Caption Styling"
+        ],
+        "source_pocket_ids": [
+            40
+        ]
+    },
+    {
+        "primary_tag": "Career Assistance",
+        "source_secondary_tags": [
+            "Interview Assistance",
+            "Job Search Assistance"
+        ],
+        "source_pocket_ids": [
+            19
+        ]
+    },
+    {
+        "primary_tag": "Character and Avatar Creation",
+        "source_secondary_tags": [
+            "Character Creation and Development",
+            "Character Consistency",
+            "Avatar Creation",
+            "Voice Avatar Generation",
+            "Character and Personality Customization",
+            "Character Generation"
+        ],
+        "source_pocket_ids": [
+            77
+        ]
+    },
+    {
+        "primary_tag": "Chat Management and Analytics",
+        "source_secondary_tags": [
+            "Chat Analysis",
+            "Chat Organization",
+            "Live Chat",
+            "Live Chat Management"
+        ],
+        "source_pocket_ids": [
+            28
+        ]
+    },
+    {
+        "primary_tag": "Chatbot Development and Automation",
+        "source_secondary_tags": [
+            "Embeddable Chat Interface",
+            "Chatbot Automation",
+            "Chatbot Customization"
+        ],
+        "source_pocket_ids": [
+            28
+        ]
+    },
+    {
+        "primary_tag": "Citation and Reference Management",
+        "source_secondary_tags": [
+            "Citation-Backed Answers",
+            "Citation Creation and Management",
+            "Citation Tracking",
+            "Citation Analysis and Scoring",
+            "Citation Verification",
+            "Reference Validation"
+        ],
+        "source_pocket_ids": [
+            104
+        ]
+    },
+    {
+        "primary_tag": "Code and Command Execution",
+        "source_secondary_tags": [
+            "Code Execution",
+            "Sandboxed Code Execution",
+            "Command-Line Execution",
+            "Natural Language Command Execution"
+        ],
+        "source_pocket_ids": [
+            70
+        ]
+    },
+    {
+        "primary_tag": "Code and Technical Artifact Generation",
+        "source_secondary_tags": [
+            "Python Script Generation",
+            "Structured Data Markup Generation",
+            "Formula Generation",
+            "Loop Generation",
+            "Diff Generation"
+        ],
+        "source_pocket_ids": [
+            74
+        ]
+    },
+    {
+        "primary_tag": "Code Collaboration and Review",
+        "source_secondary_tags": [
+            "Pull Request Creation",
+            "Pull Request Review"
+        ],
+        "source_pocket_ids": [
+            125
+        ]
+    },
+    {
+        "primary_tag": "Collaboration",
+        "source_secondary_tags": [
+            "Workspace Collaboration",
+            "Team Collaboration",
+            "Creative Content Collaboration",
+            "Real-Time Collaboration"
+        ],
+        "source_pocket_ids": [
+            45
+        ]
+    },
+    {
+        "primary_tag": "Color Management",
+        "source_secondary_tags": [
+            "Color Palette Generation",
+            "Color Palette Selection",
+            "Color Grading",
+            "Color Saturation Adjustment"
+        ],
+        "source_pocket_ids": [
+            105
+        ]
+    },
+    {
+        "primary_tag": "Communication Channel Management",
+        "source_secondary_tags": [
+            "Channel Management"
+        ],
+        "source_pocket_ids": [
+            59
+        ]
+    },
+    {
+        "primary_tag": "Consent Management",
+        "source_secondary_tags": [
+            "Cookie Preference Management",
+            "Consent Capture"
+        ],
+        "source_pocket_ids": [
+            78,
+            80
+        ]
+    },
+    {
+        "primary_tag": "Content Analysis and Summarization",
+        "source_secondary_tags": [
+            "Transcript Analysis",
+            "Transcript Summarization"
+        ],
+        "source_pocket_ids": [
+            34
+        ]
+    },
+    {
+        "primary_tag": "Content and Data Import/Export",
+        "source_secondary_tags": [
+            "Content and Data Export",
+            "Document Import and Export",
+            "Code Export",
+            "Data Export",
+            "Presentation Export",
+            "E-Learning Standards Export",
+            "AI Prompt Export",
+            "Image Export",
+            "Notion Export",
+            "Quiz Export",
+            "Workflow Export",
+            "Audio Export",
+            "3D Animation Export",
+            "3D Model Export",
+            "HDRI Export",
+            "Chart Export"
+        ],
+        "source_pocket_ids": [
+            9
+        ]
+    },
+    {
+        "primary_tag": "Content and Language Analysis",
+        "source_secondary_tags": [
+            "Spelling Analysis",
+            "Hashtag Analysis",
+            "Literature Screening",
+            "Content Summarization",
+            "Contextual Webpage Analysis",
+            "Theme Analysis",
+            "Domain Analysis",
+            "Content Gap Analysis",
+            "Style Analysis and Description",
+            "Topic Clustering"
+        ],
+        "source_pocket_ids": [
+            16
+        ]
+    },
+    {
+        "primary_tag": "Content Authenticity and Detection",
+        "source_secondary_tags": [
+            "AI-Generated Content Detection",
+            "AI-Generated Text Detection",
+            "AI-Generated Image Detection",
+            "AI-Generated Audio Detection",
+            "AI Detection Bypass"
+        ],
+        "source_pocket_ids": [
+            37
+        ]
+    },
+    {
+        "primary_tag": "Content Creation",
+        "source_secondary_tags": [
+            "Content Generation",
+            "Content Writing",
+            "Activity Generation",
+            "Email Content Generation",
+            "General Content Drafting",
+            "Communication Content Generation",
+            "Print Content Generation",
+            "Reference-Based Content Generation",
+            "Visual Content Generation",
+            "Social Media Post Generation",
+            "Text and Content Generation",
+            "Blog Writing",
+            "Newsletter Creation"
+        ],
+        "source_pocket_ids": [
+            5,
+            44
+        ]
+    },
+    {
+        "primary_tag": "Content Creation and Management",
+        "source_secondary_tags": [
+            "Content Automation",
+            "Content Management System Management",
+            "Automated Content Moderation",
+            "Prompt-Based Content Creation and Editing"
+        ],
+        "source_pocket_ids": [
+            75
+        ]
+    },
+    {
+        "primary_tag": "Content Curation and Packaging",
+        "source_secondary_tags": [
+            "Content Curation",
+            "Content Bundling"
+        ],
+        "source_pocket_ids": [
+            62
+        ]
+    },
+    {
+        "primary_tag": "Content Distribution",
+        "source_secondary_tags": [
+            "Music Distribution"
+        ],
+        "source_pocket_ids": [
+            72
+        ]
+    },
+    {
+        "primary_tag": "Content Enhancement and Transformation",
+        "source_secondary_tags": [
+            "Aging Effects",
+            "Note Enhancement",
+            "Tone Modification"
+        ],
+        "source_pocket_ids": [
+            88
+        ]
+    },
+    {
+        "primary_tag": "Content Formatting and Conversion",
+        "source_secondary_tags": [
+            "Book Formatting",
+            "Cell Formatting",
+            "Data Formatting",
+            "Output Format Selection",
+            "Text and Typography Formatting",
+            "Content and Format Conversion"
+        ],
+        "source_pocket_ids": [
+            64
+        ]
+    },
+    {
+        "primary_tag": "Content Generation and Synthesis",
+        "source_secondary_tags": [
+            "Text Generation",
+            "Hashtag Generation",
+            "Rubric Generation",
+            "Title Generation",
+            "Idea Generation and Brainstorming",
+            "Teaching Material Generation",
+            "Email Sequence Generation",
+            "Story Generation",
+            "Essay Generation",
+            "Joke Generation",
+            "Note Generation",
+            "Outline Generation",
+            "Cross-Document Synthesis",
+            "Description Generation",
+            "Parallel Generation",
+            "Timestamp Generation",
+            "Letter Generation",
+            "Character Reference Generation",
+            "Feature Bullet Generation",
+            "Hook Generation",
+            "Chapter Generation",
+            "Episode Generation",
+            "FAQ Generation",
+            "Article Generation",
+            "World Generation"
+        ],
+        "source_pocket_ids": [
+            74
+        ]
+    },
+    {
+        "primary_tag": "Content Localization",
+        "source_secondary_tags": [
+            "Background Localization",
+            "Content Localization"
+        ],
+        "source_pocket_ids": [
+            48
+        ]
+    },
+    {
+        "primary_tag": "Content Optimization",
+        "source_secondary_tags": [
+            "Copy Optimization"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "Content Originality Detection",
+        "source_secondary_tags": [
+            "Plagiarism Detection"
+        ],
+        "source_pocket_ids": [
+            104
+        ]
+    },
+    {
+        "primary_tag": "Content Preservation",
+        "source_secondary_tags": [
+            "Meaning Preservation",
+            "Tone Preservation"
+        ],
+        "source_pocket_ids": [
+            88
+        ]
+    },
+    {
+        "primary_tag": "Content Quality and Enhancement",
+        "source_secondary_tags": [
+            "Content Enhancement and Originality",
+            "Artifact Removal",
+            "Content Humanization",
+            "Content Quality Review"
+        ],
+        "source_pocket_ids": [
+            62
+        ]
+    },
+    {
+        "primary_tag": "Content Quality Assessment and Optimization",
+        "source_secondary_tags": [
+            "Content Answerability Analysis",
+            "Readability Improvement",
+            "Readability Assessment",
+            "Printability Assessment"
+        ],
+        "source_pocket_ids": [
+            89
+        ]
+    },
+    {
+        "primary_tag": "Content Sharing",
+        "source_secondary_tags": [
+            "Content Sharing",
+            "Image Sharing",
+            "Link and Embed Sharing",
+            "Video Sharing",
+            "Social Media Sharing",
+            "Document Sharing",
+            "Session Sharing"
+        ],
+        "source_pocket_ids": [
+            142
+        ]
+    },
+    {
+        "primary_tag": "Content Strategy and Planning",
+        "source_secondary_tags": [
+            "Content Planning and Strategy",
+            "Content Brief Generation",
+            "Table of Contents Generation"
+        ],
+        "source_pocket_ids": [
+            5
+        ]
+    },
+    {
+        "primary_tag": "Content Tooling and Integration",
+        "source_secondary_tags": [
+            "Content Tooling",
+            "Content and Tool Embedding"
+        ],
+        "source_pocket_ids": [
+            62
+        ]
+    },
+    {
+        "primary_tag": "Content Transformation and Adaptation",
+        "source_secondary_tags": [
+            "Content Repurposing",
+            "Content Explanation",
+            "Content Remixing",
+            "Cross-Platform Content Repurposing",
+            "Content-to-Social-Post Conversion"
+        ],
+        "source_pocket_ids": [
+            62
+        ]
+    },
+    {
+        "primary_tag": "Content Writing",
+        "source_secondary_tags": [
+            "Lyrics Writing",
+            "Academic and Research Writing"
+        ],
+        "source_pocket_ids": [
+            122
+        ]
+    },
+    {
+        "primary_tag": "Context Management",
+        "source_secondary_tags": [
+            "Context Management and Persistence",
+            "Context Integration",
+            "Context Matching"
+        ],
+        "source_pocket_ids": [
+            69
+        ]
+    },
+    {
+        "primary_tag": "Conversation Intelligence",
+        "source_secondary_tags": [
+            "Dialogue Extraction",
+            "Conversation Analytics",
+            "Conversation Monitoring",
+            "Conversation Summarization",
+            "Social Listening"
+        ],
+        "source_pocket_ids": [
+            82
+        ]
+    },
+    {
+        "primary_tag": "Conversation Management and Automation",
+        "source_secondary_tags": [
+            "Conversation Automation",
+            "Contextual Conversation Memory",
+            "Conversation History",
+            "Conversation Routing and Assignment",
+            "Conversation Import",
+            "Conversation Search and Discovery",
+            "Conversation Sharing",
+            "Conversational Editing"
+        ],
+        "source_pocket_ids": [
+            82
+        ]
+    },
+    {
+        "primary_tag": "Conversation Summarization",
+        "source_secondary_tags": [
+            "Session Recap Generation"
+        ],
+        "source_pocket_ids": [
+            65
+        ]
+    },
+    {
+        "primary_tag": "Conversational Agents",
+        "source_secondary_tags": [
+            "Virtual Receptionist"
+        ],
+        "source_pocket_ids": [
+            100
+        ]
+    },
+    {
+        "primary_tag": "Conversational AI Assistance",
+        "source_secondary_tags": [
+            "AI Chat",
+            "Character Chat",
+            "Meeting Chat",
+            "File-Based Chat",
+            "Bookkeeping Chat Assistance",
+            "Chat-Based Content Creation",
+            "Chat-Based Software Development",
+            "Document Chat"
+        ],
+        "source_pocket_ids": [
+            28
+        ]
+    },
+    {
+        "primary_tag": "Conversational AI Development and Testing",
+        "source_secondary_tags": [
+            "Conversational AI Building",
+            "Conversation Guardrails",
+            "Conversation Testing",
+            "Conversational Agent Testing"
+        ],
+        "source_pocket_ids": [
+            82
+        ]
+    },
+    {
+        "primary_tag": "Conversational AI Orchestration",
+        "source_secondary_tags": [
+            "Multi-Agent Chat",
+            "Multi-Model Chat"
+        ],
+        "source_pocket_ids": [
+            127
+        ]
+    },
+    {
+        "primary_tag": "Conversational Experiences",
+        "source_secondary_tags": [
+            "Conversational Survey Creation",
+            "Conversation Practice and Roleplay",
+            "Conversational Avatars",
+            "Conversational Assistance"
+        ],
+        "source_pocket_ids": [
+            82
+        ]
+    },
+    {
+        "primary_tag": "Conversion Rate Optimization",
+        "source_secondary_tags": [
+            "Product Page Conversion Optimization"
+        ],
+        "source_pocket_ids": [
+            64
+        ]
+    },
+    {
+        "primary_tag": "Cost Estimation",
+        "source_secondary_tags": [
+            "Estimate Generation"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "Creative and Design Assistance",
+        "source_secondary_tags": [
+            "Ad Creative Generation",
+            "Creative Assistance",
+            "Creative Localization",
+            "Creative Strategy",
+            "Design Assistance"
+        ],
+        "source_pocket_ids": [
+            97
+        ]
+    },
+    {
+        "primary_tag": "Creative Project Customization",
+        "source_secondary_tags": [
+            "Visual Style Customization",
+            "Timeline Customization"
+        ],
+        "source_pocket_ids": [
+            31
+        ]
+    },
+    {
+        "primary_tag": "Creator Relationship Management",
+        "source_secondary_tags": [
+            "Creator Management",
+            "Creator Sourcing"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Customer Data and Relationship Management",
+        "source_secondary_tags": [
+            "Customer Relationship Management",
+            "Customer Profile Management",
+            "Customer Segmentation",
+            "Customer Behavior Analysis",
+            "Customer Ranking"
+        ],
+        "source_pocket_ids": [
+            63
+        ]
+    },
+    {
+        "primary_tag": "Customer Relationship and Support Management",
+        "source_secondary_tags": [
+            "Support CRM",
+            "Support Ticketing",
+            "Deal Progress Tracking",
+            "Helpdesk Support"
+        ],
+        "source_pocket_ids": [
+            130
+        ]
+    },
+    {
+        "primary_tag": "Customer Service and Engagement",
+        "source_secondary_tags": [
+            "Multichannel Customer Support",
+            "Customer Portals"
+        ],
+        "source_pocket_ids": [
+            63
+        ]
+    },
+    {
+        "primary_tag": "Dashboard Management",
+        "source_secondary_tags": [
+            "Dashboard Creation",
+            "Dashboard Auto-Refresh",
+            "Dashboard Sharing",
+            "Dashboard Templates"
+        ],
+        "source_pocket_ids": [
+            131
+        ]
+    },
+    {
+        "primary_tag": "Data Analysis and Reporting",
+        "source_secondary_tags": [
+            "Pivot Table Creation"
+        ],
+        "source_pocket_ids": [
+            8
+        ]
+    },
+    {
+        "primary_tag": "Data Analysis and Research",
+        "source_secondary_tags": [
+            "Data Analysis",
+            "Data Research",
+            "Qualitative Data Analysis"
+        ],
+        "source_pocket_ids": [
+            123
+        ]
+    },
+    {
+        "primary_tag": "Data Analytics",
+        "source_secondary_tags": [
+            "Temporal Data Analysis"
+        ],
+        "source_pocket_ids": [
+            84
+        ]
+    },
+    {
+        "primary_tag": "Data and AI Pipeline Management",
+        "source_secondary_tags": [
+            "Data Pipeline Automation",
+            "RAG Pipeline Creation"
+        ],
+        "source_pocket_ids": [
+            85
+        ]
+    },
+    {
+        "primary_tag": "Data and System Migration",
+        "source_secondary_tags": [
+            "Tracker Migration"
+        ],
+        "source_pocket_ids": [
+            130
+        ]
+    },
+    {
+        "primary_tag": "Data Enrichment",
+        "source_secondary_tags": [
+            "Data Enrichment"
+        ],
+        "source_pocket_ids": [
+            90
+        ]
+    },
+    {
+        "primary_tag": "Data Extraction and Parsing",
+        "source_secondary_tags": [
+            "Script Parsing",
+            "Data Extraction",
+            "Automated Data Extraction",
+            "Data Parsing",
+            "Key Point Extraction",
+            "Web Scraping",
+            "OCR Text Extraction",
+            "Map Data Scraping",
+            "Table Structure Detection"
+        ],
+        "source_pocket_ids": [
+            90
+        ]
+    },
+    {
+        "primary_tag": "Data Integration and Processing",
+        "source_secondary_tags": [
+            "Data Import",
+            "Data Integration",
+            "Data Cleaning and Deduplication",
+            "Data Delivery",
+            "Data Fusion",
+            "Data Transformation and Structuring",
+            "Spreadsheet Data Filling"
+        ],
+        "source_pocket_ids": [
+            13
+        ]
+    },
+    {
+        "primary_tag": "Data Modeling & Schema Design",
+        "source_secondary_tags": [
+            "Database Schema Generation",
+            "Schema Management"
+        ],
+        "source_pocket_ids": [
+            141
+        ]
+    },
+    {
+        "primary_tag": "Data Privacy Protection",
+        "source_secondary_tags": [
+            "PII Redaction"
+        ],
+        "source_pocket_ids": [
+            101
+        ]
+    },
+    {
+        "primary_tag": "Data Quality and Validation",
+        "source_secondary_tags": [
+            "Data and File Validation"
+        ],
+        "source_pocket_ids": [
+            143
+        ]
+    },
+    {
+        "primary_tag": "Data Security and Privacy",
+        "source_secondary_tags": [
+            "Secure Data Handling",
+            "Data Privacy Management",
+            "Data Isolation",
+            "End-to-End Encryption"
+        ],
+        "source_pocket_ids": [
+            79
+        ]
+    },
+    {
+        "primary_tag": "Data Synchronization",
+        "source_secondary_tags": [
+            "CRM Synchronization",
+            "Bank Transaction Synchronization",
+            "Calendar Synchronization",
+            "Cloud Synchronization",
+            "Contact Synchronization",
+            "GitHub Synchronization",
+            "Code Repository Synchronization"
+        ],
+        "source_pocket_ids": [
+            11
+        ]
+    },
+    {
+        "primary_tag": "Database Development and Management",
+        "source_secondary_tags": [
+            "Database Generation",
+            "SQL Query Generation",
+            "Database Management",
+            "Database Querying",
+            "Database Connectivity",
+            "Database Setup",
+            "Table Creation"
+        ],
+        "source_pocket_ids": [
+            46
+        ]
+    },
+    {
+        "primary_tag": "Design Prototyping",
+        "source_secondary_tags": [
+            "Wireframe Digitization"
+        ],
+        "source_pocket_ids": [
+            7
+        ]
+    },
+    {
+        "primary_tag": "Detection and Recognition",
+        "source_secondary_tags": [
+            "Chord Detection",
+            "Clothing Recognition",
+            "General Gap Detection",
+            "Research Gap Detection",
+            "Deepfake Detection",
+            "Hallucination Detection",
+            "Signal Detection",
+            "Automatic Highlight Detection"
+        ],
+        "source_pocket_ids": [
+            103
+        ]
+    },
+    {
+        "primary_tag": "Developer Interfaces and Integrations",
+        "source_secondary_tags": [
+            "API Access",
+            "API Integration",
+            "API Data Collection",
+            "CLI Access",
+            "Plugin Access"
+        ],
+        "source_pocket_ids": [
+            86
+        ]
+    },
+    {
+        "primary_tag": "Development Environment Integration",
+        "source_secondary_tags": [
+            "VS Code Integration"
+        ],
+        "source_pocket_ids": [
+            111
+        ]
+    },
+    {
+        "primary_tag": "Digital Document Signing",
+        "source_secondary_tags": [
+            "Electronic Signatures"
+        ],
+        "source_pocket_ids": [
+            35
+        ]
+    },
+    {
+        "primary_tag": "Digital Monitoring and Analytics",
+        "source_secondary_tags": [
+            "Opportunity Discovery and Monitoring",
+            "Deliverability Analytics",
+            "Mention Monitoring",
+            "Digital Channel Analytics",
+            "Communication Analytics"
+        ],
+        "source_pocket_ids": [
+            59
+        ]
+    },
+    {
+        "primary_tag": "Digital Publishing and Distribution",
+        "source_secondary_tags": [
+            "Content Publishing and Distribution",
+            "Web Content Publishing",
+            "Social Media Publishing",
+            "App Publishing",
+            "Multi-Channel Publishing",
+            "Automated Publishing",
+            "Bulk Publishing",
+            "One-Click Publishing",
+            "API Publishing",
+            "Form Publishing",
+            "Automated Social Media Publishing",
+            "Content Publishing Scheduling"
+        ],
+        "source_pocket_ids": [
+            22
+        ]
+    },
+    {
+        "primary_tag": "Dispute Resolution and Adjudication",
+        "source_secondary_tags": [
+            "Refund Dispute Handling",
+            "Citable Verdict Generation"
+        ],
+        "source_pocket_ids": [
+            39
+        ]
+    },
+    {
+        "primary_tag": "Distributed AI Inference",
+        "source_secondary_tags": [
+            "Distributed Inference"
+        ],
+        "source_pocket_ids": [
+            127
+        ]
+    },
+    {
+        "primary_tag": "Document and File Generation",
+        "source_secondary_tags": [
+            "File Generation",
+            "Document Generation",
+            "Spreadsheet Generation",
+            "Report Generation"
+        ],
+        "source_pocket_ids": [
+            74
+        ]
+    },
+    {
+        "primary_tag": "Document and File Processing",
+        "source_secondary_tags": [
+            "PDF Processing",
+            "Document Analysis",
+            "Document Ingestion",
+            "Tax Document Review and Analysis",
+            "File Analysis",
+            "Multimodal Analysis",
+            "Document Scanning"
+        ],
+        "source_pocket_ids": [
+            16
+        ]
+    },
+    {
+        "primary_tag": "Document Authoring",
+        "source_secondary_tags": [
+            "Document Creation",
+            "Tax Document Drafting",
+            "Patent Document Drafting"
+        ],
+        "source_pocket_ids": [
+            52
+        ]
+    },
+    {
+        "primary_tag": "E-commerce Operations",
+        "source_secondary_tags": [
+            "Catalog Management",
+            "E-commerce Setup and Integration",
+            "E-commerce Management"
+        ],
+        "source_pocket_ids": [
+            43
+        ]
+    },
+    {
+        "primary_tag": "Editing Assistance",
+        "source_secondary_tags": [
+            "Editing Guidance"
+        ],
+        "source_pocket_ids": [
+            55
+        ]
+    },
+    {
+        "primary_tag": "Editorial Standards Management",
+        "source_secondary_tags": [
+            "Style Consistency and Compliance",
+            "Editorial Guidance"
+        ],
+        "source_pocket_ids": [
+            95
+        ]
+    },
+    {
+        "primary_tag": "Educational Assessment",
+        "source_secondary_tags": [
+            "Online Mock Tests"
+        ],
+        "source_pocket_ids": [
+            30
+        ]
+    },
+    {
+        "primary_tag": "Educational Content Creation",
+        "source_secondary_tags": [
+            "Audio Lesson Creation"
+        ],
+        "source_pocket_ids": [
+            7
+        ]
+    },
+    {
+        "primary_tag": "Educational Content Generation",
+        "source_secondary_tags": [
+            "Educational Program Generation"
+        ],
+        "source_pocket_ids": [
+            47
+        ]
+    },
+    {
+        "primary_tag": "Email Composition and Design",
+        "source_secondary_tags": [
+            "Email Writing",
+            "Email Editing",
+            "Email Drafting",
+            "Email Design"
+        ],
+        "source_pocket_ids": [
+            17
+        ]
+    },
+    {
+        "primary_tag": "Email Deliverability Optimization",
+        "source_secondary_tags": [
+            "Automatic IP Warming"
+        ],
+        "source_pocket_ids": [
+            11
+        ]
+    },
+    {
+        "primary_tag": "Email Delivery and Automation",
+        "source_secondary_tags": [
+            "Email Drafting and Scheduling",
+            "Email Follow-up Automation",
+            "Email Delivery Throttling",
+            "Email Sending",
+            "Certified Mail Delivery",
+            "Email Verification"
+        ],
+        "source_pocket_ids": [
+            17
+        ]
+    },
+    {
+        "primary_tag": "Email Inbox Management",
+        "source_secondary_tags": [
+            "Email Filtering",
+            "Email Prioritization",
+            "Email Snoozing",
+            "Email Support",
+            "Email Triage"
+        ],
+        "source_pocket_ids": [
+            17
+        ]
+    },
+    {
+        "primary_tag": "Email Integration",
+        "source_secondary_tags": [
+            "Browser Email Integration",
+            "Email Integration"
+        ],
+        "source_pocket_ids": [
+            17
+        ]
+    },
+    {
+        "primary_tag": "Error Detection and Correction",
+        "source_secondary_tags": [
+            "Grammar Checking and Correction",
+            "Error Recovery and Resolution",
+            "Correction Detection",
+            "Error Correction"
+        ],
+        "source_pocket_ids": [
+            39
+        ]
+    },
+    {
+        "primary_tag": "Evaluation and Benchmarking",
+        "source_secondary_tags": [
+            "Model Evaluation and Comparison",
+            "Output Evaluation",
+            "Simulation Evaluation"
+        ],
+        "source_pocket_ids": [
+            134
+        ]
+    },
+    {
+        "primary_tag": "Fact-Checking and Verification",
+        "source_secondary_tags": [
+            "Fact Verification",
+            "Verified Statistics"
+        ],
+        "source_pocket_ids": [
+            104
+        ]
+    },
+    {
+        "primary_tag": "Fashion and Outfit Design",
+        "source_secondary_tags": [
+            "Outfit Generation"
+        ],
+        "source_pocket_ids": [
+            77
+        ]
+    },
+    {
+        "primary_tag": "Feedback Management",
+        "source_secondary_tags": [
+            "Feedback and Correction Generation",
+            "Feedback Collection"
+        ],
+        "source_pocket_ids": [
+            39
+        ]
+    },
+    {
+        "primary_tag": "File and Data Management",
+        "source_secondary_tags": [
+            "Bulk File Upload",
+            "Data Storage",
+            "File and Document Storage",
+            "File Management",
+            "File Storage Integration",
+            "File Upload",
+            "PDF Download"
+        ],
+        "source_pocket_ids": [
+            143
+        ]
+    },
+    {
+        "primary_tag": "File and Document Editing",
+        "source_secondary_tags": [
+            "File Editing"
+        ],
+        "source_pocket_ids": [
+            55
+        ]
+    },
+    {
+        "primary_tag": "Financial Account Connectivity",
+        "source_secondary_tags": [
+            "Bank Account Connection"
+        ],
+        "source_pocket_ids": [
+            35
+        ]
+    },
+    {
+        "primary_tag": "Financial Analysis and Planning",
+        "source_secondary_tags": [
+            "Financial Calculations",
+            "Financial Forecasting and Scenario Modeling",
+            "Financial Planning",
+            "Revenue Forecasting",
+            "Tax Savings Analysis"
+        ],
+        "source_pocket_ids": [
+            87
+        ]
+    },
+    {
+        "primary_tag": "Financial Data Management",
+        "source_secondary_tags": [
+            "Financial Data Extraction",
+            "Financial Data Integration",
+            "Financial Data Querying",
+            "Financial Document Capture"
+        ],
+        "source_pocket_ids": [
+            87
+        ]
+    },
+    {
+        "primary_tag": "Financial Reporting and Performance Monitoring",
+        "source_secondary_tags": [
+            "Financial Performance Monitoring",
+            "Financial Reporting"
+        ],
+        "source_pocket_ids": [
+            87
+        ]
+    },
+    {
+        "primary_tag": "Financial Transaction Management",
+        "source_secondary_tags": [
+            "Transaction Categorization"
+        ],
+        "source_pocket_ids": [
+            43
+        ]
+    },
+    {
+        "primary_tag": "Flashcard Creation and Management",
+        "source_secondary_tags": [
+            "Flashcard Generation",
+            "Flashcard Editing",
+            "Flashcard Export",
+            "Flashcard Sharing"
+        ],
+        "source_pocket_ids": [
+            115
+        ]
+    },
+    {
+        "primary_tag": "Follow-Up Conversation Management",
+        "source_secondary_tags": [
+            "Adaptive Follow-Up Questioning",
+            "Follow-Up Question Answering"
+        ],
+        "source_pocket_ids": [
+            26
+        ]
+    },
+    {
+        "primary_tag": "Forensic Investigation",
+        "source_secondary_tags": [
+            "Manipulation Detection",
+            "Location-Based Investigation"
+        ],
+        "source_pocket_ids": [
+            15
+        ]
+    },
+    {
+        "primary_tag": "Form Processing",
+        "source_secondary_tags": [
+            "Form Handling"
+        ],
+        "source_pocket_ids": [
+            30
+        ]
+    },
+    {
+        "primary_tag": "Formula Generation",
+        "source_secondary_tags": [
+            "Formula Writing"
+        ],
+        "source_pocket_ids": [
+            122
+        ]
+    },
+    {
+        "primary_tag": "Fraud and Risk Detection",
+        "source_secondary_tags": [
+            "Fraud Detection"
+        ],
+        "source_pocket_ids": [
+            144
+        ]
+    },
+    {
+        "primary_tag": "Gamification",
+        "source_secondary_tags": [
+            "Gamification"
+        ],
+        "source_pocket_ids": [
+            97
+        ]
+    },
+    {
+        "primary_tag": "Generative Media",
+        "source_secondary_tags": [
+            "Text-to-Image Generation",
+            "Multimodal Content Generation"
+        ],
+        "source_pocket_ids": [
+            66
+        ]
+    },
+    {
+        "primary_tag": "Geolocation and Positioning",
+        "source_secondary_tags": [
+            "Satellite Terminal Location",
+            "Geolocation"
+        ],
+        "source_pocket_ids": [
+            48
+        ]
+    },
+    {
+        "primary_tag": "Habit and Progress Tracking",
+        "source_secondary_tags": [
+            "Streak Tracking"
+        ],
+        "source_pocket_ids": [
+            80
+        ]
+    },
+    {
+        "primary_tag": "Human Handoff Management",
+        "source_secondary_tags": [
+            "Escalation Rule Management",
+            "Human Escalation",
+            "Human Agent Escalation"
+        ],
+        "source_pocket_ids": [
+            139
+        ]
+    },
+    {
+        "primary_tag": "Human-Like Interaction",
+        "source_secondary_tags": [
+            "Human Behavior Emulation",
+            "Emotion Control"
+        ],
+        "source_pocket_ids": [
+            139
+        ]
+    },
+    {
+        "primary_tag": "Identity and Access Management",
+        "source_secondary_tags": [
+            "Role Assignment",
+            "User Role Management",
+            "User Authentication",
+            "Authentication Management",
+            "Identity Protection",
+            "Email Sign-In",
+            "Credential Management"
+        ],
+        "source_pocket_ids": [
+            10,
+            35,
+            53
+        ]
+    },
+    {
+        "primary_tag": "Image Animation",
+        "source_secondary_tags": [
+            "Talking Photo Creation"
+        ],
+        "source_pocket_ids": [
+            116
+        ]
+    },
+    {
+        "primary_tag": "Image Asset Management",
+        "source_secondary_tags": [
+            "Image Organization"
+        ],
+        "source_pocket_ids": [
+            116
+        ]
+    },
+    {
+        "primary_tag": "Image Creation and Synthesis",
+        "source_secondary_tags": [
+            "Image Generation",
+            "Product Image Generation",
+            "Background Generation",
+            "Reference-Guided Image Generation",
+            "Pose-to-Image Generation",
+            "Sketch-to-Image Generation",
+            "Bulk Image Generation",
+            "Thumbnail Generation",
+            "Ghost Mannequin Generation",
+            "Headshot Generation"
+        ],
+        "source_pocket_ids": [
+            116
+        ]
+    },
+    {
+        "primary_tag": "Image Data Extraction",
+        "source_secondary_tags": [
+            "Image-to-Text Conversion",
+            "Image-to-Spreadsheet Conversion"
+        ],
+        "source_pocket_ids": [
+            66
+        ]
+    },
+    {
+        "primary_tag": "Image Editing and Compositing",
+        "source_secondary_tags": [
+            "Photo Collage Creation",
+            "Image Transformation"
+        ],
+        "source_pocket_ids": [
+            116
+        ]
+    },
+    {
+        "primary_tag": "Image Editing and Enhancement",
+        "source_secondary_tags": [
+            "Image Colorization",
+            "Image Recoloring",
+            "Image Filtering",
+            "Photo Effects",
+            "Photo Retouching",
+            "Image Brightness Adjustment",
+            "Image Relighting",
+            "Image Enhancement",
+            "Contrast Enhancement",
+            "Color Enhancement",
+            "Face Enhancement",
+            "Image Sharpening",
+            "Resolution Enhancement",
+            "Visual Design Enhancement",
+            "Image Inpainting",
+            "Image Cutout Refinement",
+            "Atmospheric Effects",
+            "Sky Reflection Addition",
+            "Sky Replacement",
+            "One-Click Enhancements",
+            "Image Deblurring",
+            "Image Restoration"
+        ],
+        "source_pocket_ids": [
+            38
+        ]
+    },
+    {
+        "primary_tag": "Image Editing and Management",
+        "source_secondary_tags": [
+            "Image Extension",
+            "Image Element Replacement",
+            "Photo Upload",
+            "Image Uncropping",
+            "Image Cropping"
+        ],
+        "source_pocket_ids": [
+            6
+        ]
+    },
+    {
+        "primary_tag": "Image Rendering",
+        "source_secondary_tags": [
+            "Image Rendering"
+        ],
+        "source_pocket_ids": [
+            38
+        ]
+    },
+    {
+        "primary_tag": "Inbox Management",
+        "source_secondary_tags": [
+            "Shared Inbox",
+            "Unified Inbox Management"
+        ],
+        "source_pocket_ids": [
+            78
+        ]
+    },
+    {
+        "primary_tag": "Information Analysis and Organization",
+        "source_secondary_tags": [
+            "Data Categorization",
+            "Information Comparison",
+            "Search Result Clustering"
+        ],
+        "source_pocket_ids": [
+            12
+        ]
+    },
+    {
+        "primary_tag": "Information Retrieval and Question Answering",
+        "source_secondary_tags": [
+            "Knowledge-Grounded Answering",
+            "Question Answering",
+            "Legal Question Answering",
+            "Natural Language Querying",
+            "Tax Question Answering"
+        ],
+        "source_pocket_ids": [
+            110
+        ]
+    },
+    {
+        "primary_tag": "Information Search and Retrieval",
+        "source_secondary_tags": [
+            "Visual Search",
+            "Information and Source Retrieval",
+            "Media Search",
+            "Viral Format Matching",
+            "Knowledge Retrieval",
+            "Search and Result Filtering",
+            "Note Search",
+            "Web and File Search",
+            "Bulk Search",
+            "Candidate Search",
+            "Community Search",
+            "News Search",
+            "Semantic Search",
+            "Meeting Search",
+            "RFQ and RFI Search"
+        ],
+        "source_pocket_ids": [
+            12
+        ]
+    },
+    {
+        "primary_tag": "Inquiry Management",
+        "source_secondary_tags": [
+            "Inquiry Automation",
+            "Customer Inquiry Handling"
+        ],
+        "source_pocket_ids": [
+            30
+        ]
+    },
+    {
+        "primary_tag": "Intelligent Recommendations",
+        "source_secondary_tags": [
+            "Smart Action Suggestions"
+        ],
+        "source_pocket_ids": [
+            97
+        ]
+    },
+    {
+        "primary_tag": "Intent Understanding",
+        "source_secondary_tags": [
+            "Intent Clarification",
+            "Intent Analysis",
+            "Search Intent Analysis",
+            "Buyer Intent Detection"
+        ],
+        "source_pocket_ids": [
+            101
+        ]
+    },
+    {
+        "primary_tag": "Interactive Experience Development",
+        "source_secondary_tags": [
+            "Interactive Video Environments",
+            "Interactive Learning",
+            "Interactive Canvas",
+            "Interactive UI Rendering"
+        ],
+        "source_pocket_ids": [
+            100
+        ]
+    },
+    {
+        "primary_tag": "Interface and Application Design",
+        "source_secondary_tags": [
+            "Form Building",
+            "Calculator Building",
+            "Container Generation",
+            "Layout Design and Generation",
+            "Multi-Screen Design",
+            "Responsive Design"
+        ],
+        "source_pocket_ids": [
+            8
+        ]
+    },
+    {
+        "primary_tag": "Keyword Research and Management",
+        "source_secondary_tags": [
+            "Keyword Extraction",
+            "Keyword Analysis",
+            "Keyword Discovery and Generation",
+            "Keyword List Management",
+            "Keyword Optimization",
+            "Keyword Tracking",
+            "Keyword Clustering"
+        ],
+        "source_pocket_ids": [
+            93
+        ]
+    },
+    {
+        "primary_tag": "Knowledge and Entity Management",
+        "source_secondary_tags": [
+            "Entity Relationship Tracking",
+            "Information Organization"
+        ],
+        "source_pocket_ids": [
+            59
+        ]
+    },
+    {
+        "primary_tag": "Knowledge Base Creation",
+        "source_secondary_tags": [
+            "Help Center Creation"
+        ],
+        "source_pocket_ids": [
+            19
+        ]
+    },
+    {
+        "primary_tag": "Knowledge Management",
+        "source_secondary_tags": [
+            "Knowledge Base Management"
+        ],
+        "source_pocket_ids": [
+            141
+        ]
+    },
+    {
+        "primary_tag": "Labor Cost Management",
+        "source_secondary_tags": [
+            "Labor Rate Calculation"
+        ],
+        "source_pocket_ids": [
+            126
+        ]
+    },
+    {
+        "primary_tag": "Language Translation",
+        "source_secondary_tags": [
+            "Transcript Translation"
+        ],
+        "source_pocket_ids": [
+            34
+        ]
+    },
+    {
+        "primary_tag": "Lead Management",
+        "source_secondary_tags": [
+            "Lead Generation and Prospecting",
+            "Lead Capture",
+            "Lead Enrichment",
+            "Lead Intelligence",
+            "Lead Qualification",
+            "Lead Routing"
+        ],
+        "source_pocket_ids": [
+            73
+        ]
+    },
+    {
+        "primary_tag": "Learning and Exam Support",
+        "source_secondary_tags": [
+            "Study Motivation",
+            "PTE Exam Guidance",
+            "Student Tools",
+            "Test-Taking Guidance"
+        ],
+        "source_pocket_ids": [
+            36
+        ]
+    },
+    {
+        "primary_tag": "Learning and Training",
+        "source_secondary_tags": [
+            "Content Training",
+            "Learning Mode",
+            "Training Delivery",
+            "Learning and Training Assistance",
+            "Training Academy Creation"
+        ],
+        "source_pocket_ids": [
+            91
+        ]
+    },
+    {
+        "primary_tag": "Legal Workflow Assistance",
+        "source_secondary_tags": [
+            "Guided Legal Intake"
+        ],
+        "source_pocket_ids": [
+            95
+        ]
+    },
+    {
+        "primary_tag": "Link Management and Analysis",
+        "source_secondary_tags": [
+            "Internal Link Generation",
+            "Internal Link Optimization",
+            "Backlink Analysis",
+            "External Website Linking",
+            "File Linking"
+        ],
+        "source_pocket_ids": [
+            50
+        ]
+    },
+    {
+        "primary_tag": "LLM Discoverability Metadata",
+        "source_secondary_tags": [
+            "llms.txt Analysis",
+            "llms.txt Generation"
+        ],
+        "source_pocket_ids": [
+            112
+        ]
+    },
+    {
+        "primary_tag": "LLM Integration and Infrastructure",
+        "source_secondary_tags": [
+            "LLM Access",
+            "LLM Function Calling",
+            "LLM Indexing"
+        ],
+        "source_pocket_ids": [
+            112
+        ]
+    },
+    {
+        "primary_tag": "Logging and Tracking",
+        "source_secondary_tags": [
+            "Activity Logging",
+            "Bug Logging"
+        ],
+        "source_pocket_ids": [
+            94
+        ]
+    },
+    {
+        "primary_tag": "Logic & Rule Generation",
+        "source_secondary_tags": [
+            "Logic Generation",
+            "Conditional Logic Generation"
+        ],
+        "source_pocket_ids": [
+            141
+        ]
+    },
+    {
+        "primary_tag": "Logo Creation and Management",
+        "source_secondary_tags": [
+            "Logo Design",
+            "Animated Logo Creation",
+            "Logo Integration",
+            "Logo Editing"
+        ],
+        "source_pocket_ids": [
+            149
+        ]
+    },
+    {
+        "primary_tag": "Mapping & Diagramming",
+        "source_secondary_tags": [
+            "Connected Device Mapping",
+            "Influence Mapping",
+            "Diagram Generation",
+            "Curriculum Mapping",
+            "Knowledge Map Generation",
+            "User Journey Mapping"
+        ],
+        "source_pocket_ids": [
+            141
+        ]
+    },
+    {
+        "primary_tag": "Market and Competitive Intelligence",
+        "source_secondary_tags": [
+            "Competitor Sales Monitoring",
+            "Ranking Analysis",
+            "Market Intelligence",
+            "Strategic Analysis",
+            "Competitive Intelligence and Analysis",
+            "Competitor Monitoring",
+            "Competitor Benchmarking and Comparison",
+            "Competitor Advertising and Creative Analysis"
+        ],
+        "source_pocket_ids": [
+            25
+        ]
+    },
+    {
+        "primary_tag": "Marketing Analytics",
+        "source_secondary_tags": [
+            "Share of Voice Tracking",
+            "Engagement Analytics"
+        ],
+        "source_pocket_ids": [
+            4,
+            108
+        ]
+    },
+    {
+        "primary_tag": "Marketing and Advertising Automation",
+        "source_secondary_tags": [
+            "Marketing Automation",
+            "Advertising Automation",
+            "Job Advertising Management"
+        ],
+        "source_pocket_ids": [
+            20
+        ]
+    },
+    {
+        "primary_tag": "Marketing Content and Promotion",
+        "source_secondary_tags": [
+            "Marketing Content Creation",
+            "Marketing Copy Generation",
+            "Promotional Link Generation"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Marketing Content Generation",
+        "source_secondary_tags": [
+            "Ad Concept Generation",
+            "Marketing and Sales Script Writing"
+        ],
+        "source_pocket_ids": [
+            20
+        ]
+    },
+    {
+        "primary_tag": "Marketing Operations",
+        "source_secondary_tags": [
+            "Marketing Campaign Generation",
+            "Marketing Campaign Execution",
+            "Campaign Planning",
+            "Campaign Creation",
+            "Campaign Management",
+            "Campaign Publishing",
+            "Campaign Automation",
+            "Campaign Optimization",
+            "Campaign Reporting"
+        ],
+        "source_pocket_ids": [
+            96
+        ]
+    },
+    {
+        "primary_tag": "Marketing Strategy and Analytics",
+        "source_secondary_tags": [
+            "Marketing Strategy Generation",
+            "Marketing Attribution Analysis"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Media Background Editing",
+        "source_secondary_tags": [
+            "Background Removal",
+            "Background Editing and Replacement",
+            "Background Extension",
+            "Video Background Removal"
+        ],
+        "source_pocket_ids": [
+            48
+        ]
+    },
+    {
+        "primary_tag": "Media Captioning and Subtitling",
+        "source_secondary_tags": [
+            "Video Subtitling"
+        ],
+        "source_pocket_ids": [
+            120
+        ]
+    },
+    {
+        "primary_tag": "Media Editing",
+        "source_secondary_tags": [
+            "Transcript-Based Media Editing"
+        ],
+        "source_pocket_ids": [
+            34
+        ]
+    },
+    {
+        "primary_tag": "Media Playback",
+        "source_secondary_tags": [
+            "Media Playback Speed Control"
+        ],
+        "source_pocket_ids": [
+            7
+        ]
+    },
+    {
+        "primary_tag": "Media Recording and Capture",
+        "source_secondary_tags": [
+            "Audio Recording",
+            "Screen Recording"
+        ],
+        "source_pocket_ids": [
+            61
+        ]
+    },
+    {
+        "primary_tag": "Message Understanding",
+        "source_secondary_tags": [
+            "Message Explanation"
+        ],
+        "source_pocket_ids": [
+            76
+        ]
+    },
+    {
+        "primary_tag": "Messaging Management",
+        "source_secondary_tags": [
+            "Direct Message Management",
+            "Instant Messaging",
+            "Message Taking",
+            "Messaging Integration",
+            "Sender Blocking"
+        ],
+        "source_pocket_ids": [
+            76
+        ]
+    },
+    {
+        "primary_tag": "Metadata Management and Optimization",
+        "source_secondary_tags": [
+            "Metadata Optimization",
+            "Metadata Generation",
+            "Structured Data Markup Management and Optimization",
+            "SEO Metadata Management",
+            "Tag Management",
+            "Meta Description Optimization"
+        ],
+        "source_pocket_ids": [
+            81
+        ]
+    },
+    {
+        "primary_tag": "Model Hosting and Management",
+        "source_secondary_tags": [
+            "Model Hosting",
+            "Model Management"
+        ],
+        "source_pocket_ids": [
+            57
+        ]
+    },
+    {
+        "primary_tag": "Model Routing and Orchestration",
+        "source_secondary_tags": [
+            "Model Routing",
+            "Request Routing",
+            "Call Routing",
+            "Multi-Model Orchestration",
+            "Multi-Model Access"
+        ],
+        "source_pocket_ids": [
+            57
+        ]
+    },
+    {
+        "primary_tag": "Monitoring, Anomaly Detection, and Alerting",
+        "source_secondary_tags": [
+            "Anomaly and Error Detection",
+            "Real-Time and Threshold Alerting",
+            "Security Monitoring",
+            "Activity and Metrics Monitoring"
+        ],
+        "source_pocket_ids": [
+            58
+        ]
+    },
+    {
+        "primary_tag": "Motion and Animation Production",
+        "source_secondary_tags": [
+            "Motion Prompting",
+            "3D Motion Effects",
+            "Motion Capture",
+            "Camera Angle Control",
+            "Motion Data Editing",
+            "Motion Direction Control",
+            "Stop Motion Creation",
+            "Multi-Frame Control"
+        ],
+        "source_pocket_ids": [
+            80
+        ]
+    },
+    {
+        "primary_tag": "Multimodal AI",
+        "source_secondary_tags": [
+            "Multimodal Model Access"
+        ],
+        "source_pocket_ids": [
+            127
+        ]
+    },
+    {
+        "primary_tag": "Multimodal Content Editing",
+        "source_secondary_tags": [
+            "Multimodal Editing"
+        ],
+        "source_pocket_ids": [
+            55
+        ]
+    },
+    {
+        "primary_tag": "Music and Audio Tools",
+        "source_secondary_tags": [
+            "Music Integration",
+            "Music Customization",
+            "Music Editing",
+            "Music Library Access",
+            "Personalized Music Streaming"
+        ],
+        "source_pocket_ids": [
+            31
+        ]
+    },
+    {
+        "primary_tag": "Natural Language Understanding and Analysis",
+        "source_secondary_tags": [
+            "Language Comprehension Analytics",
+            "Question Classification"
+        ],
+        "source_pocket_ids": [
+            110
+        ]
+    },
+    {
+        "primary_tag": "Neuromodulation",
+        "source_secondary_tags": [
+            "Neural Activity Modulation"
+        ],
+        "source_pocket_ids": [
+            76
+        ]
+    },
+    {
+        "primary_tag": "News Monitoring and Curation",
+        "source_secondary_tags": [
+            "News Updates",
+            "News Curation"
+        ],
+        "source_pocket_ids": [
+            44
+        ]
+    },
+    {
+        "primary_tag": "Newsletter Management",
+        "source_secondary_tags": [
+            "Newsletter Distribution",
+            "Newsletter Automation"
+        ],
+        "source_pocket_ids": [
+            44
+        ]
+    },
+    {
+        "primary_tag": "Note Annotation",
+        "source_secondary_tags": [
+            "Note Annotation"
+        ],
+        "source_pocket_ids": [
+            118
+        ]
+    },
+    {
+        "primary_tag": "Optimization Management",
+        "source_secondary_tags": [
+            "Automated Optimization",
+            "Optimization Fix Prioritization",
+            "Optimization Controls",
+            "Platform-Specific Optimization"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "Organizational Culture Analysis",
+        "source_secondary_tags": [
+            "Company Culture Analysis"
+        ],
+        "source_pocket_ids": [
+            107
+        ]
+    },
+    {
+        "primary_tag": "Output Customization",
+        "source_secondary_tags": [
+            "Output Age Selection"
+        ],
+        "source_pocket_ids": [
+            134
+        ]
+    },
+    {
+        "primary_tag": "Payment Processing",
+        "source_secondary_tags": [
+            "Credit-Based Processing",
+            "Payment Integration",
+            "Payment Processing"
+        ],
+        "source_pocket_ids": [
+            53
+        ]
+    },
+    {
+        "primary_tag": "Performance Analytics and Reporting",
+        "source_secondary_tags": [
+            "Performance Monitoring",
+            "Performance Analysis",
+            "Performance Reporting",
+            "Commission Rate Analysis",
+            "SERP Analysis",
+            "Search Performance Tracking",
+            "Creative Performance Analytics",
+            "Video Performance Tracking"
+        ],
+        "source_pocket_ids": [
+            29
+        ]
+    },
+    {
+        "primary_tag": "Persona Modeling",
+        "source_secondary_tags": [
+            "Audience Persona Creation",
+            "Persona Extraction",
+            "User Persona Generation"
+        ],
+        "source_pocket_ids": [
+            77
+        ]
+    },
+    {
+        "primary_tag": "Personalization",
+        "source_secondary_tags": [
+            "Content Personalization",
+            "Feed Personalization",
+            "Learning Personalization",
+            "Personalized Itinerary Generation",
+            "Track Personalization"
+        ],
+        "source_pocket_ids": [
+            114
+        ]
+    },
+    {
+        "primary_tag": "Planning and Progress Management",
+        "source_secondary_tags": [
+            "Progress and Plan Tracking",
+            "Progress Support",
+            "Decision Support"
+        ],
+        "source_pocket_ids": [
+            130
+        ]
+    },
+    {
+        "primary_tag": "Platform Integration and Interoperability",
+        "source_secondary_tags": [
+            "Platform Integration",
+            "Platform Compatibility",
+            "Cross-Platform Comparison",
+            "Platform Data Access"
+        ],
+        "source_pocket_ids": [
+            79
+        ]
+    },
+    {
+        "primary_tag": "Platform Integrations",
+        "source_secondary_tags": [
+            "Search Console Integration"
+        ],
+        "source_pocket_ids": [
+            68
+        ]
+    },
+    {
+        "primary_tag": "Policy and Rule Management",
+        "source_secondary_tags": [
+            "Policy Generation",
+            "Policy Inference",
+            "Policy Validation",
+            "Warmup Rule Configuration"
+        ],
+        "source_pocket_ids": [
+            95
+        ]
+    },
+    {
+        "primary_tag": "Portrait Editing",
+        "source_secondary_tags": [
+            "Face Swapping",
+            "Head Swapping",
+            "Skin Retouching"
+        ],
+        "source_pocket_ids": [
+            119
+        ]
+    },
+    {
+        "primary_tag": "Presentation Assistance",
+        "source_secondary_tags": [
+            "Teleprompter"
+        ],
+        "source_pocket_ids": [
+            80
+        ]
+    },
+    {
+        "primary_tag": "Presentation Creation and Management",
+        "source_secondary_tags": [
+            "Presentation Generation",
+            "Presentation Deck Generation",
+            "Slide Content Generation",
+            "Presentation Editing",
+            "Presenter Selection"
+        ],
+        "source_pocket_ids": [
+            47
+        ]
+    },
+    {
+        "primary_tag": "Product Data and Asset Management",
+        "source_secondary_tags": [
+            "Digital Twin Creation",
+            "Tech Pack Creation",
+            "Product Detail Preservation",
+            "Product Information Updates"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Product Requirements Analysis",
+        "source_secondary_tags": [
+            "User Story Analysis"
+        ],
+        "source_pocket_ids": [
+            133
+        ]
+    },
+    {
+        "primary_tag": "Product Research",
+        "source_secondary_tags": [
+            "Jobs-to-be-Done Analysis"
+        ],
+        "source_pocket_ids": [
+            126
+        ]
+    },
+    {
+        "primary_tag": "Product Research and Curation",
+        "source_secondary_tags": [
+            "Product Research and Analysis",
+            "Product Set Curation"
+        ],
+        "source_pocket_ids": [
+            107
+        ]
+    },
+    {
+        "primary_tag": "Profile and Stakeholder Analysis",
+        "source_secondary_tags": [
+            "Stakeholder Profiling",
+            "Professional Profile Analysis"
+        ],
+        "source_pocket_ids": [
+            29
+        ]
+    },
+    {
+        "primary_tag": "Project and Workflow Management",
+        "source_secondary_tags": [
+            "Kanban Board Management"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Prompt Engineering",
+        "source_secondary_tags": [
+            "Automated Prompt Generation",
+            "Negative Prompting",
+            "Prompt Chaining",
+            "Prompt Generation",
+            "Prompt Optimization",
+            "Prompt Experimentation"
+        ],
+        "source_pocket_ids": [
+            33
+        ]
+    },
+    {
+        "primary_tag": "Prompt Management",
+        "source_secondary_tags": [
+            "Prompt Library Management",
+            "Prompt Monitoring",
+            "Prompt Library"
+        ],
+        "source_pocket_ids": [
+            33
+        ]
+    },
+    {
+        "primary_tag": "Pronunciation Training",
+        "source_secondary_tags": [
+            "Pronunciation Feedback",
+            "Pronunciation Guidance"
+        ],
+        "source_pocket_ids": [
+            23
+        ]
+    },
+    {
+        "primary_tag": "Prototyping and Mockup Design",
+        "source_secondary_tags": [
+            "Prototype Creation",
+            "Product Mockup Creation"
+        ],
+        "source_pocket_ids": [
+            52
+        ]
+    },
+    {
+        "primary_tag": "Proxy Management",
+        "source_secondary_tags": [
+            "Proxy Rotation"
+        ],
+        "source_pocket_ids": [
+            119
+        ]
+    },
+    {
+        "primary_tag": "QR Code Creation and Editing",
+        "source_secondary_tags": [
+            "QR Code Editing",
+            "Aesthetic QR Code Generation"
+        ],
+        "source_pocket_ids": [
+            70
+        ]
+    },
+    {
+        "primary_tag": "Question and Assessment Generation",
+        "source_secondary_tags": [
+            "Quiz Generation",
+            "Interview Question Generation",
+            "Question Generation"
+        ],
+        "source_pocket_ids": [
+            136
+        ]
+    },
+    {
+        "primary_tag": "Recommendation and Decision Support",
+        "source_secondary_tags": [
+            "Real-Time Suggestions"
+        ],
+        "source_pocket_ids": [
+            100
+        ]
+    },
+    {
+        "primary_tag": "Recommendation Generation",
+        "source_secondary_tags": [
+            "Writing Suggestions",
+            "Accommodation Recommendations",
+            "Content Recommendations",
+            "Product Recommendations",
+            "Evidence-Based Recommendations",
+            "Marketing Recommendations",
+            "Merge Recommendations",
+            "Next-Best-Action Recommendations",
+            "Personalized Recommendations"
+        ],
+        "source_pocket_ids": [
+            27
+        ]
+    },
+    {
+        "primary_tag": "Records and Document Management",
+        "source_secondary_tags": [
+            "Dossier Management"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Recruitment and Talent Management",
+        "source_secondary_tags": [
+            "Onboarding Management",
+            "Participant Recruitment",
+            "Recruitment Analytics",
+            "Retention Management",
+            "Interview Preparation and Practice"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Recruitment Management",
+        "source_secondary_tags": [
+            "Job Posting Distribution",
+            "Job Matching",
+            "Job Tracking"
+        ],
+        "source_pocket_ids": [
+            126
+        ]
+    },
+    {
+        "primary_tag": "Reproductive Planning",
+        "source_secondary_tags": [
+            "Baby Sex Selection"
+        ],
+        "source_pocket_ids": [
+            77
+        ]
+    },
+    {
+        "primary_tag": "Research and Analysis",
+        "source_secondary_tags": [
+            "Research Assistance",
+            "Legal Research"
+        ],
+        "source_pocket_ids": [
+            19
+        ]
+    },
+    {
+        "primary_tag": "Research and Insights",
+        "source_secondary_tags": [
+            "Niche Research"
+        ],
+        "source_pocket_ids": [
+            27
+        ]
+    },
+    {
+        "primary_tag": "Response Delivery Management",
+        "source_secondary_tags": [
+            "Response Caching",
+            "Streaming Responses"
+        ],
+        "source_pocket_ids": [
+            65
+        ]
+    },
+    {
+        "primary_tag": "Resume Management",
+        "source_secondary_tags": [
+            "Resume Analysis",
+            "Resume Creation",
+            "Resume Sharing",
+            "Resume Tailoring"
+        ],
+        "source_pocket_ids": [
+            113
+        ]
+    },
+    {
+        "primary_tag": "Rewards and Promotions Management",
+        "source_secondary_tags": [
+            "Reward Event Management",
+            "Lottery Participation"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Rights and Licensing Management",
+        "source_secondary_tags": [
+            "Commercial Licensing"
+        ],
+        "source_pocket_ids": [
+            21
+        ]
+    },
+    {
+        "primary_tag": "Risk Assessment",
+        "source_secondary_tags": [
+            "Risk Analysis"
+        ],
+        "source_pocket_ids": [
+            123
+        ]
+    },
+    {
+        "primary_tag": "Sales Outreach",
+        "source_secondary_tags": [
+            "Sales Dialing"
+        ],
+        "source_pocket_ids": [
+            85
+        ]
+    },
+    {
+        "primary_tag": "Sales Performance Management",
+        "source_secondary_tags": [
+            "Sales Pipeline Tracking",
+            "Commerce Revenue Tracking",
+            "Sales Forecasting"
+        ],
+        "source_pocket_ids": [
+            85
+        ]
+    },
+    {
+        "primary_tag": "Scene Analysis",
+        "source_secondary_tags": [
+            "Scene Detection",
+            "Scene Understanding"
+        ],
+        "source_pocket_ids": [
+            32
+        ]
+    },
+    {
+        "primary_tag": "Scene Creation",
+        "source_secondary_tags": [
+            "3D Scene Composition",
+            "Multi-Shot Scene Generation",
+            "Product Scene Generation",
+            "Scene Generation",
+            "Scene Planning",
+            "Scene Variation Generation"
+        ],
+        "source_pocket_ids": [
+            32
+        ]
+    },
+    {
+        "primary_tag": "Scene Editing",
+        "source_secondary_tags": [
+            "Scene Expansion",
+            "Scene Cutting"
+        ],
+        "source_pocket_ids": [
+            32
+        ]
+    },
+    {
+        "primary_tag": "Scheduling and Reminder Automation",
+        "source_secondary_tags": [
+            "Social Media Scheduling",
+            "Booking and Scheduling Management",
+            "Automated Reminders",
+            "Email Scheduling",
+            "Test Scheduling",
+            "Follow-Up Scheduling",
+            "Appointment Scheduling",
+            "Data Refresh Scheduling"
+        ],
+        "source_pocket_ids": [
+            67
+        ]
+    },
+    {
+        "primary_tag": "Screen Capture and Visual Editing",
+        "source_secondary_tags": [
+            "Keyboard Shortcut Capture",
+            "Screenshot Capture",
+            "Screenshot Annotation",
+            "Screenshot-to-Mockup Conversion"
+        ],
+        "source_pocket_ids": [
+            118
+        ]
+    },
+    {
+        "primary_tag": "Search Activity Management",
+        "source_secondary_tags": [
+            "Search History"
+        ],
+        "source_pocket_ids": [
+            68
+        ]
+    },
+    {
+        "primary_tag": "Search Engine Optimization",
+        "source_secondary_tags": [
+            "SEO and Content Optimization",
+            "SEO Blog Writing",
+            "SEO Analysis and Scoring",
+            "SEO Monitoring and Detection",
+            "SEO Reporting",
+            "SEO Automation",
+            "SEO Assistance",
+            "One-Click SEO Optimization",
+            "SEO Keyword Research"
+        ],
+        "source_pocket_ids": [
+            92
+        ]
+    },
+    {
+        "primary_tag": "Search Optimization and Monitoring",
+        "source_secondary_tags": [
+            "Search Rank Tracking",
+            "Search Term Generation"
+        ],
+        "source_pocket_ids": [
+            12
+        ]
+    },
+    {
+        "primary_tag": "Search Visibility Optimization",
+        "source_secondary_tags": [
+            "Search Optimization",
+            "Generative Engine Optimization Auditing"
+        ],
+        "source_pocket_ids": [
+            129
+        ]
+    },
+    {
+        "primary_tag": "Security and Vulnerability Assessment",
+        "source_secondary_tags": [
+            "Security Assessment",
+            "Security Vulnerability Detection"
+        ],
+        "source_pocket_ids": [
+            58
+        ]
+    },
+    {
+        "primary_tag": "Software Analysis",
+        "source_secondary_tags": [
+            "Dependency Analysis",
+            "Repository Analysis"
+        ],
+        "source_pocket_ids": [
+            16
+        ]
+    },
+    {
+        "primary_tag": "Software Debugging",
+        "source_secondary_tags": [
+            "Error Diagnosis",
+            "Code Debugging",
+            "Bug Detection",
+            "Bug Fixing",
+            "Test Debugging"
+        ],
+        "source_pocket_ids": [
+            94
+        ]
+    },
+    {
+        "primary_tag": "Software Deployment and Operations",
+        "source_secondary_tags": [
+            "Application Deployment",
+            "Rapid Deployment",
+            "Deployment Management",
+            "Self-Hosted Deployment and Operation",
+            "API Deployment",
+            "Serverless Function Deployment",
+            "SSL Certificate Deployment",
+            "Multichannel Deployment"
+        ],
+        "source_pocket_ids": [
+            54
+        ]
+    },
+    {
+        "primary_tag": "Software Development Assistance",
+        "source_secondary_tags": [
+            "Development Assistance",
+            "Terminal Assistance",
+            "Autonomous Coding",
+            "Software Architecture Planning",
+            "Feature Development",
+            "Code Search",
+            "Script Writing",
+            "Code Generation",
+            "Code Editing",
+            "Code Refactoring and Optimization",
+            "Code Review",
+            "Code Verification",
+            "Code Planning",
+            "Code Explanation",
+            "Codebase Analysis",
+            "Natural Language Software Development",
+            "Code Completion",
+            "Coding Assistance"
+        ],
+        "source_pocket_ids": [
+            19,
+            70
+        ]
+    },
+    {
+        "primary_tag": "Software Development Lifecycle Automation",
+        "source_secondary_tags": [
+            "Version Control Management",
+            "CI/CD Automation"
+        ],
+        "source_pocket_ids": [
+            75
+        ]
+    },
+    {
+        "primary_tag": "Software Extensions",
+        "source_secondary_tags": [
+            "Browser Extension",
+            "Learning Extensions"
+        ],
+        "source_pocket_ids": [
+            6
+        ]
+    },
+    {
+        "primary_tag": "Software Maintenance and Change Management",
+        "source_secondary_tags": [
+            "Self-Healing Test Maintenance",
+            "Change Checkpointing"
+        ],
+        "source_pocket_ids": [
+            130
+        ]
+    },
+    {
+        "primary_tag": "Software Observability",
+        "source_secondary_tags": [
+            "Request and Run Tracing"
+        ],
+        "source_pocket_ids": [
+            125
+        ]
+    },
+    {
+        "primary_tag": "Software Testing",
+        "source_secondary_tags": [
+            "Test Automation",
+            "Software Test Generation"
+        ],
+        "source_pocket_ids": [
+            30,
+            121
+        ]
+    },
+    {
+        "primary_tag": "Spatial and Scene Planning",
+        "source_secondary_tags": [
+            "Floor Plan Generation",
+            "Architectural Space Planning",
+            "Camera Layout Design"
+        ],
+        "source_pocket_ids": [
+            8
+        ]
+    },
+    {
+        "primary_tag": "Speech and Audio Generation",
+        "source_secondary_tags": [
+            "Text-to-Speech Generation"
+        ],
+        "source_pocket_ids": [
+            74
+        ]
+    },
+    {
+        "primary_tag": "Speech Recognition and Analysis",
+        "source_secondary_tags": [
+            "Speech-to-Text Transcription",
+            "Language Detection",
+            "Speaker Diarization",
+            "Speech Activity Detection",
+            "Dialect Support"
+        ],
+        "source_pocket_ids": [
+            23
+        ]
+    },
+    {
+        "primary_tag": "Speech Synthesis and Voice Control",
+        "source_secondary_tags": [
+            "Pronunciation Customization",
+            "Speech Synthesis",
+            "Accent Conversion",
+            "Cross-Lingual Speech Synthesis",
+            "Pitch and Intonation Control"
+        ],
+        "source_pocket_ids": [
+            23
+        ]
+    },
+    {
+        "primary_tag": "Speech Transcription",
+        "source_secondary_tags": [
+            "Meeting Recording and Transcription",
+            "Audio and Video Transcription",
+            "Multispeaker Transcription"
+        ],
+        "source_pocket_ids": [
+            61
+        ]
+    },
+    {
+        "primary_tag": "Spoken Content Creation and Practice",
+        "source_secondary_tags": [
+            "Podcast Creation",
+            "Voice Rehearsal"
+        ],
+        "source_pocket_ids": [
+            61
+        ]
+    },
+    {
+        "primary_tag": "Standards Compliance",
+        "source_secondary_tags": [
+            "Standards Alignment"
+        ],
+        "source_pocket_ids": [
+            64
+        ]
+    },
+    {
+        "primary_tag": "Story Development",
+        "source_secondary_tags": [
+            "Plot Development"
+        ],
+        "source_pocket_ids": [
+            41
+        ]
+    },
+    {
+        "primary_tag": "Strategic Advisory",
+        "source_secondary_tags": [
+            "Strategy Assistance"
+        ],
+        "source_pocket_ids": [
+            96
+        ]
+    },
+    {
+        "primary_tag": "Style Preset Discovery and Selection",
+        "source_secondary_tags": [
+            "Trend-Based Presets",
+            "Preset Recommendations",
+            "Style Selection and Presets"
+        ],
+        "source_pocket_ids": [
+            146
+        ]
+    },
+    {
+        "primary_tag": "Subtitle Creation and Editing",
+        "source_secondary_tags": [
+            "Subtitle Generation",
+            "Animated Subtitle Creation",
+            "Bilingual Subtitle Generation",
+            "Subtitle Addition",
+            "Subtitle Editing"
+        ],
+        "source_pocket_ids": [
+            117
+        ]
+    },
+    {
+        "primary_tag": "System Integration",
+        "source_secondary_tags": [
+            "MCP Integration",
+            "LSP Integration",
+            "Supplier Pricing Integration",
+            "Form Integration",
+            "Model Integration",
+            "Product Integration"
+        ],
+        "source_pocket_ids": [
+            135
+        ]
+    },
+    {
+        "primary_tag": "Talent and Skills Management",
+        "source_secondary_tags": [
+            "Expert Team Formation",
+            "Skill Development",
+            "Skill Management",
+            "Skill Matching Analysis"
+        ],
+        "source_pocket_ids": [
+            145
+        ]
+    },
+    {
+        "primary_tag": "Task Analysis and Planning",
+        "source_secondary_tags": [
+            "Task Decomposition",
+            "Task Instruction Generation",
+            "Task Research"
+        ],
+        "source_pocket_ids": [
+            106
+        ]
+    },
+    {
+        "primary_tag": "Task and Action Item Extraction",
+        "source_secondary_tags": [
+            "Task Extraction",
+            "Action Item Extraction"
+        ],
+        "source_pocket_ids": [
+            106
+        ]
+    },
+    {
+        "primary_tag": "Tax Preparation and Mapping",
+        "source_secondary_tags": [
+            "Schedule C Tax Mapping"
+        ],
+        "source_pocket_ids": [
+            67
+        ]
+    },
+    {
+        "primary_tag": "Teaching and Instructional Support",
+        "source_secondary_tags": [
+            "Teacher Tools",
+            "Educational Differentiation"
+        ],
+        "source_pocket_ids": [
+            36
+        ]
+    },
+    {
+        "primary_tag": "Telephony and Call Management",
+        "source_secondary_tags": [
+            "Human Handoff",
+            "Call Transfer",
+            "Outbound Calling"
+        ],
+        "source_pocket_ids": [
+            132
+        ]
+    },
+    {
+        "primary_tag": "Template and Content Structure Management",
+        "source_secondary_tags": [
+            "Custom Content Type Creation",
+            "Template-Based Creation",
+            "Template Creation",
+            "Template Cloning",
+            "Template Selection",
+            "Summary Templates",
+            "Email Template Generation",
+            "Template-Based Note Structuring"
+        ],
+        "source_pocket_ids": [
+            52
+        ]
+    },
+    {
+        "primary_tag": "Testing and Experimentation",
+        "source_secondary_tags": [
+            "Video A/B Testing",
+            "A/B Testing Recommendations",
+            "Tool Testing",
+            "A/B Testing"
+        ],
+        "source_pocket_ids": [
+            60
+        ]
+    },
+    {
+        "primary_tag": "Text Analysis",
+        "source_secondary_tags": [
+            "Sentiment Analysis",
+            "Text Analytics"
+        ],
+        "source_pocket_ids": [
+            3
+        ]
+    },
+    {
+        "primary_tag": "Text Editing and Refinement",
+        "source_secondary_tags": [
+            "Punctuation Correction",
+            "Clause Revision",
+            "Writing Improvement",
+            "Writing Style Adaptation",
+            "Text and Content Editing",
+            "Natural-Language Editing",
+            "Text Rewriting",
+            "Text Paraphrasing",
+            "Text Simplification",
+            "Text Expansion",
+            "Natural Language Enhancement",
+            "Writing Refinement"
+        ],
+        "source_pocket_ids": [
+            122
+        ]
+    },
+    {
+        "primary_tag": "Text Formatting and Typography",
+        "source_secondary_tags": [
+            "Character Insertion",
+            "Typography Refinement"
+        ],
+        "source_pocket_ids": [
+            122
+        ]
+    },
+    {
+        "primary_tag": "Text Processing",
+        "source_secondary_tags": [
+            "Text Completion",
+            "Text Cleanup",
+            "Text Snippets",
+            "Text Utilities",
+            "Filler Word Removal"
+        ],
+        "source_pocket_ids": [
+            56
+        ]
+    },
+    {
+        "primary_tag": "Threat Intelligence and Reputation Analysis",
+        "source_secondary_tags": [
+            "Trust Signal Analysis",
+            "Public Information Scanning",
+            "Sender Reputation Monitoring",
+            "IP Address Investigation"
+        ],
+        "source_pocket_ids": [
+            58
+        ]
+    },
+    {
+        "primary_tag": "Time Planning and Optimization",
+        "source_secondary_tags": [
+            "Duration Matching",
+            "Time Management Guidance"
+        ],
+        "source_pocket_ids": [
+            84
+        ]
+    },
+    {
+        "primary_tag": "Time Tracking and Timer Management",
+        "source_secondary_tags": [
+            "Speaking Time Tracking",
+            "Time Tracking and Timesheet Management",
+            "Break Timers",
+            "Work Time Tracking"
+        ],
+        "source_pocket_ids": [
+            84
+        ]
+    },
+    {
+        "primary_tag": "Traffic Management",
+        "source_secondary_tags": [
+            "Traffic Distribution"
+        ],
+        "source_pocket_ids": [
+            126
+        ]
+    },
+    {
+        "primary_tag": "Transcription and Transcript Management",
+        "source_secondary_tags": [
+            "Personalized Transcription",
+            "Transcript Editing",
+            "Transcript Generation",
+            "Transcript Export"
+        ],
+        "source_pocket_ids": [
+            34
+        ]
+    },
+    {
+        "primary_tag": "Translation and Multilingual Communication",
+        "source_secondary_tags": [
+            "Voice Translation",
+            "Language Translation",
+            "Multilingual Interaction",
+            "Translation Automation",
+            "Translation Management",
+            "OCR Translation",
+            "Translation"
+        ],
+        "source_pocket_ids": [
+            71
+        ]
+    },
+    {
+        "primary_tag": "Travel Planning and Management",
+        "source_secondary_tags": [
+            "Itinerary Management"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "Trend Intelligence",
+        "source_secondary_tags": [
+            "Trend Analysis",
+            "Trend Monitoring",
+            "Trend Discovery"
+        ],
+        "source_pocket_ids": [
+            123
+        ]
+    },
+    {
+        "primary_tag": "UI/UX Design",
+        "source_secondary_tags": [
+            "Interface Mockup Generation"
+        ],
+        "source_pocket_ids": [
+            121
+        ]
+    },
+    {
+        "primary_tag": "URL Management",
+        "source_secondary_tags": [
+            "Custom URL Creation",
+            "Redirect Rule Creation",
+            "URL Slug Standardization"
+        ],
+        "source_pocket_ids": [
+            99
+        ]
+    },
+    {
+        "primary_tag": "User Behavior Analytics",
+        "source_secondary_tags": [
+            "User Interaction Tracking"
+        ],
+        "source_pocket_ids": [
+            114
+        ]
+    },
+    {
+        "primary_tag": "User Interface Generation",
+        "source_secondary_tags": [
+            "UI Generation from Text"
+        ],
+        "source_pocket_ids": [
+            74
+        ]
+    },
+    {
+        "primary_tag": "User Interface Productivity",
+        "source_secondary_tags": [
+            "Keyboard Shortcuts"
+        ],
+        "source_pocket_ids": [
+            23
+        ]
+    },
+    {
+        "primary_tag": "Video Analysis and Understanding",
+        "source_secondary_tags": [
+            "Video-to-Text",
+            "Video Anomaly Detection",
+            "Video Summarization",
+            "Video Content Analysis",
+            "Video Annotation"
+        ],
+        "source_pocket_ids": [
+            109
+        ]
+    },
+    {
+        "primary_tag": "Video and Multimedia Generation",
+        "source_secondary_tags": [
+            "Script-to-Video Generation",
+            "Video Generation",
+            "Lyric Video Creation",
+            "Podcast Video Creation",
+            "Avatar Video Generation",
+            "Multimedia Generation",
+            "Video Style Generation",
+            "Video Variation Generation",
+            "Template-Based Video Creation",
+            "Product Page-to-Video Generation",
+            "Prompt-to-Video Generation"
+        ],
+        "source_pocket_ids": [
+            124
+        ]
+    },
+    {
+        "primary_tag": "Video Content Writing",
+        "source_secondary_tags": [
+            "Video Script Generation",
+            "Video Description Generation"
+        ],
+        "source_pocket_ids": [
+            124
+        ]
+    },
+    {
+        "primary_tag": "Video Creation and Production",
+        "source_secondary_tags": [
+            "Video Templates",
+            "Video Production",
+            "Video Cloning",
+            "Storyboard-to-Video Creation",
+            "Image-to-Video",
+            "Text and Content-to-Video",
+            "Audio-to-Video",
+            "Presentation-to-Video",
+            "Video Ideation",
+            "Slideshow-to-Video Conversion",
+            "Video Narration",
+            "Video Style Recreation"
+        ],
+        "source_pocket_ids": [
+            109
+        ]
+    },
+    {
+        "primary_tag": "Video Editing",
+        "source_secondary_tags": [
+            "Automatic Jump Cut Editing",
+            "Real-Time Editing",
+            "Track Editing",
+            "Automated Video Editing",
+            "Automatic Video Zoom",
+            "B-Roll Insertion"
+        ],
+        "source_pocket_ids": [
+            2,
+            60
+        ]
+    },
+    {
+        "primary_tag": "Video Editing and Post-Production",
+        "source_secondary_tags": [
+            "Video Editing",
+            "Video Editing and Assembly",
+            "Video Reframing and Resizing",
+            "Video Upscaling",
+            "Video Effects and Transitions",
+            "Video Merging",
+            "Video Preview",
+            "Video Rendering",
+            "Video Reversal",
+            "Video Synchronization",
+            "Video Export",
+            "Video Customization and Personalization",
+            "Video Format Selection",
+            "Video Watermarking",
+            "Video Resolution Control"
+        ],
+        "source_pocket_ids": [
+            109
+        ]
+    },
+    {
+        "primary_tag": "Video Editing and Repurposing",
+        "source_secondary_tags": [
+            "Clip Extraction",
+            "Video Extension",
+            "Video-to-Shorts",
+            "Video Clip Creation",
+            "Content Clipping",
+            "Video Clip Extension",
+            "Video Cropping"
+        ],
+        "source_pocket_ids": [
+            120
+        ]
+    },
+    {
+        "primary_tag": "Video Enhancement",
+        "source_secondary_tags": [
+            "Video Enhancement",
+            "Video Denoising"
+        ],
+        "source_pocket_ids": [
+            38
+        ]
+    },
+    {
+        "primary_tag": "Video Localization",
+        "source_secondary_tags": [
+            "Video Translation",
+            "Video Localization"
+        ],
+        "source_pocket_ids": [
+            109
+        ]
+    },
+    {
+        "primary_tag": "Video Production Workflow Automation",
+        "source_secondary_tags": [
+            "Automated Video Interviews",
+            "Automated Video Publishing",
+            "Video Workflow Automation"
+        ],
+        "source_pocket_ids": [
+            2
+        ]
+    },
+    {
+        "primary_tag": "Video Publishing and Management",
+        "source_secondary_tags": [
+            "Video Publishing and Scheduling",
+            "Video Series Management"
+        ],
+        "source_pocket_ids": [
+            109
+        ]
+    },
+    {
+        "primary_tag": "Virtual Imaging and Visualization",
+        "source_secondary_tags": [
+            "Virtual Photography",
+            "Virtual Clothing Try-On"
+        ],
+        "source_pocket_ids": [
+            100
+        ]
+    },
+    {
+        "primary_tag": "Visual Analysis and Quality Assessment",
+        "source_secondary_tags": [
+            "Photo Quality Assessment",
+            "Bad Take Removal",
+            "Image Analysis",
+            "Image Quality Assessment"
+        ],
+        "source_pocket_ids": [
+            38
+        ]
+    },
+    {
+        "primary_tag": "Visual Commerce",
+        "source_secondary_tags": [
+            "Virtual Try-On",
+            "Visual Sourcing"
+        ],
+        "source_pocket_ids": [
+            111
+        ]
+    },
+    {
+        "primary_tag": "Visual Content Analysis",
+        "source_secondary_tags": [
+            "Object Recognition",
+            "Pattern Detection",
+            "Moment Detection"
+        ],
+        "source_pocket_ids": [
+            15
+        ]
+    },
+    {
+        "primary_tag": "Visual Content Creation",
+        "source_secondary_tags": [
+            "Title Card Creation"
+        ],
+        "source_pocket_ids": [
+            115
+        ]
+    },
+    {
+        "primary_tag": "Visual Content Editing",
+        "source_secondary_tags": [
+            "Object Removal",
+            "Object Modification",
+            "Color Editing",
+            "Image Editing",
+            "Image Composition Control",
+            "Local Image Editing",
+            "Texture Control",
+            "Font Editing",
+            "Facial Expression Editing",
+            "Hairstyle Editing",
+            "Photo Editing",
+            "Body Pose Editing",
+            "Mask Editing",
+            "Thumbnail Customization",
+            "Clothing and Outfit Editing",
+            "Style Application and Transformation",
+            "Visual Drag-and-Drop Editing",
+            "Layer-Based Editing",
+            "Multi-Source Editing",
+            "Non-Destructive Editing",
+            "RAW Image Editing",
+            "Layout Editing"
+        ],
+        "source_pocket_ids": [
+            15,
+            55
+        ]
+    },
+    {
+        "primary_tag": "Visual Design Generation",
+        "source_secondary_tags": [
+            "Infographic Generation",
+            "Poster and Banner Generation"
+        ],
+        "source_pocket_ids": [
+            47
+        ]
+    },
+    {
+        "primary_tag": "Visual Design Selection",
+        "source_secondary_tags": [
+            "Visual Content Selection",
+            "Chart Selection"
+        ],
+        "source_pocket_ids": [
+            105
+        ]
+    },
+    {
+        "primary_tag": "Visual Development",
+        "source_secondary_tags": [
+            "Visual App Building",
+            "Visual Workflow Building"
+        ],
+        "source_pocket_ids": [
+            111
+        ]
+    },
+    {
+        "primary_tag": "Visual Effects & Post-Production",
+        "source_secondary_tags": [
+            "Visual Effects Generation",
+            "Effects Generation"
+        ],
+        "source_pocket_ids": [
+            41
+        ]
+    },
+    {
+        "primary_tag": "Visual Motion Tracking and Analysis",
+        "source_secondary_tags": [
+            "Visual Object and Motion Tracking",
+            "Video Motion Estimation"
+        ],
+        "source_pocket_ids": [
+            80
+        ]
+    },
+    {
+        "primary_tag": "Visual Presentation and Documentation",
+        "source_secondary_tags": [
+            "Storyboard Creation",
+            "Guide and Walkthrough Creation",
+            "Pitch Deck Creation"
+        ],
+        "source_pocket_ids": [
+            8
+        ]
+    },
+    {
+        "primary_tag": "Visualization Generation",
+        "source_secondary_tags": [
+            "Content Visualization",
+            "Keyword Visualization",
+            "Pose Visualization",
+            "Room Visualization",
+            "Data Visualization Generation"
+        ],
+        "source_pocket_ids": [
+            51
+        ]
+    },
+    {
+        "primary_tag": "Vocabulary and Terminology Management",
+        "source_secondary_tags": [
+            "Vocabulary Tracking",
+            "Custom Vocabulary",
+            "Terminology Management"
+        ],
+        "source_pocket_ids": [
+            93
+        ]
+    },
+    {
+        "primary_tag": "Voice AI Platform Operations",
+        "source_secondary_tags": [
+            "Multi-Provider Voice AI Management",
+            "Voice Agent Reselling"
+        ],
+        "source_pocket_ids": [
+            4
+        ]
+    },
+    {
+        "primary_tag": "Voice Analysis and Verification",
+        "source_secondary_tags": [
+            "Speaker Identification",
+            "Synthetic Voice Detection"
+        ],
+        "source_pocket_ids": [
+            4
+        ]
+    },
+    {
+        "primary_tag": "Voice Generation and Transformation",
+        "source_secondary_tags": [
+            "Voice Conversion",
+            "Voice Design and Customization"
+        ],
+        "source_pocket_ids": [
+            148
+        ]
+    },
+    {
+        "primary_tag": "Voice Interaction and Conversational AI",
+        "source_secondary_tags": [
+            "Voice Input and Control",
+            "Voice Typing",
+            "Conversational Voice Agents",
+            "Voice-Based Prompting",
+            "Voice Messaging",
+            "Voice Conversations",
+            "Voice Question Answering"
+        ],
+        "source_pocket_ids": [
+            4
+        ]
+    },
+    {
+        "primary_tag": "Voice Synthesis and Dubbing",
+        "source_secondary_tags": [
+            "Voice Cloning",
+            "Voice Dubbing",
+            "Video Dubbing",
+            "Lip Sync Generation",
+            "Real-Time Voice Streaming",
+            "Audio Dubbing"
+        ],
+        "source_pocket_ids": [
+            61
+        ]
+    },
+    {
+        "primary_tag": "Voice Synthesis and Generation",
+        "source_secondary_tags": [
+            "AI Voice Generation",
+            "AI Vocal Generation",
+            "Voice Narration"
+        ],
+        "source_pocket_ids": [
+            4
+        ]
+    },
+    {
+        "primary_tag": "Voiceover Production and Editing",
+        "source_secondary_tags": [
+            "Voice Enhancement",
+            "Voiceover Addition",
+            "Voiceover Editing",
+            "Voiceover Export"
+        ],
+        "source_pocket_ids": [
+            148
+        ]
+    },
+    {
+        "primary_tag": "Web and Application Development",
+        "source_secondary_tags": [
+            "JavaScript Application",
+            "Full-Stack Application Generation",
+            "Web Page Generation",
+            "Web Application Generation",
+            "Application Generation",
+            "Website and Online Store Generation"
+        ],
+        "source_pocket_ids": [
+            121
+        ]
+    },
+    {
+        "primary_tag": "Web Content Rendering",
+        "source_secondary_tags": [
+            "Browser Rendering"
+        ],
+        "source_pocket_ids": [
+            121
+        ]
+    },
+    {
+        "primary_tag": "Web Research and Monitoring",
+        "source_secondary_tags": [
+            "Web Browsing",
+            "Webpage Monitoring",
+            "Web Research",
+            "Website Crawling"
+        ],
+        "source_pocket_ids": [
+            102
+        ]
+    },
+    {
+        "primary_tag": "Webhook Management",
+        "source_secondary_tags": [
+            "Webhook Integration",
+            "Webhook Triggers and Processing",
+            "Webhook Delivery and Forwarding"
+        ],
+        "source_pocket_ids": [
+            138
+        ]
+    },
+    {
+        "primary_tag": "Website Building and Management",
+        "source_secondary_tags": [
+            "Website Editing",
+            "Website and Page Editing",
+            "Location Customization",
+            "Custom Domain Support",
+            "Website Customization",
+            "Portal Customization",
+            "Page Management",
+            "Page and Template Customization",
+            "Content and Formatting Customization",
+            "Mode Customization"
+        ],
+        "source_pocket_ids": [
+            140
+        ]
+    },
+    {
+        "primary_tag": "Website Development",
+        "source_secondary_tags": [
+            "Website Generation",
+            "Website Guidance",
+            "Website Building",
+            "Responsive Web Design",
+            "Website Copywriting"
+        ],
+        "source_pocket_ids": [
+            102
+        ]
+    },
+    {
+        "primary_tag": "Website Hosting and Operations",
+        "source_secondary_tags": [
+            "Application and Website Hosting",
+            "Hosting Management",
+            "Website Diagnostics",
+            "Website Migration"
+        ],
+        "source_pocket_ids": [
+            102
+        ]
+    },
+    {
+        "primary_tag": "Wellness and Mindfulness",
+        "source_secondary_tags": [
+            "Guided Relaxation Sessions"
+        ],
+        "source_pocket_ids": [
+            10
+        ]
+    },
+    {
+        "primary_tag": "White-Label Solutions",
+        "source_secondary_tags": [
+            "White-Label Branding",
+            "White-Label Deployment",
+            "White-Label Reporting"
+        ],
+        "source_pocket_ids": [
+            49
+        ]
+    },
+    {
+        "primary_tag": "Workflow and Task Automation",
+        "source_secondary_tags": [
+            "Job Application Automation",
+            "Desktop Automation",
+            "Browser Automation",
+            "Website Update Automation",
+            "Custom Trigger-Action Automation"
+        ],
+        "source_pocket_ids": [
+            75
+        ]
+    },
+    {
+        "primary_tag": "Workflow Automation and Orchestration",
+        "source_secondary_tags": [
+            "Workflow Automation",
+            "Workflow Monitoring",
+            "Workflow Design and Building",
+            "Workflow Automation and Execution",
+            "Workflow Management",
+            "Workflow Integrations",
+            "Workflow Optimization",
+            "Document Workflow Automation",
+            "Approval Workflow Management",
+            "Task and Workflow Scheduling",
+            "Document Workflow Generation",
+            "Task Execution and Automation",
+            "Asynchronous and Long-Running Task Processing",
+            "Task Management",
+            "Task Management Integration",
+            "Task Routing"
+        ],
+        "source_pocket_ids": [
+            1,
+            106
+        ]
+    },
+    {
+        "primary_tag": "Workspace and Project Management",
+        "source_secondary_tags": [
+            "Workspace Administration",
+            "Workspace Loading",
+            "Workspace Search",
+            "Project Organization"
+        ],
+        "source_pocket_ids": [
+            45
+        ]
+    },
+    {
+        "primary_tag": "Writing Style Enhancement",
+        "source_secondary_tags": [
+            "Voice-Matched Writing",
+            "Sensory Language Enhancement"
+        ],
+        "source_pocket_ids": [
+            23
+        ]
+    },
+    {
+        "primary_tag": "Written Content Generation",
+        "source_secondary_tags": [
+            "Dialogue Generation",
+            "Subject Line Generation",
+            "Quote Generation",
+            "Narrative Structure Development"
+        ],
+        "source_pocket_ids": [
+            136
+        ]
+    }
+]

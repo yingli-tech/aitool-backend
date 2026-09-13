@@ -52,27 +52,27 @@ def get_taxonomy_context(dbConn):
     cursor.execute("SELECT price_type FROM price_types")
     price_types = [row[0] for row in cursor.fetchall() if row[0] is not None]
 
-    cursor.execute("SELECT DISTINCT language FROM tools")
+    cursor.execute("SELECT language FROM languages ORDER BY language")
     languages = [row[0] for row in cursor.fetchall() if row[0] is not None]
 
     cursor.execute("""
-      SELECT core, sub
+      SELECT primary_tag, secondary_tag
       FROM use_cases
-      ORDER BY core, sub
+      ORDER BY primary_tag, secondary_tag
     """)
     use_cases = [
-      {"core": row[0], "sub": row[1]}
+      {"primary_tag": row[0], "secondary_tag": row[1]}
       for row in cursor.fetchall()
       if row[0] is not None
     ]
 
     cursor.execute("""
-      SELECT core, sub
+      SELECT primary_tag, secondary_tag
       FROM functions
-      ORDER BY core, sub
+      ORDER BY primary_tag, secondary_tag
     """)
     functions = [
-      {"core": row[0], "sub": row[1]}
+      {"primary_tag": row[0], "secondary_tag": row[1]}
       for row in cursor.fetchall()
       if row[0] is not None
     ]
@@ -106,9 +106,24 @@ def fetch_tool_details(dbConn, tool_ids):
     format_strings = ",".join(["%s"] * len(tool_ids))
 
     sql = f"""
-      SELECT tool_id, name, url, description, category, language
-      FROM tools
-      WHERE tool_id IN ({format_strings})
+      SELECT
+        t.tool_id,
+        t.name,
+        t.url,
+        t.description,
+        t.category,
+        GROUP_CONCAT(
+          DISTINCT l.language
+          ORDER BY l.language
+          SEPARATOR '||'
+        ) AS languages
+      FROM tools t
+      LEFT JOIN tool_language_map tlm
+        ON t.tool_id = tlm.tool_id
+      LEFT JOIN languages l
+        ON tlm.language_id = l.language_id
+      WHERE t.tool_id IN ({format_strings})
+      GROUP BY t.tool_id, t.name, t.url, t.description, t.category
     """
 
     cursor.execute(sql, tool_ids)
@@ -122,7 +137,7 @@ def fetch_tool_details(dbConn, tool_ids):
         "url": row[2],
         "description": row[3],
         "category": row[4],
-        "language": row[5]
+        "languages": row[5].split("||") if row[5] else []
       })
 
     return results
@@ -207,9 +222,11 @@ def get_tool_ids_by_language(dbConn, languages):
     format_strings = ",".join(["%s"] * len(languages))
 
     sql = f"""
-      SELECT tool_id
-      FROM tools
-      WHERE LOWER(language) IN ({format_strings})
+      SELECT DISTINCT tlm.tool_id
+      FROM tool_language_map tlm
+      JOIN languages l
+        ON tlm.language_id = l.language_id
+      WHERE LOWER(l.language) IN ({format_strings})
     """
 
     cursor.execute(sql, languages)
@@ -229,25 +246,25 @@ def get_tool_ids_by_language(dbConn, languages):
 ###############################################################
 # Taxonomy lookup helpers
 #
-def get_tool_ids_by_use_case_cores(dbConn, cores):
-  return _get_tool_ids_by_taxonomy_cores(
+def get_tool_ids_by_use_case_primary_tags(dbConn, primary_tags):
+  return _get_tool_ids_by_taxonomy_primary_tags(
     dbConn=dbConn,
     mapping_table="tool_usecase_map",
     mapping_id_column="usecase_id",
     taxonomy_table="use_cases",
     taxonomy_id_column="usecase_id",
-    cores=cores
+    primary_tags=primary_tags
   )
 
 
-def get_tool_ids_by_function_cores(dbConn, cores):
-  return _get_tool_ids_by_taxonomy_cores(
+def get_tool_ids_by_function_primary_tags(dbConn, primary_tags):
+  return _get_tool_ids_by_taxonomy_primary_tags(
     dbConn=dbConn,
     mapping_table="tool_function_map",
     mapping_id_column="function_id",
     taxonomy_table="functions",
     taxonomy_id_column="function_id",
-    cores=cores
+    primary_tags=primary_tags
   )
 
 
@@ -273,37 +290,37 @@ def get_tool_ids_by_function_tag(dbConn, tag):
   )
 
 
-def _get_tool_ids_by_taxonomy_cores(
+def _get_tool_ids_by_taxonomy_primary_tags(
   dbConn,
   mapping_table,
   mapping_id_column,
   taxonomy_table,
   taxonomy_id_column,
-  cores
+  primary_tags
 ):
   try:
-    normalized_cores = [core for core in cores if core]
-    if not normalized_cores:
+    normalized_primary_tags = [tag for tag in primary_tags if tag]
+    if not normalized_primary_tags:
       return set()
 
     cursor = dbConn.cursor()
-    format_strings = ",".join(["%s"] * len(normalized_cores))
+    format_strings = ",".join(["%s"] * len(normalized_primary_tags))
 
     sql = f"""
       SELECT DISTINCT tm.tool_id
       FROM {mapping_table} tm
       JOIN {taxonomy_table} tax
         ON tm.{mapping_id_column} = tax.{taxonomy_id_column}
-      WHERE LOWER(tax.core) IN ({format_strings})
+      WHERE LOWER(tax.primary_tag) IN ({format_strings})
     """
 
-    cursor.execute(sql, normalized_cores)
+    cursor.execute(sql, normalized_primary_tags)
     rows = cursor.fetchall()
 
     return {r[0] for r in rows}
 
   except Exception as err:
-    print("db._get_tool_ids_by_taxonomy_cores() failed:")
+    print("db._get_tool_ids_by_taxonomy_primary_tags() failed:")
     print(str(err))
     raise
 
@@ -320,11 +337,15 @@ def _get_tool_ids_by_taxonomy_tag(
   tag
 ):
   try:
-    core = (tag.get("core") or "").strip().lower()
-    sub = tag.get("sub")
-    sub = sub.strip().lower() if isinstance(sub, str) else None
+    primary_tag = (tag.get("primary_tag") or "").strip().lower()
+    secondary_tag = tag.get("secondary_tag")
+    secondary_tag = (
+      secondary_tag.strip().lower()
+      if isinstance(secondary_tag, str)
+      else None
+    )
 
-    if not core and not sub:
+    if not primary_tag and not secondary_tag:
       return set()
 
     cursor = dbConn.cursor()
@@ -339,13 +360,13 @@ def _get_tool_ids_by_taxonomy_tag(
 
     params = []
 
-    if core:
-      sql += " AND LOWER(tax.core) = %s"
-      params.append(core)
+    if primary_tag:
+      sql += " AND LOWER(tax.primary_tag) = %s"
+      params.append(primary_tag)
 
-    if sub:
-      sql += " AND LOWER(tax.sub) = %s"
-      params.append(sub)
+    if secondary_tag:
+      sql += " AND LOWER(tax.secondary_tag) = %s"
+      params.append(secondary_tag)
 
     cursor.execute(sql, params)
     rows = cursor.fetchall()

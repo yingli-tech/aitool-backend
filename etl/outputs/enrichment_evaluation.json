@@ -1,0 +1,93 @@
+{
+  "language_evaluation": {
+    "total_tools": 466,
+    "passed_tools": 462,
+    "failed_tools_count": 4,
+    "pass_rate": 0.9914163090128756,
+    "error_rate": 0.008583690987124463,
+    "failed_tools": [
+      {
+        "name": "Adapt",
+        "languages": [
+          "English",
+          "TypeScript"
+        ],
+        "invalid_languages": [
+          "TypeScript"
+        ]
+      },
+      {
+        "name": "AppWizzy",
+        "languages": [
+          "English",
+          "PHP",
+          "Python",
+          "Node/Next"
+        ],
+        "invalid_languages": [
+          "PHP",
+          "Python",
+          "Node/Next"
+        ]
+      },
+      {
+        "name": "GitHub Copilot",
+        "languages": [
+          "English",
+          "JavaScript",
+          "Java"
+        ],
+        "invalid_languages": [
+          "JavaScript",
+          "Java"
+        ]
+      },
+      {
+        "name": "Murf",
+        "languages": [
+          "English",
+          "German",
+          "French",
+          "Italian",
+          "Spanish",
+          "Russian",
+          "Portuguese",
+          "Arabic",
+          "Hindi",
+          "Tamil",
+          "Chinese",
+          "Japanese",
+          "Korean",
+          "Dutch",
+          "Danish",
+          "Finnish",
+          "Norwegian",
+          "Romania",
+          "Turkish",
+          "Polish",
+          "Bengali",
+          "Indonesian",
+          "Scottish"
+        ],
+        "invalid_languages": [
+          "Romania"
+        ]
+      }
+    ]
+  },
+  "price_type_evaluation": {
+    "total_tools": 466,
+    "passed_tools": 465,
+    "failed_tools_count": 1,
+    "pass_rate": 0.9978540772532188,
+    "error_rate": 0.002145922746781116,
+    "failed_tools": [
+      {
+        "name": "AI Aware",
+        "price_type": [
+          "free trial"
+        ]
+      }
+    ]
+  }
+}

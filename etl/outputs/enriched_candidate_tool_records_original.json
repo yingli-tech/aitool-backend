@@ -1,0 +1,159 @@
+[
+  {
+    "name": "10Web",
+    "official_url": "https://10web.io/ai-website-builder/",
+    "source": "aitoolsdirectory",
+    "source_url": "https://aitoolsdirectory.com/",
+    "source_description": "[10Web](https://link.aitoolsdirectory.com/10web) is an AI website builder and managed WordPress platform. Its agents can turn a business description into an editable website, revise pages through conversation, and prepare a WooCommerce store.\nYou can begin with a written prompt, an existing website URL, or a Figma design. The **AI Website Builder Agent** generates the initial layout, written content, images, colors, typography, and responsive pages.\nThe AI Editor Agent handles changes after generation. You can describe a new section, adjust existing content through chat, select an element for precise editing, or add custom code where the visual controls are insufficient.\nURL cloning recreates an existing page as editable WordPress content. The redesign option uses the existing material as the basis for a new layout. Only copy websites that you own or have permission to reproduce.\nFigma import converts a design into a responsive WordPress page. Complex interactions, custom components, exact spacing, and unusual typography may still need manual correction after conversion.\n### WordPress and ecommerce\nEvery generated site uses a **WordPress backend** with 10Web's Elementor based builder. You can install WordPress plugins, manage content through the familiar administration area, and use WooCommerce for an online store.\nThe ecommerce tools cover products and orders, along with customer accounts, payments, checkout, analytics, taxes, and inventory. AI can generate the initial store structure and sample products, but you need to verify prices, tax rules, shipping settings, payment processing, stock levels, and product information before accepting orders.\nDynamic content tools can add forms, reservations, and booking features. These work well for straightforward business sites, but 10Web is not a replacement for an application builder when you need custom databases, account logic, or complex software workflows.\n### Hosting, performance and SEO\n10Web combines its builder with managed WordPress hosting. Available infrastructure includes SSL, backups, staging, caching, security controls, SFTP or SSH access, and plan dependent CDN capacity.\nThe platform also generates SEO content and schema and includes performance optimization tools. These can improve the technical foundation of a site, but they do not guarantee rankings or visibility in AI search.\nThe separate SEO Agent and Hosting Agent shown on the 10Web homepage are marked as forthcoming. They should not be confused with the SEO and hosting functions already included in the platform.\n### Agencies, white labelling and API access\nAgencies can manage multiple client websites from one workspace. White label plans add a branded dashboard, branded WordPress administration, client management, custom subscriptions, invoices, and integrated billing.\nThe Website Builder API lets hosting companies, domain registrars, SaaS products, and agencies place 10Web's site generation inside their own customer experience. API and larger agency arrangements require a separate commercial agreement.\n### Pricing and free access\nThere is limited free access for generating and previewing one website. Full editing requires activating a card backed trial, while publishing and continued hosting require a paid subscription.\nPlans vary by website count and monthly AI credits. Storage, traffic, support, CDN access, and agency features also vary. Some restricted actions can end the trial early and activate billing. Read the [current trial documentation](https://help.10web.io/hc/en-us/articles/360021420139-Get-Started-for-Free-on-10Web) and [pricing information](https://10web.io/pricing-platform/) before connecting a domain.\nAI credits place a practical limit on repeated generation and editing. A project that needs frequent redesigns may consume its allowance faster than a simple business website.\n### Reliability and limitations\nThe generated result is a starting point, not a finished business asset. Check contact details, service descriptions, qualifications, legal text, accessibility, image rights, privacy notices, testimonials, and factual statements before publishing.\nWordPress provides more control than many closed website builders, but 10Web still depends on its own editor, hosting services, and account limits. Moving a completed site elsewhere may require testing its layout, plugins, forms, caching, and builder specific content.\nReviews on [G2](https://www.g2.com/products/10web/reviews) and [Trustpilot](https://www.trustpilot.com/review/10web.io) frequently praise fast website creation, integrated hosting, and the relative ease of producing an initial WordPress site. Critical feedback includes difficult AI edits, credit consumption, billing confusion, and support problems involving more complicated technical issues.\n### 10Web: Pros & Cons\n| Pros (The Wins) | Cons (The Friction) |\n| :--- | :--- |\n| **Fast site creation:**<br>Generate a complete first<br>draft from a short prompt. | **Editing still required:**<br>Copy, images, and business<br>details need checking. |\n| **Multiple starting points:**<br>Use a prompt, URL,<br>or Figma design. | **AI credit limits:**<br>Repeated generation can<br>consume allowances quickly. |\n| **WordPress foundation:**<br>Use plugins, content tools,<br>and WooCommerce. | **Learning curve:**<br>WordPress and Elementor<br>still require some knowledge. |\n| **Managed infrastructure:**<br>Hosting, backups, staging,<br>SSL, and optimization. | **Hosting dependence:**<br>Moving a finished site may<br>require additional work. |\n| **Agency options:**<br>White labelling, client tools,<br>billing, and API access. | **Trial restrictions:**<br>Some actions can activate<br>a paid subscription early. |\n### Key features\n- AI website generation from a written brief\n- AI Website Builder Agent\n- Conversational AI Editor Agent\n- Ecommerce Agent for WooCommerce\n- Website recreation and redesign from a URL\n- Figma to WordPress conversion\n- Image attachments and voice input\n- Visual editing and custom code\n- AI generated website copy and images\n- Responsive desktop and mobile layouts\n- Forms, reservations, and booking features\n- WooCommerce products and order management\n- AI generated SEO content and schema\n- Managed WordPress hosting\n- SSL, backups, staging, caching, and security tools\n- WordPress plugin support\n- Multi site agency management\n- White labelled client dashboard\n- Client subscriptions and billing\n- AI Website Builder API\n<h3>Alternatives to 10Web</h3>\n<ul>\n<li><strong><a href=\"https://aitoolsdirectory.com/tool/ai-website-builder\">Hostinger AI Website Builder</a></strong>: A simpler hosted builder for users who do not need WordPress, an agency reseller platform, or API based website generation.</li>\n<li><strong><a href=\"https://aitoolsdirectory.com/tool/durable\">Durable</a></strong>: Combines AI website generation with CRM, bookings, customer communication, and local business marketing tools.</li>\n<li><strong><a href=\"https://aitoolsdirectory.com/tool/mixo\">Mixo</a></strong>: Creates straightforward business and lead generation websites with less WordPress configuration and fewer advanced development controls.</li>\n<li><strong><a href=\"https://aitoolsdirectory.com/tool/dorik\">Dorik</a></strong>: A no code website builder with AI generation, CMS features, reusable sections, and white label options for agencies.</li>\n</ul>",
+    "category": "AI Coding",
+    "language": [
+      "English"
+    ],
+    "use_case": [
+      "Website Generation",
+      "E-commerce Website Creation",
+      "Website Customization",
+      "Website Hosting",
+      "Website Publishing"
+    ],
+    "function": [
+      "Website Generation",
+      "Content Generation",
+      "Image Generation",
+      "Layout Generation",
+      "Business Name Generation",
+      "Website Customization",
+      "E-commerce Setup",
+      "Website Publishing",
+      "Domain Connection",
+      "Website Migration"
+    ],
+    "price_type": [
+      "free",
+      "free trial",
+      "paid"
+    ],
+    "one_line_desc": "10Web is an AI website builder that generates, customizes, hosts, and publishes business and ecommerce websites without coding."
+  },
+  {
+    "name": "1of10",
+    "official_url": "https://1of10.com/",
+    "source": "aitoolsdirectory",
+    "source_url": "https://aitoolsdirectory.com/",
+    "source_description": "[1of10](https://link.aitoolsdirectory.com/1of10) is a YouTube content research and packaging tool designed to help creators reverse-engineer success. It uses AI to suggest viral video ideas, titles, and thumbnails based on what's already working for top-performing creators in your niche.\nIt’s useful if:\n- You want to find video topics with high potential.\n- You want to copy the style of top thumbnails or titles—without copying the content.\n- You’re stuck creatively and need fast inspiration based on actual performance data.\n## Core Features\n### AI Thumbnail Generator\n- Input a video idea or title.\n- Output: thumbnails inspired by what works (color schemes, layout, facial expressions, text).\n- Search by image similarity or niche.\n- Useful for creators who aren’t designers or want their thumbnails to blend in—or stand out.\n### Title Generator\n- Generates titles using proven viral patterns.\n- Helps shortcut the trial-and-error of title writing.\n- Don’t expect originality, but expect formulas that work.\n### Idea Generator\n- Based on a video you like, it suggests similar content ideas.\n- Useful for beginners or entering a new niche.\n### Niche Explorer\n- Find trending channels and content in your target space.\n- Helps you identify what’s popular before you dive in.\n### Homepage & Shorts Outliers\n- Surfaces videos that perform well above their expected average.\n- Helps you learn what’s breaking the algorithm.\n### Tracked Channels\n- Get notified when competitors publish new videos or when something spikes.\n- Useful for reacting quickly or staying ahead.\n### Thumbnails & Topic Similarity Tools\n- Search by thumbnail or idea and get a feed of similar successful videos.\n- Great for spotting visual or packaging trends.\n### Vision Boards\n- Save thumbnails and video ideas to custom boards.\n- Functions like a Pinterest board for content strategy.\n## How It Uses AI\n- **Image similarity**: Finds thumbnails that look visually similar, not just by metadata.\n- **Content modeling**: Surfaces videos that are statistical outliers in performance.\n- **Packaging prediction**: Suggests titles and thumbnail styles based on machine learning trained on high-performing YouTube content.\nThe AI is geared toward learning what works—and helping you replicate the structure, not the content.\n## Who Should Use This\n- YouTubers looking for better-performing ideas without spending hours researching.\n- Solo creators who don’t have a team to help package their videos.\n- Shorts creators—1of10 supports short-form content too.\n- Agencies and consultants creating video strategy for clients.\n1of10 is not a full video editor. It’s a research, ideation, and packaging tool.\nIts biggest strength is helping creators save time and follow data. Its biggest weakness? If everyone uses it, the platform may become saturated with similar packaging. You still need creative instincts to stand out.\nIf you're serious about growing a YouTube channel and want to work smarter, not harder, **1of10** is one of the most practical tools out there. It gives you a system for idea validation, competitive research, and packaging—without guessing what might work.",
+    "category": "AI Video",
+    "language": [
+      "English",
+      "French"
+    ],
+    "use_case": [
+      "YouTube Content Creation",
+      "YouTube Channel Growth",
+      "Video Idea Research",
+      "Thumbnail Creation"
+    ],
+    "function": [
+      "Outlier Video Discovery",
+      "Video Idea Generation",
+      "YouTube Thumbnail Generation",
+      "YouTube Title Generation",
+      "Title Optimization",
+      "Niche Trend Analysis"
+    ],
+    "price_type": [
+      "free",
+      "paid"
+    ],
+    "one_line_desc": "1of10 uses YouTube performance data and AI to discover viral video ideas, generate titles, and create thumbnails for content creators."
+  },
+  {
+    "name": "AI Aware",
+    "official_url": "https://aiaware.io/",
+    "source": "aitoolsdirectory",
+    "source_url": "https://aitoolsdirectory.com/",
+    "source_description": "Most AI detectors focus on one format. [AI Aware](https://aiaware.io/?utm_source=aitoolsdirectory) covers all of them. The London deep tech startup built a single platform that identifies AI-generated and manipulated content across text, images, video, and audio, with each modality drawing on an ensemble of detection models rather than a single algorithm.\nThe text detection goes beyond flagging fully AI-written content. It's specifically trained to catch hybrid material: pieces that started as AI output and were then edited by hand, or human writing that was adjusted with AI assistance. Results appear at the sentence and paragraph level with calibrated confidence scores, not a binary pass/fail verdict.\nThe video and audio detection targets deepfakes and voice cloning, analysing facial inconsistencies, temporal anomalies, and audio synthesis artifacts. Image analysis examines pixel-level signatures left by generative models. The research behind the platform comes from co-founder Dr. Tillman Weyde, a Computer Science researcher at City St George's University London. The company has received Innovate UK funding, awarded to roughly 5% of applicants.\nThe platform claims to outperform established competitors including Originality, GPTZero, ZeroGPT, and Winston on accuracy, precision, and recall. It reportedly detected DeepSeek with 99.983% accuracy without having been specifically trained on it.\nTarget users include universities validating student submissions, legal teams authenticating evidence, media organisations fact-checking source material, HR departments reviewing candidate work, and financial services firms flagging document manipulation. Formal partnerships with UKRI and the UK All-Party Parliamentary Group on AI give it institutional credibility that few early-stage detection tools have.\nA **free trial** is available without creating an account. Enterprise API access and tailored integrations are available on request.",
+    "category": "AI Writing",
+    "language": [
+      "English"
+    ],
+    "use_case": [
+      "Academic Integrity Checks",
+      "Legal Document Review",
+      "Brand Protection",
+      "Fraud Prevention",
+      "Journalism Fact-Checking",
+      "Social Media Moderation",
+      "Insurance Fraud Detection",
+      "Media Verification",
+      "Recruitment Screening",
+      "Call Centre Security",
+      "Voice Authentication Verification",
+      "Content Authenticity"
+    ],
+    "function": [
+      "AI Text Detection",
+      "Deepfake Video Detection",
+      "AI Image Detection",
+      "AI Audio Detection",
+      "Voice Clone Detection",
+      "Confidence Scoring",
+      "Paragraph-Level Analysis"
+    ],
+    "price_type": [
+      "free trial"
+    ],
+    "one_line_desc": "AI Aware is a unified platform for detecting AI-generated and manipulated text, images, video, and audio."
+  },
+  {
+    "name": "AI Baby Generator",
+    "official_url": "https://aibabygenerator.ai/",
+    "source": "aitoolsdirectory",
+    "source_url": "https://aitoolsdirectory.com/",
+    "source_description": "You upload a photo of each parent, pick a few options, and [AI Baby Generator](https://aibabygenerator.ai/?utm_source=aitoolsdirectory) creates a portrait of what your future child might look like. That's the whole pitch. It's a novelty tool, sure, but one that's clearly resonating — the site claims 12,000+ photos delivered to 3,000+ families, which suggests people are genuinely curious enough to pay for it.\nThe workflow is simple: upload a clear face photo of mom and a clear face photo of dad, choose the baby's sex (boy, girl, or twins), then select an age output — baby, child, or teen. Results come back in seconds. The output is a realistic-looking AI portrait, not a cartoon or illustration.\nIt won't predict your actual future child's appearance with any scientific accuracy, but the results are coherent enough to be fun. Faces tend to blend features from both parents in a believable way. You might recognise something of yourself in the output, or you might not — but you'll probably share it anyway.\n## Who Is It For?\nCouples who are curious, expecting parents who want something a bit different, or frankly anyone who wants a 60-second distraction. It also gets shared a lot on social media, which probably explains a good chunk of their traffic.\n## Key Features\n- Upload photos of mom and dad to generate a future baby portrait\n- Choose boy, girl, or twins\n- Select output age: baby, child, or teen\n- Realistic AI-generated face portraits, not illustrations\n- Results delivered in seconds\n- $1 trial, $19.99/month subscription",
+    "category": "AI Image",
+    "language": [
+      "English"
+    ],
+    "use_case": [
+      "Future Child Visualization",
+      "Parent Photo Portraits",
+      "Social Media Sharing"
+    ],
+    "function": [
+      "AI Portrait Generation",
+      "Face Feature Blending",
+      "Gender Selection",
+      "Age Selection"
+    ],
+    "price_type": [
+      "free trial",
+      "paid"
+    ],
+    "one_line_desc": "AI Baby Generator creates realistic portraits of a potential future child from photos of both parents."
+  },
+  {
+    "name": "AI Detector Pro",
+    "official_url": "https://moxby.com/marketplace/ai-content-detector",
+    "source": "aitoolsdirectory",
+    "source_url": "https://aitoolsdirectory.com/",
+    "source_description": "AI Detector Pro is a handy free tool from Brandwell that mitigates the risk of being penalized by Google for using **AI-generated content**. By pasting or writing your content into the detector, you'll know within seconds if it's written by AI or sounds more human. The **Chat GPT detector** goes deeper than a generic AI classifier to detect robotic-sounding content.\nWhat sets [Brandwell's AI content checker](https://link.aitoolsdirectory.com/brandwell-aidetector) apart is its high accuracy, training on billions of individual pages of data and words. It can forecast if your content is AI-generated or humanly-optimized. As AI-generated text becomes more common, this **free AI checker** is one of the only tools that can accurately detect word strings and text created by ChatGPT and other AI generators.\nBrandwell uses a proprietary content platform, designed by an entrepreneur with 15 years of experience in SEO and content marketing.\nThis AI detector is capable of analyzing and finding content generated by ChatGPT or any AI text generator. AI detection is becoming increasingly important so protect yourself and your content by knowing if it passes the bot versus human test.\nWorks well with [Hix](https://aitoolsdirectory.com/tool/hix-bypass)\nAlternatives: [Originality ai](https://aitoolsdirectory.com/tool/originality-ai), [Winston ai](https://aitoolsdirectory.com/tool/winston-ai)",
+    "category": "AI Writing",
+    "language": [
+      "English"
+    ],
+    "use_case": [
+      "Writing Pattern Analysis",
+      "Editorial Review",
+      "AI Content Review"
+    ],
+    "function": [
+      "Pattern Detection",
+      "Passage Highlighting",
+      "Editorial Guidance"
+    ],
+    "price_type": [
+      "free"
+    ],
+    "one_line_desc": "AI Detector Pro reviews writing for repetitive, formulaic, or robotic patterns and highlights passages that may benefit from clearer, more varied expression."
+  }
+]

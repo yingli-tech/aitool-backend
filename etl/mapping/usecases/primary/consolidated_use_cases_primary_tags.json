@@ -1,0 +1,2931 @@
+[
+    {
+        "pocket_id": 0,
+        "primary_tags": [
+            {
+                "primary_tag": "Content Creation and Optimization",
+                "source_secondary_tags": [
+                    "Content Repurposing",
+                    "Content Humanization",
+                    "Content Originality"
+                ]
+            },
+            {
+                "primary_tag": "Content Publishing and Distribution",
+                "source_secondary_tags": [
+                    "Content Distribution",
+                    "Digital Content Publishing"
+                ]
+            },
+            {
+                "primary_tag": "Content Monetization and Performance",
+                "source_secondary_tags": [
+                    "Creator and Content Monetization",
+                    "Conversion Attribution"
+                ]
+            },
+            {
+                "primary_tag": "Content Access",
+                "source_secondary_tags": [
+                    "Geo-Restricted Content Access"
+                ]
+            },
+            {
+                "primary_tag": "Content and Media Verification",
+                "source_secondary_tags": [
+                    "Digital Content Authenticity Verification",
+                    "Fact and Media Verification"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 1,
+        "primary_tags": [
+            {
+                "primary_tag": "E-commerce Store Design and Merchandising",
+                "source_secondary_tags": [
+                    "E-commerce Visual Design",
+                    "E-commerce Product Listings",
+                    "E-commerce Theme Research"
+                ]
+            },
+            {
+                "primary_tag": "Product Visualization and Photography",
+                "source_secondary_tags": [
+                    "Product and Packaging Visualization",
+                    "Product and E-commerce Photography"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 2,
+        "primary_tags": [
+            {
+                "primary_tag": "Feedback Collection and Evaluation",
+                "source_secondary_tags": [
+                    "Customer Feedback Collection",
+                    "Design Feedback",
+                    "Learner Feedback"
+                ]
+            },
+            {
+                "primary_tag": "Software Design and Architecture",
+                "source_secondary_tags": [
+                    "Software Architecture Review",
+                    "Responsive Design"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 3,
+        "primary_tags": [
+            {
+                "primary_tag": "Image Editing and Transformation",
+                "source_secondary_tags": [
+                    "Photo Animation",
+                    "Photo Effects and Stylization",
+                    "Face Swapping",
+                    "Image and Photo Editing",
+                    "Batch Image Editing",
+                    "Product Image Editing",
+                    "Image Element Replacement"
+                ]
+            },
+            {
+                "primary_tag": "Photography and Profile Imagery",
+                "source_secondary_tags": [
+                    "Portrait Photography",
+                    "Resume Photo Creation",
+                    "Professional Portrait and Headshot Photography",
+                    "Personal Photography",
+                    "Professional Profile Picture Creation"
+                ]
+            },
+            {
+                "primary_tag": "Visual Design and Illustration",
+                "source_secondary_tags": [
+                    "Digital Illustration",
+                    "Photo Collage Creation",
+                    "Wallpaper Design"
+                ]
+            },
+            {
+                "primary_tag": "Image Translation and Localization",
+                "source_secondary_tags": [
+                    "Image Translation"
+                ]
+            },
+            {
+                "primary_tag": "Landscape Design and Planning",
+                "source_secondary_tags": [
+                    "Landscaping"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 4,
+        "primary_tags": [
+            {
+                "primary_tag": "Performance Analytics and Reporting",
+                "source_secondary_tags": [
+                    "Marketing Performance Analytics",
+                    "Client Analytics Reporting",
+                    "Marketing Reporting and Performance Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Market and Strategic Intelligence",
+                "source_secondary_tags": [
+                    "Competitive Analysis and Intelligence",
+                    "Market Analysis",
+                    "Strategic Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Customer Insights",
+                "source_secondary_tags": [
+                    "Customer Feedback Analysis"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 5,
+        "primary_tags": [
+            {
+                "primary_tag": "Contract and Procurement Management",
+                "source_secondary_tags": [
+                    "Contractor Bidding",
+                    "Contract Lifecycle Management",
+                    "Electronic Signatures",
+                    "Contract Review",
+                    "Contract Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Billing and Expense Management",
+                "source_secondary_tags": [
+                    "Payment and Transaction Processing",
+                    "Time and Billable Hours Tracking",
+                    "Expense Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Task Management",
+                "source_secondary_tags": [
+                    "Action Item Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Asset Management",
+                "source_secondary_tags": [
+                    "Device Tracking"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 6,
+        "primary_tags": [
+            {
+                "primary_tag": "Workflow and Process Automation",
+                "source_secondary_tags": [
+                    "Workflow Automation",
+                    "Sales Process Automation",
+                    "Workflow Automation and Execution",
+                    "Application and UI Automation",
+                    "Business Operations Automation",
+                    "Software Development Workflow Automation",
+                    "Data Processing and Pipeline Automation",
+                    "Creative and Marketing Workflow Automation",
+                    "Compliance and Tax Workflow Automation",
+                    "Marketing Automation",
+                    "Customer Support Automation",
+                    "AI Workflow Automation",
+                    "E-commerce Automation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 7,
+        "primary_tags": [
+            {
+                "primary_tag": "Video Analysis and Summarization",
+                "source_secondary_tags": [
+                    "YouTube Video Analysis",
+                    "Video Summarization",
+                    "Lecture Summarization",
+                    "Video Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Video Creation and Localization",
+                "source_secondary_tags": [
+                    "Educational and Explainer Videos",
+                    "Music-to-Video Matching",
+                    "Video Translation and Localization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 8,
+        "primary_tags": [
+            {
+                "primary_tag": "AI Agent Development and Automation",
+                "source_secondary_tags": [
+                    "AI Agent Development",
+                    "Agent Orchestration",
+                    "Agent Deployment",
+                    "Agentic Coding",
+                    "AI Agent Task Execution",
+                    "AI Agent Development",
+                    "AI Agent Workflows"
+                ]
+            },
+            {
+                "primary_tag": "AI Application Development and Deployment",
+                "source_secondary_tags": [
+                    "AI Feature Development",
+                    "AI Application and Tool Development",
+                    "AI Product Integration",
+                    "AI Deployment"
+                ]
+            },
+            {
+                "primary_tag": "AI Model Lifecycle Management",
+                "source_secondary_tags": [
+                    "AI Usage Analytics",
+                    "AI Model Comparison",
+                    "AI Model Access",
+                    "AI Training Data",
+                    "AI Cost Management",
+                    "Custom AI Model Training"
+                ]
+            },
+            {
+                "primary_tag": "AI Business and Monetization",
+                "source_secondary_tags": [
+                    "AI Tool Monetization",
+                    "AI Business Creation"
+                ]
+            },
+            {
+                "primary_tag": "AI Adoption and Skills Development",
+                "source_secondary_tags": [
+                    "AI Skills Development",
+                    "Team AI Adoption"
+                ]
+            },
+            {
+                "primary_tag": "Personal AI Assistance and Companionship",
+                "source_secondary_tags": [
+                    "Personal AI Assistance",
+                    "AI Companionship"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 9,
+        "primary_tags": [
+            {
+                "primary_tag": "Voice and Narration Generation",
+                "source_secondary_tags": [
+                    "Voice Content Generation and Narration",
+                    "NPC Voice Dialogue",
+                    "Course Narration",
+                    "Narration"
+                ]
+            },
+            {
+                "primary_tag": "Caption and Subtitle Generation",
+                "source_secondary_tags": [
+                    "Caption Creation",
+                    "Subtitle Creation"
+                ]
+            },
+            {
+                "primary_tag": "Short-Form Text Generation",
+                "source_secondary_tags": [
+                    "Quote Generation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 10,
+        "primary_tags": [
+            {
+                "primary_tag": "Document Processing and Text Extraction",
+                "source_secondary_tags": [
+                    "File Processing",
+                    "OCR Text Extraction"
+                ]
+            },
+            {
+                "primary_tag": "Document Analysis and Research",
+                "source_secondary_tags": [
+                    "Document and File Analysis",
+                    "Text Analysis",
+                    "Topic Discovery",
+                    "Financial Document Analysis",
+                    "Plagiarism Detection",
+                    "Document Research"
+                ]
+            },
+            {
+                "primary_tag": "Document Comprehension and Consumption",
+                "source_secondary_tags": [
+                    "Document Comprehension",
+                    "Text and Document Summarization",
+                    "Document Listening"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 11,
+        "primary_tags": [
+            {
+                "primary_tag": "Music Creation and Production",
+                "source_secondary_tags": [
+                    "Music Creation",
+                    "Music Production",
+                    "Music Mastering",
+                    "Music Remixing",
+                    "Music Collaboration",
+                    "Video Soundtrack Creation",
+                    "Background Music Creation",
+                    "Backing and Karaoke Track Creation"
+                ]
+            },
+            {
+                "primary_tag": "Audio Production and Sound Design",
+                "source_secondary_tags": [
+                    "Audiobook Production",
+                    "Audio Generation",
+                    "Sound Design",
+                    "Game Audio Production",
+                    "Audio Post-Production"
+                ]
+            },
+            {
+                "primary_tag": "Music Promotion and Distribution",
+                "source_secondary_tags": [
+                    "Music Promotion",
+                    "Music Distribution",
+                    "Music Streaming"
+                ]
+            },
+            {
+                "primary_tag": "Music Learning and Practice",
+                "source_secondary_tags": [
+                    "Music Education",
+                    "Music Practice"
+                ]
+            },
+            {
+                "primary_tag": "Live Music Performance",
+                "source_secondary_tags": [
+                    "Live Music Performance"
+                ]
+            },
+            {
+                "primary_tag": "Music Visual Content Creation",
+                "source_secondary_tags": [
+                    "Music Video Creation",
+                    "Spotify Canvas Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 12,
+        "primary_tags": [
+            {
+                "primary_tag": "Writing Assistance and Editing",
+                "source_secondary_tags": [
+                    "Grammar Checking",
+                    "Cross-App Writing",
+                    "General Writing Assistance",
+                    "Writing Editing and Improvement",
+                    "Writing Pattern Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Purpose-Specific Writing",
+                "source_secondary_tags": [
+                    "Academic and Research Writing",
+                    "Professional and Business Writing",
+                    "Technical Writing",
+                    "Resume Writing",
+                    "Speech Writing",
+                    "Cover Letter Writing"
+                ]
+            },
+            {
+                "primary_tag": "Personal Writing and Skill Development",
+                "source_secondary_tags": [
+                    "Writing Practice",
+                    "Journaling"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 13,
+        "primary_tags": [
+            {
+                "primary_tag": "Client Lifecycle Management",
+                "source_secondary_tags": [
+                    "Client Relationship Management",
+                    "Client Marketing and Acquisition",
+                    "Client Intake"
+                ]
+            },
+            {
+                "primary_tag": "Client Communication and Support",
+                "source_secondary_tags": [
+                    "Client Communication and Collaboration",
+                    "Client Support"
+                ]
+            },
+            {
+                "primary_tag": "Client Deliverable Management",
+                "source_secondary_tags": [
+                    "Client Deliverable Creation"
+                ]
+            },
+            {
+                "primary_tag": "Client Digital Platform Management",
+                "source_secondary_tags": [
+                    "Client Portal Management",
+                    "Client Website Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 14,
+        "primary_tags": [
+            {
+                "primary_tag": "Professional Interaction Preparation",
+                "source_secondary_tags": [
+                    "Meeting Preparation",
+                    "Interview Preparation"
+                ]
+            },
+            {
+                "primary_tag": "Assessment Preparation and Testing",
+                "source_secondary_tags": [
+                    "Exam Preparation",
+                    "Language Exam Preparation and Testing"
+                ]
+            },
+            {
+                "primary_tag": "Prompt Management",
+                "source_secondary_tags": [
+                    "Prompt Preparation and Management"
+                ]
+            },
+            {
+                "primary_tag": "Academic Advising Management",
+                "source_secondary_tags": [
+                    "Advisor Transition Management"
+                ]
+            },
+            {
+                "primary_tag": "Publication Workflow",
+                "source_secondary_tags": [
+                    "Publication Preparation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 15,
+        "primary_tags": [
+            {
+                "primary_tag": "Course Development and Publishing",
+                "source_secondary_tags": [
+                    "Course and Curriculum Design",
+                    "Online Course Publishing",
+                    "Online Course Creation"
+                ]
+            },
+            {
+                "primary_tag": "Online Learning Delivery and Management",
+                "source_secondary_tags": [
+                    "LMS Course Delivery",
+                    "Online Course Management",
+                    "Online Learning"
+                ]
+            },
+            {
+                "primary_tag": "Community Management",
+                "source_secondary_tags": [
+                    "Online Community Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 16,
+        "primary_tags": [
+            {
+                "primary_tag": "Project and Product Planning",
+                "source_secondary_tags": [
+                    "Task Planning and Management",
+                    "Feature Planning",
+                    "Project Cost and Effort Estimation",
+                    "Roadmap Planning"
+                ]
+            },
+            {
+                "primary_tag": "Research and Policy Development",
+                "source_secondary_tags": [
+                    "Research Execution and Synthesis",
+                    "Research Ideation and Planning",
+                    "Policy Research",
+                    "Policy Development"
+                ]
+            },
+            {
+                "primary_tag": "Business Strategy and Proposal Development",
+                "source_secondary_tags": [
+                    "Proposal Development",
+                    "GEO Strategy",
+                    "Business Strategy and Planning",
+                    "Business Proposal Development"
+                ]
+            },
+            {
+                "primary_tag": "Personal, Travel, and Property Planning",
+                "source_secondary_tags": [
+                    "Accommodation Planning",
+                    "Home Renovation Planning",
+                    "Real Estate Walkthroughs",
+                    "Personal Goal and Intention Planning",
+                    "Travel Planning"
+                ]
+            },
+            {
+                "primary_tag": "Creative Story Development",
+                "source_secondary_tags": [
+                    "Story Planning"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 17,
+        "primary_tags": [
+            {
+                "primary_tag": "Software Quality Assurance",
+                "source_secondary_tags": [
+                    "Regression Testing",
+                    "Pull Request Testing",
+                    "Software Application Testing",
+                    "Test Development and Automation"
+                ]
+            },
+            {
+                "primary_tag": "Security Assessment",
+                "source_secondary_tags": [
+                    "Security Testing"
+                ]
+            },
+            {
+                "primary_tag": "Experimentation and Optimization",
+                "source_secondary_tags": [
+                    "A/B Testing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 18,
+        "primary_tags": [
+            {
+                "primary_tag": "Video Content Creation",
+                "source_secondary_tags": [
+                    "Short-Form Social Video Creation",
+                    "Educational and Training Video Creation",
+                    "Presenter and Digital Avatar Videos",
+                    "Customer Service Videos",
+                    "News Videos",
+                    "Romantic Video Messages",
+                    "Talking Head Videos",
+                    "Presentation Videos",
+                    "Announcement Videos",
+                    "Motivational Videos",
+                    "Action Videos"
+                ]
+            },
+            {
+                "primary_tag": "Video Marketing, Advertising, and Sales",
+                "source_secondary_tags": [
+                    "Marketing Video Creation",
+                    "Video Marketing",
+                    "Video Advertising",
+                    "Sales Videos",
+                    "Personalized Outreach Videos",
+                    "Viral Video Creation and Marketing",
+                    "Product Videos"
+                ]
+            },
+            {
+                "primary_tag": "Video Ideation and Testing",
+                "source_secondary_tags": [
+                    "Video Concept Testing",
+                    "Viral Video Ideation"
+                ]
+            },
+            {
+                "primary_tag": "YouTube Content Publishing",
+                "source_secondary_tags": [
+                    "YouTube Thumbnail Design",
+                    "YouTube Video Publishing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 19,
+        "primary_tags": [
+            {
+                "primary_tag": "Messaging and Communication",
+                "source_secondary_tags": [
+                    "Message Composition",
+                    "Message Taking",
+                    "Cross-Platform Messaging",
+                    "Digital Human Communication",
+                    "Global Communication",
+                    "Multichannel Messaging",
+                    "Real-World Communication"
+                ]
+            },
+            {
+                "primary_tag": "Workplace Communication",
+                "source_secondary_tags": [
+                    "Business and Corporate Communication",
+                    "Internal Communications"
+                ]
+            },
+            {
+                "primary_tag": "Communication Training",
+                "source_secondary_tags": [
+                    "Communication Training"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 20,
+        "primary_tags": [
+            {
+                "primary_tag": "Social Media Marketing and Management",
+                "source_secondary_tags": [
+                    "Social Media and Influencer Analytics",
+                    "Social Media Marketing",
+                    "Social Media Advertising",
+                    "Social Media Management and Publishing",
+                    "Social Commerce Publishing",
+                    "Social Media Moderation"
+                ]
+            },
+            {
+                "primary_tag": "Book Publishing",
+                "source_secondary_tags": [
+                    "Book Self-Publishing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 21,
+        "primary_tags": [
+            {
+                "primary_tag": "Content Strategy and Operations",
+                "source_secondary_tags": [
+                    "Content Strategy and Planning",
+                    "Content Management and Operations",
+                    "Content and Editorial Review",
+                    "Content Research"
+                ]
+            },
+            {
+                "primary_tag": "SEO and Content Discoverability",
+                "source_secondary_tags": [
+                    "Content Optimization and Discoverability",
+                    "SEO Content Creation",
+                    "SEO Content Strategy and Research",
+                    "SEO Optimization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 22,
+        "primary_tags": [
+            {
+                "primary_tag": "Customer Engagement and Journey Management",
+                "source_secondary_tags": [
+                    "Customer Relationship and Contact Management",
+                    "Customer Journey Mapping",
+                    "Customer Retargeting"
+                ]
+            },
+            {
+                "primary_tag": "Customer Onboarding, Education, and Support",
+                "source_secondary_tags": [
+                    "Customer Education and Training",
+                    "Customer Self-Service",
+                    "Customer Onboarding",
+                    "Product Onboarding",
+                    "Customer Support"
+                ]
+            },
+            {
+                "primary_tag": "Employee Onboarding",
+                "source_secondary_tags": [
+                    "Employee Onboarding"
+                ]
+            },
+            {
+                "primary_tag": "Venture Evaluation and Decision Support",
+                "source_secondary_tags": [
+                    "Venture Decision Support"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 23,
+        "primary_tags": [
+            {
+                "primary_tag": "Event Planning and Management",
+                "source_secondary_tags": [
+                    "Event Promotion",
+                    "Event Information Management",
+                    "Event Management",
+                    "Lottery Events"
+                ]
+            },
+            {
+                "primary_tag": "Scheduling and Calendar Management",
+                "source_secondary_tags": [
+                    "Booking and Scheduling",
+                    "Timeline Management",
+                    "Calendar Management"
+                ]
+            },
+            {
+                "primary_tag": "Financial Close Management",
+                "source_secondary_tags": [
+                    "Month-End Close"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 24,
+        "primary_tags": [
+            {
+                "primary_tag": "Financial Research and Analysis",
+                "source_secondary_tags": [
+                    "Investment Research",
+                    "Pricing Research",
+                    "Financial Research"
+                ]
+            },
+            {
+                "primary_tag": "Financial Planning and Management",
+                "source_secondary_tags": [
+                    "Cash Flow Management and Analysis",
+                    "Debt and Loan Management",
+                    "Financial Goal Planning",
+                    "Retirement Planning",
+                    "Startup Funding Planning",
+                    "Financial Forecasting and Modeling",
+                    "Financial Health and Wellness Assessment"
+                ]
+            },
+            {
+                "primary_tag": "Financial Accounting and Reporting",
+                "source_secondary_tags": [
+                    "Financial Reporting",
+                    "Financial Reconciliation",
+                    "Financial Recordkeeping"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 25,
+        "primary_tags": [
+            {
+                "primary_tag": "Financial Operations Management",
+                "source_secondary_tags": [
+                    "Bookkeeping and Accounting Automation",
+                    "Accounts Payable",
+                    "Bill and Invoice Management",
+                    "Payroll Management"
+                ]
+            },
+            {
+                "primary_tag": "Account Administration and Access",
+                "source_secondary_tags": [
+                    "Account and Application Access",
+                    "Account Ban Prevention",
+                    "Account Opening",
+                    "Multi-Account Management"
+                ]
+            },
+            {
+                "primary_tag": "Sales and Strategic Account Management",
+                "source_secondary_tags": [
+                    "Account-Based Marketing",
+                    "Strategic Account Planning",
+                    "Deal Management"
+                ]
+            },
+            {
+                "primary_tag": "Subscription and Membership Management",
+                "source_secondary_tags": [
+                    "Recurring Billing and Subscription Management",
+                    "Membership Management"
+                ]
+            },
+            {
+                "primary_tag": "Privacy and Consent Management",
+                "source_secondary_tags": [
+                    "Cookie Consent Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 26,
+        "primary_tags": [
+            {
+                "primary_tag": "Online Presence and Engagement",
+                "source_secondary_tags": [
+                    "Website Visitor Engagement",
+                    "Online Presence Building",
+                    "Online Engagement"
+                ]
+            },
+            {
+                "primary_tag": "Personal Use",
+                "source_secondary_tags": [
+                    "General Personal Use"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 27,
+        "primary_tags": [
+            {
+                "primary_tag": "Local Marketing",
+                "source_secondary_tags": [
+                    "Local SEO",
+                    "Local Business and Profile Marketing",
+                    "Local Advertising"
+                ]
+            },
+            {
+                "primary_tag": "Marketing Localization and Adaptation",
+                "source_secondary_tags": [
+                    "Marketing Localization"
+                ]
+            },
+            {
+                "primary_tag": "Mobile App User Acquisition",
+                "source_secondary_tags": [
+                    "App Install Advertising"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 28,
+        "primary_tags": [
+            {
+                "primary_tag": "Educational Assessment",
+                "source_secondary_tags": [
+                    "Knowledge Assessment",
+                    "Assessment Authoring",
+                    "Learner Assessment"
+                ]
+            },
+            {
+                "primary_tag": "Readability Analysis and Improvement",
+                "source_secondary_tags": [
+                    "Readability Assessment",
+                    "Report Readability Improvement"
+                ]
+            },
+            {
+                "primary_tag": "Content Authenticity Verification",
+                "source_secondary_tags": [
+                    "Writing Originality and Authorship Verification"
+                ]
+            },
+            {
+                "primary_tag": "Due Diligence",
+                "source_secondary_tags": [
+                    "Due Diligence"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 29,
+        "primary_tags": [
+            {
+                "primary_tag": "Product Research and Insights",
+                "source_secondary_tags": [
+                    "Customer Research and Insights",
+                    "Social Commerce Research",
+                    "Product Review Analysis and Management",
+                    "Product Research",
+                    "User Experience Research",
+                    "Stakeholder Analysis",
+                    "Relationship Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Product Development and Design",
+                "source_secondary_tags": [
+                    "SaaS Product Development",
+                    "Product and Fashion Design"
+                ]
+            },
+            {
+                "primary_tag": "Product Launch and Enablement",
+                "source_secondary_tags": [
+                    "Product Knowledge Training",
+                    "SaaS Product Launch",
+                    "Product Demonstrations"
+                ]
+            },
+            {
+                "primary_tag": "Product Discovery and Catalog Management",
+                "source_secondary_tags": [
+                    "Product Discovery and Recommendations",
+                    "Product Catalog Enrichment"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 30,
+        "primary_tags": [
+            {
+                "primary_tag": "Newsletter Content Management",
+                "source_secondary_tags": [
+                    "Newsletter Creation",
+                    "Newsletter Publishing"
+                ]
+            },
+            {
+                "primary_tag": "Newsletter Subscription Management",
+                "source_secondary_tags": [
+                    "Newsletter Subscription"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 31,
+        "primary_tags": [
+            {
+                "primary_tag": "Workflow and Process Management",
+                "source_secondary_tags": [
+                    "Approval Workflow Creation",
+                    "Process Optimization",
+                    "Pipeline Management",
+                    "Workflow Management",
+                    "Workflow Migration",
+                    "Workflow Optimization",
+                    "YouTube Workflow Management",
+                    "Pull Request Workflow Management",
+                    "Business Process Management",
+                    "Agency Workflows",
+                    "Content Team Workflows"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 32,
+        "primary_tags": [
+            {
+                "primary_tag": "Education and Learning",
+                "source_secondary_tags": [
+                    "Literacy Development",
+                    "Educational Project Development",
+                    "E-Learning Content Development",
+                    "Learning and Development"
+                ]
+            },
+            {
+                "primary_tag": "Software and Digital Product Development",
+                "source_secondary_tags": [
+                    "Code Development and Generation",
+                    "MVP Development",
+                    "Software Development",
+                    "ERP Development",
+                    "Game Development",
+                    "Theme Development",
+                    "Prototype Development"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 33,
+        "primary_tags": [
+            {
+                "primary_tag": "Video Content Creation",
+                "source_secondary_tags": [
+                    "Avatar Video Creation",
+                    "AI Video Generation",
+                    "UGC-Style Video Creation",
+                    "Image-to-Video Creation",
+                    "Text-to-Video Creation",
+                    "Faceless Video Creation",
+                    "Narrative and Cinematic Video Creation",
+                    "Video and Cinematic Storytelling",
+                    "GIF Creation",
+                    "UGC Video Creation",
+                    "Trailer Creation"
+                ]
+            },
+            {
+                "primary_tag": "Animation and Motion Production",
+                "source_secondary_tags": [
+                    "Motion Graphics Video Creation",
+                    "Animation Creation",
+                    "Animation Previsualization",
+                    "AI Motion Capture"
+                ]
+            },
+            {
+                "primary_tag": "Interactive Media and Simulation",
+                "source_secondary_tags": [
+                    "Interactive Media Creation",
+                    "Real-Time Rendering",
+                    "Physical and Robotics Simulation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 34,
+        "primary_tags": [
+            {
+                "primary_tag": "Social Media Content Production",
+                "source_secondary_tags": [
+                    "Social Story Content",
+                    "Social Media Content Creation",
+                    "Content and Social Media Writing",
+                    "Social Media Content Creation",
+                    "Social Media Content Repurposing"
+                ]
+            },
+            {
+                "primary_tag": "Social Media Management and Growth",
+                "source_secondary_tags": [
+                    "Social Media Growth",
+                    "Social Media Intelligence",
+                    "Social Media Automation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 35,
+        "primary_tags": [
+            {
+                "primary_tag": "Digital Audience Analytics and Growth",
+                "source_secondary_tags": [
+                    "Website Traffic Analytics and Growth",
+                    "YouTube Channel Growth and Optimization"
+                ]
+            },
+            {
+                "primary_tag": "Customer Experience Analytics",
+                "source_secondary_tags": [
+                    "Customer Service Analytics"
+                ]
+            },
+            {
+                "primary_tag": "Market and Competitive Intelligence",
+                "source_secondary_tags": [
+                    "Market Intelligence and Trend Monitoring"
+                ]
+            },
+            {
+                "primary_tag": "Real-Time Data Analytics",
+                "source_secondary_tags": [
+                    "Streaming Analytics"
+                ]
+            },
+            {
+                "primary_tag": "Digital Performance Monitoring",
+                "source_secondary_tags": [
+                    "Website Performance Monitoring"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 36,
+        "primary_tags": [
+            {
+                "primary_tag": "Email Communication and Management",
+                "source_secondary_tags": [
+                    "Email Writing",
+                    "Email Replies",
+                    "Email Productivity",
+                    "Email and Inbox Management",
+                    "Email and Calendar Management"
+                ]
+            },
+            {
+                "primary_tag": "Email Marketing and Audience Management",
+                "source_secondary_tags": [
+                    "Email Marketing",
+                    "Email List Growth",
+                    "Email List Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 37,
+        "primary_tags": [
+            {
+                "primary_tag": "Customer Support and Helpdesk Operations",
+                "source_secondary_tags": [
+                    "In-App Help",
+                    "Support Resolution Guides",
+                    "Support Agent Assistance",
+                    "Helpdesk Management"
+                ]
+            },
+            {
+                "primary_tag": "IT Infrastructure and Technical Support",
+                "source_secondary_tags": [
+                    "Infrastructure Operations",
+                    "IT Support"
+                ]
+            },
+            {
+                "primary_tag": "Personal and Professional Assistance",
+                "source_secondary_tags": [
+                    "Administrative Support",
+                    "Job Application Support",
+                    "Accessibility Assistance",
+                    "Advisory and Personalized Assistance"
+                ]
+            },
+            {
+                "primary_tag": "Mental Health and Well-Being Support",
+                "source_secondary_tags": [
+                    "Emotional Well-Being Support"
+                ]
+            },
+            {
+                "primary_tag": "Sales Conversion and Recovery",
+                "source_secondary_tags": [
+                    "Abandoned Cart Recovery"
+                ]
+            },
+            {
+                "primary_tag": "Emergency Response and Dispatch",
+                "source_secondary_tags": [
+                    "Emergency Dispatching"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 38,
+        "primary_tags": [
+            {
+                "primary_tag": "Conversational AI Assistants and Interfaces",
+                "source_secondary_tags": [
+                    "Conversational Voice Interfaces",
+                    "Document Chat",
+                    "AI Chat and Conversational Assistants",
+                    "Multi-Model AI Chat",
+                    "Adult AI Chat",
+                    "Multi-Speaker Conversations",
+                    "Website Chatbots"
+                ]
+            },
+            {
+                "primary_tag": "Conversation Intelligence",
+                "source_secondary_tags": [
+                    "Conversation Analysis and Intelligence",
+                    "Conversation Search"
+                ]
+            },
+            {
+                "primary_tag": "Conversational AI Development and Automation",
+                "source_secondary_tags": [
+                    "Conversation Automation",
+                    "Chatbot Grounding"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 39,
+        "primary_tags": [
+            {
+                "primary_tag": "Speech Capture and Transcription",
+                "source_secondary_tags": [
+                    "Meeting Capture and Recording",
+                    "Voice Dictation and Note Taking",
+                    "Speech-to-Text Dictation",
+                    "Audio and Speech Transcription",
+                    "Text Transcription"
+                ]
+            },
+            {
+                "primary_tag": "Voice AI Development and Integration",
+                "source_secondary_tags": [
+                    "Voice AI Application Development and Integration"
+                ]
+            },
+            {
+                "primary_tag": "Voice Translation and Localization",
+                "source_secondary_tags": [
+                    "Voice Localization",
+                    "Audio Translation"
+                ]
+            },
+            {
+                "primary_tag": "Speech and Performance Training",
+                "source_secondary_tags": [
+                    "Speaking and Pronunciation Practice",
+                    "Audition Preparation"
+                ]
+            },
+            {
+                "primary_tag": "Speech Synthesis and Voiceover Production",
+                "source_secondary_tags": [
+                    "Text-to-Speech Synthesis",
+                    "Voiceover Creation",
+                    "Voiceover Integration"
+                ]
+            },
+            {
+                "primary_tag": "Audio Analysis and Voice Processing",
+                "source_secondary_tags": [
+                    "Audio Analysis",
+                    "Vocal Removal",
+                    "Voice Cleanup",
+                    "Voice Transformation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 40,
+        "primary_tags": [
+            {
+                "primary_tag": "Multilingual Language Assistance",
+                "source_secondary_tags": [
+                    "Multilingual Reading",
+                    "Multilingual Assessment",
+                    "Multilingual Content Creation",
+                    "Multilingual Dictation",
+                    "Multilingual Support"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 41,
+        "primary_tags": [
+            {
+                "primary_tag": "Website Development and Management",
+                "source_secondary_tags": [
+                    "Website Design",
+                    "Website Editing and Customization",
+                    "Website Deployment",
+                    "Website Hosting",
+                    "WordPress Development",
+                    "Mobile Site Development",
+                    "Website Management"
+                ]
+            },
+            {
+                "primary_tag": "Application Development",
+                "source_secondary_tags": [
+                    "Application Development",
+                    "Web Application Development",
+                    "Mobile App Development",
+                    "Application Prototyping and Demos",
+                    "Plugin Development",
+                    "White-Label App Development"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 42,
+        "primary_tags": [
+            {
+                "primary_tag": "Legal Services and Analysis",
+                "source_secondary_tags": [
+                    "Legal Consultation",
+                    "Legal Document Review",
+                    "Legal Investigations",
+                    "Legal Research"
+                ]
+            },
+            {
+                "primary_tag": "Education and Training",
+                "source_secondary_tags": [
+                    "Legal Education"
+                ]
+            },
+            {
+                "primary_tag": "Content Authority and Thought Leadership",
+                "source_secondary_tags": [
+                    "Topical Authority Building"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 43,
+        "primary_tags": [
+            {
+                "primary_tag": "Contact Center Management and Governance",
+                "source_secondary_tags": [
+                    "Call Center Operations and Support",
+                    "Call Center Security",
+                    "Call Review and Quality Assurance"
+                ]
+            },
+            {
+                "primary_tag": "Inbound and Business Call Management",
+                "source_secondary_tags": [
+                    "Call Screening",
+                    "Inbound Call Handling",
+                    "Business Phone Communication"
+                ]
+            },
+            {
+                "primary_tag": "Outbound Calling and Engagement",
+                "source_secondary_tags": [
+                    "Outbound Cold Calling",
+                    "Outbound AI Calling"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 44,
+        "primary_tags": [
+            {
+                "primary_tag": "Search Optimization and Visibility",
+                "source_secondary_tags": [
+                    "Generative Engine Optimization",
+                    "Internal Link Optimization",
+                    "AI Search Optimization",
+                    "AI Citation Visibility Management",
+                    "AI Search Visibility Analysis and Monitoring",
+                    "Search Visibility Optimization"
+                ]
+            },
+            {
+                "primary_tag": "Enterprise Information Retrieval",
+                "source_secondary_tags": [
+                    "Enterprise Search"
+                ]
+            },
+            {
+                "primary_tag": "AI Content Detection and Humanization",
+                "source_secondary_tags": [
+                    "AI Content Humanization and Detection Bypass",
+                    "AI Content Detection"
+                ]
+            },
+            {
+                "primary_tag": "Machine Learning and Model Training",
+                "source_secondary_tags": [
+                    "Imitation Learning"
+                ]
+            },
+            {
+                "primary_tag": "Geospatial Intelligence",
+                "source_secondary_tags": [
+                    "Satellite Intelligence"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 45,
+        "primary_tags": [
+            {
+                "primary_tag": "Sales Strategy and Operations",
+                "source_secondary_tags": [
+                    "Sales Growth and Conversion",
+                    "Enterprise Sales Intelligence",
+                    "Government Sales Planning",
+                    "Sales Forecasting",
+                    "Sales Operations and Pipeline Management"
+                ]
+            },
+            {
+                "primary_tag": "Sales Prospecting and Engagement",
+                "source_secondary_tags": [
+                    "Online Sales",
+                    "B2B Sales",
+                    "Cross-Border Sales",
+                    "Sales Outreach",
+                    "Sales Prospecting",
+                    "WhatsApp Sales Management"
+                ]
+            },
+            {
+                "primary_tag": "Sales Enablement and Training",
+                "source_secondary_tags": [
+                    "Sales Enablement and Support",
+                    "Sales Call Analysis",
+                    "Sales Collateral Creation",
+                    "Sales Meeting Preparation",
+                    "Sales Training"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 46,
+        "primary_tags": [
+            {
+                "primary_tag": "Code Maintenance and Modernization",
+                "source_secondary_tags": [
+                    "Software Debugging and Bug Fixing",
+                    "Codebase Maintenance",
+                    "Code Refactoring and Editing",
+                    "Code Migration"
+                ]
+            },
+            {
+                "primary_tag": "Code Review and Analysis",
+                "source_secondary_tags": [
+                    "Code Review",
+                    "Codebase Analysis",
+                    "Pull Request Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Software Security",
+                "source_secondary_tags": [
+                    "Security Vulnerability Remediation",
+                    "Code Security Review"
+                ]
+            },
+            {
+                "primary_tag": "Code Execution and Cloud Development",
+                "source_secondary_tags": [
+                    "Code Execution",
+                    "Cloud Coding Workloads"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 47,
+        "primary_tags": [
+            {
+                "primary_tag": "Note-Taking",
+                "source_secondary_tags": [
+                    "General Note-Taking",
+                    "Course Note Creation"
+                ]
+            },
+            {
+                "primary_tag": "Pitch Development and Delivery",
+                "source_secondary_tags": [
+                    "Investor Pitching",
+                    "Pitch Deck Creation",
+                    "Pitch Writing",
+                    "Pitch Practice"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 48,
+        "primary_tags": [
+            {
+                "primary_tag": "Podcast Production and Distribution",
+                "source_secondary_tags": [
+                    "Podcast Creation and Production",
+                    "Podcast Music and Intros",
+                    "Podcast Audio Editing",
+                    "Podcast Publishing",
+                    "Podcast Transcription",
+                    "Podcast Content Repurposing",
+                    "Podcast Video and Visualization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 49,
+        "primary_tags": [
+            {
+                "primary_tag": "Text Input and Editing",
+                "source_secondary_tags": [
+                    "Text Input",
+                    "Text Humanization",
+                    "Text Editing",
+                    "Hands-Free Text Input"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 50,
+        "primary_tags": [
+            {
+                "primary_tag": "Employee Onboarding",
+                "source_secondary_tags": [
+                    "Onboarding Systems",
+                    "Onboarding Training"
+                ]
+            },
+            {
+                "primary_tag": "Workplace Training and Development",
+                "source_secondary_tags": [
+                    "Hospitality Training",
+                    "Corporate Training Content",
+                    "Safety Training",
+                    "Branded Training Academies",
+                    "Design Sprint Training"
+                ]
+            },
+            {
+                "primary_tag": "Employee Wellbeing",
+                "source_secondary_tags": [
+                    "Mental Fitness"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 51,
+        "primary_tags": [
+            {
+                "primary_tag": "CRM Solutions",
+                "source_secondary_tags": [
+                    "CRM Development",
+                    "CRM Management",
+                    "CRM Automation",
+                    "CRM Integration",
+                    "CRM Research"
+                ]
+            },
+            {
+                "primary_tag": "Application Integration",
+                "source_secondary_tags": [
+                    "SaaS Integration"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 52,
+        "primary_tags": [
+            {
+                "primary_tag": "Digital Asset Creation",
+                "source_secondary_tags": [
+                    "3D Model and Asset Creation",
+                    "Game Asset Creation",
+                    "WordPress Asset Creation"
+                ]
+            },
+            {
+                "primary_tag": "Digital Asset Sourcing and Management",
+                "source_secondary_tags": [
+                    "Asset Sourcing and Downloads",
+                    "Digital Asset Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 53,
+        "primary_tags": [
+            {
+                "primary_tag": "Team Collaboration and Coordination",
+                "source_secondary_tags": [
+                    "Collaborative Workspaces",
+                    "Project Management and Coordination",
+                    "Team Collaboration",
+                    "Team Alignment",
+                    "Team Handoffs"
+                ]
+            },
+            {
+                "primary_tag": "Meeting and Workshop Facilitation",
+                "source_secondary_tags": [
+                    "Meeting Coaching",
+                    "Workshop Facilitation"
+                ]
+            },
+            {
+                "primary_tag": "Knowledge Organization and Sharing",
+                "source_secondary_tags": [
+                    "Procedure Sharing",
+                    "Thought Organization"
+                ]
+            },
+            {
+                "primary_tag": "Training and Collaborative Learning",
+                "source_secondary_tags": [
+                    "Team Training and Collaborative Learning"
+                ]
+            },
+            {
+                "primary_tag": "Design Collaboration",
+                "source_secondary_tags": [
+                    "Design Collaboration"
+                ]
+            },
+            {
+                "primary_tag": "Contract Creation and Management",
+                "source_secondary_tags": [
+                    "Contract Creation and Collaboration"
+                ]
+            },
+            {
+                "primary_tag": "Recruitment and Hiring",
+                "source_secondary_tags": [
+                    "Recruitment Collaboration"
+                ]
+            },
+            {
+                "primary_tag": "Accounting and Finance Support",
+                "source_secondary_tags": [
+                    "Accounting Support and Collaboration"
+                ]
+            },
+            {
+                "primary_tag": "Team Photography",
+                "source_secondary_tags": [
+                    "Team Photography"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 54,
+        "primary_tags": [
+            {
+                "primary_tag": "Market Intelligence",
+                "source_secondary_tags": [
+                    "Market Research"
+                ]
+            },
+            {
+                "primary_tag": "Employment Search and Matching",
+                "source_secondary_tags": [
+                    "Job Search",
+                    "Job Market Research",
+                    "Job Matching"
+                ]
+            },
+            {
+                "primary_tag": "Business Development and Opportunity Discovery",
+                "source_secondary_tags": [
+                    "Partner Recruitment",
+                    "Public Sector Opportunity Discovery"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 55,
+        "primary_tags": [
+            {
+                "primary_tag": "Education Management",
+                "source_secondary_tags": [
+                    "Education Administration and Leadership"
+                ]
+            },
+            {
+                "primary_tag": "Lead Generation and Management",
+                "source_secondary_tags": [
+                    "Lead Generation",
+                    "Lead Capture",
+                    "Lead Management",
+                    "Lead Nurturing and Follow-Up",
+                    "Lead Qualification",
+                    "Lead Magnet Creation",
+                    "Lead Attribution"
+                ]
+            },
+            {
+                "primary_tag": "Content Repurposing",
+                "source_secondary_tags": [
+                    "Thought Leadership Repurposing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 56,
+        "primary_tags": [
+            {
+                "primary_tag": "Recruitment and Candidate Assessment",
+                "source_secondary_tags": [
+                    "Candidate Evaluation",
+                    "Candidate Evaluation",
+                    "Candidate Sourcing",
+                    "Candidate Screening",
+                    "Interview Assessment",
+                    "Interview Integrity"
+                ]
+            },
+            {
+                "primary_tag": "Estimate Review and Approval",
+                "source_secondary_tags": [
+                    "Estimate Approval"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 57,
+        "primary_tags": [
+            {
+                "primary_tag": "Character Roleplay and Interaction",
+                "source_secondary_tags": [
+                    "Character and Roleplay Chat",
+                    "Character Roleplay"
+                ]
+            },
+            {
+                "primary_tag": "Character Creation and Animation",
+                "source_secondary_tags": [
+                    "Character Animation",
+                    "Character Development"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 58,
+        "primary_tags": [
+            {
+                "primary_tag": "E-commerce Search",
+                "source_secondary_tags": [
+                    "Shopping Search"
+                ]
+            },
+            {
+                "primary_tag": "Visual Media Search",
+                "source_secondary_tags": [
+                    "Image Search",
+                    "Reverse Image Search",
+                    "Video Content Search"
+                ]
+            },
+            {
+                "primary_tag": "Website Media Optimization",
+                "source_secondary_tags": [
+                    "Website Image Optimization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 59,
+        "primary_tags": [
+            {
+                "primary_tag": "Expert Guidance",
+                "source_secondary_tags": [
+                    "Expert Advice"
+                ]
+            },
+            {
+                "primary_tag": "Idea and Business Validation",
+                "source_secondary_tags": [
+                    "Startup Idea Validation",
+                    "Business Model Validation",
+                    "Concept and Early-Stage Validation"
+                ]
+            },
+            {
+                "primary_tag": "AI Model Experimentation",
+                "source_secondary_tags": [
+                    "Model Benchmarking",
+                    "Multi-Model Inference"
+                ]
+            },
+            {
+                "primary_tag": "Data Preparation",
+                "source_secondary_tags": [
+                    "Model Training Data Preparation",
+                    "Data Preparation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 60,
+        "primary_tags": [
+            {
+                "primary_tag": "Translation and Localization",
+                "source_secondary_tags": [
+                    "In-Page Translation",
+                    "Content Localization",
+                    "Text and Content Translation",
+                    "Document Translation",
+                    "Website Translation",
+                    "Bulk Translation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 61,
+        "primary_tags": [
+            {
+                "primary_tag": "Web Research and Analysis",
+                "source_secondary_tags": [
+                    "Webpage Understanding",
+                    "Web-Based Question Answering",
+                    "Web Search and Data Retrieval",
+                    "Website Data Analysis",
+                    "Web Research"
+                ]
+            },
+            {
+                "primary_tag": "Document and Data Extraction",
+                "source_secondary_tags": [
+                    "Information Extraction",
+                    "Web Data Extraction",
+                    "Invoice Data Extraction"
+                ]
+            },
+            {
+                "primary_tag": "Content Summarization",
+                "source_secondary_tags": [
+                    "Webinar Content and Recaps"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 62,
+        "primary_tags": [
+            {
+                "primary_tag": "Partner and Performance Marketing",
+                "source_secondary_tags": [
+                    "Affiliate Commission Management",
+                    "Affiliate Marketing and Outreach",
+                    "Revenue Attribution",
+                    "iGaming Marketing",
+                    "Publisher Outreach",
+                    "Special Offer Promotion"
+                ]
+            },
+            {
+                "primary_tag": "B2B Sales Outreach",
+                "source_secondary_tags": [
+                    "B2B Outreach and Prospecting"
+                ]
+            },
+            {
+                "primary_tag": "Investor Relations",
+                "source_secondary_tags": [
+                    "Investor Communications"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 63,
+        "primary_tags": [
+            {
+                "primary_tag": "Tax Advisory and Compliance",
+                "source_secondary_tags": [
+                    "Tax Preparation and Document Analysis",
+                    "Tax Audit Review",
+                    "Tax Planning",
+                    "Tax Research"
+                ]
+            },
+            {
+                "primary_tag": "Insurance Underwriting",
+                "source_secondary_tags": [
+                    "Underwriting Intake"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 64,
+        "primary_tags": [
+            {
+                "primary_tag": "Information Visualization",
+                "source_secondary_tags": [
+                    "Data Visualization",
+                    "Academic Visualization"
+                ]
+            },
+            {
+                "primary_tag": "Design Visualization",
+                "source_secondary_tags": [
+                    "Architectural and Interior Visualization"
+                ]
+            },
+            {
+                "primary_tag": "Predictive Appearance Visualization",
+                "source_secondary_tags": [
+                    "Future Child Visualization"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 65,
+        "primary_tags": [
+            {
+                "primary_tag": "Video Enhancement",
+                "source_secondary_tags": [
+                    "Video Audio Enhancement",
+                    "Video Enhancement"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 66,
+        "primary_tags": [
+            {
+                "primary_tag": "Creative Content and Asset Production",
+                "source_secondary_tags": [
+                    "Media Content Production",
+                    "Commercial Creative Production",
+                    "Localized Creative Production",
+                    "Campaign Creative and Asset Production",
+                    "Ad Creative Production",
+                    "Marketing and Creative Asset Creation",
+                    "Virtual Production",
+                    "Virtual Staging"
+                ]
+            },
+            {
+                "primary_tag": "Product Design and Production",
+                "source_secondary_tags": [
+                    "Designer Toy Production"
+                ]
+            },
+            {
+                "primary_tag": "Talent Acquisition",
+                "source_secondary_tags": [
+                    "Talent Acquisition"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 67,
+        "primary_tags": [
+            {
+                "primary_tag": "Knowledge and FAQ Assistance",
+                "source_secondary_tags": [
+                    "Knowledge Q&A and Assistance",
+                    "FAQ Answering"
+                ]
+            },
+            {
+                "primary_tag": "Learning and Study Support",
+                "source_secondary_tags": [
+                    "Lecture Note-Taking",
+                    "Course Assistance",
+                    "Language Learning and Self-Study",
+                    "Listening Practice",
+                    "Reading Practice",
+                    "Learning and Study Support",
+                    "Student and Study Support",
+                    "Attention and Focus Support"
+                ]
+            },
+            {
+                "primary_tag": "Teaching and Instruction Support",
+                "source_secondary_tags": [
+                    "Lesson Planning",
+                    "Classroom Teaching",
+                    "Student Learning and Engagement",
+                    "Homeschool Education",
+                    "Teacher Support"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 68,
+        "primary_tags": [
+            {
+                "primary_tag": "E-commerce Platform Development",
+                "source_secondary_tags": [
+                    "Marketplace Development",
+                    "E-commerce Store Creation",
+                    "E-commerce App Development"
+                ]
+            },
+            {
+                "primary_tag": "E-commerce Marketing and Content",
+                "source_secondary_tags": [
+                    "Product Launch Content",
+                    "Marketing Content Creation",
+                    "E-commerce Marketing",
+                    "E-commerce Content Creation",
+                    "E-commerce Content Research",
+                    "E-commerce Quiz Creation",
+                    "E-commerce and Product Advertising",
+                    "E-commerce Content Creation"
+                ]
+            },
+            {
+                "primary_tag": "E-commerce Operations and Merchandising",
+                "source_secondary_tags": [
+                    "E-commerce Operations",
+                    "Commerce Merchandising and Listings",
+                    "E-commerce Store Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Product and Merchandise Design",
+                "source_secondary_tags": [
+                    "Custom Merchandise and Apparel Design"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 69,
+        "primary_tags": [
+            {
+                "primary_tag": "Brand and Reputation Management",
+                "source_secondary_tags": [
+                    "Brand Protection",
+                    "Reputation Management",
+                    "Brand and Reputation Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 70,
+        "primary_tags": [
+            {
+                "primary_tag": "Marketing Campaign Management",
+                "source_secondary_tags": [
+                    "Campaign Strategy and Planning",
+                    "Campaign Management and Execution",
+                    "Campaign Automation",
+                    "Campaign Performance Monitoring and Reporting",
+                    "Paid Advertising Campaign Management",
+                    "Advertising Campaign Tracking"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 71,
+        "primary_tags": [
+            {
+                "primary_tag": "Visual Content Analysis",
+                "source_secondary_tags": [
+                    "Image Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Image Editing and Enhancement",
+                "source_secondary_tags": [
+                    "Image Optimization",
+                    "Portrait Editing and Enhancement",
+                    "Landscape Enhancement",
+                    "Photo Enhancement",
+                    "Image Upscaling",
+                    "Image Outpainting",
+                    "Photo Colorization",
+                    "Photo Restoration",
+                    "Image Enhancement",
+                    "Background Removal",
+                    "Object Removal"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 72,
+        "primary_tags": [
+            {
+                "primary_tag": "Competitive and Market Analysis",
+                "source_secondary_tags": [
+                    "Competitive Benchmarking"
+                ]
+            },
+            {
+                "primary_tag": "Gambling Research and Decision Support",
+                "source_secondary_tags": [
+                    "Casino Comparison and Selection",
+                    "Gambling Information"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 73,
+        "primary_tags": [
+            {
+                "primary_tag": "Marketing Performance Optimization",
+                "source_secondary_tags": [
+                    "Media Buying ROI Optimization",
+                    "Conversion Rate Optimization",
+                    "Ad Campaign Optimization",
+                    "Digital Marketing Optimization",
+                    "Google Business Profile Optimization",
+                    "Website Optimization",
+                    "Paid Advertising Optimization"
+                ]
+            },
+            {
+                "primary_tag": "Marketing Campaign and Funnel Execution",
+                "source_secondary_tags": [
+                    "Marketing Funnel Creation",
+                    "WhatsApp Marketing and Bulk Messaging"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 74,
+        "primary_tags": [
+            {
+                "primary_tag": "Education and Learning",
+                "source_secondary_tags": [
+                    "School and Children's Education"
+                ]
+            },
+            {
+                "primary_tag": "Research and Analysis",
+                "source_secondary_tags": [
+                    "Academic Literature Review",
+                    "Data and Research Analysis",
+                    "General Research",
+                    "Academic and Scientific Research",
+                    "Keyword Research",
+                    "Meta-Analysis",
+                    "Qualitative Research"
+                ]
+            },
+            {
+                "primary_tag": "Academic Communication",
+                "source_secondary_tags": [
+                    "Academic Correspondence"
+                ]
+            },
+            {
+                "primary_tag": "Academic Integrity and Compliance",
+                "source_secondary_tags": [
+                    "Academic Integrity Checking"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 75,
+        "primary_tags": [
+            {
+                "primary_tag": "Habit Management",
+                "source_secondary_tags": [
+                    "Habit Consistency"
+                ]
+            },
+            {
+                "primary_tag": "Compliance Management",
+                "source_secondary_tags": [
+                    "Contract Compliance",
+                    "Compliance Review",
+                    "Compliance Training",
+                    "Compliance Management"
+                ]
+            },
+            {
+                "primary_tag": "Quality Management",
+                "source_secondary_tags": [
+                    "Quality Assurance"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 76,
+        "primary_tags": [
+            {
+                "primary_tag": "Print and Visual Design",
+                "source_secondary_tags": [
+                    "Textile Print Design",
+                    "Large-Format Printing",
+                    "Logo Design",
+                    "Print Graphic Design"
+                ]
+            },
+            {
+                "primary_tag": "Additive Manufacturing",
+                "source_secondary_tags": [
+                    "3D Printing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 77,
+        "primary_tags": [
+            {
+                "primary_tag": "Creative Exploration and Expression",
+                "source_secondary_tags": [
+                    "Creative Inspiration",
+                    "Creative Self-Expression"
+                ]
+            },
+            {
+                "primary_tag": "Narrative Creation and Development",
+                "source_secondary_tags": [
+                    "Story Creation and Storytelling",
+                    "Storyboarding",
+                    "Screenplay Conversion",
+                    "Creative Fiction Writing"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 78,
+        "primary_tags": [
+            {
+                "primary_tag": "Explanations",
+                "source_secondary_tags": [
+                    "Content Explanation",
+                    "Concept Explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 79,
+        "primary_tags": [
+            {
+                "primary_tag": "Audio Source Separation",
+                "source_secondary_tags": [
+                    "Audio Stem Separation",
+                    "Audio Stem Separation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 80,
+        "primary_tags": [
+            {
+                "primary_tag": "Recruitment Workflow Management",
+                "source_secondary_tags": [
+                    "Applicant Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Investigations, Screening, and Fraud Prevention",
+                "source_secondary_tags": [
+                    "Digital and Identity Investigations",
+                    "Fraud Detection and Prevention",
+                    "Background Checks"
+                ]
+            },
+            {
+                "primary_tag": "Personal Development Tracking",
+                "source_secondary_tags": [
+                    "Personal Progress Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Online Profile Creation and Optimization",
+                "source_secondary_tags": [
+                    "LinkedIn Profile Optimization",
+                    "Dating Profile Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 81,
+        "primary_tags": [
+            {
+                "primary_tag": "Educational Content Creation",
+                "source_secondary_tags": [
+                    "Assignment Creation"
+                ]
+            },
+            {
+                "primary_tag": "SEO and Website Optimization",
+                "source_secondary_tags": [
+                    "Backlink Building",
+                    "Schema Markup"
+                ]
+            },
+            {
+                "primary_tag": "Visual Design and Data Visualization",
+                "source_secondary_tags": [
+                    "Monogram Design",
+                    "Infographic Creation",
+                    "Chart Explanation",
+                    "Diagram Creation"
+                ]
+            },
+            {
+                "primary_tag": "Productivity and Planning Asset Creation",
+                "source_secondary_tags": [
+                    "Gantt Chart Creation",
+                    "Spreadsheet Creation"
+                ]
+            },
+            {
+                "primary_tag": "Short-Form Video Creation",
+                "source_secondary_tags": [
+                    "Short-Form Reel Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 82,
+        "primary_tags": [
+            {
+                "primary_tag": "Presentation Creation and Delivery",
+                "source_secondary_tags": [
+                    "Product Demos and Showcases",
+                    "Presentation Creation and Design",
+                    "Presentation Redesign",
+                    "Presentation Delivery Practice"
+                ]
+            },
+            {
+                "primary_tag": "Graphic and Publication Design",
+                "source_secondary_tags": [
+                    "Interactive Flipbook Creation",
+                    "Invitation Design",
+                    "Packaging Design",
+                    "Cover Design"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 83,
+        "primary_tags": [
+            {
+                "primary_tag": "Digital Product Design",
+                "source_secondary_tags": [
+                    "UI/UX Design",
+                    "Design System Creation"
+                ]
+            },
+            {
+                "primary_tag": "Visual Design and Ideation",
+                "source_secondary_tags": [
+                    "Design Concept Development",
+                    "Design Inspiration Management",
+                    "Pattern Design"
+                ]
+            },
+            {
+                "primary_tag": "Spatial and Interior Design",
+                "source_secondary_tags": [
+                    "Interior Design",
+                    "3D Environment Design",
+                    "Floor Plan Generation"
+                ]
+            },
+            {
+                "primary_tag": "Software and AI System Development",
+                "source_secondary_tags": [
+                    "RAG System Development",
+                    "Internal Tool Development"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 84,
+        "primary_tags": [
+            {
+                "primary_tag": "Visual Content Creation",
+                "source_secondary_tags": [
+                    "Avatar Creation",
+                    "Sketch-to-Anime Conversion",
+                    "Visual Effects Creation",
+                    "Visual Design and Direction",
+                    "Image and Art Generation",
+                    "Character Creation and Visualization",
+                    "Scene and World Creation",
+                    "Meme Creation",
+                    "Visual Content Generation"
+                ]
+            },
+            {
+                "primary_tag": "Interactive Media and Storytelling",
+                "source_secondary_tags": [
+                    "Interactive Avatar Experiences",
+                    "Interactive Storytelling",
+                    "Live Visual Experiences",
+                    "Visual Novel Creation"
+                ]
+            },
+            {
+                "primary_tag": "Document and Report Generation",
+                "source_secondary_tags": [
+                    "Report Creation and Generation"
+                ]
+            },
+            {
+                "primary_tag": "Visual Content Organization",
+                "source_secondary_tags": [
+                    "Visual Bookmarking"
+                ]
+            },
+            {
+                "primary_tag": "Social Media Content Optimization",
+                "source_secondary_tags": [
+                    "Hashtag Generation"
+                ]
+            },
+            {
+                "primary_tag": "Data Generation and Simulation",
+                "source_secondary_tags": [
+                    "Synthetic Data Generation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 85,
+        "primary_tags": [
+            {
+                "primary_tag": "Operational Monitoring",
+                "source_secondary_tags": [
+                    "Agent Monitoring",
+                    "Alert Monitoring"
+                ]
+            },
+            {
+                "primary_tag": "External Intelligence Monitoring",
+                "source_secondary_tags": [
+                    "Social Listening and Monitoring",
+                    "News Announcements",
+                    "News Intelligence",
+                    "Business Monitoring",
+                    "News Monitoring",
+                    "Threat Monitoring"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 86,
+        "primary_tags": [
+            {
+                "primary_tag": "Professional Productivity",
+                "source_secondary_tags": [
+                    "Meeting Assistance and Intelligence",
+                    "Workplace Productivity",
+                    "Meeting Productivity",
+                    "Workplace AI Productivity",
+                    "Meeting Summarization"
+                ]
+            },
+            {
+                "primary_tag": "Rest and Relaxation",
+                "source_secondary_tags": [
+                    "Meditation and Relaxation",
+                    "Sleep and Napping"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 87,
+        "primary_tags": [
+            {
+                "primary_tag": "Audience and Community Engagement",
+                "source_secondary_tags": [
+                    "Customer Engagement and Communication",
+                    "Community Building and Engagement",
+                    "Audience Growth",
+                    "Audience Engagement"
+                ]
+            },
+            {
+                "primary_tag": "Audience Insights and Segmentation",
+                "source_secondary_tags": [
+                    "Audience Segmentation",
+                    "Audience Analytics"
+                ]
+            },
+            {
+                "primary_tag": "Creative and Performing Arts",
+                "source_secondary_tags": [
+                    "Acting Rehearsal",
+                    "Entertainment Photography"
+                ]
+            },
+            {
+                "primary_tag": "Social and Couples Entertainment",
+                "source_secondary_tags": [
+                    "Couples Entertainment"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 88,
+        "primary_tags": [
+            {
+                "primary_tag": "Data and Knowledge Management",
+                "source_secondary_tags": [
+                    "Knowledge Base Management",
+                    "Citation and Reference Management",
+                    "Repository Management",
+                    "Data Categorization",
+                    "Qualitative Data Collection",
+                    "Data Export",
+                    "Data Management"
+                ]
+            },
+            {
+                "primary_tag": "Business Operations Management",
+                "source_secondary_tags": [
+                    "Human Resources Management",
+                    "Business Management",
+                    "Case Management",
+                    "Change Management"
+                ]
+            },
+            {
+                "primary_tag": "Product and Inventory Management",
+                "source_secondary_tags": [
+                    "Product Catalog Management",
+                    "Inventory Management"
+                ]
+            },
+            {
+                "primary_tag": "Technology Cost Management",
+                "source_secondary_tags": [
+                    "API Cost Management"
+                ]
+            },
+            {
+                "primary_tag": "Systems Integration and Interoperability",
+                "source_secondary_tags": [
+                    "Data and System Integration"
+                ]
+            },
+            {
+                "primary_tag": "General Productivity Utilities",
+                "source_secondary_tags": [
+                    "Everyday Utility Tools"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 89,
+        "primary_tags": [
+            {
+                "primary_tag": "LLM Operations and Monitoring",
+                "source_secondary_tags": [
+                    "LLM Evaluation",
+                    "LLM Observability",
+                    "LLM Traffic Management"
+                ]
+            },
+            {
+                "primary_tag": "Paid Advertising Management",
+                "source_secondary_tags": [
+                    "Paid Traffic Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 90,
+        "primary_tags": [
+            {
+                "primary_tag": "Document and Content Authoring",
+                "source_secondary_tags": [
+                    "Legal Document Drafting",
+                    "Copywriting",
+                    "Document Creation",
+                    "Document Editing"
+                ]
+            },
+            {
+                "primary_tag": "Document Question Answering",
+                "source_secondary_tags": [
+                    "Document Question Answering"
+                ]
+            },
+            {
+                "primary_tag": "Document Processing and Management",
+                "source_secondary_tags": [
+                    "Document Digitization",
+                    "Document Management"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 91,
+        "primary_tags": [
+            {
+                "primary_tag": "Customer Referral Program Management",
+                "source_secondary_tags": [
+                    "Customer Referral Programs",
+                    "Referral Tracking",
+                    "Referral Rewards Programs"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 92,
+        "primary_tags": [
+            {
+                "primary_tag": "SEO Management and Performance Tracking",
+                "source_secondary_tags": [
+                    "Programmatic SEO",
+                    "SEO Auditing and Technical Management",
+                    "SEO Automation",
+                    "SEO Rank Tracking",
+                    "Rank Tracking"
+                ]
+            },
+            {
+                "primary_tag": "Social Media Performance Analysis",
+                "source_secondary_tags": [
+                    "Social Media Benchmarking"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 93,
+        "primary_tags": [
+            {
+                "primary_tag": "Web and Interface Creation",
+                "source_secondary_tags": [
+                    "Website Content Creation",
+                    "Website Creation",
+                    "Blog Creation",
+                    "Web Page Creation",
+                    "External Portal Creation",
+                    "Internal Portal Creation",
+                    "Form Creation",
+                    "SaaS Website Creation",
+                    "Dashboard Creation",
+                    "Help Center Creation and Content"
+                ]
+            },
+            {
+                "primary_tag": "Marketing and Social Media Content",
+                "source_secondary_tags": [
+                    "Link-Building Content",
+                    "Virtual Creator Content",
+                    "Guest Post Creation",
+                    "YouTube Content Creation",
+                    "Blog Content Creation",
+                    "TikTok Content Creation",
+                    "B2B Content Creation",
+                    "Catalog Content Creation"
+                ]
+            },
+            {
+                "primary_tag": "Learning and Enablement Content",
+                "source_secondary_tags": [
+                    "Content Toolkits and Resources",
+                    "Instructional Material Creation",
+                    "Onboarding Content Creation",
+                    "eLearning Content Creation"
+                ]
+            },
+            {
+                "primary_tag": "General and Creative Content Creation",
+                "source_secondary_tags": [
+                    "Children's Content Creation",
+                    "Book and eBook Creation",
+                    "AI Content Creation and Rewriting",
+                    "General Content Generation",
+                    "Character-Based Content Creation",
+                    "Interactive Content Creation",
+                    "Skybox Creation"
+                ]
+            },
+            {
+                "primary_tag": "Career Document Creation",
+                "source_secondary_tags": [
+                    "Resume Creation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 94,
+        "primary_tags": [
+            {
+                "primary_tag": "Brand Strategy and Management",
+                "source_secondary_tags": [
+                    "Brand Strategy and Identity",
+                    "Brand Awareness and Visibility",
+                    "Branding and Brand Identity Design",
+                    "Brand Monitoring and Sentiment Analysis",
+                    "Brand Discovery Analysis"
+                ]
+            },
+            {
+                "primary_tag": "Marketing Strategy and Campaigns",
+                "source_secondary_tags": [
+                    "Promotional Marketing",
+                    "Brand Marketing Campaigns",
+                    "Marketing Strategy and Decision Support",
+                    "Product Marketing",
+                    "Agency Marketing",
+                    "Paid and Performance Marketing",
+                    "Real Estate Marketing",
+                    "Business Marketing",
+                    "D2C Marketing",
+                    "Education Marketing",
+                    "Franchise Marketing",
+                    "Channel-Specific Marketing",
+                    "UGC Advertising and Marketing"
+                ]
+            },
+            {
+                "primary_tag": "Marketing Content and Creative Production",
+                "source_secondary_tags": [
+                    "Brand Content and Storytelling",
+                    "Brand and Marketing Visuals",
+                    "Corporate and Commercial Brand Photography"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 95,
+        "primary_tags": [
+            {
+                "primary_tag": "Video Creation and Production",
+                "source_secondary_tags": [
+                    "General Video Production",
+                    "Screen Recording",
+                    "Video Content Planning",
+                    "Video Script Writing"
+                ]
+            },
+            {
+                "primary_tag": "Video Editing and Post-Production",
+                "source_secondary_tags": [
+                    "Video Editing",
+                    "Video Conversion and Compression",
+                    "Video Optimization",
+                    "Video Remixing",
+                    "Video Dubbing",
+                    "Video Transcription",
+                    "Video Transformation",
+                    "Video Upscaling"
+                ]
+            },
+            {
+                "primary_tag": "Video Repurposing and Distribution",
+                "source_secondary_tags": [
+                    "Video Repurposing",
+                    "Video Publishing and Scheduling"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 96,
+        "primary_tags": [
+            {
+                "primary_tag": "Follow-Up Management and Communications",
+                "source_secondary_tags": [
+                    "Follow-Up Communication",
+                    "Follow-Up Management",
+                    "Meeting Follow-Up",
+                    "Lead Follow-Up Messaging"
+                ]
+            },
+            {
+                "primary_tag": "Product Communications",
+                "source_secondary_tags": [
+                    "Product Update Communications"
+                ]
+            },
+            {
+                "primary_tag": "Order Tracking and Updates",
+                "source_secondary_tags": [
+                    "Order Lookup",
+                    "Order Status Updates"
+                ]
+            },
+            {
+                "primary_tag": "Messaging Account Management",
+                "source_secondary_tags": [
+                    "WhatsApp Account Warmup"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 97,
+        "primary_tags": [
+            {
+                "primary_tag": "Issue Management and Resolution",
+                "source_secondary_tags": [
+                    "Issue Triage",
+                    "CI Failure Resolution",
+                    "Ticket Resolution"
+                ]
+            },
+            {
+                "primary_tag": "Dispute and Refund Resolution",
+                "source_secondary_tags": [
+                    "Dispute Resolution",
+                    "Refund Recovery"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 98,
+        "primary_tags": [
+            {
+                "primary_tag": "Workplace Documentation",
+                "source_secondary_tags": [
+                    "Meeting Note-Taking and Documentation",
+                    "Process Documentation"
+                ]
+            },
+            {
+                "primary_tag": "Software Development Assistance",
+                "source_secondary_tags": [
+                    "Code Debugging",
+                    "Code Documentation",
+                    "Code Explanation"
+                ]
+            }
+        ]
+    },
+    {
+        "pocket_id": 99,
+        "primary_tags": [
+            {
+                "primary_tag": "Market Opportunity Research",
+                "source_secondary_tags": [
+                    "Dropshipping Niche Discovery",
+                    "Niche Research"
+                ]
+            },
+            {
+                "primary_tag": "Customer Retention Analysis",
+                "source_secondary_tags": [
+                    "Churn Research"
+                ]
+            }
+        ]
+    }
+]

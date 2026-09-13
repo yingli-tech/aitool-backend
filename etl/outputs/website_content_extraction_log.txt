@@ -1,0 +1,1207 @@
+[1/601] Extracting: 10Web | https://10web.io/ai-website-builder/
+SUCCESS: 10Web | https://10web.io/ai-website-builder/
+[2/601] Extracting: 1of10 | https://1of10.com/
+SUCCESS: 1of10 | https://1of10.com/
+[3/601] Extracting: A2E AI Videos | https://video.a2e.ai/
+FAILED: A2E AI Videos | https://video.a2e.ai/
+[4/601] Extracting: AI Aware | https://aiaware.io/
+SUCCESS: AI Aware | https://aiaware.io/
+[5/601] Extracting: AI Baby Generator | https://aibabygenerator.ai/
+SUCCESS: AI Baby Generator | https://aibabygenerator.ai/
+[6/601] Extracting: AI Detector | https://edubrain.ai/ai-detector/
+FAILED: AI Detector | https://edubrain.ai/ai-detector/
+[7/601] Extracting: AI Detector Pro | https://moxby.com/marketplace/ai-content-detector
+SUCCESS: AI Detector Pro | https://moxby.com/marketplace/ai-content-detector
+[8/601] Extracting: AI Fiesta | https://aifiesta.ai/
+SUCCESS: AI Fiesta | https://aifiesta.ai/
+[9/601] Extracting: AI Flashcard Maker | https://www.coursebox.ai/ai-flashcard-maker
+SUCCESS: AI Flashcard Maker | https://www.coursebox.ai/ai-flashcard-maker
+[10/601] Extracting: AI Lawyer | https://ailawyer.pro//
+SUCCESS: AI Lawyer | https://ailawyer.pro//
+[11/601] Extracting: AI Logo Maker | https://logomaker.design/
+SUCCESS: AI Logo Maker | https://logomaker.design/
+[12/601] Extracting: AI Overview Optimizer | https://overviewoptimizer.com/
+FAILED: AI Overview Optimizer | https://overviewoptimizer.com/
+[13/601] Extracting: AI Quiz Generator | https://www.coursebox.ai/ai-quiz-generator
+SUCCESS: AI Quiz Generator | https://www.coursebox.ai/ai-quiz-generator
+[14/601] Extracting: AI Search Watcher | https://mangools.com/ai-search-watcher/
+SUCCESS: AI Search Watcher | https://mangools.com/ai-search-watcher/
+[15/601] Extracting: AI Song Creator | https://aisongcreator.app/
+FAILED: AI Song Creator | https://aisongcreator.app/
+[16/601] Extracting: AI Song Maker | https://www.aisongmaker.io/
+FAILED: AI Song Maker | https://www.aisongmaker.io/
+[17/601] Extracting: AI Video Summarizer | https://aivideosummarizer.io/
+SUCCESS: AI Video Summarizer | https://aivideosummarizer.io/
+[18/601] Extracting: AI Voice Detector | https://aivoicedetector.com/
+SUCCESS: AI Voice Detector | https://aivoicedetector.com/
+[19/601] Extracting: AI website builder | https://www.hostinger.com/website-builder
+SUCCESS: AI website builder | https://www.hostinger.com/website-builder
+[20/601] Extracting: AIMEY | https://aimey.bot/
+SUCCESS: AIMEY | https://aimey.bot/
+[21/601] Extracting: AIWriter | https://aiwriter.ai/unfiltered
+FAILED: AIWriter | https://aiwriter.ai/unfiltered
+[22/601] Extracting: APEUni | https://www.apeuni.com/
+SUCCESS: APEUni | https://www.apeuni.com/
+[23/601] Extracting: AdGPT | https://adgpt.com/
+FAILED: AdGPT | https://adgpt.com/
+[24/601] Extracting: Adalo | https://www.adalo.com/
+SUCCESS: Adalo | https://www.adalo.com/
+[25/601] Extracting: Adapt | https://adapt.com/
+SUCCESS: Adapt | https://adapt.com/
+[26/601] Extracting: Adobe Firefly | https://firefly.adobe.com/
+SUCCESS: Adobe Firefly | https://firefly.adobe.com/
+[27/601] Extracting: Adobe Podcast | https://podcast.adobe.com/
+FAILED: Adobe Podcast | https://podcast.adobe.com/
+[28/601] Extracting: Agent Opus | https://agent.opus.pro/
+FAILED: Agent Opus | https://agent.opus.pro/
+[29/601] Extracting: Ai Training Video Generator | https://www.coursebox.ai/ai-training-video-generator
+FAILED: Ai Training Video Generator | https://www.coursebox.ai/ai-training-video-generator
+[30/601] Extracting: AiAssistWorks | https://www.aiassistworks.com/
+SUCCESS: AiAssistWorks | https://www.aiassistworks.com/
+[31/601] Extracting: AiZolo | https://aizolo.com/
+SUCCESS: AiZolo | https://aizolo.com/
+[32/601] Extracting: AimReply | https://aimreply.com/
+SUCCESS: AimReply | https://aimreply.com/
+[33/601] Extracting: AirMusic | https://airmusic.ai/
+FAILED: AirMusic | https://airmusic.ai/
+[34/601] Extracting: Airbrush Image Enhancer | https://airbrush.com/image-enhancer
+SUCCESS: Airbrush Image Enhancer | https://airbrush.com/image-enhancer
+[35/601] Extracting: Aircall | https://aircall.io/c/builtforteams/
+SUCCESS: Aircall | https://aircall.io/c/builtforteams/
+[36/601] Extracting: Akool AI | https://akool.com/
+SUCCESS: Akool AI | https://akool.com/
+[37/601] Extracting: Alphana | https://visuals.fm/
+SUCCESS: Alphana | https://visuals.fm/
+[38/601] Extracting: Anara | https://anara.com/
+SUCCESS: Anara | https://anara.com/
+[39/601] Extracting: Angie | https://elementor.com/products/angie-ai-for-wordpress/
+SUCCESS: Angie | https://elementor.com/products/angie-ai-for-wordpress/
+[40/601] Extracting: AnimeGenius | https://animegenius.live3d.io/
+SUCCESS: AnimeGenius | https://animegenius.live3d.io/
+[41/601] Extracting: AnkiDecks | https://anki-decks.com/
+FAILED: AnkiDecks | https://anki-decks.com/
+[42/601] Extracting: Antigravity CLI | https://antigravity.google/product/antigravity-cli
+SUCCESS: Antigravity CLI | https://antigravity.google/product/antigravity-cli
+[43/601] Extracting: Anybiz | https://www.anybiz.io
+SUCCESS: Anybiz | https://www.anybiz.io
+[44/601] Extracting: Apify | https://apify.com/use-cases/data-for-generative-ai
+SUCCESS: Apify | https://apify.com/use-cases/data-for-generative-ai
+[45/601] Extracting: AppWizzy | https://appwizzy.com/
+SUCCESS: AppWizzy | https://appwizzy.com/
+[46/601] Extracting: Aragon | https://www.aragon.ai/
+SUCCESS: Aragon | https://www.aragon.ai/
+[47/601] Extracting: Arcads | https://www.arcads.ai/
+SUCCESS: Arcads | https://www.arcads.ai/
+[48/601] Extracting: Arobis AI Visibility Checker | https://arobis.ai/ai-visibility-checker
+SUCCESS: Arobis AI Visibility Checker | https://arobis.ai/ai-visibility-checker
+[49/601] Extracting: Artflow | https://app.artflow.ai/
+FAILED: Artflow | https://app.artflow.ai/
+[50/601] Extracting: Articos | https://www.articos.com/
+FAILED: Articos | https://www.articos.com/
+[51/601] Extracting: Artlist | https://artlist.io/
+SUCCESS: Artlist | https://artlist.io/
+[52/601] Extracting: Artsmart AI | https://artsmart.ai/
+FAILED: Artsmart AI | https://artsmart.ai/
+[53/601] Extracting: Artta AI | https://artta.ai/
+FAILED: Artta AI | https://artta.ai/
+[54/601] Extracting: AskTutor | https://asktutor.ai/
+FAILED: AskTutor | https://asktutor.ai/
+[55/601] Extracting: Atomic Mail | https://atomicmail.io/
+FAILED: Atomic Mail | https://atomicmail.io/
+[56/601] Extracting: Atoms | https://atoms.dev/
+SUCCESS: Atoms | https://atoms.dev/
+[57/601] Extracting: Atracker | https://atracker.io/
+SUCCESS: Atracker | https://atracker.io/
+[58/601] Extracting: Audo | https://www.audo.ai/
+SUCCESS: Audo | https://www.audo.ai/
+[59/601] Extracting: Aura AI | https://auraai.app/
+SUCCESS: Aura AI | https://auraai.app/
+[60/601] Extracting: AutoShorts | https://autoshorts.ai/
+FAILED: AutoShorts | https://autoshorts.ai/
+[61/601] Extracting: B12 | https://www.b12.io/ai-agent/
+SUCCESS: B12 | https://www.b12.io/ai-agent/
+[62/601] Extracting: BASE44 | https://base44.com/lp-en/builder
+SUCCESS: BASE44 | https://base44.com/lp-en/builder
+[63/601] Extracting: Banana Prompts | https://bananaprompts.com/
+FAILED: Banana Prompts | https://bananaprompts.com/
+[64/601] Extracting: Bannerbear | https://www.bannerbear.com/
+SUCCESS: Bannerbear | https://www.bannerbear.com/
+[65/601] Extracting: BatchTable | https://www.batchtable.com/
+FAILED: BatchTable | https://www.batchtable.com/
+[66/601] Extracting: BeFreed | https://www.befreed.ai/
+FAILED: BeFreed | https://www.befreed.ai/
+[67/601] Extracting: BeautyPlus AI Image Enhancer | https://www.beautyplus.com/image-enhancer
+SUCCESS: BeautyPlus AI Image Enhancer | https://www.beautyplus.com/image-enhancer
+[68/601] Extracting: BeforeSunset AI | https://www.beforesunset.ai/
+SUCCESS: BeforeSunset AI | https://www.beforesunset.ai/
+[69/601] Extracting: Bertha AI | https://bertha.ai/
+FAILED: Bertha AI | https://bertha.ai/
+[70/601] Extracting: BetterPic | https://www.betterpic.io/
+SUCCESS: BetterPic | https://www.betterpic.io/
+[71/601] Extracting: Biread | https://chromewebstore.google.com/detail/biread-website%E2%80%99s-parallel/mkbkgdiaaofcpbaicmdfbhmagihlmpef
+SUCCESS: Biread | https://chromewebstore.google.com/detail/biread-website%E2%80%99s-parallel/mkbkgdiaaofcpbaicmdfbhmagihlmpef
+[72/601] Extracting: Bit Flows | https://bit-flows.com
+SUCCESS: Bit Flows | https://bit-flows.com
+[73/601] Extracting: Bitterbot AI | https://bitterbot.ai/
+FAILED: Bitterbot AI | https://bitterbot.ai/
+[74/601] Extracting: BlabbyAI | https://www.blabby.ai/
+SUCCESS: BlabbyAI | https://www.blabby.ai/
+[75/601] Extracting: Black Friday Deals | https://aitoolsdirectory.com/black-friday
+FAILED: Black Friday Deals | https://aitoolsdirectory.com/black-friday
+[76/601] Extracting: Blackbox AI | https://www.blackbox.ai/
+SUCCESS: Blackbox AI | https://www.blackbox.ai/
+[77/601] Extracting: Blaze | https://www.blaze.ai/
+SUCCESS: Blaze | https://www.blaze.ai/
+[78/601] Extracting: Blitz Rocket | https://blitzrocket.com/
+FAILED: Blitz Rocket | https://blitzrocket.com/
+[79/601] Extracting: Blotato | https://www.blotato.com/
+SUCCESS: Blotato | https://www.blotato.com/
+[80/601] Extracting: Bolt | https://bolt.new/
+SUCCESS: Bolt | https://bolt.new/
+[81/601] Extracting: BookScribi | https://bookscribi.com/
+SUCCESS: BookScribi | https://bookscribi.com/
+[82/601] Extracting: BotPenguin | https://botpenguin.com/
+SUCCESS: BotPenguin | https://botpenguin.com/
+[83/601] Extracting: Brain FM | https://www.brain.fm/
+SUCCESS: Brain FM | https://www.brain.fm/
+[84/601] Extracting: Brand Butler | https://brandbutler.ai/
+SUCCESS: Brand Butler | https://brandbutler.ai/
+[85/601] Extracting: Brand24 | https://brand24.com/brand-mentions-tool/
+SUCCESS: Brand24 | https://brand24.com/brand-mentions-tool/
+[86/601] Extracting: Brilliant Directories | https://www.brilliantdirectories.com/
+FAILED: Brilliant Directories | https://www.brilliantdirectories.com/
+[87/601] Extracting: Browse AI | https://www.browse.ai/
+SUCCESS: Browse AI | https://www.browse.ai/
+[88/601] Extracting: Brushless AI | https://www.brushless.ai/
+SUCCESS: Brushless AI | https://www.brushless.ai/
+[89/601] Extracting: Bubble AI | https://bubble.io/ai-app-builder
+SUCCESS: Bubble AI | https://bubble.io/ai-app-builder
+[90/601] Extracting: Buzz | https://buzz.xyz/
+SUCCESS: Buzz | https://buzz.xyz/
+[91/601] Extracting: CREAO | https://creao.ai/
+SUCCESS: CREAO | https://creao.ai/
+[92/601] Extracting: Caimera | https://www.caimera.ai/
+SUCCESS: Caimera | https://www.caimera.ai/
+[93/601] Extracting: CapCut | https://www.capcut.com/activities/subscribe
+FAILED: CapCut | https://www.capcut.com/activities/subscribe
+[94/601] Extracting: Castmagic | https://www.castmagic.io/
+SUCCESS: Castmagic | https://www.castmagic.io/
+[95/601] Extracting: Chaindesk | https://www.chaindesk.ai/
+FAILED: Chaindesk | https://www.chaindesk.ai/
+[96/601] Extracting: Chance AI | https://www.chance.vision/
+FAILED: Chance AI | https://www.chance.vision/
+[97/601] Extracting: ChatGPT | https://chatgpt.com/
+SUCCESS: ChatGPT | https://chatgpt.com/
+[98/601] Extracting: Chattee | https://chattee.ai/
+SUCCESS: Chattee | https://chattee.ai/
+[99/601] Extracting: Cheatlayer | https://cheatlayer.com/
+SUCCESS: Cheatlayer | https://cheatlayer.com/
+[100/601] Extracting: Circle | https://circle.so/
+SUCCESS: Circle | https://circle.so/
+[101/601] Extracting: ClaimResolver | https://claimresolver.ai/
+FAILED: ClaimResolver | https://claimresolver.ai/
+[102/601] Extracting: ClearCRM | https://clearcrm.com/
+SUCCESS: ClearCRM | https://clearcrm.com/
+[103/601] Extracting: ClickRank | https://www.clickrank.ai/
+SUCCESS: ClickRank | https://www.clickrank.ai/
+[104/601] Extracting: Clickup | https://clickup.com/lp/brain
+SUCCESS: Clickup | https://clickup.com/lp/brain
+[105/601] Extracting: Clico | https://tryclico.com/
+FAILED: Clico | https://tryclico.com/
+[106/601] Extracting: Clideo | https://clideo.com/
+SUCCESS: Clideo | https://clideo.com/
+[107/601] Extracting: Cline | https://cline.bot/
+SUCCESS: Cline | https://cline.bot/
+[108/601] Extracting: Cliptalk | https://www.cliptalk.pro/
+FAILED: Cliptalk | https://www.cliptalk.pro/
+[109/601] Extracting: Clockk | https://clockk.com/
+SUCCESS: Clockk | https://clockk.com/
+[110/601] Extracting: CloneViral | https://www.cloneviral.ai/
+FAILED: CloneViral | https://www.cloneviral.ai/
+[111/601] Extracting: CoSupport AI | https://cosupport.ai/
+SUCCESS: CoSupport AI | https://cosupport.ai/
+[112/601] Extracting: CoTester | https://testgrid.io/cotester
+SUCCESS: CoTester | https://testgrid.io/cotester
+[113/601] Extracting: Coach Call AI | https://coachcall.ai/
+FAILED: Coach Call AI | https://coachcall.ai/
+[114/601] Extracting: CoachVox | https://coachvox.ai/
+SUCCESS: CoachVox | https://coachvox.ai/
+[115/601] Extracting: Coda AI | https://coda.io/product/ai
+SUCCESS: Coda AI | https://coda.io/product/ai
+[116/601] Extracting: CodeDesign | https://codedesign.ai/
+SUCCESS: CodeDesign | https://codedesign.ai/
+[117/601] Extracting: Columns AI | https://columns.ai/
+SUCCESS: Columns AI | https://columns.ai/
+[118/601] Extracting: CometAPI | https://www.cometapi.com/
+SUCCESS: CometAPI | https://www.cometapi.com/
+[119/601] Extracting: Consensus | https://consensus.app/
+SUCCESS: Consensus | https://consensus.app/
+[120/601] Extracting: ContentBot | https://contentbot.ai/
+SUCCESS: ContentBot | https://contentbot.ai/
+[121/601] Extracting: ContentStudio AI | https://contentstudio.io/ai-studio
+SUCCESS: ContentStudio AI | https://contentstudio.io/ai-studio
+[122/601] Extracting: ControlTheRoom | https://controltheroom.ai/
+SUCCESS: ControlTheRoom | https://controltheroom.ai/
+[123/601] Extracting: CopySpace | https://www.copyspace.ai/
+FAILED: CopySpace | https://www.copyspace.ai/
+[124/601] Extracting: Cortex | https://www.capconvert.com/cortex
+SUCCESS: Cortex | https://www.capconvert.com/cortex
+[125/601] Extracting: Counterforce Health | https://www.counterforcehealth.org/
+FAILED: Counterforce Health | https://www.counterforcehealth.org/
+[126/601] Extracting: CourseAI | https://courseai.com/
+SUCCESS: CourseAI | https://courseai.com/
+[127/601] Extracting: Coursebox AI | https://www.coursebox.ai/
+FAILED: Coursebox AI | https://www.coursebox.ai/
+[128/601] Extracting: Coursebox AI Tutor | https://www.coursebox.ai/ai-tutor
+FAILED: Coursebox AI Tutor | https://www.coursebox.ai/ai-tutor
+[129/601] Extracting: Crayo | https://crayo.ai/
+SUCCESS: Crayo | https://crayo.ai/
+[130/601] Extracting: Creaitor | https://www.creaitor.ai/
+SUCCESS: Creaitor | https://www.creaitor.ai/
+[131/601] Extracting: CreatOK | https://www.creatok.ai/
+SUCCESS: CreatOK | https://www.creatok.ai/
+[132/601] Extracting: Creatify | https://creatify.ai/
+SUCCESS: Creatify | https://creatify.ai/
+[133/601] Extracting: Cuppa | https://cuppa.ai/
+FAILED: Cuppa | https://cuppa.ai/
+[134/601] Extracting: Cursor | https://cursor.com/
+SUCCESS: Cursor | https://cursor.com/
+[135/601] Extracting: CustomGPT | https://customgpt.ai/
+FAILED: CustomGPT | https://customgpt.ai/
+[136/601] Extracting: D-ID | https://www.d-id.com/
+SUCCESS: D-ID | https://www.d-id.com/
+[137/601] Extracting: DET Practice | https://www.detpractice.com/
+FAILED: DET Practice | https://www.detpractice.com/
+[138/601] Extracting: DFIRST | https://dfirst.ai/
+SUCCESS: DFIRST | https://dfirst.ai/
+[139/601] Extracting: Deblank | https://elements.envato.com/ai/
+SUCCESS: Deblank | https://elements.envato.com/ai/
+[140/601] Extracting: Deciphr | https://www.deciphr.ai/
+SUCCESS: Deciphr | https://www.deciphr.ai/
+[141/601] Extracting: Decktopus | https://www.decktopus.com/
+SUCCESS: Decktopus | https://www.decktopus.com/
+[142/601] Extracting: DeepSeek | https://www.deepseek.com/
+SUCCESS: DeepSeek | https://www.deepseek.com/
+[143/601] Extracting: Demand Letter | https://demandletter.ai/
+SUCCESS: Demand Letter | https://demandletter.ai/
+[144/601] Extracting: Describely | https://describely.ai/
+FAILED: Describely | https://describely.ai/
+[145/601] Extracting: Descript | https://www.descript.com/
+FAILED: Descript | https://www.descript.com/
+[146/601] Extracting: DescriptionWise | https://descriptionwise.ai/
+SUCCESS: DescriptionWise | https://descriptionwise.ai/
+[147/601] Extracting: Designrr | https://go1.designrr.io
+SUCCESS: Designrr | https://go1.designrr.io
+[148/601] Extracting: Devi AI | https://ddevi.com/en
+FAILED: Devi AI | https://ddevi.com/en
+[149/601] Extracting: Diagrimo | https://www.tenorshare.ai/diagrimo.html
+SUCCESS: Diagrimo | https://www.tenorshare.ai/diagrimo.html
+[150/601] Extracting: Dify | https://dify.ai/
+SUCCESS: Dify | https://dify.ai/
+[151/601] Extracting: DigitalFirst | https://www.digitalfirst.ai/
+SUCCESS: DigitalFirst | https://www.digitalfirst.ai/
+[152/601] Extracting: Digits | https://digits.com/
+SUCCESS: Digits | https://digits.com/
+[153/601] Extracting: DimeADozen | https://www.dimeadozen.ai/
+SUCCESS: DimeADozen | https://www.dimeadozen.ai/
+[154/601] Extracting: Dorik | https://dorik.com/
+SUCCESS: Dorik | https://dorik.com/
+[155/601] Extracting: Dreamlux AI | https://dreamlux.ai/
+FAILED: Dreamlux AI | https://dreamlux.ai/
+[156/601] Extracting: Dropmagic | https://dropmagic.ai/
+SUCCESS: Dropmagic | https://dropmagic.ai/
+[157/601] Extracting: Dume AI | https://www.dume.ai/
+SUCCESS: Dume AI | https://www.dume.ai/
+[158/601] Extracting: Durable | https://durable.com/
+SUCCESS: Durable | https://durable.com/
+[159/601] Extracting: Dzine | https://www.dzine.ai/
+SUCCESS: Dzine | https://www.dzine.ai/
+[160/601] Extracting: Eagle | https://eagle.cool/
+SUCCESS: Eagle | https://eagle.cool/
+[161/601] Extracting: Easy MCP AI | https://easymcpai.com/
+FAILED: Easy MCP AI | https://easymcpai.com/
+[162/601] Extracting: Easy Peasy | https://easy-peasy.ai/
+SUCCESS: Easy Peasy | https://easy-peasy.ai/
+[163/601] Extracting: EchoTik | https://echotik.live/en
+SUCCESS: EchoTik | https://echotik.live/en
+[164/601] Extracting: Eclipse AI | https://eclipse-ai.com/
+SUCCESS: Eclipse AI | https://eclipse-ai.com/
+[165/601] Extracting: Eddie AI | https://heyeddie.ai/
+FAILED: Eddie AI | https://heyeddie.ai/
+[166/601] Extracting: Elai | https://elai.io/
+SUCCESS: Elai | https://elai.io/
+[167/601] Extracting: Elementor AI | https://elementor.com/pages/plugin-special/
+SUCCESS: Elementor AI | https://elementor.com/pages/plugin-special/
+[168/601] Extracting: Elephas | https://kambanthemaker.gumroad.com/l/elephas
+FAILED: Elephas | https://kambanthemaker.gumroad.com/l/elephas
+[169/601] Extracting: ElevenLabs | https://elevenlabs.io/
+SUCCESS: ElevenLabs | https://elevenlabs.io/
+[170/601] Extracting: Emergent | https://app.emergent.sh/landing
+SUCCESS: Emergent | https://app.emergent.sh/landing
+[171/601] Extracting: Emochi | https://emochi.com/
+SUCCESS: Emochi | https://emochi.com/
+[172/601] Extracting: Endless VN | https://endlessvn.io/
+SUCCESS: Endless VN | https://endlessvn.io/
+[173/601] Extracting: Envato Labs | https://elements.envato.com/ai/
+SUCCESS: Envato Labs | https://elements.envato.com/ai/
+[174/601] Extracting: Estimatic AI | https://contractorplus.app/ai-estimating-software
+SUCCESS: Estimatic AI | https://contractorplus.app/ai-estimating-software
+[175/601] Extracting: Exolyt | https://exolyt.com/
+SUCCESS: Exolyt | https://exolyt.com/
+[176/601] Extracting: EzMaker AI | https://ezmaker.ai/
+FAILED: EzMaker AI | https://ezmaker.ai/
+[177/601] Extracting: Ezier | https://ezier.ai/
+SUCCESS: Ezier | https://ezier.ai/
+[178/601] Extracting: Feathery | https://www.feathery.io/
+SUCCESS: Feathery | https://www.feathery.io/
+[179/601] Extracting: Fellow | https://fellow.ai/
+SUCCESS: Fellow | https://fellow.ai/
+[180/601] Extracting: Fight Health Insurance | https://www.fighthealthinsurance.com/
+FAILED: Fight Health Insurance | https://www.fighthealthinsurance.com/
+[181/601] Extracting: Filmora | https://filmora.wondershare.com/ai-video-editing.html
+SUCCESS: Filmora | https://filmora.wondershare.com/ai-video-editing.html
+[182/601] Extracting: Final Round AI | https://www.finalroundai.com/
+FAILED: Final Round AI | https://www.finalroundai.com/
+[183/601] Extracting: Financial Fitness Passport | https://www.financialfitnesspassport.com/
+SUCCESS: Financial Fitness Passport | https://www.financialfitnesspassport.com/
+[184/601] Extracting: FineVoice | https://finevoice.ai/
+SUCCESS: FineVoice | https://finevoice.ai/
+[185/601] Extracting: Fireflies | https://fireflies.ai/
+SUCCESS: Fireflies | https://fireflies.ai/
+[186/601] Extracting: Fish Audio | https://fish.audio/
+SUCCESS: Fish Audio | https://fish.audio/
+[187/601] Extracting: Fliki AI | https://fliki.ai/
+SUCCESS: Fliki AI | https://fliki.ai/
+[188/601] Extracting: Floor Plan AI | https://floorplanai.net/
+SUCCESS: Floor Plan AI | https://floorplanai.net/
+[189/601] Extracting: FlowChartAI Image to Excel | https://www.flowchartai.tech/image-to-excel
+SUCCESS: FlowChartAI Image to Excel | https://www.flowchartai.tech/image-to-excel
+[190/601] Extracting: Flowith | https://flowith.io/blank
+FAILED: Flowith | https://flowith.io/blank
+[191/601] Extracting: FocuSee | https://focusee.imobie.com/
+SUCCESS: FocuSee | https://focusee.imobie.com/
+[192/601] Extracting: Followr | https://followr.ai/
+FAILED: Followr | https://followr.ai/
+[193/601] Extracting: Fotor | https://www.fotor.com/
+SUCCESS: Fotor | https://www.fotor.com/
+[194/601] Extracting: FoxyApps | https://www.foxyapps.com/
+SUCCESS: FoxyApps | https://www.foxyapps.com/
+[195/601] Extracting: Freebeat | https://freebeat.ai/
+FAILED: Freebeat | https://freebeat.ai/
+[196/601] Extracting: Freeflo | https://elements.envato.com/ai/
+SUCCESS: Freeflo | https://elements.envato.com/ai/
+[197/601] Extracting: Friend2Chat | https://friend2chat.com/
+SUCCESS: Friend2Chat | https://friend2chat.com/
+[198/601] Extracting: Funy AI | https://funy.ai/
+SUCCESS: Funy AI | https://funy.ai/
+[199/601] Extracting: Fyxer | https://www.fyxer.com/try-now
+SUCCESS: Fyxer | https://www.fyxer.com/try-now
+[200/601] Extracting: GPT for Work | https://gptforwork.com/
+SUCCESS: GPT for Work | https://gptforwork.com/
+[201/601] Extracting: GPT zero | https://gptzero.me/
+SUCCESS: GPT zero | https://gptzero.me/
+[202/601] Extracting: GPTMelo | https://www.gptmelo.com/
+FAILED: GPTMelo | https://www.gptmelo.com/
+[203/601] Extracting: GPTinf | https://www.gptinf.com/
+SUCCESS: GPTinf | https://www.gptinf.com/
+[204/601] Extracting: Galcode | https://www.galcode.ai/
+FAILED: Galcode | https://www.galcode.ai/
+[205/601] Extracting: GanttPRO AI Gantt Chart Maker | https://ganttpro.com/free-ai-gantt-chart-maker/
+SUCCESS: GanttPRO AI Gantt Chart Maker | https://ganttpro.com/free-ai-gantt-chart-maker/
+[206/601] Extracting: Gatsbi | https://www.gatsbi.com/
+SUCCESS: Gatsbi | https://www.gatsbi.com/
+[207/601] Extracting: Genspark | https://www.genspark.ai
+SUCCESS: Genspark | https://www.genspark.ai
+[208/601] Extracting: GetGenie | https://getgenie.ai/
+SUCCESS: GetGenie | https://getgenie.ai/
+[209/601] Extracting: GetResponse | https://www.getresponse.com/features/email-marketing/ai-email-generator
+SUCCESS: GetResponse | https://www.getresponse.com/features/email-marketing/ai-email-generator
+[210/601] Extracting: Getsolved | https://getsolved.ai/
+SUCCESS: Getsolved | https://getsolved.ai/
+[211/601] Extracting: Ghost Writer | https://www.ghostthewriter.com/
+FAILED: Ghost Writer | https://www.ghostthewriter.com/
+[212/601] Extracting: GitHub Copilot | https://github.com/features/copilot/
+SUCCESS: GitHub Copilot | https://github.com/features/copilot/
+[213/601] Extracting: GitMind | https://gitmind.com
+FAILED: GitMind | https://gitmind.com
+[214/601] Extracting: Gizmo | https://gizmo.ai/
+SUCCESS: Gizmo | https://gizmo.ai/
+[215/601] Extracting: Gling | https://www.gling.ai/
+SUCCESS: Gling | https://www.gling.ai/
+[216/601] Extracting: GlobalGPT | https://www.glbgpt.com/
+SUCCESS: GlobalGPT | https://www.glbgpt.com/
+[217/601] Extracting: Google Gemini | https://gemini.google.com/
+SUCCESS: Google Gemini | https://gemini.google.com/
+[218/601] Extracting: Google Workspace | https://workspace.google.com/landing/partners/referral/gws2/
+SUCCESS: Google Workspace | https://workspace.google.com/landing/partners/referral/gws2/
+[219/601] Extracting: Govly | https://www.govly.com/
+SUCCESS: Govly | https://www.govly.com/
+[220/601] Extracting: Grammarly | https://www.grammarly.com/
+SUCCESS: Grammarly | https://www.grammarly.com/
+[221/601] Extracting: Granola | https://www.granola.ai/
+SUCCESS: Granola | https://www.granola.ai/
+[222/601] Extracting: Groas | https://www.groas.com/
+FAILED: Groas | https://www.groas.com/
+[223/601] Extracting: Guidejar | https://www.guidejar.com/
+SUCCESS: Guidejar | https://www.guidejar.com/
+[224/601] Extracting: Guideless | https://guideless.ai/
+FAILED: Guideless | https://guideless.ai/
+[225/601] Extracting: HEIGHTS AI | https://www.heightsplatform.com/
+SUCCESS: HEIGHTS AI | https://www.heightsplatform.com/
+[226/601] Extracting: HIX Bypass | https://hixbypass.com/
+SUCCESS: HIX Bypass | https://hixbypass.com/
+[227/601] Extracting: Hailuo AI | https://hailuoai.video
+SUCCESS: Hailuo AI | https://hailuoai.video
+[228/601] Extracting: HappyScribe | https://www.happyscribe.com/referral-cello
+SUCCESS: HappyScribe | https://www.happyscribe.com/referral-cello
+[229/601] Extracting: Harpa AI | https://harpa.ai/
+FAILED: Harpa AI | https://harpa.ai/
+[230/601] Extracting: HeadshotPro | https://www.headshotpro.com/
+SUCCESS: HeadshotPro | https://www.headshotpro.com/
+[231/601] Extracting: Hebbia | https://www.hebbia.com/
+SUCCESS: Hebbia | https://www.hebbia.com/
+[232/601] Extracting: HelpCrunch | https://helpcrunch.com/
+SUCCESS: HelpCrunch | https://helpcrunch.com/
+[233/601] Extracting: Hermes Agent | https://hermes-agent.nousresearch.com/
+SUCCESS: Hermes Agent | https://hermes-agent.nousresearch.com/
+[234/601] Extracting: Hexofy | https://hexofy.com/
+FAILED: Hexofy | https://hexofy.com/
+[235/601] Extracting: Hexomatic | https://hexomatic.com/pricing_promo/
+FAILED: Hexomatic | https://hexomatic.com/pricing_promo/
+[236/601] Extracting: HeyGen | https://www.heygen.com/
+SUCCESS: HeyGen | https://www.heygen.com/
+[237/601] Extracting: HiClip | https://app.hiclip.ai/login/
+SUCCESS: HiClip | https://app.hiclip.ai/login/
+[238/601] Extracting: Higgsfield | https://higgsfield.ai
+SUCCESS: Higgsfield | https://higgsfield.ai
+[239/601] Extracting: Holo | https://tryholo.ai
+SUCCESS: Holo | https://tryholo.ai
+[240/601] Extracting: HookSounds AI Studio | https://www.hooksounds.com/studio/
+SUCCESS: HookSounds AI Studio | https://www.hooksounds.com/studio/
+[241/601] Extracting: Hooked AI | https://www.hooked.so/
+SUCCESS: Hooked AI | https://www.hooked.so/
+[242/601] Extracting: HoppyCopy | https://www.hoppycopy.co/
+SUCCESS: HoppyCopy | https://www.hoppycopy.co/
+[243/601] Extracting: Hostinger Horizons | https://www.hostinger.com/ai-builder
+SUCCESS: Hostinger Horizons | https://www.hostinger.com/ai-builder
+[244/601] Extracting: Hostinger OpenClaw Hosting | https://www.hostinger.com/applications/openclaw
+SUCCESS: Hostinger OpenClaw Hosting | https://www.hostinger.com/applications/openclaw
+[245/601] Extracting: Hot Reach AI | https://hotreachai.com/
+FAILED: Hot Reach AI | https://hotreachai.com/
+[246/601] Extracting: Hubfluence | https://www.hubfluence.io/
+FAILED: Hubfluence | https://www.hubfluence.io/
+[247/601] Extracting: Hubspot AI | https://www.hubspot.com/products/artificial-intelligence
+SUCCESS: Hubspot AI | https://www.hubspot.com/products/artificial-intelligence
+[248/601] Extracting: HumanFlow | https://humanflow.app/
+SUCCESS: HumanFlow | https://humanflow.app/
+[249/601] Extracting: Humanize AI | https://humanize.ai/
+SUCCESS: Humanize AI | https://humanize.ai/
+[250/601] Extracting: Humanize AI Text | https://humanize.ai/
+SUCCESS: Humanize AI Text | https://humanize.ai/
+[251/601] Extracting: HyNote | https://hynote.ai/
+SUCCESS: HyNote | https://hynote.ai/
+[252/601] Extracting: HypeAuditor | https://hypeauditor.com/
+SUCCESS: HypeAuditor | https://hypeauditor.com/
+[253/601] Extracting: HypeFury | https://hypefury.com/
+SUCCESS: HypeFury | https://hypefury.com/
+[254/601] Extracting: Hypernatural | https://hypernatural.ai/
+SUCCESS: Hypernatural | https://hypernatural.ai/
+[255/601] Extracting: Hyrax | https://hyrax.dev/
+SUCCESS: Hyrax | https://hyrax.dev/
+[256/601] Extracting: Icon | https://icon.com/
+SUCCESS: Icon | https://icon.com/
+[257/601] Extracting: Ideogram | https://ideogram.ai/
+SUCCESS: Ideogram | https://ideogram.ai/
+[258/601] Extracting: Image Translator | https://imagetranslator.com/
+FAILED: Image Translator | https://imagetranslator.com/
+[259/601] Extracting: InLinks | https://inlinks.com/
+SUCCESS: InLinks | https://inlinks.com/
+[260/601] Extracting: Indzu Social | https://indzu.com/social/
+FAILED: Indzu Social | https://indzu.com/social/
+[261/601] Extracting: Inkle | https://www.inkle.ai/ai-bookkeeper
+SUCCESS: Inkle | https://www.inkle.ai/ai-bookkeeper
+[262/601] Extracting: InterviewSpark | https://www.futureleomusic.com/
+FAILED: InterviewSpark | https://www.futureleomusic.com/
+[263/601] Extracting: JobWinner | https://jobwinner.ai/
+SUCCESS: JobWinner | https://jobwinner.ai/
+[264/601] Extracting: Jobber AI Receptionist | https://www.getjobber.com/features/ai-receptionist/
+SUCCESS: Jobber AI Receptionist | https://www.getjobber.com/features/ai-receptionist/
+[265/601] Extracting: JoggAI | https://www.jogg.ai/
+SUCCESS: JoggAI | https://www.jogg.ai/
+[266/601] Extracting: Jules | https://jules.google/
+SUCCESS: Jules | https://jules.google/
+[267/601] Extracting: Jupid | https://jupid.com/
+SUCCESS: Jupid | https://jupid.com/
+[268/601] Extracting: Jupitrr | https://jupitrr.com/
+SUCCESS: Jupitrr | https://jupitrr.com/
+[269/601] Extracting: KIE | https://kie.ai/
+SUCCESS: KIE | https://kie.ai/
+[270/601] Extracting: KIVA | https://wellows.com/
+SUCCESS: KIVA | https://wellows.com/
+[271/601] Extracting: KaraVideo | https://karavideo.ai/
+FAILED: KaraVideo | https://karavideo.ai/
+[272/601] Extracting: Keyword Insights | https://www.keywordinsights.ai/
+SUCCESS: Keyword Insights | https://www.keywordinsights.ai/
+[273/601] Extracting: KeywordsPeopleUse | https://keywordspeopleuse.com/
+SUCCESS: KeywordsPeopleUse | https://keywordspeopleuse.com/
+[274/601] Extracting: Kilo | https://kilo.ai/
+SUCCESS: Kilo | https://kilo.ai/
+[275/601] Extracting: Kimi | https://kimi-bot.com/activities/invite/share
+SUCCESS: Kimi | https://kimi-bot.com/activities/invite/share
+[276/601] Extracting: KindredMind | https://kindredmind.care/
+FAILED: KindredMind | https://kindredmind.care/
+[277/601] Extracting: Kinetik | https://kineto.app/kinetik
+SUCCESS: Kinetik | https://kineto.app/kinetik
+[278/601] Extracting: Klap | https://klap.app/
+SUCCESS: Klap | https://klap.app/
+[279/601] Extracting: Klaylab | https://klaylab.com/
+SUCCESS: Klaylab | https://klaylab.com/
+[280/601] Extracting: Kling AI | https://kling.ai/app/membership/membership-plan
+SUCCESS: Kling AI | https://kling.ai/app/membership/membership-plan
+[281/601] Extracting: Koala AI | https://koala.sh/
+SUCCESS: Koala AI | https://koala.sh/
+[282/601] Extracting: Krea | https://www.krea.ai/
+SUCCESS: Krea | https://www.krea.ai/
+[283/601] Extracting: Krisp | https://krisp.ai/
+SUCCESS: Krisp | https://krisp.ai/
+[284/601] Extracting: Kuberns | https://kuberns.com/
+FAILED: Kuberns | https://kuberns.com/
+[285/601] Extracting: LLMClicks | https://app.llmclicks.ai/lifetime-deal
+FAILED: LLMClicks | https://app.llmclicks.ai/lifetime-deal
+[286/601] Extracting: Lalal AI | https://www.lalal.ai/
+SUCCESS: Lalal AI | https://www.lalal.ai/
+[287/601] Extracting: Lalals | https://lalals.com/
+SUCCESS: Lalals | https://lalals.com/
+[288/601] Extracting: LandingHero AI | https://www.landinghero.ai/
+SUCCESS: LandingHero AI | https://www.landinghero.ai/
+[289/601] Extracting: Landr | https://www.landr.com/pricing/studio/
+SUCCESS: Landr | https://www.landr.com/pricing/studio/
+[290/601] Extracting: Le Chat | https://chat.mistral.ai/chat
+FAILED: Le Chat | https://chat.mistral.ai/chat
+[291/601] Extracting: Leadpages AI Engine | https://leadpages.com/product/ai-engine
+SUCCESS: Leadpages AI Engine | https://leadpages.com/product/ai-engine
+[292/601] Extracting: LearnWorlds AI | https://www.learnworlds.com/resources/webinars/lw-ai-powered-tools/
+SUCCESS: LearnWorlds AI | https://www.learnworlds.com/resources/webinars/lw-ai-powered-tools/
+[293/601] Extracting: Legitt AI | https://legittai.com/
+SUCCESS: Legitt AI | https://legittai.com/
+[294/601] Extracting: Leonardo AI | https://app.leonardo.ai/
+FAILED: Leonardo AI | https://app.leonardo.ai/
+[295/601] Extracting: Lesson Plan Generator | https://lessonplangenerator.com/
+SUCCESS: Lesson Plan Generator | https://lessonplangenerator.com/
+[296/601] Extracting: Letterly | https://letterly.app/
+SUCCESS: Letterly | https://letterly.app/
+[297/601] Extracting: Libertify | https://www.libertify.com/
+SUCCESS: Libertify | https://www.libertify.com/
+[298/601] Extracting: Liminary | https://liminary.io/
+SUCCESS: Liminary | https://liminary.io/
+[299/601] Extracting: Lindy | https://www.lindy.ai/
+SUCCESS: Lindy | https://www.lindy.ai/
+[300/601] Extracting: Link Whisper AI | https://linkwhisper.com/ref/86/
+FAILED: Link Whisper AI | https://linkwhisper.com/ref/86/
+[301/601] Extracting: LiteralIQ | https://www.literaliq.com/
+FAILED: LiteralIQ | https://www.literaliq.com/
+[302/601] Extracting: Live3D AI Image Editor | https://live3d.io/ai-image-editor
+SUCCESS: Live3D AI Image Editor | https://live3d.io/ai-image-editor
+[303/601] Extracting: LocalBanana | https://www.localbanana.io/
+SUCCESS: LocalBanana | https://www.localbanana.io/
+[304/601] Extracting: Logo AI | https://www.logoai.com/
+SUCCESS: Logo AI | https://www.logoai.com/
+[305/601] Extracting: Loopa | https://www.loopa.im/
+FAILED: Loopa | https://www.loopa.im/
+[306/601] Extracting: Lorka AI | https://www.lorka.ai/
+SUCCESS: Lorka AI | https://www.lorka.ai/
+[307/601] Extracting: LovedByAI | https://www.lovedby.ai/
+SUCCESS: LovedByAI | https://www.lovedby.ai/
+[308/601] Extracting: Lucent Chat | https://uselucent.com/
+FAILED: Lucent Chat | https://uselucent.com/
+[309/601] Extracting: LucroVox | https://lucrovox.com/
+SUCCESS: LucroVox | https://lucrovox.com/
+[310/601] Extracting: Luma AI | https://lumalabs.ai/app
+SUCCESS: Luma AI | https://lumalabs.ai/app
+[311/601] Extracting: Luminar Neo | https://skylum.com/luminar-ai
+SUCCESS: Luminar Neo | https://skylum.com/luminar-ai
+[312/601] Extracting: Lunacy by Icons8 | https://icons8.com/lunacy
+SUCCESS: Lunacy by Icons8 | https://icons8.com/lunacy
+[313/601] Extracting: Lynote | https://lynote.ai/
+SUCCESS: Lynote | https://lynote.ai/
+[314/601] Extracting: Lyro by Tidio | https://www.tidio.com/ai-agent/
+SUCCESS: Lyro by Tidio | https://www.tidio.com/ai-agent/
+[315/601] Extracting: MIAPI | https://miapi.uk/
+SUCCESS: MIAPI | https://miapi.uk/
+[316/601] Extracting: Magai | https://magai.co/
+SUCCESS: Magai | https://magai.co/
+[317/601] Extracting: Magic Hour | https://magichour.ai/
+SUCCESS: Magic Hour | https://magichour.ai/
+[318/601] Extracting: MagicReply | https://crisp.chat/en/
+SUCCESS: MagicReply | https://crisp.chat/en/
+[319/601] Extracting: MagicSchool | https://www.magicschool.ai/
+SUCCESS: MagicSchool | https://www.magicschool.ai/
+[320/601] Extracting: Magica | https://magica.com/chat
+SUCCESS: Magica | https://magica.com/chat
+[321/601] Extracting: Mailmodo AI Prompts | https://www.mailmodo.com/ai-prompts/
+SUCCESS: Mailmodo AI Prompts | https://www.mailmodo.com/ai-prompts/
+[322/601] Extracting: MakeBestMusic | https://makebestmusic.com/
+SUCCESS: MakeBestMusic | https://makebestmusic.com/
+[323/601] Extracting: MakeUGC | https://makeugc.ai/
+SUCCESS: MakeUGC | https://makeugc.ai/
+[324/601] Extracting: Manatal | https://www.manatal.com/
+SUCCESS: Manatal | https://www.manatal.com/
+[325/601] Extracting: Manus | https://manus.im/invitation/ET0NHP2ZVZBQFFX
+FAILED: Manus | https://manus.im/invitation/ET0NHP2ZVZBQFFX
+[326/601] Extracting: Marketing Megaprompts | https://makerbox.lemonsqueezy.com/
+SUCCESS: Marketing Megaprompts | https://makerbox.lemonsqueezy.com/
+[327/601] Extracting: Marky | https://www.mymarky.ai/
+SUCCESS: Marky | https://www.mymarky.ai/
+[328/601] Extracting: Mavic AI | https://mavic.ai/
+SUCCESS: Mavic AI | https://mavic.ai/
+[329/601] Extracting: MaxAI | https://www.maxai.co/
+SUCCESS: MaxAI | https://www.maxai.co/
+[330/601] Extracting: MeetGeek | https://meetgeek.ai/
+SUCCESS: MeetGeek | https://meetgeek.ai/
+[331/601] Extracting: Meshy | https://www.meshy.ai/
+SUCCESS: Meshy | https://www.meshy.ai/
+[332/601] Extracting: MicMonster | https://micmonster.com/micmonster-sale/
+SUCCESS: MicMonster | https://micmonster.com/micmonster-sale/
+[333/601] Extracting: Microsoft Copilot | https://copilot.microsoft.com/
+SUCCESS: Microsoft Copilot | https://copilot.microsoft.com/
+[334/601] Extracting: MimicPC | https://www.mimicpc.com/
+SUCCESS: MimicPC | https://www.mimicpc.com/
+[335/601] Extracting: MindPal | https://mindpal.space/
+FAILED: MindPal | https://mindpal.space/
+[336/601] Extracting: MindStudio | https://www.mindstudio.ai/
+SUCCESS: MindStudio | https://www.mindstudio.ai/
+[337/601] Extracting: Mintly | https://usemintly.com/
+FAILED: Mintly | https://usemintly.com/
+[338/601] Extracting: Miro | https://miro.com:443/
+SUCCESS: Miro | https://miro.com:443/
+[339/601] Extracting: Mistral AI | https://mistral.ai/
+SUCCESS: Mistral AI | https://mistral.ai/
+[340/601] Extracting: MixTranslate | https://mixtranslate.com/
+SUCCESS: MixTranslate | https://mixtranslate.com/
+[341/601] Extracting: Mixo | https://www.mixo.io/
+SUCCESS: Mixo | https://www.mixo.io/
+[342/601] Extracting: Moises | https://moises.ai/
+SUCCESS: Moises | https://moises.ai/
+[343/601] Extracting: Monica | https://monica.im/
+SUCCESS: Monica | https://monica.im/
+[344/601] Extracting: Moonbeam | https://www.gomoonbeam.com/
+FAILED: Moonbeam | https://www.gomoonbeam.com/
+[345/601] Extracting: MosaChat-AI | https://academy.mosalingua.com/mosachat/
+SUCCESS: MosaChat-AI | https://academy.mosalingua.com/mosachat/
+[346/601] Extracting: Mubert | https://mubert.com/
+FAILED: Mubert | https://mubert.com/
+[347/601] Extracting: MuleRun | https://mulerun.com/chat
+FAILED: MuleRun | https://mulerun.com/chat
+[348/601] Extracting: Munch Studio | https://www.munchstudio.com/
+SUCCESS: Munch Studio | https://www.munchstudio.com/
+[349/601] Extracting: Mureka AI | https://www.mureka.ai/
+SUCCESS: Mureka AI | https://www.mureka.ai/
+[350/601] Extracting: Murf | https://murf.ai/
+SUCCESS: Murf | https://murf.ai/
+[351/601] Extracting: Nano Imagine | https://nanoimagine.art/
+FAILED: Nano Imagine | https://nanoimagine.art/
+[352/601] Extracting: Nekton AI | https://nekton.ai/
+FAILED: Nekton AI | https://nekton.ai/
+[353/601] Extracting: Netlify | https://www.netlify.com/
+SUCCESS: Netlify | https://www.netlify.com/
+[354/601] Extracting: Netus AI | https://app.netus.ai/
+SUCCESS: Netus AI | https://app.netus.ai/
+[355/601] Extracting: Neural Love | https://neural.love/
+SUCCESS: Neural Love | https://neural.love/
+[356/601] Extracting: NeuralText | https://neuraltext.com/
+SUCCESS: NeuralText | https://neuraltext.com/
+[357/601] Extracting: Nexscope | https://www.nexscope.ai/
+SUCCESS: Nexscope | https://www.nexscope.ai/
+[358/601] Extracting: Niche Traffic Kit | https://nichetraffickit.com/
+SUCCESS: Niche Traffic Kit | https://nichetraffickit.com/
+[359/601] Extracting: Nightwatch AI Tracking | https://nightwatch.io/ai-tracking/
+SUCCESS: Nightwatch AI Tracking | https://nightwatch.io/ai-tracking/
+[360/601] Extracting: NoimosAI | https://noimosai.com/en
+SUCCESS: NoimosAI | https://noimosai.com/en
+[361/601] Extracting: Nora AI | https://interview.norahq.com/
+SUCCESS: Nora AI | https://interview.norahq.com/
+[362/601] Extracting: NoteGPT | https://notegpt.io/
+SUCCESS: NoteGPT | https://notegpt.io/
+[363/601] Extracting: Notion AI | https://www.notion.com/product/ai
+SUCCESS: Notion AI | https://www.notion.com/product/ai
+[364/601] Extracting: Novamira | https://novamira.ai/
+SUCCESS: Novamira | https://novamira.ai/
+[365/601] Extracting: NovelAI | https://novelai.net/
+SUCCESS: NovelAI | https://novelai.net/
+[366/601] Extracting: Numerous AI | https://numerous.ai/
+FAILED: Numerous AI | https://numerous.ai/
+[367/601] Extracting: OakGen | https://oakgen.ai/
+FAILED: OakGen | https://oakgen.ai/
+[368/601] Extracting: OmniVoice | https://omnivoice.app/
+SUCCESS: OmniVoice | https://omnivoice.app/
+[369/601] Extracting: Omnia | https://www.useomnia.com/
+SUCCESS: Omnia | https://www.useomnia.com/
+[370/601] Extracting: One Click Human | https://oneclickhuman.com/
+FAILED: One Click Human | https://oneclickhuman.com/
+[371/601] Extracting: Opal44 | https://opal44.com/
+SUCCESS: Opal44 | https://opal44.com/
+[372/601] Extracting: OpenAI Codex | https://openai.com/codex/
+SUCCESS: OpenAI Codex | https://openai.com/codex/
+[373/601] Extracting: OpenArt | https://openart.ai/home
+SUCCESS: OpenArt | https://openart.ai/home
+[374/601] Extracting: OpenCode | https://opencode.ai/
+SUCCESS: OpenCode | https://opencode.ai/
+[375/601] Extracting: OpusClip | https://www.opus.pro/
+SUCCESS: OpusClip | https://www.opus.pro/
+[376/601] Extracting: Orca | https://www.onorca.dev/
+FAILED: Orca | https://www.onorca.dev/
+[377/601] Extracting: Oreate AI | https://www.oreateai.com/
+SUCCESS: Oreate AI | https://www.oreateai.com/
+[378/601] Extracting: Orwellix | https://orwellix.com/
+SUCCESS: Orwellix | https://orwellix.com/
+[379/601] Extracting: OutGrow | https://outgrow.co/
+SUCCESS: OutGrow | https://outgrow.co/
+[380/601] Extracting: Outfit Finder | https://poe.com/Outfit-Finder
+SUCCESS: Outfit Finder | https://poe.com/Outfit-Finder
+[381/601] Extracting: PDF Flex | https://pdfguru.com/plus/pdf-summarizer
+SUCCESS: PDF Flex | https://pdfguru.com/plus/pdf-summarizer
+[382/601] Extracting: PDF Translator | https://pdftranslator.org/
+FAILED: PDF Translator | https://pdftranslator.org/
+[383/601] Extracting: PDF ai | https://pdf.ai/
+FAILED: PDF ai | https://pdf.ai/
+[384/601] Extracting: PPSPY | https://www.ppspy.com/
+SUCCESS: PPSPY | https://www.ppspy.com/
+[385/601] Extracting: PXZ AI | https://pxz.ai/
+FAILED: PXZ AI | https://pxz.ai/
+[386/601] Extracting: PagerGPT | https://pagergpt.ai/
+SUCCESS: PagerGPT | https://pagergpt.ai/
+[387/601] Extracting: Paragraph AI | https://www.paragraphai.com/
+SUCCESS: Paragraph AI | https://www.paragraphai.com/
+[388/601] Extracting: Parliant | https://www.parliant.ai/
+SUCCESS: Parliant | https://www.parliant.ai/
+[389/601] Extracting: Perplexity | https://www.perplexity.ai/
+FAILED: Perplexity | https://www.perplexity.ai/
+[390/601] Extracting: Pexo | https://pexo.ai/
+SUCCESS: Pexo | https://pexo.ai/
+[391/601] Extracting: Photiu AI | https://www.photiu.ai/
+SUCCESS: Photiu AI | https://www.photiu.ai/
+[392/601] Extracting: PhotoCat AI Image Extender | https://photocat.com/image-extender/
+SUCCESS: PhotoCat AI Image Extender | https://photocat.com/image-extender/
+[393/601] Extracting: Phrasly | https://phrasly.ai/
+SUCCESS: Phrasly | https://phrasly.ai/
+[394/601] Extracting: Pictory | https://pictory.ai/
+SUCCESS: Pictory | https://pictory.ai/
+[395/601] Extracting: Pika | https://pika.art/
+SUCCESS: Pika | https://pika.art/
+[396/601] Extracting: Pine AI | https://www.19pine.ai/
+SUCCESS: Pine AI | https://www.19pine.ai/
+[397/601] Extracting: PixVerse | https://app.pixverse.ai/
+SUCCESS: PixVerse | https://app.pixverse.ai/
+[398/601] Extracting: Pixley AI | https://www.pixleyai.com/
+SUCCESS: Pixley AI | https://www.pixleyai.com/
+[399/601] Extracting: Pixmax AI | https://www.pixmax.ai/
+SUCCESS: Pixmax AI | https://www.pixmax.ai/
+[400/601] Extracting: Pixnova AI | https://pixnova.ai/
+SUCCESS: Pixnova AI | https://pixnova.ai/
+[401/601] Extracting: Playground AI | https://playgroundai.com/
+SUCCESS: Playground AI | https://playgroundai.com/
+[402/601] Extracting: PodStash | https://podstash.ai/
+SUCCESS: PodStash | https://podstash.ai/
+[403/601] Extracting: PopAi | https://www.popai.pro
+SUCCESS: PopAi | https://www.popai.pro
+[404/601] Extracting: PostWizard AI | https://postwizard.ai/
+FAILED: PostWizard AI | https://postwizard.ai/
+[405/601] Extracting: Postwise | https://postwise.ai/
+FAILED: Postwise | https://postwise.ai/
+[406/601] Extracting: Presenti | https://presenti.ai/
+SUCCESS: Presenti | https://presenti.ai/
+[407/601] Extracting: ProPhotos | https://prophotos.ai/
+SUCCESS: ProPhotos | https://prophotos.ai/
+[408/601] Extracting: ProWritingAid | https://prowritingaid.com/introducing-rephrase
+SUCCESS: ProWritingAid | https://prowritingaid.com/introducing-rephrase
+[409/601] Extracting: Process AI | https://www.process.st/platform/ai/
+SUCCESS: Process AI | https://www.process.st/platform/ai/
+[410/601] Extracting: ProductScope | https://ugcengine.ai/
+FAILED: ProductScope | https://ugcengine.ai/
+[411/601] Extracting: Profile Pic Maker | https://pfpmaker.com/
+SUCCESS: Profile Pic Maker | https://pfpmaker.com/
+[412/601] Extracting: Profile Picture AI | https://www.profilepicture.ai/
+SUCCESS: Profile Picture AI | https://www.profilepicture.ai/
+[413/601] Extracting: ProfilePro | https://www.merchynt.com/profilepro
+SUCCESS: ProfilePro | https://www.merchynt.com/profilepro
+[414/601] Extracting: ProofWrite Guest Post Checker | https://proofwrite.io/
+SUCCESS: ProofWrite Guest Post Checker | https://proofwrite.io/
+[415/601] Extracting: Puppetry | https://www.puppetry.com/
+SUCCESS: Puppetry | https://www.puppetry.com/
+[416/601] Extracting: Puzzle | https://puzzle.io/
+SUCCESS: Puzzle | https://puzzle.io/
+[417/601] Extracting: QR Galaxy | https://www.qr-galaxy.com/en
+SUCCESS: QR Galaxy | https://www.qr-galaxy.com/en
+[418/601] Extracting: Qodex | https://qodex.ai/
+SUCCESS: Qodex | https://qodex.ai/
+[419/601] Extracting: Quetext | https://www.quetext.com/pricing
+SUCCESS: Quetext | https://www.quetext.com/pricing
+[420/601] Extracting: QuickMagic | https://www.quickmagic.ai/
+SUCCESS: QuickMagic | https://www.quickmagic.ai/
+[421/601] Extracting: Quickads | https://www.quickads.ai/
+SUCCESS: Quickads | https://www.quickads.ai/
+[422/601] Extracting: REimagineHome | https://www.reimaginehome.ai/
+SUCCESS: REimagineHome | https://www.reimaginehome.ai/
+[423/601] Extracting: RSW Sora 2 AI Studio | https://www.removesorawatermark.online/sora2-video
+SUCCESS: RSW Sora 2 AI Studio | https://www.removesorawatermark.online/sora2-video
+[424/601] Extracting: RTILA | https://rtila.com/
+FAILED: RTILA | https://rtila.com/
+[425/601] Extracting: RankIQ | https://www.rankiq.com/
+SUCCESS: RankIQ | https://www.rankiq.com/
+[426/601] Extracting: RecCloud | https://reccloud.com/
+FAILED: RecCloud | https://reccloud.com/
+[427/601] Extracting: Redreach | https://redreach.ai/
+SUCCESS: Redreach | https://redreach.ai/
+[428/601] Extracting: ReelFork | https://www.reelfork.com/invite/TZQSEWH5
+FAILED: ReelFork | https://www.reelfork.com/invite/TZQSEWH5
+[429/601] Extracting: Reelio | https://reelio.ai/
+SUCCESS: Reelio | https://reelio.ai/
+[430/601] Extracting: Refont AI | https://refont.ai/
+FAILED: Refont AI | https://refont.ai/
+[431/601] Extracting: RehearseNow | https://rehearsenow.ai/
+SUCCESS: RehearseNow | https://rehearsenow.ai/
+[432/601] Extracting: Rekomi | https://rekomi.com/features/ai-copilot
+SUCCESS: Rekomi | https://rekomi.com/features/ai-copilot
+[433/601] Extracting: Relay | https://relay.app/
+SUCCESS: Relay | https://relay.app/
+[434/601] Extracting: Relevance AI | https://relevanceai.com/
+SUCCESS: Relevance AI | https://relevanceai.com/
+[435/601] Extracting: Remove BG | https://www.remove.bg/
+SUCCESS: Remove BG | https://www.remove.bg/
+[436/601] Extracting: RenderLion | https://www.renderlion.com/
+SUCCESS: RenderLion | https://www.renderlion.com/
+[437/601] Extracting: Research Studio | https://researchstudio.ai/
+SUCCESS: Research Studio | https://researchstudio.ai/
+[438/601] Extracting: Respan | https://www.respan.ai/
+SUCCESS: Respan | https://www.respan.ai/
+[439/601] Extracting: Respira for WordPress | https://www.respira.press/a/aitoolsdirectory
+SUCCESS: Respira for WordPress | https://www.respira.press/a/aitoolsdirectory
+[440/601] Extracting: ResumeCoach | https://www.resumecoach.com/
+SUCCESS: ResumeCoach | https://www.resumecoach.com/
+[441/601] Extracting: Revid | https://revid.me/
+SUCCESS: Revid | https://revid.me/
+[442/601] Extracting: Rewarx Studio | https://www.rewarx.com/
+SUCCESS: Rewarx Studio | https://www.rewarx.com/
+[443/601] Extracting: Rival | https://cortexone.rival.io/auth/signup
+FAILED: Rival | https://cortexone.rival.io/auth/signup
+[444/601] Extracting: Riverside Audio Transcription | https://riverside.com/transcription
+SUCCESS: Riverside Audio Transcription | https://riverside.com/transcription
+[445/601] Extracting: Runway | https://runway.com/
+SUCCESS: Runway | https://runway.com/
+[446/601] Extracting: SEO Bot | https://seobotai.com/
+SUCCESS: SEO Bot | https://seobotai.com/
+[447/601] Extracting: SEO GPT | https://seovendor.co/seo-gpt/
+FAILED: SEO GPT | https://seovendor.co/seo-gpt/
+[448/601] Extracting: SEOPress | https://www.seopress.org/features/openai/ref/621/
+FAILED: SEOPress | https://www.seopress.org/features/openai/ref/621/
+[449/601] Extracting: SEOmatic | https://seomatic.ai/
+SUCCESS: SEOmatic | https://seomatic.ai/
+[450/601] Extracting: SUPERMACHINE | https://supermachine.art/
+FAILED: SUPERMACHINE | https://supermachine.art/
+[451/601] Extracting: Sanebox | https://www.sanebox.com/
+SUCCESS: Sanebox | https://www.sanebox.com/
+[452/601] Extracting: Saveto AI | https://saveto.ai/
+FAILED: Saveto AI | https://saveto.ai/
+[453/601] Extracting: ScrapeTheMap | https://www.scrapethemap.com/en
+SUCCESS: ScrapeTheMap | https://www.scrapethemap.com/en
+[454/601] Extracting: Scribe | https://get.scribehow.com/lp-1/
+SUCCESS: Scribe | https://get.scribehow.com/lp-1/
+[455/601] Extracting: Secta Labs | https://secta.ai/
+SUCCESS: Secta Labs | https://secta.ai/
+[456/601] Extracting: Segwise | https://segwise.ai/
+FAILED: Segwise | https://segwise.ai/
+[457/601] Extracting: Semrush | https://www.semrush.com
+SUCCESS: Semrush | https://www.semrush.com
+[458/601] Extracting: Semrush Content Toolkit | https://www.semrush.com/content/
+SUCCESS: Semrush Content Toolkit | https://www.semrush.com/content/
+[459/601] Extracting: SendX | https://www.sendx.io/
+SUCCESS: SendX | https://www.sendx.io/
+[460/601] Extracting: Shoorts | https://virvid.ai/
+SUCCESS: Shoorts | https://virvid.ai/
+[461/601] Extracting: ShopOS | https://shopos.ai/
+SUCCESS: ShopOS | https://shopos.ai/
+[462/601] Extracting: Short AI | https://www.short.ai/
+SUCCESS: Short AI | https://www.short.ai/
+[463/601] Extracting: ShortPixel | https://shortpixel.com/pricing-one-time
+SUCCESS: ShortPixel | https://shortpixel.com/pricing-one-time
+[464/601] Extracting: Sider AI | https://sider.ai/
+SUCCESS: Sider AI | https://sider.ai/
+[465/601] Extracting: Simple Phones | https://www.simplephones.ai/
+SUCCESS: Simple Phones | https://www.simplephones.ai/
+[466/601] Extracting: Simplified | https://simplified.com/
+SUCCESS: Simplified | https://simplified.com/
+[467/601] Extracting: Sista AI | https://sistava.com/
+FAILED: Sista AI | https://sistava.com/
+[468/601] Extracting: Sistava | https://sistava.com/
+FAILED: Sistava | https://sistava.com/
+[469/601] Extracting: SiteSpeakAI | https://sitespeak.ai/
+SUCCESS: SiteSpeakAI | https://sitespeak.ai/
+[470/601] Extracting: Sketch To | https://www.sketchto.com/
+FAILED: Sketch To | https://www.sketchto.com/
+[471/601] Extracting: Skybox Lab | https://www.blockadelabs.com/
+SUCCESS: Skybox Lab | https://www.blockadelabs.com/
+[472/601] Extracting: SlidesAI | https://www.slidesai.io/
+SUCCESS: SlidesAI | https://www.slidesai.io/
+[473/601] Extracting: Snezzi | https://snezzi.com/
+FAILED: Snezzi | https://snezzi.com/
+[474/601] Extracting: SocialBee | https://socialbee.com/
+SUCCESS: SocialBee | https://socialbee.com/
+[475/601] Extracting: Softr AI | https://www.softr.io/ai-app-generator
+SUCCESS: Softr AI | https://www.softr.io/ai-app-generator
+[476/601] Extracting: Solvea | https://solvea.cx/
+SUCCESS: Solvea | https://solvea.cx/
+[477/601] Extracting: SongR | https://app.songr.ai/
+FAILED: SongR | https://app.songr.ai/
+[478/601] Extracting: Sora | https://openai.com/index/sora-2/
+SUCCESS: Sora | https://openai.com/index/sora-2/
+[479/601] Extracting: Soundraw | https://soundraw.io/
+SUCCESS: Soundraw | https://soundraw.io/
+[480/601] Extracting: Soundverse | https://www.soundverse.ai/
+FAILED: Soundverse | https://www.soundverse.ai/
+[481/601] Extracting: Speak AI | https://speakai.co/
+SUCCESS: Speak AI | https://speakai.co/
+[482/601] Extracting: Spectra | https://wpspectra.com/
+FAILED: Spectra | https://wpspectra.com/
+[483/601] Extracting: Speechify | https://speechify.com/
+SUCCESS: Speechify | https://speechify.com/
+[484/601] Extracting: Spikes Studio | https://www.spikes.studio/
+SUCCESS: Spikes Studio | https://www.spikes.studio/
+[485/601] Extracting: Squirrly SEO | https://plugin.squirrly.co/
+SUCCESS: Squirrly SEO | https://plugin.squirrly.co/
+[486/601] Extracting: Stable Commerce | https://stablecommerce.ai/
+FAILED: Stable Commerce | https://stablecommerce.ai/
+[487/601] Extracting: StealthGPT | https://www.stealthgpt.ai/
+SUCCESS: StealthGPT | https://www.stealthgpt.ai/
+[488/601] Extracting: Sterling CoWorker | https://sterlingcoworker.com/
+SUCCESS: Sterling CoWorker | https://sterlingcoworker.com/
+[489/601] Extracting: Steve AI | https://www.steve.ai/
+SUCCESS: Steve AI | https://www.steve.ai/
+[490/601] Extracting: Stivio | https://stivio.ai/
+SUCCESS: Stivio | https://stivio.ai/
+[491/601] Extracting: Submagic | https://www.submagic.co/
+SUCCESS: Submagic | https://www.submagic.co/
+[492/601] Extracting: SudoWrite | https://sudowrite.com/
+SUCCESS: SudoWrite | https://sudowrite.com/
+[493/601] Extracting: Supadev | https://www.supadev.so/
+FAILED: Supadev | https://www.supadev.so/
+[494/601] Extracting: Super | https://super.so/
+SUCCESS: Super | https://super.so/
+[495/601] Extracting: Supercut | https://supercut.ai/
+SUCCESS: Supercut | https://supercut.ai/
+[496/601] Extracting: Supernormal | https://www.supernormal.com/
+SUCCESS: Supernormal | https://www.supernormal.com/
+[497/601] Extracting: Superscale AI | https://superscale.ai/
+SUCCESS: Superscale AI | https://superscale.ai/
+[498/601] Extracting: Superscribe | https://superscribe.io/
+FAILED: Superscribe | https://superscribe.io/
+[499/601] Extracting: Surfn | https://surfn.ai/
+SUCCESS: Surfn | https://surfn.ai/
+[500/601] Extracting: Syllaby | https://syllaby.io/
+SUCCESS: Syllaby | https://syllaby.io/
+[501/601] Extracting: Synthesia | https://www.synthesia.io/
+SUCCESS: Synthesia | https://www.synthesia.io/
+[502/601] Extracting: Syntopia | https://syntopia.ai/
+FAILED: Syntopia | https://syntopia.ai/
+[503/601] Extracting: T-Shirt Design AI | https://tshirtdesignai.com/
+SUCCESS: T-Shirt Design AI | https://tshirtdesignai.com/
+[504/601] Extracting: Tabnine | https://www.tabnine.com/platform/
+SUCCESS: Tabnine | https://www.tabnine.com/platform/
+[505/601] Extracting: Tailwind Ghostwriter | https://www.tailwindapp.com/ghostwriter
+SUCCESS: Tailwind Ghostwriter | https://www.tailwindapp.com/ghostwriter
+[506/601] Extracting: TalkPal | https://talkpal.ai/get-started/en/
+SUCCESS: TalkPal | https://talkpal.ai/get-started/en/
+[507/601] Extracting: Talkio | https://www.talkio.ai
+SUCCESS: Talkio | https://www.talkio.ai
+[508/601] Extracting: Taskade | https://www.taskade.com/ai/apps
+SUCCESS: Taskade | https://www.taskade.com/ai/apps
+[509/601] Extracting: TaxGPT | https://www.taxgpt.com/
+SUCCESS: TaxGPT | https://www.taxgpt.com/
+[510/601] Extracting: TeacherMatic | https://teachermatic.com/
+SUCCESS: TeacherMatic | https://teachermatic.com/
+[511/601] Extracting: TeamAI | https://teamai.com/
+SUCCESS: TeamAI | https://teamai.com/
+[512/601] Extracting: TeraBox AI | https://www.terabox.com/ai/index
+FAILED: TeraBox AI | https://www.terabox.com/ai/index
+[513/601] Extracting: Text Cortex | https://textcortex.com/
+SUCCESS: Text Cortex | https://textcortex.com/
+[514/601] Extracting: ThumbnailCreator | https://www.thumbnailcreator.com/
+SUCCESS: ThumbnailCreator | https://www.thumbnailcreator.com/
+[515/601] Extracting: Thunderbit | https://thunderbit.com/
+FAILED: Thunderbit | https://thunderbit.com/
+[516/601] Extracting: TicNote Cloud | https://ticnote.com/en
+FAILED: TicNote Cloud | https://ticnote.com/en
+[517/601] Extracting: TikTok | https://getstarted.tiktok.com/ttam-partners
+SUCCESS: TikTok | https://getstarted.tiktok.com/ttam-partners
+[518/601] Extracting: Topview AI | https://www.topview.ai/
+SUCCESS: Topview AI | https://www.topview.ai/
+[519/601] Extracting: TradeOS AI | https://ai.tradeos.xyz/
+FAILED: TradeOS AI | https://ai.tradeos.xyz/
+[520/601] Extracting: Trainn | https://trainn.co/
+SUCCESS: Trainn | https://trainn.co/
+[521/601] Extracting: Transcribe Video AI | https://transcribe-video.ai/
+SUCCESS: Transcribe Video AI | https://transcribe-video.ai/
+[522/601] Extracting: Transor | https://transor.ai/
+SUCCESS: Transor | https://transor.ai/
+[523/601] Extracting: Trinka AI | https://www.trinka.ai/
+SUCCESS: Trinka AI | https://www.trinka.ai/
+[524/601] Extracting: Tripo AI | https://studio.tripo3d.ai/
+FAILED: Tripo AI | https://studio.tripo3d.ai/
+[525/601] Extracting: Trupeer | https://www.trupeer.ai/
+SUCCESS: Trupeer | https://www.trupeer.ai/
+[526/601] Extracting: TryOpenClaw | https://www.tryopenclaw.ai/
+SUCCESS: TryOpenClaw | https://www.tryopenclaw.ai/
+[527/601] Extracting: TubeBuddy | https://www.tubebuddy.com/pricing
+SUCCESS: TubeBuddy | https://www.tubebuddy.com/pricing
+[528/601] Extracting: TurnCage | https://turncage.com/
+SUCCESS: TurnCage | https://turncage.com/
+[529/601] Extracting: Tweet Hunter | https://tweethunter.io/
+FAILED: Tweet Hunter | https://tweethunter.io/
+[530/601] Extracting: Typefully | https://typefully.com/
+SUCCESS: Typefully | https://typefully.com/
+[531/601] Extracting: Typing Mind | https://www.typingmind.com/
+SUCCESS: Typing Mind | https://www.typingmind.com/
+[532/601] Extracting: Typli | https://typli.ai/
+SUCCESS: Typli | https://typli.ai/
+[533/601] Extracting: Uizard | https://uizard.io/
+SUCCESS: Uizard | https://uizard.io/
+[534/601] Extracting: Uncanny Automator | https://automatorplugin.com/uncanny-ai-agent-for-wordpress/
+SUCCESS: Uncanny Automator | https://automatorplugin.com/uncanny-ai-agent-for-wordpress/
+[535/601] Extracting: Undetectable AI | https://undetectable.ai/
+SUCCESS: Undetectable AI | https://undetectable.ai/
+[536/601] Extracting: Uplup | https://uplup.com/
+SUCCESS: Uplup | https://uplup.com/
+[537/601] Extracting: Upmetrics | https://upmetrics.co/
+SUCCESS: Upmetrics | https://upmetrics.co/
+[538/601] Extracting: User Evaluation | https://userevaluation.cello.so/pK2sMZE6nZm
+FAILED: User Evaluation | https://userevaluation.cello.so/pK2sMZE6nZm
+[539/601] Extracting: V2Fun | https://v2fun.ai/
+SUCCESS: V2Fun | https://v2fun.ai/
+[540/601] Extracting: VEED AI Video | https://www.veed.io/tools/ai-video
+SUCCESS: VEED AI Video | https://www.veed.io/tools/ai-video
+[541/601] Extracting: Validly | https://www.heyjuno.co/
+SUCCESS: Validly | https://www.heyjuno.co/
+[542/601] Extracting: Vexub | https://vexub.com/
+SUCCESS: Vexub | https://vexub.com/
+[543/601] Extracting: VibeDream AI | https://www.vibedream.ai/
+SUCCESS: VibeDream AI | https://www.vibedream.ai/
+[544/601] Extracting: VidMage AI | https://vidmage.ai/
+SUCCESS: VidMage AI | https://vidmage.ai/
+[545/601] Extracting: Vidalgo | https://www.vidalgo.tech/
+SUCCESS: Vidalgo | https://www.vidalgo.tech/
+[546/601] Extracting: Video Transcription AI | https://videotranscription.ai/
+SUCCESS: Video Transcription AI | https://videotranscription.ai/
+[547/601] Extracting: VideoGen | https://videogen.io/
+SUCCESS: VideoGen | https://videogen.io/
+[548/601] Extracting: Vidnoz | https://www.vidnoz.com/
+SUCCESS: Vidnoz | https://www.vidnoz.com/
+[549/601] Extracting: VidpexAI | https://www.vidpexai.com/
+SUCCESS: VidpexAI | https://www.vidpexai.com/
+[550/601] Extracting: Vidu | https://www.vidu.com
+SUCCESS: Vidu | https://www.vidu.com
+[551/601] Extracting: ViralKey | https://viralkey.ai/
+SUCCESS: ViralKey | https://viralkey.ai/
+[552/601] Extracting: Visme AI | https://www.visme.co/
+SUCCESS: Visme AI | https://www.visme.co/
+[553/601] Extracting: Visro AI | https://visro.ai/
+FAILED: Visro AI | https://visro.ai/
+[554/601] Extracting: Vista Social | https://vistasocial.com/ai-assistant/
+SUCCESS: Vista Social | https://vistasocial.com/ai-assistant/
+[555/601] Extracting: Visual Field Test | https://visualfieldtest.com/
+FAILED: Visual Field Test | https://visualfieldtest.com/
+[556/601] Extracting: Vivgrid | https://www.vivgrid.com/
+SUCCESS: Vivgrid | https://www.vivgrid.com/
+[557/601] Extracting: VoiceAIWrapper | https://voiceaiwrapper.com/
+SUCCESS: VoiceAIWrapper | https://voiceaiwrapper.com/
+[558/601] Extracting: VoiceAppear | https://voiceappear.de/
+SUCCESS: VoiceAppear | https://voiceappear.de/
+[559/601] Extracting: Voluum | https://voluum.com/
+SUCCESS: Voluum | https://voluum.com/
+[560/601] Extracting: Walter Writes | https://walterwrites.ai/
+SUCCESS: Walter Writes | https://walterwrites.ai/
+[561/601] Extracting: Watermelon | https://watermelon.ai/
+SUCCESS: Watermelon | https://watermelon.ai/
+[562/601] Extracting: WayinVideo | https://wayin.ai/
+SUCCESS: WayinVideo | https://wayin.ai/
+[563/601] Extracting: WebScraping AI | https://webscraping.ai/
+SUCCESS: WebScraping AI | https://webscraping.ai/
+[564/601] Extracting: WebWave | https://webwave.me/
+SUCCESS: WebWave | https://webwave.me/
+[565/601] Extracting: Wegic | https://wegic.ai/
+SUCCESS: Wegic | https://wegic.ai/
+[566/601] Extracting: Wellows | https://wellows.com/
+SUCCESS: Wellows | https://wellows.com/
+[567/601] Extracting: WhatsApp AI Sales Copilot | https://wabot.wadesk.io/
+SUCCESS: WhatsApp AI Sales Copilot | https://wabot.wadesk.io/
+[568/601] Extracting: WhatsApp CRM | https://wadesk.io/whatsapp-crm
+SUCCESS: WhatsApp CRM | https://wadesk.io/whatsapp-crm
+[569/601] Extracting: WhatsApp Chatbot | https://wadesk.io/whatsapp-chatbot
+FAILED: WhatsApp Chatbot | https://wadesk.io/whatsapp-chatbot
+[570/601] Extracting: WhatsApp Warmup Tool | https://warmer.wadesk.io/
+SUCCESS: WhatsApp Warmup Tool | https://warmer.wadesk.io/
+[571/601] Extracting: WindsorAI | https://windsor.ai/
+SUCCESS: WindsorAI | https://windsor.ai/
+[572/601] Extracting: Windsurf | https://devin.ai/desktop
+FAILED: Windsurf | https://devin.ai/desktop
+[573/601] Extracting: Winston ai | https://gowinston.ai/
+FAILED: Winston ai | https://gowinston.ai/
+[574/601] Extracting: Wispr Flow | https://wisprflow.ai/
+SUCCESS: Wispr Flow | https://wisprflow.ai/
+[575/601] Extracting: Wistia Remix | https://wistia.com/product/remix-ai-video-editor
+SUCCESS: Wistia Remix | https://wistia.com/product/remix-ai-video-editor
+[576/601] Extracting: Wonderplan | https://wonderplan.ai/
+SUCCESS: Wonderplan | https://wonderplan.ai/
+[577/601] Extracting: Wondershare Filmora | https://filmora.wondershare.com/ai-video-editing.html
+SUCCESS: Wondershare Filmora | https://filmora.wondershare.com/ai-video-editing.html
+[578/601] Extracting: Wondershare Virbo | https://virbo.wondershare.com/
+SUCCESS: Wondershare Virbo | https://virbo.wondershare.com/
+[579/601] Extracting: Wondershare VirtuLook | https://aitoolsdirectory.com/
+FAILED: Wondershare VirtuLook | https://aitoolsdirectory.com/
+[580/601] Extracting: Writers brew | https://writersbrew.app/
+SUCCESS: Writers brew | https://writersbrew.app/
+[581/601] Extracting: Writesonic | https://writesonic.com/ai-article-writer
+SUCCESS: Writesonic | https://writesonic.com/ai-article-writer
+[582/601] Extracting: X-Design | https://zawa.ai/
+SUCCESS: X-Design | https://zawa.ai/
+[583/601] Extracting: Xero AI | https://www.xero.com/us/campaign/referral-affiliate-tier2/
+SUCCESS: Xero AI | https://www.xero.com/us/campaign/referral-affiliate-tier2/
+[584/601] Extracting: Yaara | https://yaara.ai/
+SUCCESS: Yaara | https://yaara.ai/
+[585/601] Extracting: YouWare | https://www.youware.com/
+SUCCESS: YouWare | https://www.youware.com/
+[586/601] Extracting: Zentask | https://octomind.run/cloud
+SUCCESS: Zentask | https://octomind.run/cloud
+[587/601] Extracting: Zigpoll | https://app.zigpoll.com/sign-up
+SUCCESS: Zigpoll | https://app.zigpoll.com/sign-up
+[588/601] Extracting: aiApply | https://aiapply.co/
+SUCCESS: aiApply | https://aiapply.co/
+[589/601] Extracting: aiCarousels | https://www.aicarousels.com/
+FAILED: aiCarousels | https://www.aicarousels.com/
+[590/601] Extracting: beehiiv | https://www.beehiiv.com/
+SUCCESS: beehiiv | https://www.beehiiv.com/
+[591/601] Extracting: eSkilled AI Course Creator | https://aicoursecreator.eskilled.io/
+SUCCESS: eSkilled AI Course Creator | https://aicoursecreator.eskilled.io/
+[592/601] Extracting: fal Agent | https://fal.ai/agent
+FAILED: fal Agent | https://fal.ai/agent
+[593/601] Extracting: goose | https://goose-docs.ai/
+SUCCESS: goose | https://goose-docs.ai/
+[594/601] Extracting: i10x | https://i10x.ai/
+SUCCESS: i10x | https://i10x.ai/
+[595/601] Extracting: iSpring Cloud AI | https://www.ispringsolutions.com/ispring-cloud
+SUCCESS: iSpring Cloud AI | https://www.ispringsolutions.com/ispring-cloud
+[596/601] Extracting: imini AI | https://imini.com/
+SUCCESS: imini AI | https://imini.com/
+[597/601] Extracting: just build things | https://justbuildthings.com/
+SUCCESS: just build things | https://justbuildthings.com/
+[598/601] Extracting: n8n | https://n8n.io/
+SUCCESS: n8n | https://n8n.io/
+[599/601] Extracting: okkslides | https://www.okkslides.com/
+FAILED: okkslides | https://www.okkslides.com/
+[600/601] Extracting: tinyEinstein | https://www.tinyalbert.ai/
+SUCCESS: tinyEinstein | https://www.tinyalbert.ai/
+[601/601] Extracting: v0 by Vercel | https://v0.app/
+SUCCESS: v0 by Vercel | https://v0.app/
+
+Total Tools: 601
+Successfully extracted: 466
+Failed: 135
+Output: D:\Project\aggregationai\codes\backend\aitool\etl\outputs\extracted_content.json

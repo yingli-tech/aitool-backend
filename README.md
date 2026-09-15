@@ -132,7 +132,8 @@ The current code uses two-level taxonomy scoring:
 2. matched_function_secondary_tag_count
 3. matched_use_case_primary_tag_count
 4. matched_function_primary_tag_count
-5. tool name / id
+5. tool name 
+6. tool id
 
 ### Fallback Strategy
 

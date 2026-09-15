@@ -19,4 +19,4 @@ jobs:
 
       - run: pytest
         env:
-          PYTHONPATH: ${{ github.workspace }}/aitool
+          PYTHONPATH: ${{ github.workspace }}

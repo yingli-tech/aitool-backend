@@ -1,0 +1,6 @@
+pytest
+pymysql
+pydantic
+numpy
+requests
+openai

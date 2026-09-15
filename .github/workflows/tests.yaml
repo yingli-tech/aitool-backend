@@ -18,3 +18,5 @@ jobs:
       - run: pip install -r requirements.txt
 
       - run: pytest
+        env:
+          PYTHONPATH: ${{ github.workspace }}/aitool

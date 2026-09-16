@@ -162,3 +162,63 @@ def test_permanent_429_type_does_not_retry(no_sleep):
         ai_retry.run_ai_operation('embedding', action)
     action.assert_called_once()
     no_sleep.assert_not_called()
+
+@pytest.mark.parametrize('operation', ['embedding', 'llm_parsing'])
+@pytest.mark.parametrize('exhaust', [False, True])
+def test_request_timeout_uses_existing_retry_flow(operation, exhaust, no_sleep, caplog):
+    from openai import OpenAI
+
+    requests = []
+
+    def transport(request):
+        requests.append(request)
+        if exhaust or len(requests) == 1:
+            raise httpx.ReadTimeout('private transport details', request=request)
+        if operation == 'embedding':
+            payload = {'object': 'list', 'data': [
+                {'object': 'embedding', 'index': 0, 'embedding': [1.0] * 1536}],
+                'model': 'text-embedding-3-small', 'usage': {'prompt_tokens': 1, 'total_tokens': 1}}
+        else:
+            payload = {'id': 'test', 'object': 'chat.completion', 'created': 0, 'model': 'test',
+                       'choices': [{'index': 0, 'finish_reason': 'stop',
+                                    'message': {'role': 'assistant', 'content': json.dumps(VALID)}}]}
+        return httpx.Response(200, json=payload)
+
+    with OpenAI(api_key='test-key', max_retries=0,
+                http_client=httpx.Client(transport=httpx.MockTransport(transport))) as client:
+        def invoke():
+            if operation == 'embedding':
+                return tag_selector._get_query_embedding('query', client)
+            return parser.parse_query_with_retry('prompt', client, 'test', {})
+
+        if exhaust:
+            with pytest.raises(ai_retry.AIServiceError) as caught:
+                invoke()
+            assert str(caught.value) == ai_retry.SAFE_MESSAGE
+            assert isinstance(caught.value.__cause__, APITimeoutError)
+        else:
+            result = invoke()
+            if operation == 'embedding':
+                assert result.shape == (1536,)
+            else:
+                assert result == VALID
+
+    assert len(requests) == (3 if exhaust else 2)
+    assert no_sleep.call_count == (2 if exhaust else 1)
+    for request in requests:
+        assert request.extensions['timeout'] == dict(connect=15.0, read=15.0, write=15.0, pool=15.0)
+    logs = [json.loads(record.message) for record in caplog.records if record.name == 'ai_retry']
+    assert [entry['attempt'] for entry in logs] == ([1, 2, 3] if exhaust else [1])
+    assert all(entry['operation'] == operation and entry['error_type'] == 'APITimeoutError' for entry in logs)
+    assert 'private transport details' not in caplog.text
+
+
+def test_parsing_timeout_and_validation_share_three_attempt_limit(no_sleep):
+    client = Mock()
+    timeout = APITimeoutError(request=httpx.Request('POST', 'https://example.com'))
+    client.chat.completions.create.side_effect = [
+        timeout, completion('invalid json'), timeout, completion(json.dumps(VALID))]
+    with pytest.raises(ai_retry.AIServiceError):
+        parser.parse_query_with_retry('prompt', client, 'model', {})
+    assert client.chat.completions.create.call_count == 3
+    assert no_sleep.call_count == 2

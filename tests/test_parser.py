@@ -183,6 +183,7 @@ def test_parse_query_with_llm_strips_code_fences_and_returns_json():
             },
         ],
         temperature=0,
+        timeout=15.0,
     )
 
 

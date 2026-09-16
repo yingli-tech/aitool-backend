@@ -3,6 +3,9 @@ import re
 
 from ai_retry import AIValidationError, run_ai_operation
 
+# Per-request network timeout in seconds; retries use the shared operation budget.
+LLM_REQUEST_TIMEOUT_SECONDS = 15.0
+
 
 ###############################################################
 # build_parsing_prompt
@@ -142,7 +145,8 @@ def parse_query_with_llm(prompt, client=None, model=None):
         {"role": "system", "content": "You are a precise JSON generator."},
         {"role": "user", "content": prompt}
       ],
-      temperature=0
+      temperature=0,
+      timeout=LLM_REQUEST_TIMEOUT_SECONDS
     )
 
     if not response.choices or not isinstance(response.choices[0].message.content, str):

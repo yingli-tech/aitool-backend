@@ -240,6 +240,7 @@ def test_get_query_embedding_calls_openai_and_normalizes_vector():
     client.embeddings.create.assert_called_once_with(
         model="text-embedding-3-small",
         input="write a blog post",
+        timeout=15.0,
     )
 
     np.testing.assert_allclose(

@@ -4,3 +4,4 @@ pydantic
 numpy
 requests
 openai
+httpx==0.28.1

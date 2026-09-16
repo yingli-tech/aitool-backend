@@ -9,6 +9,7 @@ import tag_selector
 import os
 
 from openai import OpenAI
+from ai_retry import AIServiceError, SAFE_MESSAGE
 
 
 ###############################################################
@@ -204,7 +205,7 @@ def lambda_handler(event, context):
     #---- ENV VARIABLES for Open AI API ----
     OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
     model = os.environ["openai_model"]
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = OpenAI(api_key=OPENAI_API_KEY, max_retries=0)
 
     dbConn = db.get_db_connection(endpoint, portnum, username, pwd, dbname)
 
@@ -231,17 +232,10 @@ def lambda_handler(event, context):
     ###########################################################
     
 
-    parsed_query = parser.parse_query_with_llm(
-      prompt=prompt,
-      client=client,
-      model=model
+    parsed_query = parser.parse_query_with_retry(
+      prompt=prompt, client=client, model=model,
+      taxonomy_context=taxonomy_context
     )
-
-    ###########################################################
-    # 6. validate + normalize parsed query
-    ###########################################################
-    parsed_query = parser.validate_llm_output(parsed_query)
-    parsed_query = parser.normalize_parsed_query(parsed_query, taxonomy_context)
 
     ###########################################################
     # 7. strict retrieval
@@ -325,6 +319,11 @@ def lambda_handler(event, context):
       parsed_query=parsed_query,
       results=merged_results,
       fallback_info=fallback_info
+    )
+
+  except AIServiceError:
+    return response.build_error_response(
+      status_code=503, message=SAFE_MESSAGE, detail=SAFE_MESSAGE
     )
 
   except ValueError as err:

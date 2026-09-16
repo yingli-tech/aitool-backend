@@ -3,6 +3,8 @@ from pathlib import Path
 
 import numpy as np
 
+from ai_retry import run_ai_operation
+
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 EXPECTED_DIMENSIONS = 1536
@@ -54,10 +56,10 @@ def select_candidate_tags(query, client, top_k=DEFAULT_TOP_K):
 # _get_query_embedding
 #
 def _get_query_embedding(query, client):
-  response = client.embeddings.create(
+  response = run_ai_operation("embedding", lambda: client.embeddings.create(
     model=EMBEDDING_MODEL,
     input=query
-  )
+  ))
 
   if not response.data:
     raise ValueError("Embedding API returned no query vector")

@@ -3,8 +3,12 @@ from pathlib import Path
 
 import numpy as np
 
+from ai_retry import run_ai_operation
+
 
 EMBEDDING_MODEL = "text-embedding-3-small"
+# Per-request network timeout in seconds; retries use the shared operation budget.
+EMBEDDING_REQUEST_TIMEOUT_SECONDS = 15.0
 EXPECTED_DIMENSIONS = 1536
 DEFAULT_TOP_K = 50
 EMBEDDING_DIR = Path(__file__).resolve().parent / "embedding"
@@ -54,10 +58,11 @@ def select_candidate_tags(query, client, top_k=DEFAULT_TOP_K):
 # _get_query_embedding
 #
 def _get_query_embedding(query, client):
-  response = client.embeddings.create(
+  response = run_ai_operation("embedding", lambda: client.embeddings.create(
     model=EMBEDDING_MODEL,
-    input=query
-  )
+    input=query,
+    timeout=EMBEDDING_REQUEST_TIMEOUT_SECONDS
+  ))
 
   if not response.data:
     raise ValueError("Embedding API returned no query vector")

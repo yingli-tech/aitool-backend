@@ -1,6 +1,11 @@
 import json
 import re
 
+from ai_retry import AIValidationError, run_ai_operation
+
+# Per-request network timeout in seconds; retries use the shared operation budget.
+LLM_REQUEST_TIMEOUT_SECONDS = 15.0
+
 
 ###############################################################
 # build_parsing_prompt
@@ -140,9 +145,12 @@ def parse_query_with_llm(prompt, client=None, model=None):
         {"role": "system", "content": "You are a precise JSON generator."},
         {"role": "user", "content": prompt}
       ],
-      temperature=0
+      temperature=0,
+      timeout=LLM_REQUEST_TIMEOUT_SECONDS
     )
 
+    if not response.choices or not isinstance(response.choices[0].message.content, str):
+      raise AIValidationError("LLM response must contain text")
     content = response.choices[0].message.content.strip()
     content = _strip_code_fences(content)
 
@@ -150,9 +158,38 @@ def parse_query_with_llm(prompt, client=None, model=None):
     return parsed
 
   except Exception as err:
-    print("parser.parse_query_with_llm() failed:")
-    print(str(err))
     raise
+
+
+def parse_query_with_retry(prompt, client, model, taxonomy_context):
+  def attempt():
+    try:
+      parsed = parse_query_with_llm(prompt=prompt, client=client, model=model)
+      parsed = validate_llm_output(parsed)
+      parsed = normalize_parsed_query(parsed, taxonomy_context)
+      validate_taxonomy_output(parsed, taxonomy_context)
+      return parsed
+    except json.JSONDecodeError as error:
+      raise AIValidationError("Invalid JSON in LLM response") from error
+    except ValueError as error:
+      raise AIValidationError(str(error)) from error
+
+  return run_ai_operation("llm_parsing", attempt)
+
+
+def validate_taxonomy_output(parsed, taxonomy_context):
+  for field, values, normalize in (
+      ("categories", [parsed["category"]], _normalize_string),
+      ("price_types", parsed["must_have"]["price_type"], _normalize_price_type),
+      ("languages", parsed["must_have"]["language"], _normalize_string)):
+    allowed = {normalize(x) for x in taxonomy_context.get(field, [])}
+    if any(not value or (allowed and value not in allowed) for value in values):
+      raise AIValidationError("Invalid taxonomy output for " + field)
+  # Novel capability tags remain supported by the prompt and retrieval flow.
+  for tags in (parsed["must_have"]["use_cases"],
+               parsed["nice_to_have"]["use_cases"], parsed["functions"]):
+    if any(not tag["primary_tag"] for tag in tags):
+      raise AIValidationError("Taxonomy tags require a non-empty primary_tag")
 
 
 ###############################################################
